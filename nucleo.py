@@ -5,14 +5,17 @@ Por cada tienda activa en la base de datos:
   1. Descarga su catálogo actual de eBay (ebay_client).
   2. Compara con lo que ya conocíamos (tabla 'articulos').
   3. Los artículos que no existían antes se consideran "nuevos":
-     se guardan en la base de datos y se avisa por Telegram.
+     se guardan en la base de datos y se avisa por Telegram, incluyendo
+     (si se encuentra) el precio del mismo producto en la web oficial
+     de MediaMarkt, buscado por título con mediamarkt_scraper.py.
   4. Los artículos que ya existían pero cambiaron de precio se
      actualizan y se guarda el nuevo precio en el histórico.
 
-De momento NO incluye la comparación con el precio oficial de
-MediaMarkt (mediamarkt_scraper.py) porque requiere el EAN del
-artículo, que el scraper de tiendas de eBay todavía no extrae — queda
-como mejora pendiente.
+AVISO sobre la comparación de precios: al no tener el EAN del
+artículo (el scraper de tiendas de eBay no lo extrae), la búsqueda en
+MediaMarkt se hace por título. Esto puede encontrar ocasionalmente un
+producto parecido pero no idéntico (ej. un modelo "Pro" en vez del
+estándar) — es una aproximación útil, no una garantía exacta.
 
 Ejecutar con: python nucleo.py
 """
@@ -22,6 +25,7 @@ import time
 from datetime import datetime, timezone
 
 import ebay_client
+import mediamarkt_scraper
 import telegram_bot
 
 DB_PATH = "monitor.db"
@@ -82,12 +86,34 @@ def procesar_tienda(conexion, tienda_id, seller_id, nombre_mostrado):
 
             # Avisar por Telegram (solo si NO es la primera carga de esta tienda)
             if not es_primera_carga:
+                # Intentamos sacar el EAN del propio artículo de eBay, para
+                # buscar el precio oficial de MediaMarkt de forma fiable.
+                # Si no hay EAN, usamos el título como respaldo (aproximado).
+                ean = None
+                try:
+                    ean = ebay_client.obtener_ean_de_articulo(art["item_id"])
+                except Exception as error:
+                    print(f"  Aviso: no se pudo obtener el EAN: {error}")
+
+                termino_busqueda_mm = ean or art["titulo"]
+                precio_oficial = None
+                try:
+                    resultado_mm = mediamarkt_scraper.buscar_precio_mediamarkt(
+                        termino_busqueda_mm, headless=True
+                    )
+                    if resultado_mm.get("encontrado"):
+                        precio_oficial = resultado_mm.get("precio")
+                except Exception as error:
+                    print(f"  Aviso: no se pudo consultar el precio de MediaMarkt: {error}")
+
                 try:
                     telegram_bot.enviar_aviso_articulo_nuevo({
                         "titulo": art["titulo"],
                         "precio": art["precio"],
                         "url": art["url"],
                         "tienda_nombre": nombre_para_mostrar,
+                        "precio_oficial_mediamarkt": precio_oficial,
+                        "precio_oficial_es_aproximado": ean is None,
                     })
                     cursor.execute(
                         "INSERT INTO notificaciones_enviadas (articulo_id, canal) VALUES (?, 'telegram')",
@@ -131,3 +157,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
