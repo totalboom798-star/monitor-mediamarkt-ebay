@@ -39,10 +39,14 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python nucleo.py
 
-      - name: Guardar los cambios en la base de datos
+      - name: Exportar datos para la app web
+        run: python exportar_json.py
+
+      - name: Guardar los cambios en la base de datos y la web
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add monitor.db
+          git add monitor.db docs/datos.json
           git diff --staged --quiet || git commit -m "Actualización automática del monitor"
           git push
+
