@@ -1,0 +1,48 @@
+name: Monitor MediaMarkt eBay
+
+on:
+  schedule:
+    # Se ejecuta cada 4 horas (00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC)
+    - cron: '0 */4 * * *'
+  workflow_dispatch:  # permite lanzarlo también a mano desde la pestaña "Actions" de GitHub
+
+permissions:
+  contents: write  # necesario para poder guardar la base de datos actualizada en el repositorio
+
+jobs:
+  ejecutar-monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Instalar navegador de Playwright
+        run: python -m playwright install --with-deps chromium
+
+      - name: Crear la base de datos si no existe todavía
+        run: |
+          if [ ! -f monitor.db ]; then
+            python init_db.py
+          fi
+
+      - name: Ejecutar el núcleo
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python nucleo.py
+
+      - name: Guardar los cambios en la base de datos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add monitor.db
+          git diff --staged --quiet || git commit -m "Actualización automática del monitor"
+          git push
