@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monitor · MediaMarkt en eBay</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Archivo+Expanded:wght@700;900&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #191c22;
+    --ink-soft: #23272f;
+    --ink-line: #343a45;
+    --paper: #f4f0e6;
+    --paper-dim: #e7e0cf;
+    --ticket-red: #d6453d;
+    --signal-green: #3e8f63;
+    --amber-warn: #de9f3b;
+    --slate: #9aa3b2;
+    --slate-dark: #6b7280;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection { background: var(--ticket-red); color: var(--paper); }
+
+  a { color: inherit; }
+
+  .wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 28px 20px 80px;
+  }
+
+  /* ---------- Cabecera ---------- */
+  header.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-bottom: 2px solid var(--ink-line);
+    padding-bottom: 20px;
+    margin-bottom: 28px;
+  }
+
+  .eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ticket-red);
+    margin: 0 0 6px;
+  }
+
+  h1 {
+    font-family: 'Archivo Expanded', sans-serif;
+    font-weight: 900;
+    font-size: clamp(28px, 4.5vw, 42px);
+    margin: 0;
+    line-height: 1.02;
+    letter-spacing: -0.01em;
+  }
+
+  .counters {
+    display: flex;
+    gap: 22px;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  .counter { text-align: right; }
+  .counter .num {
+    font-size: 26px;
+    font-weight: 600;
+    display: block;
+    color: var(--paper);
+  }
+  .counter .lbl {
+    font-size: 10.5px;
+    color: var(--slate);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  /* ---------- Buscador ---------- */
+  .buscador {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--ink-soft);
+    border: 1px solid var(--ink-line);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 30px;
+  }
+  .buscador svg { flex: none; opacity: 0.5; }
+  .buscador input {
+    flex: 1;
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--paper);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+  }
+  .buscador input::placeholder { color: var(--slate-dark); }
+
+  /* ---------- Hero: último artículo ---------- */
+  .hero-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--slate);
+    margin: 0 0 10px;
+  }
+
+  .hero-card {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 18px;
+    background: var(--paper);
+    color: var(--ink);
+    border-radius: 4px;
+    padding: 26px 28px;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-card::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 8px;
+    background: var(--ticket-red);
+  }
+  .hero-card .tienda-tag {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ticket-red);
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+  }
+  .hero-card h2 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: clamp(19px, 2.6vw, 25px);
+    line-height: 1.18;
+    margin: 0 0 10px;
+    max-width: 640px;
+  }
+  .hero-card .cuando {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--slate-dark);
+  }
+  .hero-precio {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: clamp(30px, 5vw, 44px);
+    font-weight: 600;
+    white-space: nowrap;
+    align-self: center;
+  }
+
+  /* ---------- Grid de etiquetas ---------- */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+
+  .tag {
+    background: var(--paper);
+    color: var(--ink);
+    border-radius: 4px 4px 4px 16px;
+    padding: 16px 16px 14px;
+    position: relative;
+    transition: transform 0.15s ease;
+    text-decoration: none;
+    display: block;
+  }
+  .tag::after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--ink);
+  }
+  .tag:hover { transform: translateY(-3px) rotate(-0.6deg); }
+
+  .tag .tienda {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--slate-dark);
+    display: block;
+    margin-bottom: 8px;
+    padding-right: 16px;
+  }
+  .tag .titulo {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 14.5px;
+    line-height: 1.28;
+    margin: 0 0 12px;
+    min-height: 37px;
+  }
+  .tag .perforacion {
+    border-top: 1px dashed var(--paper-dim);
+    margin: 0 0 10px;
+  }
+  .tag .fila-precio {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .tag .precio {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .tag .ean {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9.5px;
+    color: var(--slate-dark);
+  }
+
+  /* ---------- Tiendas ---------- */
+  .tiendas-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 14px;
+  }
+  h3 {
+    font-family: 'Archivo Expanded', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0;
+  }
+  .tiendas-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1px;
+    background: var(--ink-line);
+    border: 1px solid var(--ink-line);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .tienda-fila {
+    background: var(--ink-soft);
+    padding: 11px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+  }
+  .tienda-fila .n {
+    font-family: 'IBM Plex Mono', monospace;
+    color: var(--slate);
+    font-size: 12px;
+  }
+
+  /* ---------- Estados ---------- */
+  .vacio, .cargando {
+    font-family: 'IBM Plex Mono', monospace;
+    color: var(--slate);
+    padding: 40px 0;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid var(--ink-line);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11.5px;
+    color: var(--slate-dark);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  @media (max-width: 560px) {
+    .hero-card { grid-template-columns: 1fr; }
+    .hero-precio { justify-self: start; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .tag { transition: none; }
+  }
+
+  a.tag:focus-visible, .buscador input:focus-visible {
+    outline: 2px solid var(--ticket-red);
+    outline-offset: 2px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div>
+      <p class="eyebrow">Monitor privado</p>
+      <h1>MediaMarkt<br>en eBay</h1>
+    </div>
+    <div class="counters">
+      <div class="counter">
+        <span class="num" id="num-tiendas">—</span>
+        <span class="lbl">Tiendas</span>
+      </div>
+      <div class="counter">
+        <span class="num" id="num-articulos">—</span>
+        <span class="lbl">Artículos</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="buscador">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    <input type="text" id="buscador-input" placeholder="Buscar por producto o tienda…">
+  </div>
+
+  <div id="contenido">
+    <p class="cargando">Cargando datos…</p>
+  </div>
+
+  <footer>
+    <span id="ultima-actualizacion">—</span>
+    <span>Datos públicos de eBay y MediaMarkt · uso personal</span>
+  </footer>
+
+</div>
+
+<script>
+async function cargar() {
+  const contenido = document.getElementById('contenido');
+  try {
+    const resp = await fetch('datos.json', { cache: 'no-store' });
+    if (!resp.ok) throw new Error('No se pudo leer datos.json');
+    const datos = await resp.json();
+    render(datos);
+  } catch (err) {
+    contenido.innerHTML = '<p class="vacio">Todavía no hay datos exportados. Se generarán en la próxima ejecución automática.</p>';
+  }
+}
+
+function formatoPrecio(precio, moneda) {
+  if (precio === null || precio === undefined) return '—';
+  return precio.toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' ' + (moneda === 'EUR' ? '€' : (moneda || ''));
+}
+
+function hace(fechaISO) {
+  if (!fechaISO) return '';
+  const diffMs = Date.now() - new Date(fechaISO + 'Z').getTime();
+  const horas = Math.floor(diffMs / 3600000);
+  if (horas < 1) return 'hace unos minutos';
+  if (horas < 24) return `hace ${horas}h`;
+  const dias = Math.floor(horas / 24);
+  return `hace ${dias}d`;
+}
+
+let TODOS_ARTICULOS = [];
+let TODAS_TIENDAS = [];
+
+function render(datos) {
+  document.getElementById('num-tiendas').textContent = datos.total_tiendas ?? '—';
+  document.getElementById('num-articulos').textContent = datos.total_articulos ?? '—';
+  document.getElementById('ultima-actualizacion').textContent =
+    'Última comprobación: ' + (datos.actualizado ? new Date(datos.actualizado).toLocaleString('es-ES') : '—');
+
+  TODOS_ARTICULOS = datos.articulos_recientes || [];
+  TODAS_TIENDAS = datos.tiendas || [];
+
+  dibujar(TODOS_ARTICULOS, TODAS_TIENDAS);
+}
+
+function dibujar(articulos, tiendas) {
+  const contenido = document.getElementById('contenido');
+
+  if (articulos.length === 0) {
+    contenido.innerHTML = '<p class="vacio">Sin artículos que mostrar todavía.</p>';
+    return;
+  }
+
+  const [destacado, ...resto] = articulos;
+
+  let html = '';
+
+  html += `
+    <p class="hero-label">Lo último detectado</p>
+    <a class="hero-card" href="${destacado.url}" target="_blank" rel="noopener">
+      <div>
+        <span class="tienda-tag">${destacado.nombre_mostrado || destacado.seller_id}</span>
+        <h2>${escapar(destacado.titulo)}</h2>
+        <span class="cuando">${hace(destacado.fecha_visto_primera_vez)}</span>
+      </div>
+      <div class="hero-precio">${formatoPrecio(destacado.precio, destacado.moneda)}</div>
+    </a>
+  `;
+
+  html += '<div class="grid">';
+  for (const art of resto) {
+    html += `
+      <a class="tag" href="${art.url}" target="_blank" rel="noopener">
+        <span class="tienda">${art.nombre_mostrado || art.seller_id}</span>
+        <p class="titulo">${escapar(art.titulo)}</p>
+        <div class="perforacion"></div>
+        <div class="fila-precio">
+          <span class="precio">${formatoPrecio(art.precio, art.moneda)}</span>
+          <span class="ean">${art.ean ? 'EAN ' + art.ean : ''}</span>
+        </div>
+      </a>
+    `;
+  }
+  html += '</div>';
+
+  html += `
+    <div class="tiendas-header">
+      <h3>Tiendas vigiladas</h3>
+    </div>
+    <div class="tiendas-lista">
+  `;
+  for (const t of tiendas) {
+    html += `
+      <div class="tienda-fila">
+        <span>${t.nombre_mostrado || t.seller_id}</span>
+        <span class="n">${t.num_articulos}</span>
+      </div>
+    `;
+  }
+  html += '</div>';
+
+  contenido.innerHTML = html;
+}
+
+function escapar(texto) {
+  const div = document.createElement('div');
+  div.textContent = texto || '';
+  return div.innerHTML;
+}
+
+document.getElementById('buscador-input').addEventListener('input', (e) => {
+  const q = e.target.value.trim().toLowerCase();
+  if (!q) {
+    dibujar(TODOS_ARTICULOS, TODAS_TIENDAS);
+    return;
+  }
+  const articulosFiltrados = TODOS_ARTICULOS.filter(a =>
+    (a.titulo || '').toLowerCase().includes(q) ||
+    (a.nombre_mostrado || a.seller_id || '').toLowerCase().includes(q)
+  );
+  const tiendasFiltradas = TODAS_TIENDAS.filter(t =>
+    (t.nombre_mostrado || t.seller_id || '').toLowerCase().includes(q)
+  );
+  dibujar(articulosFiltrados.length ? articulosFiltrados : TODOS_ARTICULOS.slice(0,0), tiendasFiltradas);
+});
+
+cargar();
+</script>
+</body>
+</html>
