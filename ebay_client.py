@@ -128,6 +128,34 @@ def buscar_articulos_por_tienda(seller_id: str) -> list[dict]:
     return list(todos.values())
 
 
+def obtener_ean_de_articulo(item_id: str) -> str | None:
+    """
+    Entra en la ficha individual de un artículo de eBay y extrae su EAN,
+    si está disponible. Es contenido estático (viene en el HTML inicial),
+    así que basta con una petición HTTP normal.
+
+    Se usa solo para artículos concretos que nos interesan (los nuevos),
+    no para el catálogo completo de una tienda, para no multiplicar
+    peticiones innecesariamente.
+    """
+    url = f"https://www.ebay.es/itm/{item_id}"
+    resp = _sesion.get(url, timeout=15)
+
+    if not resp.ok:
+        return None
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+    texto = soup.get_text(" ", strip=True)
+
+    # El EAN aparece en la página como "EAN" seguido del número (a veces
+    # también etiquetado como "Upc" en la sección de identificadores).
+    coincidencia = re.search(r"\bEAN\b\s*([0-9]{8,14})", texto)
+    if not coincidencia:
+        coincidencia = re.search(r"\bUpc\b\s*([0-9]{8,14})", texto)
+
+    return coincidencia.group(1) if coincidencia else None
+
+
 if __name__ == "__main__":
     # Prueba manual: ejecuta "python ebay_client.py"
     seller_prueba = "mediamarktbadalona"
@@ -136,3 +164,10 @@ if __name__ == "__main__":
     print(f"Encontrados: {len(resultados)}")
     for art in resultados[:10]:
         print(f"- {art['titulo']} | {art['precio']} {art['moneda']}")
+
+    if resultados:
+        primer_item_id = resultados[0]["item_id"]
+        print(f"\nProbando a extraer el EAN del artículo {primer_item_id}...")
+        ean = obtener_ean_de_articulo(primer_item_id)
+        print(f"EAN encontrado: {ean}")
+
