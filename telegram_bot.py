@@ -75,7 +75,8 @@ def enviar_aviso_articulo_nuevo(articulo: dict) -> bool:
 
     if precio_oficial:
         diferencia = round(precio_oficial - precio, 2)
-        texto += f"🏷️ Precio oficial MediaMarkt: {precio_oficial} €\n"
+        nota_aproximado = " <i>(búsqueda aproximada por título, sin EAN)</i>" if articulo.get("precio_oficial_es_aproximado") else ""
+        texto += f"🏷️ Precio oficial MediaMarkt: {precio_oficial} €{nota_aproximado}\n"
         if diferencia > 0:
             texto += f"✅ Ahorras {diferencia} € respecto al precio oficial\n"
         elif diferencia < 0:
