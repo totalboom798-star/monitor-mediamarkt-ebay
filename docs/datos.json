@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-08-19T03:17:01.172880+00:00",
+  "actualizado": "2026-08-19T05:19:34.840738+00:00",
   "total_tiendas": 101,
-  "total_articulos": 8781,
+  "total_articulos": 8782,
   "tiendas": [
     {
       "seller_id": "mediamarktalcala",
@@ -195,6 +195,11 @@
     },
     {
       "seller_id": "mediamarktbarakaldo",
+      "nombre_mostrado": null,
+      "num_articulos": 1
+    },
+    {
+      "seller_id": "mediamarktzamora",
       "nombre_mostrado": null,
       "num_articulos": 1
     },
@@ -499,17 +504,23 @@
       "num_articulos": 0
     },
     {
-      "seller_id": "mediamarktzamora",
-      "nombre_mostrado": null,
-      "num_articulos": 0
-    },
-    {
       "seller_id": "mediamarktzubiarte",
       "nombre_mostrado": null,
       "num_articulos": 0
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Móvil Samsung Galaxy S23 5G,Phantom Black,256GB,8GB RAM, 6.1\" FHD+",
+      "precio": 698.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/305293760960?itmmeta=01M0C7BQ2S6D4WPXVZR98HG7MG&hash=item4714ed19c0:g:SpwAAOSwvhRlaGc7",
+      "imagen_url": null,
+      "ean": null,
+      "fecha_visto_primera_vez": "2026-08-19 05:19:34",
+      "seller_id": "mediamarktzamora",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Impresora láser - HP LaserJet M207dw, Impresión doble cara, Monocromo, Wi-Fi",
       "precio": 79.0,
@@ -2696,17 +2707,6 @@
       "imagen_url": null,
       "ean": null,
       "fecha_visto_primera_vez": "2026-08-18 17:06:11",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Sistema WiFi Mesh - TP-Link Deco X10, 1500 Mbps, MU-MIMO, WiFi 6, 360m², 120 Dis",
-      "precio": 89.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/136969519531?itmmeta=01M0AXB8F0XDGGYP3K01C9EM38&hash=item1fe40501ab:g:3TgAAeSwc8FqhHHA",
-      "imagen_url": null,
-      "ean": null,
-      "fecha_visto_primera_vez": "2026-08-18 17:06:09",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     }
