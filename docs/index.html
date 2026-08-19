@@ -126,8 +126,8 @@
 
   .hero-card {
     display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 18px;
+    grid-template-columns: auto 1fr auto;
+    gap: 20px;
     background: var(--paper);
     color: var(--ink);
     border-radius: 4px;
@@ -135,6 +135,7 @@
     margin-bottom: 40px;
     position: relative;
     overflow: hidden;
+    align-items: center;
   }
   .hero-card::before {
     content: "";
@@ -142,6 +143,14 @@
     left: 0; top: 0; bottom: 0;
     width: 8px;
     background: var(--ticket-red);
+  }
+  .hero-card .hero-img {
+    width: 96px;
+    height: 96px;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid var(--paper-dim);
   }
   .hero-card .tienda-tag {
     font-family: 'IBM Plex Mono', monospace;
@@ -172,7 +181,15 @@
     font-weight: 600;
     white-space: nowrap;
     align-self: center;
+    text-align: right;
   }
+  .hero-precio .mm {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--slate-dark);
+    margin-top: 4px;
+  }
+  .hero-precio .ahorro { color: var(--signal-green); }
 
   /* ---------- Grid de etiquetas ---------- */
   .grid {
@@ -203,6 +220,16 @@
     background: var(--ink);
   }
   .tag:hover { transform: translateY(-3px) rotate(-0.6deg); }
+
+  .tag .tag-img {
+    width: 100%;
+    height: 110px;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    border: 1px solid var(--paper-dim);
+  }
 
   .tag .tienda {
     font-family: 'IBM Plex Mono', monospace;
@@ -241,6 +268,14 @@
     font-size: 9.5px;
     color: var(--slate-dark);
   }
+  .tag .mm-compara {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    margin-top: 6px;
+    color: var(--slate-dark);
+  }
+  .tag .mm-compara.ahorro { color: var(--signal-green); font-weight: 600; }
+  .tag .mm-compara.caro { color: var(--amber-warn); font-weight: 600; }
 
   /* ---------- Tiendas ---------- */
   .tiendas-header {
@@ -276,6 +311,68 @@
     font-family: 'IBM Plex Mono', monospace;
     color: var(--slate);
     font-size: 12px;
+  }
+
+  /* ---------- Grupos: mismo producto en varias tiendas ---------- */
+  .grupos-lista {
+    display: grid;
+    gap: 12px;
+    margin-bottom: 48px;
+  }
+  .grupo-card {
+    background: var(--ink-soft);
+    border: 1px solid var(--ink-line);
+    border-radius: 8px;
+    padding: 16px 18px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 16px;
+  }
+  .grupo-card img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 4px;
+  }
+  .grupo-card .g-titulo {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 14.5px;
+    margin: 0 0 10px;
+  }
+  .grupo-card .g-ofertas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .grupo-card .g-oferta {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    background: var(--ink);
+    border: 1px solid var(--ink-line);
+    border-radius: 20px;
+    padding: 5px 12px;
+    text-decoration: none;
+    color: var(--paper);
+  }
+  .grupo-card .g-oferta:first-child {
+    background: var(--signal-green);
+    border-color: var(--signal-green);
+    color: var(--ink);
+    font-weight: 600;
+  }
+  .grupo-card .g-oferta .tn {
+    color: var(--slate);
+    margin-right: 6px;
+  }
+  .grupo-card .g-oferta:first-child .tn { color: var(--ink); opacity: 0.7; }
+
+  .aviso-grupos {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11.5px;
+    color: var(--slate-dark);
+    margin: -4px 0 16px;
   }
 
   /* ---------- Estados ---------- */
@@ -337,7 +434,7 @@
 
   <div class="buscador">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-    <input type="text" id="buscador-input" placeholder="Buscar por producto o tienda…">
+    <input type="text" id="buscador-input" placeholder="Buscar por producto o tienda… (busca en todo el catálogo)">
   </div>
 
   <div id="contenido">
@@ -381,6 +478,8 @@ function hace(fechaISO) {
 
 let TODOS_ARTICULOS = [];
 let TODAS_TIENDAS = [];
+let TODOS_GRUPOS = [];
+const MAX_EN_VISTA_PRINCIPAL = 150;
 
 function render(datos) {
   document.getElementById('num-tiendas').textContent = datos.total_tiendas ?? '—';
@@ -390,11 +489,25 @@ function render(datos) {
 
   TODOS_ARTICULOS = datos.articulos_recientes || [];
   TODAS_TIENDAS = datos.tiendas || [];
+  TODOS_GRUPOS = datos.grupos || [];
 
-  dibujar(TODOS_ARTICULOS, TODAS_TIENDAS);
+  // Vista inicial: solo los más recientes, para no cargar miles de
+  // tarjetas de golpe. El buscador sí mira en TODOS_ARTICULOS entero.
+  dibujar(TODOS_ARTICULOS.slice(0, MAX_EN_VISTA_PRINCIPAL), TODAS_TIENDAS, TODOS_GRUPOS);
 }
 
-function dibujar(articulos, tiendas) {
+function lineaComparacionMM(precioEbay, precioMM) {
+  if (precioMM === null || precioMM === undefined || precioEbay === null) return '';
+  const diferencia = Math.round((precioMM - precioEbay) * 100) / 100;
+  if (diferencia > 0) {
+    return `<div class="mm-compara ahorro">✅ Ahorras ${formatoPrecio(diferencia, 'EUR')} vs MediaMarkt (${formatoPrecio(precioMM, 'EUR')})</div>`;
+  } else if (diferencia < 0) {
+    return `<div class="mm-compara caro">⚠️ ${formatoPrecio(Math.abs(diferencia), 'EUR')} más caro que MediaMarkt (${formatoPrecio(precioMM, 'EUR')})</div>`;
+  }
+  return `<div class="mm-compara">Mismo precio que MediaMarkt</div>`;
+}
+
+function dibujar(articulos, tiendas, grupos) {
   const contenido = document.getElementById('contenido');
 
   if (articulos.length === 0) {
@@ -409,19 +522,52 @@ function dibujar(articulos, tiendas) {
   html += `
     <p class="hero-label">Lo último detectado</p>
     <a class="hero-card" href="${destacado.url}" target="_blank" rel="noopener">
+      ${destacado.imagen_url ? `<img class="hero-img" src="${destacado.imagen_url}" alt="" loading="lazy">` : ''}
       <div>
         <span class="tienda-tag">${destacado.nombre_mostrado || destacado.seller_id}</span>
         <h2>${escapar(destacado.titulo)}</h2>
         <span class="cuando">${hace(destacado.fecha_visto_primera_vez)}</span>
       </div>
-      <div class="hero-precio">${formatoPrecio(destacado.precio, destacado.moneda)}</div>
+      <div class="hero-precio">
+        ${formatoPrecio(destacado.precio, destacado.moneda)}
+        ${destacado.precio_mediamarkt ? `<div class="mm">MediaMarkt: ${formatoPrecio(destacado.precio_mediamarkt, 'EUR')}</div>` : ''}
+      </div>
     </a>
   `;
+
+  if (grupos.length > 0) {
+    html += `
+      <div class="tiendas-header">
+        <h3>Mismo producto en varias tiendas</h3>
+      </div>
+      <p class="aviso-grupos">Solo se agrupan los artículos con EAN identificado — los más antiguos pueden no aparecer aquí.</p>
+      <div class="grupos-lista">
+    `;
+    for (const g of grupos.slice(0, 12)) {
+      html += `
+        <div class="grupo-card">
+          ${g.imagen_url ? `<img src="${g.imagen_url}" alt="" loading="lazy">` : '<div></div>'}
+          <div>
+            <p class="g-titulo">${escapar(g.titulo)}</p>
+            <div class="g-ofertas">
+              ${g.ofertas.map(o => `
+                <a class="g-oferta" href="${o.url}" target="_blank" rel="noopener">
+                  <span class="tn">${escapar(o.tienda)}</span>${formatoPrecio(o.precio, o.moneda)}
+                </a>
+              `).join('')}
+            </div>
+          </div>
+        </div>
+      `;
+    }
+    html += '</div>';
+  }
 
   html += '<div class="grid">';
   for (const art of resto) {
     html += `
       <a class="tag" href="${art.url}" target="_blank" rel="noopener">
+        ${art.imagen_url ? `<img class="tag-img" src="${art.imagen_url}" alt="" loading="lazy">` : ''}
         <span class="tienda">${art.nombre_mostrado || art.seller_id}</span>
         <p class="titulo">${escapar(art.titulo)}</p>
         <div class="perforacion"></div>
@@ -429,6 +575,7 @@ function dibujar(articulos, tiendas) {
           <span class="precio">${formatoPrecio(art.precio, art.moneda)}</span>
           <span class="ean">${art.ean ? 'EAN ' + art.ean : ''}</span>
         </div>
+        ${lineaComparacionMM(art.precio, art.precio_mediamarkt)}
       </a>
     `;
   }
@@ -462,7 +609,7 @@ function escapar(texto) {
 document.getElementById('buscador-input').addEventListener('input', (e) => {
   const q = e.target.value.trim().toLowerCase();
   if (!q) {
-    dibujar(TODOS_ARTICULOS, TODAS_TIENDAS);
+    dibujar(TODOS_ARTICULOS.slice(0, MAX_EN_VISTA_PRINCIPAL), TODAS_TIENDAS, TODOS_GRUPOS);
     return;
   }
   const articulosFiltrados = TODOS_ARTICULOS.filter(a =>
@@ -472,7 +619,10 @@ document.getElementById('buscador-input').addEventListener('input', (e) => {
   const tiendasFiltradas = TODAS_TIENDAS.filter(t =>
     (t.nombre_mostrado || t.seller_id || '').toLowerCase().includes(q)
   );
-  dibujar(articulosFiltrados.length ? articulosFiltrados : TODOS_ARTICULOS.slice(0,0), tiendasFiltradas);
+  const gruposFiltrados = TODOS_GRUPOS.filter(g =>
+    (g.titulo || '').toLowerCase().includes(q)
+  );
+  dibujar(articulosFiltrados.length ? articulosFiltrados : TODOS_ARTICULOS.slice(0,0), tiendasFiltradas, gruposFiltrados);
 });
 
 cargar();
