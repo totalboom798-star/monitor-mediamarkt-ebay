@@ -46,15 +46,50 @@ def _extraer_item_id(href: str) -> str | None:
 
 
 def _extraer_precio(texto: str) -> float | None:
-    """Busca el primer precio con formato '12,34 EUR' en un texto."""
-    coincidencia = re.search(r"(\d{1,4}(?:\.\d{3})*,\d{2})\s*EUR", texto)
+    """
+    Busca el primer precio con formato '12,34 EUR' en un texto.
+
+    Los separadores de miles pueden venir como punto (1.250,00) o como
+    un espacio estrecho especial que usa eBay para precios grandes
+    (1 250,00) — si solo buscamos el punto, ese caso perdía el primer
+    dígito (1.250 se leía como 250). Aceptamos ambos.
+    """
+    coincidencia = re.search(
+        r"(\d{1,3}(?:[.\u00a0\u202f]\d{3})*,\d{2})\s*EUR", texto
+    )
     if not coincidencia:
         return None
-    numero = coincidencia.group(1).replace(".", "").replace(",", ".")
+    numero = (
+        coincidencia.group(1)
+        .replace(".", "")
+        .replace("\u00a0", "")
+        .replace("\u202f", "")
+        .replace(",", ".")
+    )
     try:
         return float(numero)
     except ValueError:
         return None
+
+
+def _extraer_imagen(enlace, contenedor) -> str | None:
+    """
+    Busca una imagen dentro del mismo contenedor que el enlace del
+    artículo. Es una búsqueda aproximada (la estructura exacta del HTML
+    puede variar), con varios nombres de atributo habituales para
+    imágenes de carga diferida (lazy loading).
+    """
+    origen = contenedor if contenedor is not None else enlace
+    img = origen.find("img")
+    if img is None:
+        return None
+
+    for atributo in ("src", "data-src", "data-defer-src", "data-img-src"):
+        valor = img.get(atributo)
+        if valor and valor.startswith("http"):
+            return valor
+
+    return None
 
 
 def _articulos_de_una_pagina(seller_id: str, pagina: int) -> list[dict]:
@@ -92,12 +127,14 @@ def _articulos_de_una_pagina(seller_id: str, pagina: int) -> list[dict]:
             intentos += 1
 
         precio = _extraer_precio(texto_contenedor)
+        imagen_url = _extraer_imagen(enlace, contenedor)
 
         articulos[item_id] = {
             "item_id": item_id,
             "titulo": titulo,
             "precio": precio,
             "moneda": "EUR",
+            "imagen_url": imagen_url,
             "url": enlace["href"] if enlace["href"].startswith("http")
                    else f"https://www.ebay.es{enlace['href']}",
         }
@@ -170,4 +207,3 @@ if __name__ == "__main__":
         print(f"\nProbando a extraer el EAN del artículo {primer_item_id}...")
         ean = obtener_ean_de_articulo(primer_item_id)
         print(f"EAN encontrado: {ean}")
-
