@@ -35,14 +35,14 @@ def buscar_url_producto(termino_busqueda: str, headless: bool = True) -> str | N
     with sync_playwright() as p:
         navegador = p.chromium.launch(headless=headless)
         pagina = navegador.new_page()
-        pagina.goto(url_busqueda, timeout=20000)
+        pagina.goto(url_busqueda, timeout=35000)
 
         try:
             # Las URLs de ficha de producto siguen siempre el patrón
             # /es/product/..., así que buscamos directamente un enlace
             # con esa forma en vez de depender de una clase CSS
             # concreta (más resistente a cambios de diseño).
-            pagina.wait_for_selector("a[href*='/es/product/']", timeout=8000)
+            pagina.wait_for_selector("a[href*='/es/product/']", timeout=15000)
         except Exception:
             navegador.close()
             return None
@@ -131,3 +131,4 @@ if __name__ == "__main__":
     print(f"Buscando: {termino}")
     resultado = buscar_precio_mediamarkt(termino, headless=False)
     print(resultado)
+
