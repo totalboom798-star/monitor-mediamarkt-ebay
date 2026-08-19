@@ -31,6 +31,23 @@ import telegram_bot
 DB_PATH = "monitor.db"
 
 
+def asegurar_columnas_nuevas(conexion):
+    """
+    Añade columnas nuevas a la tabla 'articulos' si todavía no existen
+    (por ejemplo, si la base de datos se creó con una versión anterior
+    del esquema). Seguro de ejecutar varias veces.
+    """
+    cursor = conexion.cursor()
+    cursor.execute("PRAGMA table_info(articulos)")
+    columnas_existentes = {fila[1] for fila in cursor.fetchall()}
+
+    if "precio_mediamarkt" not in columnas_existentes:
+        cursor.execute("ALTER TABLE articulos ADD COLUMN precio_mediamarkt REAL")
+        print("Columna 'precio_mediamarkt' añadida a la base de datos.")
+
+    conexion.commit()
+
+
 def obtener_tiendas_activas(conexion):
     cursor = conexion.cursor()
     cursor.execute("SELECT id, seller_id, nombre_mostrado FROM tiendas WHERE activa = 1")
@@ -72,10 +89,10 @@ def procesar_tienda(conexion, tienda_id, seller_id, nombre_mostrado):
             # --- Artículo NUEVO ---
             cursor.execute(
                 """INSERT INTO articulos
-                   (ebay_item_id, tienda_id, titulo, precio, moneda, url)
-                   VALUES (?, ?, ?, ?, ?, ?)""",
+                   (ebay_item_id, tienda_id, titulo, precio, moneda, url, imagen_url)
+                   VALUES (?, ?, ?, ?, ?, ?, ?)""",
                 (art["item_id"], tienda_id, art["titulo"], art["precio"],
-                 art.get("moneda", "EUR"), art["url"]),
+                 art.get("moneda", "EUR"), art["url"], art.get("imagen_url")),
             )
             articulo_id = cursor.lastrowid
 
@@ -103,8 +120,18 @@ def procesar_tienda(conexion, tienda_id, seller_id, nombre_mostrado):
                     )
                     if resultado_mm.get("encontrado"):
                         precio_oficial = resultado_mm.get("precio")
+                    else:
+                        print("  Aviso: no se encontró el producto en MediaMarkt "
+                              "(puede que no lo tengan, o que la búsqueda automatizada "
+                              "haya sido bloqueada).")
                 except Exception as error:
                     print(f"  Aviso: no se pudo consultar el precio de MediaMarkt: {error}")
+
+                # Guardamos el EAN y el precio de MediaMarkt en el propio artículo
+                cursor.execute(
+                    "UPDATE articulos SET ean = ?, precio_mediamarkt = ? WHERE id = ?",
+                    (ean, precio_oficial, articulo_id),
+                )
 
                 try:
                     telegram_bot.enviar_aviso_articulo_nuevo({
@@ -145,6 +172,7 @@ def procesar_tienda(conexion, tienda_id, seller_id, nombre_mostrado):
 
 def main():
     conexion = sqlite3.connect(DB_PATH)
+    asegurar_columnas_nuevas(conexion)
     tiendas = obtener_tiendas_activas(conexion)
     print(f"Tiendas activas a procesar: {len(tiendas)}")
 
