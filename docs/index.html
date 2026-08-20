@@ -114,6 +114,49 @@
   }
   .buscador input::placeholder { color: var(--slate-dark); }
 
+  .controles {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  .controles select {
+    background: var(--ink-soft);
+    border: 1px solid var(--ink-line);
+    color: var(--paper);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12.5px;
+    padding: 9px 12px;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  /* ---------- Pestañas ---------- */
+  .pestanas {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 26px;
+    border-bottom: 1px solid var(--ink-line);
+  }
+  .pestana {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--slate);
+    background: none;
+    border: none;
+    padding: 10px 4px;
+    margin-right: 22px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+  }
+  .pestana.activa {
+    color: var(--paper);
+    border-bottom-color: var(--ticket-red);
+  }
+
   /* ---------- Hero: último artículo ---------- */
   .hero-label {
     font-family: 'IBM Plex Mono', monospace;
@@ -437,6 +480,19 @@
     <input type="text" id="buscador-input" placeholder="Buscar por producto o tienda… (busca en todo el catálogo)">
   </div>
 
+  <div class="controles">
+    <select id="orden-select">
+      <option value="recientes">Más recientes primero</option>
+      <option value="precio_desc">Más caros primero</option>
+      <option value="precio_asc">Más baratos primero</option>
+    </select>
+  </div>
+
+  <div class="pestanas">
+    <button class="pestana activa" data-pestana="novedades">Novedades</button>
+    <button class="pestana" data-pestana="grupos">Productos iguales en varias tiendas</button>
+  </div>
+
   <div id="contenido">
     <p class="cargando">Cargando datos…</p>
   </div>
@@ -479,6 +535,8 @@ function hace(fechaISO) {
 let TODOS_ARTICULOS = [];
 let TODAS_TIENDAS = [];
 let TODOS_GRUPOS = [];
+let VISTA_ACTUAL = 'novedades';
+let ORDEN_ACTUAL = 'recientes';
 const MAX_EN_VISTA_PRINCIPAL = 150;
 
 function render(datos) {
@@ -491,9 +549,18 @@ function render(datos) {
   TODAS_TIENDAS = datos.tiendas || [];
   TODOS_GRUPOS = datos.grupos || [];
 
-  // Vista inicial: solo los más recientes, para no cargar miles de
-  // tarjetas de golpe. El buscador sí mira en TODOS_ARTICULOS entero.
-  dibujar(TODOS_ARTICULOS.slice(0, MAX_EN_VISTA_PRINCIPAL), TODAS_TIENDAS, TODOS_GRUPOS);
+  actualizarVista();
+}
+
+function ordenar(lista, orden) {
+  const copia = [...lista];
+  if (orden === 'precio_desc') {
+    copia.sort((a, b) => (b.precio ?? -Infinity) - (a.precio ?? -Infinity));
+  } else if (orden === 'precio_asc') {
+    copia.sort((a, b) => (a.precio ?? Infinity) - (b.precio ?? Infinity));
+  }
+  // 'recientes' ya viene ordenado así desde el JSON exportado.
+  return copia;
 }
 
 function lineaComparacionMM(precioEbay, precioMM) {
@@ -507,7 +574,33 @@ function lineaComparacionMM(precioEbay, precioMM) {
   return `<div class="mm-compara">Mismo precio que MediaMarkt</div>`;
 }
 
-function dibujar(articulos, tiendas, grupos) {
+function actualizarVista() {
+  const q = document.getElementById('buscador-input').value.trim().toLowerCase();
+
+  let articulos = q
+    ? TODOS_ARTICULOS.filter(a =>
+        (a.titulo || '').toLowerCase().includes(q) ||
+        (a.nombre_mostrado || a.seller_id || '').toLowerCase().includes(q))
+    : TODOS_ARTICULOS.slice(0, MAX_EN_VISTA_PRINCIPAL);
+
+  articulos = ordenar(articulos, ORDEN_ACTUAL);
+
+  const tiendas = q
+    ? TODAS_TIENDAS.filter(t => (t.nombre_mostrado || t.seller_id || '').toLowerCase().includes(q))
+    : TODAS_TIENDAS;
+
+  const grupos = q
+    ? TODOS_GRUPOS.filter(g => (g.titulo || '').toLowerCase().includes(q))
+    : TODOS_GRUPOS;
+
+  if (VISTA_ACTUAL === 'novedades') {
+    dibujarNovedades(articulos, tiendas);
+  } else {
+    dibujarGrupos(grupos);
+  }
+}
+
+function dibujarNovedades(articulos, tiendas) {
   const contenido = document.getElementById('contenido');
 
   if (articulos.length === 0) {
@@ -534,34 +627,6 @@ function dibujar(articulos, tiendas, grupos) {
       </div>
     </a>
   `;
-
-  if (grupos.length > 0) {
-    html += `
-      <div class="tiendas-header">
-        <h3>Mismo producto en varias tiendas</h3>
-      </div>
-      <p class="aviso-grupos">Solo se agrupan los artículos con EAN identificado — los más antiguos pueden no aparecer aquí.</p>
-      <div class="grupos-lista">
-    `;
-    for (const g of grupos.slice(0, 12)) {
-      html += `
-        <div class="grupo-card">
-          ${g.imagen_url ? `<img src="${g.imagen_url}" alt="" loading="lazy">` : '<div></div>'}
-          <div>
-            <p class="g-titulo">${escapar(g.titulo)}</p>
-            <div class="g-ofertas">
-              ${g.ofertas.map(o => `
-                <a class="g-oferta" href="${o.url}" target="_blank" rel="noopener">
-                  <span class="tn">${escapar(o.tienda)}</span>${formatoPrecio(o.precio, o.moneda)}
-                </a>
-              `).join('')}
-            </div>
-          </div>
-        </div>
-      `;
-    }
-    html += '</div>';
-  }
 
   html += '<div class="grid">';
   for (const art of resto) {
@@ -600,29 +665,58 @@ function dibujar(articulos, tiendas, grupos) {
   contenido.innerHTML = html;
 }
 
+function dibujarGrupos(grupos) {
+  const contenido = document.getElementById('contenido');
+
+  if (grupos.length === 0) {
+    contenido.innerHTML = '<p class="vacio">Todavía no se ha detectado el mismo producto en dos tiendas distintas.</p>';
+    return;
+  }
+
+  let html = `
+    <p class="aviso-grupos">Se agrupan por EAN (más fiable) o, si no hay EAN, por título exactamente igual entre tiendas. La oferta más barata aparece destacada en verde.</p>
+    <div class="grupos-lista">
+  `;
+  for (const g of grupos) {
+    html += `
+      <div class="grupo-card">
+        ${g.imagen_url ? `<img src="${g.imagen_url}" alt="" loading="lazy">` : '<div></div>'}
+        <div>
+          <p class="g-titulo">${escapar(g.titulo)}</p>
+          <div class="g-ofertas">
+            ${g.ofertas.map(o => `
+              <a class="g-oferta" href="${o.url}" target="_blank" rel="noopener">
+                <span class="tn">${escapar(o.tienda)}</span>${formatoPrecio(o.precio, o.moneda)}
+              </a>
+            `).join('')}
+          </div>
+        </div>
+      </div>
+    `;
+  }
+  html += '</div>';
+
+  contenido.innerHTML = html;
+}
+
 function escapar(texto) {
   const div = document.createElement('div');
   div.textContent = texto || '';
   return div.innerHTML;
 }
 
-document.getElementById('buscador-input').addEventListener('input', (e) => {
-  const q = e.target.value.trim().toLowerCase();
-  if (!q) {
-    dibujar(TODOS_ARTICULOS.slice(0, MAX_EN_VISTA_PRINCIPAL), TODAS_TIENDAS, TODOS_GRUPOS);
-    return;
-  }
-  const articulosFiltrados = TODOS_ARTICULOS.filter(a =>
-    (a.titulo || '').toLowerCase().includes(q) ||
-    (a.nombre_mostrado || a.seller_id || '').toLowerCase().includes(q)
-  );
-  const tiendasFiltradas = TODAS_TIENDAS.filter(t =>
-    (t.nombre_mostrado || t.seller_id || '').toLowerCase().includes(q)
-  );
-  const gruposFiltrados = TODOS_GRUPOS.filter(g =>
-    (g.titulo || '').toLowerCase().includes(q)
-  );
-  dibujar(articulosFiltrados.length ? articulosFiltrados : TODOS_ARTICULOS.slice(0,0), tiendasFiltradas, gruposFiltrados);
+document.getElementById('buscador-input').addEventListener('input', actualizarVista);
+document.getElementById('orden-select').addEventListener('change', (e) => {
+  ORDEN_ACTUAL = e.target.value;
+  actualizarVista();
+});
+document.querySelectorAll('.pestana').forEach(boton => {
+  boton.addEventListener('click', () => {
+    document.querySelectorAll('.pestana').forEach(b => b.classList.remove('activa'));
+    boton.classList.add('activa');
+    VISTA_ACTUAL = boton.dataset.pestana;
+    actualizarVista();
+  });
 });
 
 cargar();
