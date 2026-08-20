@@ -33,8 +33,28 @@ def buscar_url_producto(termino_busqueda: str, headless: bool = True) -> str | N
     url_busqueda = BASE_SEARCH_URL + termino_busqueda.replace(" ", "+")
 
     with sync_playwright() as p:
-        navegador = p.chromium.launch(headless=headless)
-        pagina = navegador.new_page()
+        # Argumentos y configuración pensados para parecer un navegador
+        # normal: cuando esto corre en un servidor en la nube (como
+        # GitHub Actions) es más fácil que un sitio lo detecte como
+        # automatizado y bloquee la búsqueda — esto reduce ese riesgo,
+        # aunque no lo elimina del todo.
+        navegador = p.chromium.launch(
+            headless=headless,
+            args=["--disable-blink-features=AutomationControlled"],
+        )
+        contexto = navegador.new_context(
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+            ),
+            locale="es-ES",
+            viewport={"width": 1280, "height": 800},
+            extra_http_headers={"Accept-Language": "es-ES,es;q=0.9"},
+        )
+        contexto.add_init_script(
+            "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+        )
+        pagina = contexto.new_page()
         pagina.goto(url_busqueda, timeout=35000)
 
         try:
@@ -131,4 +151,5 @@ if __name__ == "__main__":
     print(f"Buscando: {termino}")
     resultado = buscar_precio_mediamarkt(termino, headless=False)
     print(resultado)
+
 
