@@ -49,14 +49,16 @@ def _extraer_precio(texto: str) -> float | None:
     """
     Busca el primer precio con formato '12,34 EUR' en un texto.
 
-    Los separadores de miles pueden venir como punto (1.250,00) o como
-    un espacio estrecho especial que usa eBay para precios grandes
-    (1 250,00) — si solo buscamos el punto, ese caso perdía el primer
-    dígito (1.250 se leía como 250). Aceptamos ambos.
+    En vez de exigir un patrón concreto de separador de miles (punto,
+    espacio especial...), capturamos TODO lo que haya justo antes de
+    ",XX EUR" que parezca parte del número (dígitos y separadores), y
+    limpiamos después. Esto evita fallos como el que tuvimos antes: al
+    exigir un máximo de 3 dígitos al principio del número, un precio
+    como "1999,00" (cuatro dígitos SEGUIDOS, sin separador alguno)
+    perdía el primer dígito porque no había manera de "encajarlo" en el
+    patrón, y se quedaba solo con "999,00".
     """
-    coincidencia = re.search(
-        r"(\d{1,3}(?:[.\u00a0\u202f]\d{3})*,\d{2})\s*EUR", texto
-    )
+    coincidencia = re.search(r"([\d.\u00a0\u202f]{1,10},\d{2})\s*EUR", texto)
     if not coincidencia:
         return None
     numero = (
@@ -245,4 +247,5 @@ if __name__ == "__main__":
         print(f"\nProbando a extraer el EAN del artículo {primer_item_id}...")
         ean = obtener_ean_de_articulo(primer_item_id)
         print(f"EAN encontrado: {ean}")
+
 
