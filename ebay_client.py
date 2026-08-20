@@ -72,22 +72,72 @@ def _extraer_precio(texto: str) -> float | None:
         return None
 
 
-def _extraer_imagen(enlace, contenedor) -> str | None:
+def _extraer_precio_cerca(enlace) -> float | None:
     """
-    Busca una imagen dentro del mismo contenedor que el enlace del
-    artículo. Es una búsqueda aproximada (la estructura exacta del HTML
-    puede variar), con varios nombres de atributo habituales para
-    imágenes de carga diferida (lazy loading).
+    Busca el precio avanzando nodo a nodo DESDE el enlace del artículo
+    hacia adelante (en el orden en que aparece el HTML), en vez de
+    "subir" por los contenedores padre. Subir por los padres podía
+    acabar leyendo un número de un contenedor demasiado amplio (una
+    cuota de financiación, un descuento, el precio de OTRO artículo
+    cercano...). Avanzando nodo a nodo nos quedamos con lo que está
+    realmente pegado al título de este artículo.
     """
-    origen = contenedor if contenedor is not None else enlace
-    img = origen.find("img")
-    if img is None:
-        return None
+    nodo = enlace
+    trozos = []
+    for _ in range(10):
+        nodo = nodo.find_next(string=True)
+        if nodo is None:
+            break
+        texto = str(nodo).strip()
+        if texto:
+            trozos.append(texto)
+            precio = _extraer_precio(" ".join(trozos))
+            if precio is not None:
+                return precio
+        if len(" ".join(trozos)) > 120:
+            break  # ya nos hemos alejado demasiado del enlace original
+    return None
 
-    for atributo in ("src", "data-src", "data-defer-src", "data-img-src"):
-        valor = img.get(atributo)
-        if valor and valor.startswith("http"):
+
+def _url_imagen_valida(img) -> str | None:
+    """
+    Comprueba si una etiqueta <img> apunta a una foto real de producto
+    de eBay (dominio i.ebayimg.com), mirando cualquier atributo que
+    pueda contener la URL (src, data-src, srcset...) en vez de una
+    lista fija — así no depende de adivinar el nombre exacto del
+    atributo que usa la carga diferida (lazy loading).
+    """
+    for atributo, valor in img.attrs.items():
+        if not isinstance(valor, str):
+            continue
+        if atributo == "srcset":
+            primer_url = valor.split(",")[0].strip().split(" ")[0]
+            if primer_url.startswith("http") and "ebayimg" in primer_url:
+                return primer_url
+        elif valor.startswith("http") and "ebayimg" in valor:
             return valor
+    return None
+
+
+def _extraer_imagen_cerca(enlace) -> str | None:
+    """
+    Busca la foto del artículo cerca de su enlace: primero mirando
+    HACIA ATRÁS (las miniaturas suelen ir justo antes del título en
+    este tipo de listados), y si no, hacia adelante. Se filtra por el
+    dominio real de las fotos de eBay (ebayimg.com) para no confundir
+    con logos o iconos de la propia página.
+    """
+    img = enlace.find_previous("img")
+    if img is not None:
+        url = _url_imagen_valida(img)
+        if url:
+            return url
+
+    img = enlace.find_next("img")
+    if img is not None:
+        url = _url_imagen_valida(img)
+        if url:
+            return url
 
     return None
 
@@ -114,20 +164,8 @@ def _articulos_de_una_pagina(seller_id: str, pagina: int) -> list[dict]:
         if not titulo:
             continue  # algunos <a> solo envuelven la imagen, sin texto
 
-        # El precio suele estar cerca del enlace en el HTML (mismo bloque
-        # contenedor). Buscamos en el texto del elemento "padre" cercano.
-        contenedor = enlace.find_parent()
-        intentos = 0
-        texto_contenedor = ""
-        while contenedor is not None and intentos < 4:
-            texto_contenedor = contenedor.get_text(" ", strip=True)
-            if re.search(r"\d,\d{2}\s*EUR", texto_contenedor):
-                break
-            contenedor = contenedor.find_parent()
-            intentos += 1
-
-        precio = _extraer_precio(texto_contenedor)
-        imagen_url = _extraer_imagen(enlace, contenedor)
+        precio = _extraer_precio_cerca(enlace)
+        imagen_url = _extraer_imagen_cerca(enlace)
 
         articulos[item_id] = {
             "item_id": item_id,
@@ -207,3 +245,4 @@ if __name__ == "__main__":
         print(f"\nProbando a extraer el EAN del artículo {primer_item_id}...")
         ean = obtener_ean_de_articulo(primer_item_id)
         print(f"EAN encontrado: {ean}")
+
