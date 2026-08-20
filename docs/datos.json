@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-08-20T12:06:18.555611+00:00",
+  "actualizado": "2026-08-20T14:12:27.156788+00:00",
   "total_tiendas": 101,
-  "total_articulos": 9348,
+  "total_articulos": 9352,
   "tiendas": [
     {
       "seller_id": "mediamarktalcala",
@@ -116,7 +116,7 @@
     {
       "seller_id": "mediamarktgoya",
       "nombre_mostrado": null,
-      "num_articulos": 179
+      "num_articulos": 180
     },
     {
       "seller_id": "mediamarktcartagena",
@@ -164,6 +164,11 @@
       "num_articulos": 53
     },
     {
+      "seller_id": "mediamarktsanjuanaznalfarache",
+      "nombre_mostrado": null,
+      "num_articulos": 51
+    },
+    {
       "seller_id": "mediamarktleon",
       "nombre_mostrado": null,
       "num_articulos": 50
@@ -195,11 +200,6 @@
     },
     {
       "seller_id": "mediamarktsalamanca",
-      "nombre_mostrado": null,
-      "num_articulos": 48
-    },
-    {
-      "seller_id": "mediamarktsanjuanaznalfarache",
       "nombre_mostrado": null,
       "num_articulos": 48
     },
@@ -510,6 +510,54 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Funda + grips - FR TEC FT0020, Para mando PS4, Silicona, Camuflaje",
+      "precio": 2.8,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/358806678326?itmmeta=01M0FR7C0Z2R0ZF9HTPS5HBQHX&hash=item538a8b6b36:g:9XQAAeSwRT1qWgPR",
+      "imagen_url": "https://i.ebayimg.com/images/g/E~8AAeSwU4Jp05Z~/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "fecha_visto_primera_vez": "2026-08-20 14:12:14",
+      "seller_id": "mediamarktsanjuanaznalfarache",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cafetera superautomática - KOENIC KFAC 2016025 ES, 20  bar, 1.6 l, panel arañado",
+      "precio": 128.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/358849409305?itmmeta=01M0FR7C0YT7ST426HE9PY8CXS&hash=item538d177119:g:NQcAAeSwcGlqZzT2",
+      "imagen_url": "https://i.ebayimg.com/images/g/fOsAAeSwUr5qXkdh/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "fecha_visto_primera_vez": "2026-08-20 14:12:08",
+      "seller_id": "mediamarktsanjuanaznalfarache",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Batidora de vaso - Jata JEBT1241, 1200W, 1.75 l, 5 velocidades, sin accesorios",
+      "precio": 24.8,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/358743867283?itmmeta=01M0FR7C0XX42RYHMKWKG3V378&hash=item5386ccff93:g:bssAAeSwvaVqRWsh",
+      "imagen_url": "https://i.ebayimg.com/images/g/arQAAeSwhphqGcn5/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "fecha_visto_primera_vez": "2026-08-20 14:12:01",
+      "seller_id": "mediamarktsanjuanaznalfarache",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Tablet de exposición sin caja Lenovo Tab M11, 128 GB, Luna Grey, 11\" WUXGA,",
+      "precio": 99.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407038182982?itmmeta=01M0FR6T6F31Z7WKBW3FTRX1FA&hash=item5ec55dc646:g:OBwAAeSwXWBqQ9eT",
+      "imagen_url": "https://i.ebayimg.com/images/g/UB8AAeSwfjZqfutE/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "fecha_visto_primera_vez": "2026-08-20 14:11:43",
+      "seller_id": "mediamarktgoya",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Barra de sonido - Sonos Beam Gen 2,  Wi-Fi, HDMI, Amazon Alexa,  Blanco",
       "precio": 379.0,
@@ -45152,7 +45200,7 @@
     },
     {
       "titulo": "TV OLED 77\" de exposición Samsung TQ77S90DAEXXC, OLED 4K,",
-      "precio": 399.0,
+      "precio": 1399.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/406839340298?itmmeta=01M0A7PE9GWNXKBJHS0SDJRMJ6&hash=item5eb983ad0a:g:9z4AAeSw3y9p1jMe",
       "imagen_url": null,
@@ -143361,6 +143409,26 @@
           "precio": 19.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/198541717212?itmmeta=01M0D5N1BGB64E62JQ4PK0QETH&hash=item2e3a022edc:g:9rcAAeSwZl5qbx1L"
+        }
+      ]
+    },
+    {
+      "clave": "funda + grips - fr tec ft0020, para mando ps4, silicona, camuflaje",
+      "criterio": "titulo",
+      "titulo": "Funda + grips - FR TEC FT0020, Para mando PS4, Silicona, Camuflaje",
+      "imagen_url": "https://i.ebayimg.com/images/g/1eMAAeSwvw1qYd5O/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktleon",
+          "precio": 1.1,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/406068446514?itmmeta=01M0ET8J5GDFVMQ8HE5K50RH2M&hash=item5e8b90c532:g:1eMAAeSwvw1qYd5O"
+        },
+        {
+          "tienda": "mediamarktsanjuanaznalfarache",
+          "precio": 2.8,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/358806678326?itmmeta=01M0FR7C0Z2R0ZF9HTPS5HBQHX&hash=item538a8b6b36:g:9XQAAeSwRT1qWgPR"
         }
       ]
     }
