@@ -109,10 +109,11 @@ def procesar_tienda(conexion, tienda_id, seller_id, nombre_mostrado):
 
             # Avisar por Telegram (solo si NO es la primera carga de esta tienda)
             if not es_primera_carga:
-                ean, precio_oficial, mediamarkt_url = _buscar_ean_y_precio_mediamarkt(art)
+                ean, imagen_fiable, precio_oficial, mediamarkt_url = _completar_datos_articulo(art)
                 cursor.execute(
-                    "UPDATE articulos SET ean = ?, precio_mediamarkt = ?, mediamarkt_url = ? WHERE id = ?",
-                    (ean, precio_oficial, mediamarkt_url, articulo_id),
+                    "UPDATE articulos SET ean = ?, precio_mediamarkt = ?, mediamarkt_url = ?, "
+                    "imagen_url = COALESCE(?, imagen_url) WHERE id = ?",
+                    (ean, precio_oficial, mediamarkt_url, imagen_fiable, articulo_id),
                 )
 
                 try:
@@ -124,6 +125,7 @@ def procesar_tienda(conexion, tienda_id, seller_id, nombre_mostrado):
                         "precio_oficial_mediamarkt": precio_oficial,
                         "precio_oficial_es_aproximado": ean is None,
                         "mediamarkt_url": mediamarkt_url,
+                        "imagen_url": imagen_fiable,
                     })
                     cursor.execute(
                         "INSERT INTO notificaciones_enviadas (articulo_id, canal) VALUES (?, 'telegram')",
@@ -139,15 +141,6 @@ def procesar_tienda(conexion, tienda_id, seller_id, nombre_mostrado):
             # --- Artículo ya conocido ---
             articulo_id, precio_anterior, imagen_guardada, ean_guardado = fila_existente
 
-            # La foto se refresca siempre: no cuesta ninguna petición
-            # extra, ya la tenemos de este mismo escaneo.
-            nueva_imagen = art.get("imagen_url")
-            if nueva_imagen and nueva_imagen != imagen_guardada:
-                cursor.execute(
-                    "UPDATE articulos SET imagen_url = ? WHERE id = ?",
-                    (nueva_imagen, articulo_id),
-                )
-
             if art["precio"] is not None and art["precio"] != precio_anterior:
                 cursor.execute(
                     "UPDATE articulos SET precio = ?, fecha_ultima_actualizacion = ? WHERE id = ?",
@@ -160,15 +153,17 @@ def procesar_tienda(conexion, tienda_id, seller_id, nombre_mostrado):
                 actualizados_count += 1
 
             # "Relleno" progresivo: a los artículos antiguos que se
-            # guardaron antes de tener EAN/precio de MediaMarkt, se lo
-            # vamos completando poco a poco (solo unos pocos por tienda
-            # y ejecución, para no disparar el tiempo de proceso).
+            # guardaron antes de tener EAN/foto fiable/precio de
+            # MediaMarkt, se lo vamos completando poco a poco (solo
+            # unos pocos por tienda y ejecución, para no disparar el
+            # tiempo de proceso).
             if (not ean_guardado and not es_primera_carga
                     and completados_count < MAX_COMPLETADOS_POR_TIENDA):
-                ean, precio_oficial, mediamarkt_url = _buscar_ean_y_precio_mediamarkt(art)
+                ean, imagen_fiable, precio_oficial, mediamarkt_url = _completar_datos_articulo(art)
                 cursor.execute(
-                    "UPDATE articulos SET ean = ?, precio_mediamarkt = ?, mediamarkt_url = ? WHERE id = ?",
-                    (ean, precio_oficial, mediamarkt_url, articulo_id),
+                    "UPDATE articulos SET ean = ?, precio_mediamarkt = ?, mediamarkt_url = ?, "
+                    "imagen_url = COALESCE(?, imagen_url) WHERE id = ?",
+                    (ean, precio_oficial, mediamarkt_url, imagen_fiable, articulo_id),
                 )
                 completados_count += 1
 
@@ -177,22 +172,25 @@ def procesar_tienda(conexion, tienda_id, seller_id, nombre_mostrado):
           f"Completados (EAN/foto/precio MM antiguos): {completados_count}")
 
 
-def _buscar_ean_y_precio_mediamarkt(art: dict) -> tuple[str | None, float | None, str | None]:
+def _completar_datos_articulo(art: dict) -> tuple[str | None, str | None, float | None, str | None]:
     """
-    Intenta sacar el EAN del artículo de eBay y, con él (o con el
-    título si no hay EAN), busca el precio oficial en MediaMarkt.
+    Entra en la ficha del artículo en eBay para sacar el EAN y la foto
+    fiable (una sola petición para ambas cosas), y con el EAN (o el
+    título si no hay EAN) busca el precio oficial en MediaMarkt.
 
-    Devuelve (ean, precio_oficial, mediamarkt_url). El enlace SIEMPRE
-    se rellena si es posible (la ficha exacta si se encontró, o si no,
-    el enlace a la búsqueda en MediaMarkt con ese término) — así,
+    Devuelve (ean, imagen_url, precio_oficial, mediamarkt_url). El
+    enlace de MediaMarkt SIEMPRE se rellena si es posible (la ficha
+    exacta si se encontró, o si no, el enlace a la búsqueda) — así,
     aunque no consigamos el precio automáticamente, queda un enlace
     útil para comprobarlo a mano con un clic.
     """
-    ean = None
+    ean, imagen_url = None, None
     try:
-        ean = ebay_client.obtener_ean_de_articulo(art["item_id"])
+        detalles = ebay_client.obtener_detalles_articulo(art["item_id"])
+        ean = detalles.get("ean")
+        imagen_url = detalles.get("imagen_url")
     except Exception as error:
-        print(f"  Aviso: no se pudo obtener el EAN: {error}")
+        print(f"  Aviso: no se pudieron obtener los detalles del artículo en eBay: {error}")
 
     termino_busqueda_mm = ean or art["titulo"]
     precio_oficial = None
@@ -210,10 +208,9 @@ def _buscar_ean_y_precio_mediamarkt(art: dict) -> tuple[str | None, float | None
                   "haya sido bloqueada). Se deja el enlace de búsqueda como alternativa.")
     except Exception as error:
         print(f"  Aviso: no se pudo consultar MediaMarkt: {error}")
-        # Aun si falla todo, dejamos al menos un enlace de búsqueda manual.
         mediamarkt_url = mediamarkt_scraper.BASE_SEARCH_URL + termino_busqueda_mm.replace(" ", "+")
 
-    return ean, precio_oficial, mediamarkt_url
+    return ean, imagen_url, precio_oficial, mediamarkt_url
 
 
 def main():
