@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-08-21T03:32:57.126337+00:00",
+  "actualizado": "2026-08-21T05:52:07.488115+00:00",
   "total_tiendas": 101,
-  "total_articulos": 9500,
+  "total_articulos": 9503,
   "tiendas": [
     {
       "seller_id": "mediamarktalcala",
@@ -164,6 +164,11 @@
       "num_articulos": 53
     },
     {
+      "seller_id": "mediamarktrivas",
+      "nombre_mostrado": null,
+      "num_articulos": 51
+    },
+    {
       "seller_id": "mediamarktsanjuanaznalfarache",
       "nombre_mostrado": null,
       "num_articulos": 51
@@ -205,11 +210,6 @@
     },
     {
       "seller_id": "mediamarktplazadelcarmen",
-      "nombre_mostrado": null,
-      "num_articulos": 48
-    },
-    {
-      "seller_id": "mediamarktrivas",
       "nombre_mostrado": null,
       "num_articulos": 48
     },
@@ -510,6 +510,42 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Portátil gaming - ASUS G14 OLED GA403WP-QS002W",
+      "precio": 2199.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/198539522648?itmmeta=01M0HDZX80PK2JN98C1KYC6NTK&hash=item2e39e0b258:g:fJAAAeSwydZqbc61",
+      "imagen_url": "https://i.ebayimg.com/images/g/GKoAAeSwmrZplzGa/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "fecha_visto_primera_vez": "2026-08-21 05:51:54",
+      "seller_id": "mediamarktrivas",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Rowenta VU4420F2",
+      "precio": 69.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/198121700814?itmmeta=01M0HDZX8072PWZBPQ84SMDXWS&hash=item2e20f93dce:g:GKoAAeSwmrZplzGa",
+      "imagen_url": "https://i.ebayimg.com/images/g/WfMAAeSwD-BqbhGi/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "fecha_visto_primera_vez": "2026-08-21 05:51:48",
+      "seller_id": "mediamarktrivas",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Móvil - Samsung Galaxy A17 5G",
+      "precio": 199.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/198265714054?itmmeta=01M0HDZX7ZM5KW71SD3PF8YJSQ&hash=item2e298eb586:g:NIcAAeSwPL5p1oH0",
+      "imagen_url": "https://i.ebayimg.com/images/g/~agAAeSwms5qbx73/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "fecha_visto_primera_vez": "2026-08-21 05:51:39",
+      "seller_id": "mediamarktrivas",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Apple Magic Keyboard, Funda + teclado para el iPad Pro, M4, 13\", Español, Blanco",
       "precio": 299.0,
@@ -49100,7 +49136,7 @@
     },
     {
       "titulo": "Cámara EVIL -Sony Alpha 7 III, ILCE-7M3K, 24.2 MP,Embalaje levemente deteriorado",
-      "precio": 449.0,
+      "precio": 1449.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/389902305998?itmmeta=01M0A7PDA6N5ADFP0FNGXWJHSW&hash=item5ac7fd0ace:g:TQsAAeSwuqtqThjG",
       "imagen_url": null,
