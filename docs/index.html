@@ -563,15 +563,26 @@ function ordenar(lista, orden) {
   return copia;
 }
 
-function lineaComparacionMM(precioEbay, precioMM) {
-  if (precioMM === null || precioMM === undefined || precioEbay === null) return '';
-  const diferencia = Math.round((precioMM - precioEbay) * 100) / 100;
-  if (diferencia > 0) {
-    return `<div class="mm-compara ahorro">✅ Ahorras ${formatoPrecio(diferencia, 'EUR')} vs MediaMarkt (${formatoPrecio(precioMM, 'EUR')})</div>`;
-  } else if (diferencia < 0) {
-    return `<div class="mm-compara caro">⚠️ ${formatoPrecio(Math.abs(diferencia), 'EUR')} más caro que MediaMarkt (${formatoPrecio(precioMM, 'EUR')})</div>`;
+function lineaComparacionMM(art) {
+  const precioEbay = art.precio;
+  const precioMM = art.precio_mediamarkt;
+  const urlMM = art.mediamarkt_url;
+
+  if (precioMM !== null && precioMM !== undefined && precioEbay !== null) {
+    const diferencia = Math.round((precioMM - precioEbay) * 100) / 100;
+    if (diferencia > 0) {
+      return `<div class="mm-compara ahorro">✅ Ahorras ${formatoPrecio(diferencia, 'EUR')} vs MediaMarkt (${formatoPrecio(precioMM, 'EUR')})</div>`;
+    } else if (diferencia < 0) {
+      return `<div class="mm-compara caro">⚠️ ${formatoPrecio(Math.abs(diferencia), 'EUR')} más caro que MediaMarkt (${formatoPrecio(precioMM, 'EUR')})</div>`;
+    }
+    return `<div class="mm-compara">Mismo precio que MediaMarkt</div>`;
   }
-  return `<div class="mm-compara">Mismo precio que MediaMarkt</div>`;
+
+  if (urlMM) {
+    return `<div class="mm-compara"><a href="${urlMM}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Ver en MediaMarkt ↗</a></div>`;
+  }
+
+  return '';
 }
 
 function actualizarVista() {
@@ -640,7 +651,7 @@ function dibujarNovedades(articulos, tiendas) {
           <span class="precio">${formatoPrecio(art.precio, art.moneda)}</span>
           <span class="ean">${art.ean ? 'EAN ' + art.ean : ''}</span>
         </div>
-        ${lineaComparacionMM(art.precio, art.precio_mediamarkt)}
+        ${lineaComparacionMM(art)}
       </a>
     `;
   }
@@ -723,3 +734,4 @@ cargar();
 </script>
 </body>
 </html>
+
