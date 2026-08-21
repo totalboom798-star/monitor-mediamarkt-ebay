@@ -67,7 +67,7 @@ def exportar():
 
     cursor.execute("""
         SELECT a.titulo, a.precio, a.moneda, a.url, a.imagen_url, a.ean,
-               a.precio_mediamarkt, a.fecha_visto_primera_vez,
+               a.precio_mediamarkt, a.mediamarkt_url, a.fecha_visto_primera_vez,
                t.seller_id, t.nombre_mostrado
         FROM articulos a
         JOIN tiendas t ON t.id = a.tienda_id
@@ -138,6 +138,11 @@ def exportar():
 
     print(f"Exportado: {len(tiendas)} tiendas, {len(articulos_recientes)} artículos recientes, "
           f"{len(grupos)} grupos de productos coincidentes -> {SALIDA_PATH}")
+
+
+if __name__ == "__main__":
+    exportar()
+
 
 
 if __name__ == "__main__":
