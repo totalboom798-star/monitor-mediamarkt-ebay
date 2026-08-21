@@ -563,6 +563,24 @@ function ordenar(lista, orden) {
   return copia;
 }
 
+function precioMasBarato(grupo) {
+  const precios = grupo.ofertas.map(o => o.precio).filter(p => p !== null && p !== undefined);
+  return precios.length ? Math.min(...precios) : Infinity;
+}
+
+function ordenarGrupos(grupos, orden) {
+  const copia = [...grupos];
+  if (orden === 'precio_desc') {
+    copia.sort((a, b) => precioMasBarato(b) - precioMasBarato(a));
+  } else if (orden === 'precio_asc') {
+    copia.sort((a, b) => precioMasBarato(a) - precioMasBarato(b));
+  }
+  // 'recientes' (por defecto): se deja el orden que ya trae el JSON
+  // (de más a menos tiendas coincidentes), ya que los grupos no tienen
+  // una fecha única propia.
+  return copia;
+}
+
 function lineaComparacionMM(art) {
   const precioEbay = art.precio;
   const precioMM = art.precio_mediamarkt;
@@ -603,11 +621,12 @@ function actualizarVista() {
   const grupos = q
     ? TODOS_GRUPOS.filter(g => (g.titulo || '').toLowerCase().includes(q))
     : TODOS_GRUPOS;
+  const gruposOrdenados = ordenarGrupos(grupos, ORDEN_ACTUAL);
 
   if (VISTA_ACTUAL === 'novedades') {
     dibujarNovedades(articulos, tiendas);
   } else {
-    dibujarGrupos(grupos);
+    dibujarGrupos(gruposOrdenados);
   }
 }
 
@@ -734,4 +753,5 @@ cargar();
 </script>
 </body>
 </html>
+
 
