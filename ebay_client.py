@@ -167,14 +167,20 @@ def _articulos_de_una_pagina(seller_id: str, pagina: int) -> list[dict]:
             continue  # algunos <a> solo envuelven la imagen, sin texto
 
         precio = _extraer_precio_cerca(enlace)
-        imagen_url = _extraer_imagen_cerca(enlace)
 
         articulos[item_id] = {
             "item_id": item_id,
             "titulo": titulo,
             "precio": precio,
             "moneda": "EUR",
-            "imagen_url": imagen_url,
+            # La imagen NO se saca de esta página de listado: probamos
+            # a hacerlo "adivinando" cuál estaba cerca del enlace, pero
+            # a veces cogía la foto de OTRO artículo distinto (o el
+            # logo de la tienda). Una foto equivocada es peor que
+            # ninguna, así que la foto se obtiene aparte, de forma
+            # fiable, de la ficha individual del propio artículo (ver
+            # obtener_detalles_articulo).
+            "imagen_url": None,
             "url": enlace["href"] if enlace["href"].startswith("http")
                    else f"https://www.ebay.es{enlace['href']}",
         }
@@ -205,32 +211,49 @@ def buscar_articulos_por_tienda(seller_id: str) -> list[dict]:
     return list(todos.values())
 
 
-def obtener_ean_de_articulo(item_id: str) -> str | None:
+def obtener_detalles_articulo(item_id: str) -> dict:
     """
-    Entra en la ficha individual de un artículo de eBay y extrae su EAN,
-    si está disponible. Es contenido estático (viene en el HTML inicial),
-    así que basta con una petición HTTP normal.
+    Entra en la ficha individual de un artículo de eBay y extrae:
+      - ean: el código EAN/UPC, si está disponible.
+      - imagen_url: la foto principal del artículo, sacada de la
+        etiqueta estándar "og:image" que casi todas las páginas usan
+        para que redes sociales/buscadores muestren la foto correcta
+        — es fiable porque es específica de ESTA ficha, a diferencia
+        de intentar adivinar la imagen desde la página de listado de
+        la tienda (que a veces traía la foto de otro artículo).
 
-    Se usa solo para artículos concretos que nos interesan (los nuevos),
-    no para el catálogo completo de una tienda, para no multiplicar
-    peticiones innecesariamente.
+    Es contenido estático (viene en el HTML inicial), así que basta
+    con una petición HTTP normal. Se usa solo para artículos concretos
+    que nos interesan (los nuevos, o el relleno progresivo de los
+    antiguos), no para el catálogo completo de una tienda, para no
+    multiplicar peticiones innecesariamente.
     """
+    resultado = {"ean": None, "imagen_url": None}
+
     url = f"https://www.ebay.es/itm/{item_id}"
     resp = _sesion.get(url, timeout=15)
 
     if not resp.ok:
-        return None
+        return resultado
 
     soup = BeautifulSoup(resp.text, "html.parser")
-    texto = soup.get_text(" ", strip=True)
 
-    # El EAN aparece en la página como "EAN" seguido del número (a veces
-    # también etiquetado como "Upc" en la sección de identificadores).
+    texto = soup.get_text(" ", strip=True)
     coincidencia = re.search(r"\bEAN\b\s*([0-9]{8,14})", texto)
     if not coincidencia:
         coincidencia = re.search(r"\bUpc\b\s*([0-9]{8,14})", texto)
+    resultado["ean"] = coincidencia.group(1) if coincidencia else None
 
-    return coincidencia.group(1) if coincidencia else None
+    etiqueta_imagen = soup.find("meta", property="og:image")
+    if etiqueta_imagen and etiqueta_imagen.get("content", "").startswith("http"):
+        resultado["imagen_url"] = etiqueta_imagen["content"]
+
+    return resultado
+
+
+def obtener_ean_de_articulo(item_id: str) -> str | None:
+    """Atajo que solo devuelve el EAN (usa obtener_detalles_articulo)."""
+    return obtener_detalles_articulo(item_id)["ean"]
 
 
 if __name__ == "__main__":
@@ -247,5 +270,6 @@ if __name__ == "__main__":
         print(f"\nProbando a extraer el EAN del artículo {primer_item_id}...")
         ean = obtener_ean_de_articulo(primer_item_id)
         print(f"EAN encontrado: {ean}")
+
 
 
