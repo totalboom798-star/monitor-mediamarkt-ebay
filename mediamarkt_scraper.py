@@ -136,13 +136,31 @@ def obtener_precio_producto(url_producto: str) -> dict:
 
 
 def buscar_precio_mediamarkt(termino_busqueda: str, headless: bool = True) -> dict:
-    """Función de conveniencia: hace las dos fases seguidas."""
+    """
+    Función de conveniencia: hace las dos fases seguidas.
+
+    Devuelve SIEMPRE una URL utilizable, aunque no se consiga el precio:
+      - url_producto: la ficha exacta del producto, si se encontró.
+      - url_busqueda: el enlace a la búsqueda en MediaMarkt con este
+        mismo término, como alternativa para comprobarlo a mano si el
+        scraper no consigue el precio automáticamente (por ejemplo, si
+        MediaMarkt bloquea la petición automatizada).
+    """
+    url_busqueda_directa = BASE_SEARCH_URL + termino_busqueda.replace(" ", "+")
+
     url = buscar_url_producto(termino_busqueda, headless=headless)
     if not url:
-        return {"encontrado": False, "precio": None, "titulo": None, "url_producto": None}
+        return {
+            "encontrado": False,
+            "precio": None,
+            "titulo": None,
+            "url_producto": None,
+            "url_busqueda": url_busqueda_directa,
+        }
 
     datos = obtener_precio_producto(url)
     datos["url_producto"] = url
+    datos["url_busqueda"] = url_busqueda_directa
     return datos
 
 
