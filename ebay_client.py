@@ -246,18 +246,31 @@ def obtener_detalles_articulo(item_id: str) -> dict:
         coincidencia = re.search(r"\bUpc\b\s*([0-9]{8,14})", texto)
     resultado["ean"] = coincidencia.group(1) if coincidencia else None
 
-    etiqueta_imagen = soup.find("meta", property="og:image")
-    if etiqueta_imagen and etiqueta_imagen.get("content", "").startswith("http"):
-        resultado["imagen_url"] = etiqueta_imagen["content"]
+    # La foto se busca por orden de fiabilidad:
+    #   1. window.heroImg: una variable que eBay incluye al principio
+    #      del HTML con la foto principal exacta de este artículo — es
+    #      la señal más directa y fiable que hemos encontrado.
+    #   2. Cualquier URL de foto de eBay (dominio i.ebayimg.com) que
+    #      aparezca en la página.
+    #   3. La etiqueta "og:image", como último recurso — se comprueba
+    #      también que sea del dominio de fotos de eBay, porque a
+    #      veces esa etiqueta puede apuntar a un logo genérico de la
+    #      página en vez de a la foto real del artículo.
+    coincidencia_hero = re.search(r'heroImg\s*=\s*"(https://i\.ebayimg\.com/[^"]+)"', resp.text)
+    if coincidencia_hero:
+        resultado["imagen_url"] = coincidencia_hero.group(1)
     else:
-        # Plan B: si por lo que sea la etiqueta og:image no aparece,
-        # buscamos directamente una URL de foto de eBay en el HTML.
         coincidencia_img = re.search(r"https://i\.ebayimg\.com/images/g/[^\s\"'<>]+", resp.text)
         if coincidencia_img:
             resultado["imagen_url"] = coincidencia_img.group(0)
         else:
-            print(f"  [Aviso interno] No se encontró ninguna foto para el artículo {item_id} "
-                  f"(respuesta HTTP {resp.status_code}, {len(resp.text)} caracteres).")
+            etiqueta_imagen = soup.find("meta", property="og:image")
+            contenido_etiqueta = etiqueta_imagen.get("content", "") if etiqueta_imagen else ""
+            if contenido_etiqueta.startswith("http") and "ebayimg" in contenido_etiqueta:
+                resultado["imagen_url"] = contenido_etiqueta
+            else:
+                print(f"  [Aviso interno] No se encontró ninguna foto para el artículo {item_id} "
+                      f"(respuesta HTTP {resp.status_code}, {len(resp.text)} caracteres).")
 
     return resultado
 
@@ -281,6 +294,7 @@ if __name__ == "__main__":
         print(f"\nProbando a extraer el EAN del artículo {primer_item_id}...")
         ean = obtener_ean_de_articulo(primer_item_id)
         print(f"EAN encontrado: {ean}")
+
 
 
 
