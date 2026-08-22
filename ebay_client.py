@@ -234,6 +234,8 @@ def obtener_detalles_articulo(item_id: str) -> dict:
     resp = _sesion.get(url, timeout=15)
 
     if not resp.ok:
+        print(f"  [Aviso interno] La ficha de eBay respondió con estado {resp.status_code} "
+              f"para el artículo {item_id} — puede que la petición haya sido bloqueada.")
         return resultado
 
     soup = BeautifulSoup(resp.text, "html.parser")
@@ -247,6 +249,15 @@ def obtener_detalles_articulo(item_id: str) -> dict:
     etiqueta_imagen = soup.find("meta", property="og:image")
     if etiqueta_imagen and etiqueta_imagen.get("content", "").startswith("http"):
         resultado["imagen_url"] = etiqueta_imagen["content"]
+    else:
+        # Plan B: si por lo que sea la etiqueta og:image no aparece,
+        # buscamos directamente una URL de foto de eBay en el HTML.
+        coincidencia_img = re.search(r"https://i\.ebayimg\.com/images/g/[^\s\"'<>]+", resp.text)
+        if coincidencia_img:
+            resultado["imagen_url"] = coincidencia_img.group(0)
+        else:
+            print(f"  [Aviso interno] No se encontró ninguna foto para el artículo {item_id} "
+                  f"(respuesta HTTP {resp.status_code}, {len(resp.text)} caracteres).")
 
     return resultado
 
