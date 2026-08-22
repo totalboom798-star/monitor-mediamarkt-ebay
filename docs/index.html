@@ -169,8 +169,8 @@
 
   .hero-card {
     display: grid;
-    grid-template-columns: auto 1fr auto;
-    gap: 20px;
+    grid-template-columns: 1fr auto;
+    gap: 18px;
     background: var(--paper);
     color: var(--ink);
     border-radius: 4px;
@@ -187,13 +187,20 @@
     width: 8px;
     background: var(--ticket-red);
   }
-  .hero-card .hero-img {
-    width: 96px;
-    height: 96px;
+  .hero-card .tienda-fila {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .hero-card .tienda-img {
+    width: 28px;
+    height: 28px;
     object-fit: contain;
     background: #fff;
     border-radius: 4px;
     border: 1px solid var(--paper-dim);
+    flex: none;
   }
   .hero-card .tienda-tag {
     font-family: 'IBM Plex Mono', monospace;
@@ -202,8 +209,6 @@
     letter-spacing: 0.08em;
     color: var(--ticket-red);
     font-weight: 600;
-    margin-bottom: 8px;
-    display: block;
   }
   .hero-card h2 {
     font-family: 'Archivo', sans-serif;
@@ -226,13 +231,26 @@
     align-self: center;
     text-align: right;
   }
-  .hero-precio .mm {
-    font-size: 13px;
+  .precio-mm {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: var(--ticket-red);
+    opacity: 0.85;
+  }
+  .precio-mm:hover { opacity: 1; }
+  .precio-mm-link {
+    font-family: 'IBM Plex Mono', monospace;
     font-weight: 500;
     color: var(--slate-dark);
+    text-decoration: underline;
+  }
+  .hero-precio .precio-mm,
+  .hero-precio .precio-mm-link {
+    display: block;
+    font-size: 15px;
     margin-top: 4px;
   }
-  .hero-precio .ahorro { color: var(--signal-green); }
 
   /* ---------- Grid de etiquetas ---------- */
   .grid {
@@ -265,13 +283,21 @@
   .tag:hover { transform: translateY(-3px) rotate(-0.6deg); }
 
   .tag .tag-img {
-    width: 100%;
-    height: 110px;
+    width: 26px;
+    height: 26px;
     object-fit: contain;
     background: #fff;
-    border-radius: 3px;
-    margin-bottom: 10px;
+    border-radius: 4px;
     border: 1px solid var(--paper-dim);
+    flex: none;
+  }
+
+  .tag .tienda-fila {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 8px;
+    padding-right: 16px;
   }
 
   .tag .tienda {
@@ -280,9 +306,6 @@
     text-transform: uppercase;
     letter-spacing: 0.07em;
     color: var(--slate-dark);
-    display: block;
-    margin-bottom: 8px;
-    padding-right: 16px;
   }
   .tag .titulo {
     font-family: 'Archivo', sans-serif;
@@ -300,6 +323,13 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    flex-wrap: wrap;
+    gap: 4px 8px;
+  }
+  .tag .precio-grupo {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
   }
   .tag .precio {
     font-family: 'IBM Plex Mono', monospace;
@@ -311,14 +341,10 @@
     font-size: 9.5px;
     color: var(--slate-dark);
   }
-  .tag .mm-compara {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 11px;
-    margin-top: 6px;
-    color: var(--slate-dark);
+  .tag .precio-mm,
+  .tag .precio-mm-link {
+    font-size: 12.5px;
   }
-  .tag .mm-compara.ahorro { color: var(--signal-green); font-weight: 600; }
-  .tag .mm-compara.caro { color: var(--amber-warn); font-weight: 600; }
 
   /* ---------- Tiendas ---------- */
   .tiendas-header {
@@ -581,23 +607,20 @@ function ordenarGrupos(grupos, orden) {
   return copia;
 }
 
-function lineaComparacionMM(art) {
+function precioMM(art) {
   const precioEbay = art.precio;
-  const precioMM = art.precio_mediamarkt;
+  const precioMediamarkt = art.precio_mediamarkt;
   const urlMM = art.mediamarkt_url;
 
-  if (precioMM !== null && precioMM !== undefined && precioEbay !== null) {
-    const diferencia = Math.round((precioMM - precioEbay) * 100) / 100;
-    if (diferencia > 0) {
-      return `<div class="mm-compara ahorro">✅ Ahorras ${formatoPrecio(diferencia, 'EUR')} vs MediaMarkt (${formatoPrecio(precioMM, 'EUR')})</div>`;
-    } else if (diferencia < 0) {
-      return `<div class="mm-compara caro">⚠️ ${formatoPrecio(Math.abs(diferencia), 'EUR')} más caro que MediaMarkt (${formatoPrecio(precioMM, 'EUR')})</div>`;
-    }
-    return `<div class="mm-compara">Mismo precio que MediaMarkt</div>`;
+  if (precioMediamarkt !== null && precioMediamarkt !== undefined) {
+    // Tachado y en rojo: es el precio "de referencia" con el que se
+    // compara, no el precio al que se compra ahora mismo. Clicable
+    // para ir directo a la ficha de MediaMarkt.
+    return `<a class="precio-mm" href="${urlMM}" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="Precio en MediaMarkt">${formatoPrecio(precioMediamarkt, 'EUR')}</a>`;
   }
 
   if (urlMM) {
-    return `<div class="mm-compara"><a href="${urlMM}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Ver en MediaMarkt ↗</a></div>`;
+    return `<a class="precio-mm-link" href="${urlMM}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Ver en MediaMarkt ↗</a>`;
   }
 
   return '';
@@ -652,15 +675,17 @@ function dibujarNovedades(articulos, tiendas) {
   html += `
     <p class="hero-label">Lo último detectado</p>
     <a class="hero-card" href="${destacado.url}" target="_blank" rel="noopener">
-      ${destacado.imagen_url ? `<img class="hero-img" src="${destacado.imagen_url}" alt="" loading="lazy">` : ''}
       <div>
-        <span class="tienda-tag">${destacado.nombre_mostrado || destacado.seller_id}</span>
+        <div class="tienda-fila">
+          ${destacado.imagen_url ? `<img class="tienda-img" src="${destacado.imagen_url}" alt="" loading="lazy">` : ''}
+          <span class="tienda-tag">${destacado.nombre_mostrado || destacado.seller_id}</span>
+        </div>
         <h2>${escapar(destacado.titulo)}</h2>
         <span class="cuando">${hace(destacado.fecha_visto_primera_vez)}</span>
       </div>
       <div class="hero-precio">
         ${formatoPrecio(destacado.precio, destacado.moneda)}
-        ${destacado.precio_mediamarkt ? `<div class="mm">MediaMarkt: ${formatoPrecio(destacado.precio_mediamarkt, 'EUR')}</div>` : ''}
+        ${precioMM(destacado)}
       </div>
     </a>
   `;
@@ -669,15 +694,19 @@ function dibujarNovedades(articulos, tiendas) {
   for (const art of resto) {
     html += `
       <a class="tag" href="${art.url}" target="_blank" rel="noopener">
-        ${art.imagen_url ? `<img class="tag-img" src="${art.imagen_url}" alt="" loading="lazy">` : ''}
-        <span class="tienda">${art.nombre_mostrado || art.seller_id}</span>
+        <div class="tienda-fila">
+          ${art.imagen_url ? `<img class="tag-img" src="${art.imagen_url}" alt="" loading="lazy">` : ''}
+          <span class="tienda">${art.nombre_mostrado || art.seller_id}</span>
+        </div>
         <p class="titulo">${escapar(art.titulo)}</p>
         <div class="perforacion"></div>
         <div class="fila-precio">
-          <span class="precio">${formatoPrecio(art.precio, art.moneda)}</span>
+          <div class="precio-grupo">
+            <span class="precio">${formatoPrecio(art.precio, art.moneda)}</span>
+            ${precioMM(art)}
+          </div>
           <span class="ean">${art.ean ? 'EAN ' + art.ean : ''}</span>
         </div>
-        ${lineaComparacionMM(art)}
       </a>
     `;
   }
