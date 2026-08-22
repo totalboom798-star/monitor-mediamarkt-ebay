@@ -77,6 +77,43 @@ def buscar_url_producto(termino_busqueda: str, headless: bool = True) -> str | N
         return href
 
 
+def _buscar_oferta_recursivo(nodo):
+    """
+    Busca un bloque "offers" con precio en CUALQUIER nivel de anidación
+    de los datos estructurados (JSON-LD), no solo en la posición más
+    superficial.
+
+    Algunas páginas ponen el Product directamente en la raíz (fácil de
+    encontrar), pero otras lo envuelven dentro de otro tipo —por
+    ejemplo, "BuyAction" con el Product metido dentro de "object"—.
+    En vez de intentar adivinar todas las formas posibles de envoltorio,
+    recorremos toda la estructura buscando la primera coincidencia.
+
+    Devuelve (precio, titulo) o (None, None) si no se encuentra nada.
+    """
+    if isinstance(nodo, dict):
+        oferta = nodo.get("offers")
+        if isinstance(oferta, dict) and "price" in oferta:
+            return oferta.get("price"), nodo.get("name")
+        if isinstance(oferta, list):
+            for una_oferta in oferta:
+                if isinstance(una_oferta, dict) and "price" in una_oferta:
+                    return una_oferta.get("price"), nodo.get("name")
+
+        for valor in nodo.values():
+            precio, titulo = _buscar_oferta_recursivo(valor)
+            if precio is not None:
+                return precio, titulo
+
+    elif isinstance(nodo, list):
+        for elemento in nodo:
+            precio, titulo = _buscar_oferta_recursivo(elemento)
+            if precio is not None:
+                return precio, titulo
+
+    return None, None
+
+
 def obtener_precio_producto(url_producto: str) -> dict:
     """
     Descarga la ficha de producto (petición HTTP normal, sin
@@ -92,28 +129,25 @@ def obtener_precio_producto(url_producto: str) -> dict:
 
     soup = BeautifulSoup(resp.text, "html.parser")
 
-    # --- Intento 1: datos estructurados JSON-LD (schema.org Product) ---
+    # --- Intento 1: datos estructurados JSON-LD ---
     # Es el método más fiable si la web lo incluye, porque no depende
-    # de clases CSS que puedan cambiar con el diseño.
+    # de clases CSS que puedan cambiar con el diseño. Buscamos en
+    # cualquier nivel de anidación (ver _buscar_oferta_recursivo).
     for script in soup.find_all("script", type="application/ld+json"):
         try:
             datos = json.loads(script.string)
         except (TypeError, ValueError):
             continue
 
-        candidatos = datos if isinstance(datos, list) else [datos]
-        for item in candidatos:
-            if not isinstance(item, dict):
-                continue
-            oferta = item.get("offers")
-            if isinstance(oferta, dict) and "price" in oferta:
-                try:
-                    resultado["precio"] = float(oferta["price"])
-                    resultado["titulo"] = item.get("name")
-                    resultado["encontrado"] = True
-                    return resultado
-                except (TypeError, ValueError):
-                    pass
+        precio, titulo = _buscar_oferta_recursivo(datos)
+        if precio is not None:
+            try:
+                resultado["precio"] = float(precio)
+                resultado["titulo"] = titulo
+                resultado["encontrado"] = True
+                return resultado
+            except (TypeError, ValueError):
+                pass
 
     # --- Intento 2 (respaldo): buscar un patrón de precio en el texto ---
     # Solo se usa si no había datos estructurados. Menos fiable, pero
