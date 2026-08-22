@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-08-22T09:06:20.848494+00:00",
+  "actualizado": "2026-08-22T09:36:38.057522+00:00",
   "total_tiendas": 101,
-  "total_articulos": 9929,
+  "total_articulos": 9933,
   "tiendas": [
     {
       "seller_id": "mediamarktalcala",
@@ -289,6 +289,11 @@
       "num_articulos": 7
     },
     {
+      "seller_id": "mediamarktmarbella",
+      "nombre_mostrado": null,
+      "num_articulos": 4
+    },
+    {
       "seller_id": "mediamarktbarakaldo",
       "nombre_mostrado": null,
       "num_articulos": 1
@@ -370,11 +375,6 @@
     },
     {
       "seller_id": "mediamarktmajadahonda",
-      "nombre_mostrado": null,
-      "num_articulos": 0
-    },
-    {
-      "seller_id": "mediamarktmarbella",
       "nombre_mostrado": null,
       "num_articulos": 0
     },
@@ -510,6 +510,58 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "walkie talkie Midland G11 PRO",
+      "precio": 5.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/358590014494?itmmeta=01M0MD87YV0W00EQEW57K2P2CY&hash=item537da1641e:g:9dsAAeSwlJ9pRP7l",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": null,
+      "fecha_visto_primera_vez": "2026-08-22 09:36:27",
+      "seller_id": "mediamarktmarbella",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Tp Link Tc40",
+      "precio": 15.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/358636758984?itmmeta=01M0MD87YV9R8MHMNKQ1F39TWF&hash=item53806aa7c8:g:VEkAAeSwps5qISk8",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": null,
+      "fecha_visto_primera_vez": "2026-08-22 09:36:27",
+      "seller_id": "mediamarktmarbella",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Aspirador escoba - Samsung VS20B75AGR1/WA Jet 75E Pet, Sin cable, 200 WA, Multi",
+      "precio": 160.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/358838044748?itmmeta=01M0MD87YV3RRVV7R7TNZ00M52&hash=item538c6a084c:g:19wAAeSw9ZVqY01Z",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": null,
+      "fecha_visto_primera_vez": "2026-08-22 09:36:27",
+      "seller_id": "mediamarktmarbella",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "PS4 TENNIS WORLD TOUR RG EDITION",
+      "precio": 5.17,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/358922679653?itmmeta=01M0MD87YV9T4RC25C9NKXS3Q6&hash=item5391757565:g:XqsAAeSwIvJqffee",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": null,
+      "fecha_visto_primera_vez": "2026-08-22 09:36:27",
+      "seller_id": "mediamarktmarbella",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Mando a distancia - Philips SRP4010/10, Para TVs Samsung, Función de aprendizaje",
       "precio": 8.0,
@@ -134938,6 +134990,44 @@
       ]
     },
     {
+      "clave": "ps4 tennis world tour rg edition",
+      "criterio": "titulo",
+      "titulo": "PS4 TENNIS WORLD TOUR RG EDITION",
+      "imagen_url": "https://i.ebayimg.com/images/g/W9MAAeSwtWFqZJkd/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktmarbella",
+          "precio": 5.17,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/358922679653?itmmeta=01M0MD87YV9T4RC25C9NKXS3Q6&hash=item5391757565:g:XqsAAeSwIvJqffee"
+        },
+        {
+          "tienda": "mediamarktalcala",
+          "precio": 6.28,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/137550864052?itmmeta=01M08SV56N36N1Y6GKM32DDAEN&hash=item2006ab9eb4:g:5RYAAeSwW0ZqZPE-"
+        },
+        {
+          "tienda": "mediamarktgranada",
+          "precio": 6.78,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/318285260119?itmmeta=01M0A7PVY2HTJJVCCMBA828WYZ&hash=item4a1b47a557:g:-T8AAeSwRvdqgvfd"
+        },
+        {
+          "tienda": "mediamarktbadajoz",
+          "precio": 7.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/800034976798?itmmeta=01M08T9D3TDRBA3B0T8G9HVBXX&hash=itemba45ccf41e:g:-ssAAeSwKzJqCtwU"
+        },
+        {
+          "tienda": "mediamarktgava",
+          "precio": 8.09,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/226758389301?itmmeta=01M0A7P95SFM3X9SPGRJM6FEM0&hash=item34cbda6e35:g:KGkAAeSw3tZqIGAu"
+        }
+      ]
+    },
+    {
       "clave": "mochila para portátil - hp travel de 15.6\" , 18 l ampliable a 21l, resistente al",
       "criterio": "titulo",
       "titulo": "Mochila para portátil - HP Travel de 15.6\" , 18 L ampliable a 21L, Resistente al",
@@ -137264,38 +137354,6 @@
           "precio": 14.24,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/158001516326?itmmeta=01M0A7MYY8GPZMBH9QHPNM6VH5&hash=item24c99fcf26:g:BfIAAeSw6JVqVk1M"
-        }
-      ]
-    },
-    {
-      "clave": "ps4 tennis world tour rg edition",
-      "criterio": "titulo",
-      "titulo": "PS4 TENNIS WORLD TOUR RG EDITION",
-      "imagen_url": "https://i.ebayimg.com/images/g/W9MAAeSwtWFqZJkd/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktalcala",
-          "precio": 6.28,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/137550864052?itmmeta=01M08SV56N36N1Y6GKM32DDAEN&hash=item2006ab9eb4:g:5RYAAeSwW0ZqZPE-"
-        },
-        {
-          "tienda": "mediamarktgranada",
-          "precio": 6.78,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/318285260119?itmmeta=01M0A7PVY2HTJJVCCMBA828WYZ&hash=item4a1b47a557:g:-T8AAeSwRvdqgvfd"
-        },
-        {
-          "tienda": "mediamarktbadajoz",
-          "precio": 7.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/800034976798?itmmeta=01M08T9D3TDRBA3B0T8G9HVBXX&hash=itemba45ccf41e:g:-ssAAeSwKzJqCtwU"
-        },
-        {
-          "tienda": "mediamarktgava",
-          "precio": 8.09,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/226758389301?itmmeta=01M0A7P95SFM3X9SPGRJM6FEM0&hash=item34cbda6e35:g:KGkAAeSw3tZqIGAu"
         }
       ]
     },
@@ -156248,6 +156306,26 @@
           "precio": 40.41,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/317836547488?itmmeta=01M0A7JAEMQFA72C77DHCZTDNX&hash=item4a0088d5a0:g:e5sAAeSwARRqX8Pf"
+        }
+      ]
+    },
+    {
+      "clave": "aspirador escoba - samsung vs20b75agr1/wa jet 75e pet, sin cable, 200 wa, multi",
+      "criterio": "titulo",
+      "titulo": "Aspirador escoba - Samsung VS20B75AGR1/WA Jet 75E Pet, Sin cable, 200 WA, Multi",
+      "imagen_url": null,
+      "ofertas": [
+        {
+          "tienda": "mediamarktmarbella",
+          "precio": 160.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/358838044748?itmmeta=01M0MD87YV3RRVV7R7TNZ00M52&hash=item538c6a084c:g:19wAAeSw9ZVqY01Z"
+        },
+        {
+          "tienda": "mediamarktcordoba",
+          "precio": 269.1,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/398278255774?itmmeta=01M0A7JGG8NMYS0T3C85KHGBBZ&hash=item5cbb3be49e:g:e~4AAeSw4qpqfK0v"
         }
       ]
     },
