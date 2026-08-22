@@ -81,8 +81,6 @@ def enviar_aviso_articulo_nuevo(articulo: dict) -> bool:
             texto += f"✅ Ahorras {diferencia} € respecto al precio oficial\n"
         elif diferencia < 0:
             texto += f"⚠️ Está {abs(diferencia)} € más caro que el precio oficial\n"
-    elif articulo.get("mediamarkt_url"):
-        texto += "🏷️ No se pudo confirmar el precio oficial automáticamente\n"
 
     texto += f"\n🔗 eBay: {url}"
 
@@ -117,4 +115,5 @@ if __name__ == "__main__":
     }
     exito = enviar_aviso_articulo_nuevo(articulo_prueba)
     print("Mensaje enviado correctamente" if exito else "Fallo al enviar el mensaje")
+
 
