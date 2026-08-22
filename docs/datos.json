@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-08-22T03:12:56.850980+00:00",
+  "actualizado": "2026-08-22T05:07:21.828807+00:00",
   "total_tiendas": 101,
-  "total_articulos": 9925,
+  "total_articulos": 9927,
   "tiendas": [
     {
       "seller_id": "mediamarktalcala",
@@ -189,6 +189,11 @@
       "num_articulos": 50
     },
     {
+      "seller_id": "mediamarktsalamanca",
+      "nombre_mostrado": null,
+      "num_articulos": 50
+    },
+    {
       "seller_id": "mediamarkttorrejon",
       "nombre_mostrado": null,
       "num_articulos": 50
@@ -240,11 +245,6 @@
     },
     {
       "seller_id": "mediamarktpuertovenecia",
-      "nombre_mostrado": null,
-      "num_articulos": 48
-    },
-    {
-      "seller_id": "mediamarktsalamanca",
       "nombre_mostrado": null,
       "num_articulos": 48
     },
@@ -510,6 +510,32 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Nintendo Switch Nick Jr. Party Adventure",
+      "precio": 17.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/397119394747?itmmeta=01M0KXTEZR976EBJVQ855S3HQD&hash=item5c762913bb:g:BhIAAeSwYGVo396S",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_juego-nintendo-switch-nick-jr-party-adventure-arcade-163876516.html",
+      "fecha_visto_primera_vez": "2026-08-22 05:07:07",
+      "seller_id": "mediamarktsalamanca",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Disco duro SSD externo 2 TB - WD Elements SE SSD, Portátil, Lectura 400 MB/s",
+      "precio": 199.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/398021723737?itmmeta=01M0KXTEZR9PAE5KPFTTEWZPA7&hash=item5cabf18659:g:XrkAAeSwXMpqK9Ue",
+      "imagen_url": "https://i.ebayimg.com/images/g/XrkAAeSwXMpqK9Ue/s-l400.jpg",
+      "ean": "0619659187224",
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_disco-duro-externo-2-tb-wd-elements-se-ssd-portatil-lectura-400-mbs-usb-30-para-windows-y-mac-negro-1520381.html",
+      "fecha_visto_primera_vez": "2026-08-22 05:07:00",
+      "seller_id": "mediamarktsalamanca",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Nintendo Switch 2 Little Nightmares III Collector Mirror, esquina caja abollada",
       "precio": 49.99,
@@ -14142,7 +14168,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-inalambrico-jbl-xtreme-4-100-w-bluetooth-24-h-autonomia-resistencia-agua-ip67-con-correa-azul-1607227.html",
       "fecha_visto_primera_vez": "2026-08-19 09:54:17",
       "seller_id": "mediamarktsalamanca",
       "nombre_mostrado": null
@@ -14168,7 +14194,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-express-ce8030-milazzo-ufesa-20-barbar-1350-w-2-tazas-inox-99148256.html",
       "fecha_visto_primera_vez": "2026-08-19 09:54:17",
       "seller_id": "mediamarktsalamanca",
       "nombre_mostrado": null
@@ -14181,7 +14207,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cuchillo-cmp-paris-kd33061-hoja-acero-inoxidable-20-cm-cacha-de-acero-inoxidable-ideal-para-pan-1572875.html",
       "fecha_visto_primera_vez": "2026-08-19 09:54:17",
       "seller_id": "mediamarktsalamanca",
       "nombre_mostrado": null
@@ -71953,7 +71979,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cargador-para-smartwatch-cargador-universal-para-samsung-watch-inf-negro-160186486.html",
       "fecha_visto_primera_vez": "2026-08-18 10:45:45",
       "seller_id": "mediamarktesplugues",
       "nombre_mostrado": null
@@ -155550,6 +155576,26 @@
           "precio": 56.9,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/188695445472?itmmeta=01M0A7HMM7JMM49EA2674JEEGD&hash=item2bef1fffe0:g:kI8AAeSwraVqZNlN"
+        }
+      ]
+    },
+    {
+      "clave": "disco duro ssd externo 2 tb - wd elements se ssd, portátil, lectura 400 mb/s",
+      "criterio": "titulo",
+      "titulo": "Disco duro SSD externo 2 TB - WD Elements SE SSD, Portátil, Lectura 400 MB/s",
+      "imagen_url": "https://i.ebayimg.com/images/g/XrkAAeSwXMpqK9Ue/s-l400.jpg",
+      "ofertas": [
+        {
+          "tienda": "mediamarktcastellon",
+          "precio": 199.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/188661289662?itmmeta=01M0A7HMM7FJEY219V37B38G45&hash=item2bed16d2be:g:I0kAAeSwhQNqW8jJ"
+        },
+        {
+          "tienda": "mediamarktsalamanca",
+          "precio": 199.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/398021723737?itmmeta=01M0KXTEZR9PAE5KPFTTEWZPA7&hash=item5cabf18659:g:XrkAAeSwXMpqK9Ue"
         }
       ]
     },
