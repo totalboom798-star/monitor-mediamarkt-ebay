@@ -610,9 +610,16 @@ function actualizarVista() {
     ? TODOS_ARTICULOS.filter(a =>
         (a.titulo || '').toLowerCase().includes(q) ||
         (a.nombre_mostrado || a.seller_id || '').toLowerCase().includes(q))
-    : TODOS_ARTICULOS.slice(0, MAX_EN_VISTA_PRINCIPAL);
+    : TODOS_ARTICULOS;
 
+  // Importante: se ordena ANTES de recortar a la vista principal. Si
+  // se recortara primero, ordenar por precio solo miraría dentro de
+  // los últimos 150 artículos en vez de todo el catálogo.
   articulos = ordenar(articulos, ORDEN_ACTUAL);
+
+  if (!q) {
+    articulos = articulos.slice(0, MAX_EN_VISTA_PRINCIPAL);
+  }
 
   const tiendas = q
     ? TODAS_TIENDAS.filter(t => (t.nombre_mostrado || t.seller_id || '').toLowerCase().includes(q))
