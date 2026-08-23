@@ -237,6 +237,7 @@
     text-decoration: line-through;
     color: var(--ticket-red);
     opacity: 0.85;
+    cursor: pointer;
   }
   .precio-mm:hover { opacity: 1; }
   .precio-mm-link {
@@ -244,6 +245,7 @@
     font-weight: 500;
     color: var(--slate-dark);
     text-decoration: underline;
+    cursor: pointer;
   }
   .hero-precio .precio-mm,
   .hero-precio .precio-mm-link {
@@ -612,15 +614,22 @@ function precioMM(art) {
   const precioMediamarkt = art.precio_mediamarkt;
   const urlMM = art.mediamarkt_url;
 
+  // OJO: no puede ser un <a> real, porque toda la tarjeta (.tag /
+  // .hero-card) ya es un enlace <a> — un enlace dentro de otro enlace
+  // es HTML inválido y el navegador "corta" el de fuera, partiendo la
+  // tarjeta en dos visualmente. Por eso esto es un <span> clicable con
+  // JavaScript en vez de un enlace de verdad, pero se comporta igual.
+  const abrirMM = `event.stopPropagation(); event.preventDefault(); window.open('${urlMM}', '_blank', 'noopener');`;
+
   if (precioMediamarkt !== null && precioMediamarkt !== undefined) {
     // Tachado y en rojo: es el precio "de referencia" con el que se
     // compara, no el precio al que se compra ahora mismo. Clicable
     // para ir directo a la ficha de MediaMarkt.
-    return `<a class="precio-mm" href="${urlMM}" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="Precio en MediaMarkt">${formatoPrecio(precioMediamarkt, 'EUR')}</a>`;
+    return `<span class="precio-mm" onclick="${abrirMM}" title="Precio en MediaMarkt">${formatoPrecio(precioMediamarkt, 'EUR')}</span>`;
   }
 
   if (urlMM) {
-    return `<a class="precio-mm-link" href="${urlMM}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Ver en MediaMarkt ↗</a>`;
+    return `<span class="precio-mm-link" onclick="${abrirMM}">Ver en MediaMarkt ↗</span>`;
   }
 
   return '';
@@ -789,5 +798,4 @@ cargar();
 </script>
 </body>
 </html>
-
 
