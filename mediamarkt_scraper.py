@@ -19,62 +19,52 @@ import re
 
 import requests
 from bs4 import BeautifulSoup
-from playwright.sync_api import sync_playwright
+
+import navegador_compartido
 
 BASE_SEARCH_URL = "https://www.mediamarkt.es/es/search.html?query="
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+
+_pagina_mediamarkt = None
 
 
 def buscar_url_producto(termino_busqueda: str, headless: bool = True) -> str | None:
     """
     Busca un término en mediamarkt.es y devuelve la URL de la ficha
     del primer producto encontrado, o None si no hay resultados.
+
+    IMPORTANTE: usa el navegador compartido (ver navegador_compartido.py)
+    en vez de abrir uno propio — Playwright no permite tener dos
+    navegadores "sync" abiertos a la vez en el mismo programa.
     """
-    url_busqueda = BASE_SEARCH_URL + termino_busqueda.replace(" ", "+")
+    global _pagina_mediamarkt
 
-    with sync_playwright() as p:
-        # Argumentos y configuración pensados para parecer un navegador
-        # normal: cuando esto corre en un servidor en la nube (como
-        # GitHub Actions) es más fácil que un sitio lo detecte como
-        # automatizado y bloquee la búsqueda — esto reduce ese riesgo,
-        # aunque no lo elimina del todo.
-        navegador = p.chromium.launch(
-            headless=headless,
-            args=["--disable-blink-features=AutomationControlled"],
-        )
-        contexto = navegador.new_context(
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-            ),
-            locale="es-ES",
-            viewport={"width": 1280, "height": 800},
-            extra_http_headers={"Accept-Language": "es-ES,es;q=0.9"},
-        )
-        contexto.add_init_script(
-            "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
-        )
-        pagina = contexto.new_page()
-        pagina.goto(url_busqueda, timeout=35000)
-
+    if _pagina_mediamarkt is None:
         try:
-            # Las URLs de ficha de producto siguen siempre el patrón
-            # /es/product/..., así que buscamos directamente un enlace
-            # con esa forma en vez de depender de una clase CSS
-            # concreta (más resistente a cambios de diseño).
-            pagina.wait_for_selector("a[href*='/es/product/']", timeout=15000)
-        except Exception:
-            navegador.close()
+            _pagina_mediamarkt = navegador_compartido.nueva_pagina()
+        except RuntimeError as error:
+            print(f"  [Aviso interno] {error}")
             return None
 
-        enlace = pagina.query_selector("a[href*='/es/product/']")
-        href = enlace.get_attribute("href") if enlace else None
-        navegador.close()
+    url_busqueda = BASE_SEARCH_URL + termino_busqueda.replace(" ", "+")
 
-        if href and not href.startswith("http"):
-            href = f"https://www.mediamarkt.es{href}"
+    try:
+        _pagina_mediamarkt.goto(url_busqueda, timeout=35000)
+        # Las URLs de ficha de producto siguen siempre el patrón
+        # /es/product/..., así que buscamos directamente un enlace
+        # con esa forma en vez de depender de una clase CSS
+        # concreta (más resistente a cambios de diseño).
+        _pagina_mediamarkt.wait_for_selector("a[href*='/es/product/']", timeout=15000)
+    except Exception:
+        return None
 
-        return href
+    enlace = _pagina_mediamarkt.query_selector("a[href*='/es/product/']")
+    href = enlace.get_attribute("href") if enlace else None
+
+    if href and not href.startswith("http"):
+        href = f"https://www.mediamarkt.es{href}"
+
+    return href
 
 
 def _buscar_oferta_recursivo(nodo):
@@ -213,10 +203,15 @@ def buscar_precio_mediamarkt(termino_busqueda: str, headless: bool = True) -> di
 
 
 if __name__ == "__main__":
-    termino = "iphone 15 128gb negro"
-    print(f"Buscando: {termino}")
-    resultado = buscar_precio_mediamarkt(termino, headless=False)
-    print(resultado)
+    navegador_compartido.iniciar()
+    try:
+        termino = "iphone 15 128gb negro"
+        print(f"Buscando: {termino}")
+        resultado = buscar_precio_mediamarkt(termino, headless=False)
+        print(resultado)
+    finally:
+        navegador_compartido.cerrar()
+
 
 
 
