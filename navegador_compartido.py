@@ -33,7 +33,18 @@ def iniciar():
     _playwright_instancia = sync_playwright().start()
     _navegador = _playwright_instancia.chromium.launch(
         headless=True,
-        args=["--disable-blink-features=AutomationControlled"],
+        args=[
+            "--disable-blink-features=AutomationControlled",
+            # Sin esto, Chromium tiende a "caerse" (Target crashed) en
+            # servidores como GitHub Actions, porque por defecto usa
+            # una zona de memoria compartida (/dev/shm) que en estos
+            # entornos viene muy limitada de tamaño.
+            "--disable-dev-shm-usage",
+            # Necesario en muchos entornos de CI/contenedores, donde no
+            # se tienen los permisos que Chromium espera para su modo
+            # "sandbox" normal.
+            "--no-sandbox",
+        ],
     )
 
 
@@ -66,3 +77,4 @@ def cerrar():
         _playwright_instancia.stop()
     _navegador = None
     _playwright_instancia = None
+
