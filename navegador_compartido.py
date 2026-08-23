@@ -49,7 +49,13 @@ def iniciar():
 
 
 def nueva_pagina():
-    """Abre una pestaña nueva dentro del navegador compartido."""
+    """Abre una pestaña nueva (con su propio contexto) dentro del navegador
+    compartido. Úsala y ciérrala con cerrar_pagina() justo después —
+    NO la guardes para reutilizarla en muchas navegaciones seguidas:
+    una misma pestaña reutilizada cientos de veces durante una
+    ejecución larga acaba degradándose y "cayéndose" (Target crashed),
+    aunque el navegador en sí esté bien configurado.
+    """
     if _navegador is None:
         raise RuntimeError(
             "El navegador compartido no está iniciado. Llama a iniciar() primero "
@@ -68,6 +74,20 @@ def nueva_pagina():
     return contexto.new_page()
 
 
+def cerrar_pagina(pagina):
+    """
+    Cierra una pestaña abierta con nueva_pagina() — y su contexto,
+    que si no se cierra también se queda acumulado en memoria durante
+    toda la ejecución aunque la pestaña en sí se cierre.
+    """
+    try:
+        contexto = pagina.context
+        pagina.close()
+        contexto.close()
+    except Exception:
+        pass
+
+
 def cerrar():
     """Cierra el navegador compartido. Llamar al terminar el programa."""
     global _playwright_instancia, _navegador
@@ -77,4 +97,3 @@ def cerrar():
         _playwright_instancia.stop()
     _navegador = None
     _playwright_instancia = None
-
