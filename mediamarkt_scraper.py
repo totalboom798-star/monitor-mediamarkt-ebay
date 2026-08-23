@@ -36,30 +36,33 @@ def buscar_url_producto(termino_busqueda: str, headless: bool = True) -> str | N
     IMPORTANTE: usa el navegador compartido (ver navegador_compartido.py)
     en vez de abrir uno propio — Playwright no permite tener dos
     navegadores "sync" abiertos a la vez en el mismo programa.
-    """
-    global _pagina_mediamarkt
 
-    if _pagina_mediamarkt is None:
-        try:
-            _pagina_mediamarkt = navegador_compartido.nueva_pagina()
-        except RuntimeError as error:
-            print(f"  [Aviso interno] {error}")
-            return None
+    Se abre una pestaña NUEVA para cada búsqueda y se cierra al
+    terminar — reutilizar la misma pestaña para cientos de búsquedas
+    seguidas hacía que acabara "cayéndose" (Target crashed).
+    """
+    try:
+        pagina = navegador_compartido.nueva_pagina()
+    except RuntimeError as error:
+        print(f"  [Aviso interno] {error}")
+        return None
 
     url_busqueda = BASE_SEARCH_URL + termino_busqueda.replace(" ", "+")
+    href = None
 
     try:
-        _pagina_mediamarkt.goto(url_busqueda, timeout=35000)
+        pagina.goto(url_busqueda, timeout=35000)
         # Las URLs de ficha de producto siguen siempre el patrón
         # /es/product/..., así que buscamos directamente un enlace
         # con esa forma en vez de depender de una clase CSS
         # concreta (más resistente a cambios de diseño).
-        _pagina_mediamarkt.wait_for_selector("a[href*='/es/product/']", timeout=15000)
+        pagina.wait_for_selector("a[href*='/es/product/']", timeout=15000)
+        enlace = pagina.query_selector("a[href*='/es/product/']")
+        href = enlace.get_attribute("href") if enlace else None
     except Exception:
-        return None
-
-    enlace = _pagina_mediamarkt.query_selector("a[href*='/es/product/']")
-    href = enlace.get_attribute("href") if enlace else None
+        href = None
+    finally:
+        navegador_compartido.cerrar_pagina(pagina)
 
     if href and not href.startswith("http"):
         href = f"https://www.mediamarkt.es{href}"
