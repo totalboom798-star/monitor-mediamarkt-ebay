@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-08-23T13:48:38.792404+00:00",
+  "actualizado": "2026-08-23T16:21:08.745177+00:00",
   "total_tiendas": 101,
-  "total_articulos": 10196,
+  "total_articulos": 10201,
   "tiendas": [
     {
       "seller_id": "mediamarktalcala",
@@ -204,12 +204,22 @@
       "num_articulos": 51
     },
     {
+      "seller_id": "mediamarktpuertovenecia",
+      "nombre_mostrado": null,
+      "num_articulos": 51
+    },
+    {
       "seller_id": "mediamarktrivas",
       "nombre_mostrado": null,
       "num_articulos": 51
     },
     {
       "seller_id": "mediamarktleon",
+      "nombre_mostrado": null,
+      "num_articulos": 50
+    },
+    {
+      "seller_id": "mediamarktlosbarrios",
       "nombre_mostrado": null,
       "num_articulos": 50
     },
@@ -229,11 +239,6 @@
       "num_articulos": 49
     },
     {
-      "seller_id": "mediamarktlosbarrios",
-      "nombre_mostrado": null,
-      "num_articulos": 48
-    },
-    {
       "seller_id": "mediamarktpalmademallorca",
       "nombre_mostrado": null,
       "num_articulos": 48
@@ -245,11 +250,6 @@
     },
     {
       "seller_id": "mediamarktparets",
-      "nombre_mostrado": null,
-      "num_articulos": 48
-    },
-    {
-      "seller_id": "mediamarktpuertovenecia",
       "nombre_mostrado": null,
       "num_articulos": 48
     },
@@ -510,6 +510,71 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Cafetera superautomática - Philips EP2220/10, Molinillo integrado",
+      "precio": 260.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/398067823711?itmmeta=01M0QPRH1AMBFKRX5BA66MKQW0&hash=item5caeb0f45f:g:TLsAAeSw-DtqYiat",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-superautomatica-philips-ep222010-molinillo-integrado-espumador-de-leche-clasico-filtro-aquaclean-1500w-15-bar-2-tazas-negro-1560966.html",
+      "fecha_visto_primera_vez": "2026-08-23 16:20:38",
+      "seller_id": "mediamarktpuertovenecia",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Placa inducción - Bosch PXJ631HC2E Zona grande 38 cm x 21 cm, Home Connect",
+      "precio": 450.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/398157756338?itmmeta=01M0QPRH19N8H98S0JHMQ1NX0Z&hash=item5cb40d37b2:g:UeYAAeSwARVqYiZP",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_placa-induccion-bosch-pxj631hc2e-2-zonas-flex-38-cm-x-21-cm-home-connect-perfect-fry-plus-598-cm-negro-1568927.html",
+      "fecha_visto_primera_vez": "2026-08-23 16:20:34",
+      "seller_id": "mediamarktpuertovenecia",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Legion 5 15IRX10,i7-13650HX, 32GB RAM,RTX™ 5060, Windows 11 Home, Negro",
+      "precio": 1300.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/398260226248?itmmeta=01M0QPRGXZY5MC0TYXAQ6CR22X&hash=item5cba28c8c8:g:RgkAAeSwHO1qiYfS",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-gaming-lenovo-legion-5-15irx10-151-wqxga-oled-intelr-coretm-i7-13650hx-32gb-ram-1tb-ssd-geforce-rtxtm-5060-windows-11-home-negro-1602588.html",
+      "fecha_visto_primera_vez": "2026-08-23 16:20:29",
+      "seller_id": "mediamarktpuertovenecia",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Barra de sonido - Samsung HW-B530/ZF, Bluetooth, Dolby Audio / DTS Virtual:X",
+      "precio": 135.19,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/127863020911?itmmeta=01M0QPQ9M2RMQNNXB8X93PCA08&hash=item1dc53add6f:g:-n4AAeSwXudqfgyO",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_barra-de-sonido-hisense-hs3100-subwoofer-inalambrico-65-dolby-audio-and-dts-virtualx-480-w-negro-1578266.html",
+      "fecha_visto_primera_vez": "2026-08-23 16:19:56",
+      "seller_id": "mediamarktlosbarrios",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Smartwatch - Samsung Watch 4 BT, 40 mm, 1.2\", Exynos W920, 16 GB, 240 mA, Black",
+      "precio": 96.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/127611877535?itmmeta=01M0QPQ9M1W3X0K2RESJBZBJE9&hash=item1db642b89f:g:9REAAeSwn2Jqc2ht",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_smartwatch-samsung-sm-l335fdaaeub-44-mm-steel-159470045.html",
+      "fecha_visto_primera_vez": "2026-08-23 16:19:51",
+      "seller_id": "mediamarktlosbarrios",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Batidora de mano - Moulinex Powelix Life DD953D, 3 en 1, 1200 W",
       "precio": 45.0,
@@ -1922,7 +1987,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/search.html?query=Apple+AirTag+(2.ª+generación),+Localizador,+Paquete+de+4+unidades,+Bluetooth,+Ch",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-airtag-2a-generacion-localizador-paquete-de-4-unidades-bluetooth-chip-u1-nfc-privaciad-de-serie-plata-1619406.html",
       "fecha_visto_primera_vez": "2026-08-22 21:04:07",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
@@ -2858,7 +2923,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/search.html?query=Nintendo+Switch+STARBITES+(Ed.+Deluxe)",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-starbites-ed-deluxe-1605586.html",
       "fecha_visto_primera_vez": "2026-08-22 20:55:33",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
@@ -2884,7 +2949,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/search.html?query=PS5+Pragmata",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_ps5-pragmata-1616975.html",
       "fecha_visto_primera_vez": "2026-08-22 20:55:15",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
@@ -4990,7 +5055,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-asus-mb166c-156-full-hd-5060-hz-1-usb-c-ultradelgado-negro-1542075.html",
       "fecha_visto_primera_vez": "2026-08-21 21:03:33",
       "seller_id": "mediamarktplacacatalunya",
       "nombre_mostrado": null
@@ -5003,7 +5068,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-multifuncion-tinta-hp-deskjet-4220e-inyeccion-de-tinta-24-bits-145342315.html",
       "fecha_visto_primera_vez": "2026-08-21 21:03:33",
       "seller_id": "mediamarktplacacatalunya",
       "nombre_mostrado": null
@@ -5042,7 +5107,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-gaming-samsung-ls27dg304euxen-27-full-hd-1-ms-negro-150876424.html",
       "fecha_visto_primera_vez": "2026-08-21 21:03:33",
       "seller_id": "mediamarktplacacatalunya",
       "nombre_mostrado": null
@@ -8799,7 +8864,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/eN8AAOSw07xn8N2G/s-l225.png",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_mando-ps5-dualsenser-edicion-limitada-astro-bot-joyful-sony-playstation-5-pc-bluetooth-blanco-y-azul-162758160.html",
       "fecha_visto_primera_vez": "2026-08-21 14:11:08",
       "seller_id": "mediamarktpuertovenecia",
       "nombre_mostrado": null
@@ -8812,7 +8877,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/uUIAAeSwpLBqhZ7X/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-para-tablet-apple-smart-folio-para-apple-ipad-air-11-m2-ipad-air-4a-y-5a-generacion-salvia-166475804.html",
       "fecha_visto_primera_vez": "2026-08-21 14:11:08",
       "seller_id": "mediamarktpuertovenecia",
       "nombre_mostrado": null
@@ -8825,7 +8890,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/ZDAAAeSwi55qhZ23/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_secador-philips-serie-8000-bhd83910-1400-w-7-niveles-de-calor-3-velocidades-difusor-incluido-azul-adriatico-1595547.html",
       "fecha_visto_primera_vez": "2026-08-21 14:11:08",
       "seller_id": "mediamarktpuertovenecia",
       "nombre_mostrado": null
@@ -10814,7 +10879,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/S0IAAOSwYX9c~3nK/s-l140.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-apple-macbook-pro-2024-142-chip-m4-max-cpu-de-14-nucleos-gpu-de-32-nucleos-36-gb-ram-1tb-de-ssd-negro-1671585.html",
       "fecha_visto_primera_vez": "2026-08-20 21:05:05",
       "seller_id": "mediamarktlosbarrios",
       "nombre_mostrado": null
@@ -10866,7 +10931,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/Y0cAAeSwTgpqhda~/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_samsung-galaxy-s25-ultra-verde-movil-android-512-gb-12-gb-ram-69-dynamic-amoled-2x-120-hz-qualcomm-snapdragon-8-elite-3-nm-5000-mah-166247245.html",
       "fecha_visto_primera_vez": "2026-08-20 21:05:05",
       "seller_id": "mediamarktlosbarrios",
       "nombre_mostrado": null
@@ -10892,7 +10957,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/PXEAAeSw08BqKZe-/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-motorola-edge-70-gadget-grey-512-gb-12-gb-ram-667-super-hd-poled-amoled-snapdragonr-7-gen-4-5200-mah-1608211.html",
       "fecha_visto_primera_vez": "2026-08-20 21:05:05",
       "seller_id": "mediamarktlosbarrios",
       "nombre_mostrado": null
@@ -25686,7 +25751,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-iphone-16e-blanco-128-gb-5g-61-oled-super-retina-xdr-chip-a18-ios-1595133.html",
       "fecha_visto_primera_vez": "2026-08-18 10:49:51",
       "seller_id": "mediamarktjerez",
       "nombre_mostrado": null
