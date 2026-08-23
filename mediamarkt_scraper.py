@@ -152,15 +152,29 @@ def obtener_precio_producto(url_producto: str) -> dict:
     # --- Intento 2 (respaldo): buscar un patrón de precio en el texto ---
     # Solo se usa si no había datos estructurados. Menos fiable, pero
     # sirve como red de seguridad.
+    #
+    # MediaMarkt a veces escribe los precios redondos con un guion en
+    # vez de ",00" (por ejemplo "1099,– €" en vez de "1099,00 €") — se
+    # contempla ese caso además del formato normal con decimales.
     texto = soup.get_text(" ", strip=True)
-    coincidencia = re.search(r"(\d{1,4}(?:[.,]\d{3})?[.,]\d{2})\s*€", texto)
+
+    coincidencia = re.search(r"(\d{1,4}(?:[.,]\d{3})?)[.,](\d{2})\s*€", texto)
     if coincidencia:
-        precio_texto = coincidencia.group(1).replace(".", "").replace(",", ".")
+        precio_texto = (coincidencia.group(1) + "," + coincidencia.group(2)).replace(".", "").replace(",", ".")
         try:
             resultado["precio"] = float(precio_texto)
             resultado["encontrado"] = True
         except ValueError:
             pass
+    else:
+        coincidencia_redonda = re.search(r"(\d{1,4}(?:[.,]\d{3})?),[–-]\s*€", texto)
+        if coincidencia_redonda:
+            precio_texto = coincidencia_redonda.group(1).replace(".", "").replace(",", "")
+            try:
+                resultado["precio"] = float(precio_texto)
+                resultado["encontrado"] = True
+            except ValueError:
+                pass
 
     titulo_tag = soup.find("h1")
     if titulo_tag:
@@ -203,5 +217,6 @@ if __name__ == "__main__":
     print(f"Buscando: {termino}")
     resultado = buscar_precio_mediamarkt(termino, headless=False)
     print(resultado)
+
 
 
