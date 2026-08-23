@@ -219,8 +219,14 @@ def main():
     tiendas = obtener_tiendas_activas(conexion)
     print(f"Tiendas activas a procesar: {len(tiendas)}")
 
-    for tienda_id, seller_id, nombre_mostrado in tiendas:
-        procesar_tienda(conexion, tienda_id, seller_id, nombre_mostrado)
+    # Un único navegador compartido para toda la ejecución (usado para
+    # consultar fichas de artículo de eBay: EAN y foto).
+    ebay_client.iniciar_navegador_compartido()
+    try:
+        for tienda_id, seller_id, nombre_mostrado in tiendas:
+            procesar_tienda(conexion, tienda_id, seller_id, nombre_mostrado)
+    finally:
+        ebay_client.cerrar_navegador_compartido()
 
     conexion.close()
     print("\nProceso completo.")
