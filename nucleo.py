@@ -26,6 +26,7 @@ from datetime import datetime, timezone
 
 import ebay_client
 import mediamarkt_scraper
+import navegador_compartido
 import telegram_bot
 
 DB_PATH = "monitor.db"
@@ -219,14 +220,16 @@ def main():
     tiendas = obtener_tiendas_activas(conexion)
     print(f"Tiendas activas a procesar: {len(tiendas)}")
 
-    # Un único navegador compartido para toda la ejecución (usado para
-    # consultar fichas de artículo de eBay: EAN y foto).
-    ebay_client.iniciar_navegador_compartido()
+    # Un único navegador compartido para toda la ejecución (usado tanto
+    # para las fichas de artículo de eBay como para las búsquedas en
+    # MediaMarkt — Playwright no permite tener dos navegadores propios
+    # abiertos a la vez en el mismo programa).
+    navegador_compartido.iniciar()
     try:
         for tienda_id, seller_id, nombre_mostrado in tiendas:
             procesar_tienda(conexion, tienda_id, seller_id, nombre_mostrado)
     finally:
-        ebay_client.cerrar_navegador_compartido()
+        navegador_compartido.cerrar()
 
     conexion.close()
     print("\nProceso completo.")
@@ -234,5 +237,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
