@@ -213,8 +213,6 @@ def buscar_articulos_por_tienda(seller_id: str) -> list[dict]:
 
 import navegador_compartido
 
-_pagina_ebay = None
-
 
 def obtener_detalles_articulo(item_id: str) -> dict:
     """
@@ -229,26 +227,30 @@ def obtener_detalles_articulo(item_id: str) -> dict:
     (aunque las páginas de listado de tienda sí funcionan así) —
     probablemente porque esta página necesita ejecutar JavaScript
     para cargar el contenido completo.
+
+    Se abre una pestaña NUEVA para cada consulta y se cierra al
+    terminar — reutilizar la misma pestaña para cientos de consultas
+    seguidas hacía que acabara "cayéndose" (Target crashed).
     """
-    global _pagina_ebay
     resultado = {"ean": None, "imagen_url": None}
 
-    if _pagina_ebay is None:
-        try:
-            _pagina_ebay = navegador_compartido.nueva_pagina()
-        except RuntimeError as error:
-            print(f"  [Aviso interno] {error}")
-            return resultado
-
-    url = f"https://www.ebay.es/itm/{item_id}"
     try:
-        _pagina_ebay.goto(url, timeout=25000)
-        _pagina_ebay.wait_for_timeout(600)  # pequeño margen para que termine de cargar
-        contenido = _pagina_ebay.content()
+        pagina = navegador_compartido.nueva_pagina()
+    except RuntimeError as error:
+        print(f"  [Aviso interno] {error}")
+        return resultado
+
+    try:
+        url = f"https://www.ebay.es/itm/{item_id}"
+        pagina.goto(url, timeout=25000)
+        pagina.wait_for_timeout(600)  # pequeño margen para que termine de cargar
+        contenido = pagina.content()
     except Exception as error:
         print(f"  [Aviso interno] No se pudo cargar la ficha del artículo {item_id} "
               f"con el navegador: {error}")
         return resultado
+    finally:
+        navegador_compartido.cerrar_pagina(pagina)
 
     if len(contenido) < 50000:
         print(f"  [Aviso interno] La ficha del artículo {item_id} sigue siendo "
