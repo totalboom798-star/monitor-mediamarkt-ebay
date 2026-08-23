@@ -211,56 +211,109 @@ def buscar_articulos_por_tienda(seller_id: str) -> list[dict]:
     return list(todos.values())
 
 
+_playwright_instancia = None
+_navegador_compartido = None
+_pagina_compartida = None
+
+
+def iniciar_navegador_compartido():
+    """
+    Abre UN ÚNICO navegador (Playwright) que se reutiliza para todas
+    las fichas de artículo que haga falta consultar durante esta
+    ejecución, en vez de abrir uno nuevo cada vez — mucho más rápido.
+
+    Llamar una vez al principio del programa (en nucleo.py), y
+    cerrar_navegador_compartido() al terminar.
+    """
+    global _playwright_instancia, _navegador_compartido, _pagina_compartida
+    from playwright.sync_api import sync_playwright
+
+    _playwright_instancia = sync_playwright().start()
+    _navegador_compartido = _playwright_instancia.chromium.launch(
+        headless=True,
+        args=["--disable-blink-features=AutomationControlled"],
+    )
+    contexto = _navegador_compartido.new_context(
+        user_agent=(
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        ),
+        locale="es-ES",
+        viewport={"width": 1280, "height": 800},
+        extra_http_headers={"Accept-Language": "es-ES,es;q=0.9"},
+    )
+    contexto.add_init_script(
+        "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+    )
+    _pagina_compartida = contexto.new_page()
+
+
+def cerrar_navegador_compartido():
+    """Cierra el navegador compartido. Llamar al terminar el programa."""
+    global _playwright_instancia, _navegador_compartido, _pagina_compartida
+    if _navegador_compartido:
+        _navegador_compartido.close()
+    if _playwright_instancia:
+        _playwright_instancia.stop()
+    _navegador_compartido = None
+    _pagina_compartida = None
+
+
 def obtener_detalles_articulo(item_id: str) -> dict:
     """
     Entra en la ficha individual de un artículo de eBay y extrae:
       - ean: el código EAN/UPC, si está disponible.
-      - imagen_url: la foto principal del artículo, sacada de la
-        etiqueta estándar "og:image" que casi todas las páginas usan
-        para que redes sociales/buscadores muestren la foto correcta
-        — es fiable porque es específica de ESTA ficha, a diferencia
-        de intentar adivinar la imagen desde la página de listado de
-        la tienda (que a veces traía la foto de otro artículo).
+      - imagen_url: la foto principal del artículo.
 
-    Es contenido estático (viene en el HTML inicial), así que basta
-    con una petición HTTP normal. Se usa solo para artículos concretos
-    que nos interesan (los nuevos, o el relleno progresivo de los
-    antiguos), no para el catálogo completo de una tienda, para no
-    multiplicar peticiones innecesariamente.
+    IMPORTANTE: usa el navegador automatizado compartido (ver
+    iniciar_navegador_compartido), NO una petición HTTP normal. Se
+    comprobó que eBay devuelve una versión reducida/incompleta de la
+    ficha de artículo cuando se pide con una petición HTTP simple
+    (aunque las páginas de listado de tienda sí funcionan así) —
+    probablemente porque esta página necesita ejecutar JavaScript
+    para cargar el contenido completo.
     """
     resultado = {"ean": None, "imagen_url": None}
 
-    url = f"https://www.ebay.es/itm/{item_id}"
-    resp = _sesion.get(url, timeout=15)
-
-    if not resp.ok:
-        print(f"  [Aviso interno] La ficha de eBay respondió con estado {resp.status_code} "
-              f"para el artículo {item_id} — puede que la petición haya sido bloqueada.")
+    if _pagina_compartida is None:
+        print("  [Aviso interno] El navegador compartido no está iniciado "
+              "(falta llamar a iniciar_navegador_compartido); no se puede "
+              "consultar la ficha del artículo.")
         return resultado
 
-    soup = BeautifulSoup(resp.text, "html.parser")
+    url = f"https://www.ebay.es/itm/{item_id}"
+    try:
+        _pagina_compartida.goto(url, timeout=25000)
+        _pagina_compartida.wait_for_timeout(600)  # pequeño margen para que termine de cargar
+        contenido = _pagina_compartida.content()
+    except Exception as error:
+        print(f"  [Aviso interno] No se pudo cargar la ficha del artículo {item_id} "
+              f"con el navegador: {error}")
+        return resultado
 
+    if len(contenido) < 50000:
+        print(f"  [Aviso interno] La ficha del artículo {item_id} sigue siendo "
+              f"pequeña incluso con navegador ({len(contenido)} caracteres).")
+
+    soup = BeautifulSoup(contenido, "html.parser")
     texto = soup.get_text(" ", strip=True)
+
     coincidencia = re.search(r"\bEAN\b\s*([0-9]{8,14})", texto)
     if not coincidencia:
         coincidencia = re.search(r"\bUpc\b\s*([0-9]{8,14})", texto)
     resultado["ean"] = coincidencia.group(1) if coincidencia else None
 
     # La foto se busca por orden de fiabilidad:
-    #   1. window.heroImg: una variable que eBay incluye al principio
-    #      del HTML con la foto principal exacta de este artículo — es
-    #      la señal más directa y fiable que hemos encontrado.
-    #   2. Cualquier URL de foto de eBay (dominio i.ebayimg.com) que
-    #      aparezca en la página.
-    #   3. La etiqueta "og:image", como último recurso — se comprueba
-    #      también que sea del dominio de fotos de eBay, porque a
-    #      veces esa etiqueta puede apuntar a un logo genérico de la
-    #      página en vez de a la foto real del artículo.
-    coincidencia_hero = re.search(r'heroImg\s*=\s*"(https://i\.ebayimg\.com/[^"]+)"', resp.text)
+    #   1. window.heroImg: una variable que eBay incluye con la foto
+    #      principal exacta de este artículo.
+    #   2. Cualquier URL de foto de eBay (dominio i.ebayimg.com).
+    #   3. La etiqueta "og:image", como último recurso (comprobando
+    #      que sea del dominio de fotos de eBay).
+    coincidencia_hero = re.search(r'heroImg\s*=\s*"(https://i\.ebayimg\.com/[^"]+)"', contenido)
     if coincidencia_hero:
         resultado["imagen_url"] = coincidencia_hero.group(1)
     else:
-        coincidencia_img = re.search(r"https://i\.ebayimg\.com/images/g/[^\s\"'<>]+", resp.text)
+        coincidencia_img = re.search(r"https://i\.ebayimg\.com/images/g/[^\s\"'<>]+", contenido)
         if coincidencia_img:
             resultado["imagen_url"] = coincidencia_img.group(0)
         else:
@@ -269,8 +322,7 @@ def obtener_detalles_articulo(item_id: str) -> dict:
             if contenido_etiqueta.startswith("http") and "ebayimg" in contenido_etiqueta:
                 resultado["imagen_url"] = contenido_etiqueta
             else:
-                print(f"  [Aviso interno] No se encontró ninguna foto para el artículo {item_id} "
-                      f"(respuesta HTTP {resp.status_code}, {len(resp.text)} caracteres).")
+                print(f"  [Aviso interno] No se encontró ninguna foto para el artículo {item_id}.")
 
     return resultado
 
@@ -291,9 +343,13 @@ if __name__ == "__main__":
 
     if resultados:
         primer_item_id = resultados[0]["item_id"]
-        print(f"\nProbando a extraer el EAN del artículo {primer_item_id}...")
-        ean = obtener_ean_de_articulo(primer_item_id)
-        print(f"EAN encontrado: {ean}")
+        print(f"\nProbando a extraer detalles del artículo {primer_item_id} (con navegador)...")
+        iniciar_navegador_compartido()
+        try:
+            detalles = obtener_detalles_articulo(primer_item_id)
+            print(f"Detalles encontrados: {detalles}")
+        finally:
+            cerrar_navegador_compartido()
 
 
 
