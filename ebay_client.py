@@ -211,52 +211,9 @@ def buscar_articulos_por_tienda(seller_id: str) -> list[dict]:
     return list(todos.values())
 
 
-_playwright_instancia = None
-_navegador_compartido = None
-_pagina_compartida = None
+import navegador_compartido
 
-
-def iniciar_navegador_compartido():
-    """
-    Abre UN ÚNICO navegador (Playwright) que se reutiliza para todas
-    las fichas de artículo que haga falta consultar durante esta
-    ejecución, en vez de abrir uno nuevo cada vez — mucho más rápido.
-
-    Llamar una vez al principio del programa (en nucleo.py), y
-    cerrar_navegador_compartido() al terminar.
-    """
-    global _playwright_instancia, _navegador_compartido, _pagina_compartida
-    from playwright.sync_api import sync_playwright
-
-    _playwright_instancia = sync_playwright().start()
-    _navegador_compartido = _playwright_instancia.chromium.launch(
-        headless=True,
-        args=["--disable-blink-features=AutomationControlled"],
-    )
-    contexto = _navegador_compartido.new_context(
-        user_agent=(
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-            "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-        ),
-        locale="es-ES",
-        viewport={"width": 1280, "height": 800},
-        extra_http_headers={"Accept-Language": "es-ES,es;q=0.9"},
-    )
-    contexto.add_init_script(
-        "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
-    )
-    _pagina_compartida = contexto.new_page()
-
-
-def cerrar_navegador_compartido():
-    """Cierra el navegador compartido. Llamar al terminar el programa."""
-    global _playwright_instancia, _navegador_compartido, _pagina_compartida
-    if _navegador_compartido:
-        _navegador_compartido.close()
-    if _playwright_instancia:
-        _playwright_instancia.stop()
-    _navegador_compartido = None
-    _pagina_compartida = None
+_pagina_ebay = None
 
 
 def obtener_detalles_articulo(item_id: str) -> dict:
@@ -265,27 +222,29 @@ def obtener_detalles_articulo(item_id: str) -> dict:
       - ean: el código EAN/UPC, si está disponible.
       - imagen_url: la foto principal del artículo.
 
-    IMPORTANTE: usa el navegador automatizado compartido (ver
-    iniciar_navegador_compartido), NO una petición HTTP normal. Se
+    IMPORTANTE: usa el navegador automatizado compartido (ver el
+    módulo navegador_compartido.py), NO una petición HTTP normal. Se
     comprobó que eBay devuelve una versión reducida/incompleta de la
     ficha de artículo cuando se pide con una petición HTTP simple
     (aunque las páginas de listado de tienda sí funcionan así) —
     probablemente porque esta página necesita ejecutar JavaScript
     para cargar el contenido completo.
     """
+    global _pagina_ebay
     resultado = {"ean": None, "imagen_url": None}
 
-    if _pagina_compartida is None:
-        print("  [Aviso interno] El navegador compartido no está iniciado "
-              "(falta llamar a iniciar_navegador_compartido); no se puede "
-              "consultar la ficha del artículo.")
-        return resultado
+    if _pagina_ebay is None:
+        try:
+            _pagina_ebay = navegador_compartido.nueva_pagina()
+        except RuntimeError as error:
+            print(f"  [Aviso interno] {error}")
+            return resultado
 
     url = f"https://www.ebay.es/itm/{item_id}"
     try:
-        _pagina_compartida.goto(url, timeout=25000)
-        _pagina_compartida.wait_for_timeout(600)  # pequeño margen para que termine de cargar
-        contenido = _pagina_compartida.content()
+        _pagina_ebay.goto(url, timeout=25000)
+        _pagina_ebay.wait_for_timeout(600)  # pequeño margen para que termine de cargar
+        contenido = _pagina_ebay.content()
     except Exception as error:
         print(f"  [Aviso interno] No se pudo cargar la ficha del artículo {item_id} "
               f"con el navegador: {error}")
@@ -344,13 +303,12 @@ if __name__ == "__main__":
     if resultados:
         primer_item_id = resultados[0]["item_id"]
         print(f"\nProbando a extraer detalles del artículo {primer_item_id} (con navegador)...")
-        iniciar_navegador_compartido()
+        navegador_compartido.iniciar()
         try:
             detalles = obtener_detalles_articulo(primer_item_id)
             print(f"Detalles encontrados: {detalles}")
         finally:
-            cerrar_navegador_compartido()
-
+            navegador_compartido.cerrar()
 
 
 
