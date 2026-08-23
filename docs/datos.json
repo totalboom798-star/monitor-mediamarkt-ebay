@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-08-22T21:15:07.434403+00:00",
+  "actualizado": "2026-08-23T03:34:59.936121+00:00",
   "total_tiendas": 101,
-  "total_articulos": 10171,
+  "total_articulos": 10181,
   "tiendas": [
     {
       "seller_id": "mediamarktalcala",
@@ -46,7 +46,7 @@
     {
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null,
-      "num_articulos": 356
+      "num_articulos": 364
     },
     {
       "seller_id": "mediamarktalicante",
@@ -164,6 +164,11 @@
       "num_articulos": 59
     },
     {
+      "seller_id": "mediamarktmassalfassar",
+      "nombre_mostrado": null,
+      "num_articulos": 53
+    },
+    {
       "seller_id": "mediamarktmataro",
       "nombre_mostrado": null,
       "num_articulos": 53
@@ -182,11 +187,6 @@
       "seller_id": "mediamarkttorrejon",
       "nombre_mostrado": null,
       "num_articulos": 53
-    },
-    {
-      "seller_id": "mediamarktmassalfassar",
-      "nombre_mostrado": null,
-      "num_articulos": 51
     },
     {
       "seller_id": "mediamarktrivas",
@@ -510,6 +510,136 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Protector pantalla - Samsung, Para Samsung Galaxy S24, Transparente",
+      "precio": 5.69,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/397884617830?itmmeta=01M0PAXSE6BEKCPEBM7H7KWTEC&hash=item5ca3c57466:g:e5sAAeSwa5xp714D",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_protector-pantalla-samsung-para-samsung-galaxy-s24-transparente-1566624.html",
+      "fecha_visto_primera_vez": "2026-08-23 03:34:39",
+      "seller_id": "mediamarktmassalfassar",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Apple, Cable de USB-C a conector Lightning, 2 metros, Blanco",
+      "precio": 23.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/397884616694?itmmeta=01M0PAXSE60N9S8Y6MCB2KWRRF&hash=item5ca3c56ff6:g:jUUAAeSweDNp7137",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-cable-de-usb-c-a-conector-lightning-de-apple-blanco-1577903.html",
+      "fecha_visto_primera_vez": "2026-08-23 03:34:31",
+      "seller_id": "mediamarktmassalfassar",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Móvil - Google Pixel 9, Obsidiana, 128 GB, 12 GB RAM, 6.3\" Actua OLED, Google",
+      "precio": 379.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800548115210?itmmeta=01M0PAT447HJ9QRCW12ZAX7E1B&hash=itemba6462d30a:g:iFUAAeSwNhhqiXK7",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-google-pixel-9-obsidiana-128-gb-12-gb-ram-63-actua-oled-google-tensor-g4-4700-mah-android-144105902.html",
+      "fecha_visto_primera_vez": "2026-08-23 03:33:08",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Móvil - Google Pixel 9, Obsidiana, 128 GB, 12 GB RAM, 6.3\" Actua OLED",
+      "precio": 379.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800548113123?itmmeta=01M0PAT447ZSV3F34FCY0V3JRY&hash=itemba6462cae3:g:m7kAAeSwv9NqiXJw",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-google-pixel-9-obsidiana-128-gb-12-gb-ram-63-actua-oled-google-tensor-g4-4700-mah-android-144105902.html",
+      "fecha_visto_primera_vez": "2026-08-23 03:33:01",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Móvil - Google Pixel 9a, Obsidiana, 256 GB, 8 GB RAM, 6.3\" Actua pOLED, Google",
+      "precio": 449.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800548118004?itmmeta=01M0PAT42A5AZ9AJ0SNRWKY96A&hash=itemba6462ddf4:g:0FUAAeSwzf9qiXOB",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-google-pixel-9a-obsidiana-256-gb-8-gb-ram-63-actua-poled-google-tensor-g4-5100-mah-150876788.html",
+      "fecha_visto_primera_vez": "2026-08-23 03:32:54",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Google Pixel 10 Pro, Porcelana, 128 GB, 16 GB RAM, 6.3\" Super Actua OLED",
+      "precio": 729.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800548832702?itmmeta=01M0PAT42AXCWZ0X53D2PDQKR7&hash=itemba646dc5be:g:230AAeSwGFpqic6H",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_google-pixel-10-pro-porcelana-movil-android-128-gb-16-gb-ram-63-super-actua-oled-google-tensor-g5-4870-mah-161414448.html",
+      "fecha_visto_primera_vez": "2026-08-23 03:32:47",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Móvil - vivo X300, Halo Pink, 512 GB, 16 GB RAM, 6.31 \" AMOLED 120 Hz",
+      "precio": 806.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800548835730?itmmeta=01M0PAT42AGBFYTW9FRMQJD55X&hash=itemba646dd192:g:4hIAAeSwZERqic8J",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_vivo-x300-pro-phantom-black-movil-android-512-gb-16-gb-ram-678-amoled-120-hz-mediatek-dimensity-9500-5440-mah-166763488.html",
+      "fecha_visto_primera_vez": "2026-08-23 03:32:40",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "exposicion Robot friegasuelos - iRobot Roomba® Plus 405 Combo,",
+      "precio": 279.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800548857344?itmmeta=01M0PAT42AYCFPYNT8R2DK8M0A&hash=itemba646e2600:g:7X8AAeSw94NqidGf",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_robot-friegasuelos-irobot-roombar-415-combo-20-000-pa-autonomia-de-90-dias-antienredos-blanco-1620660.html",
+      "fecha_visto_primera_vez": "2026-08-23 03:32:34",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Protector pantalla - Samsung, Para Galaxy A56 5G, Transparente",
+      "precio": 5.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800548860463?itmmeta=01M0PAT4293YDH2X73S4FFGDR2&hash=itemba646e322f:g:HCoAAeSwijdqidKw",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_protector-pantalla-samsung-para-galaxy-a56-5g-transparente-1594559.html",
+      "fecha_visto_primera_vez": "2026-08-23 03:32:25",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Protector pantalla - Samsung, Para Galaxy A36 5G, Transparente",
+      "precio": 5.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800548861300?itmmeta=01M0PAT429PNFR030SK1TEYK41&hash=itemba646e3574:g:Tq8AAeSwW8NqidNx",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_protector-pantalla-samsung-para-galaxy-a36-5g-transparente-1594567.html",
+      "fecha_visto_primera_vez": "2026-08-23 03:32:16",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "ghd Oracle, Forma de U, Calentamiento en 25s, Apagado automático, 185ºC, Negro",
       "precio": 59.0,
@@ -5455,8 +5585,8 @@
       "precio": 7.9,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/397884854667?itmmeta=01M0K1T0BA4K95XVMDDAYG9YD8&hash=item5ca3c9118b:g:qT0AAeSwVNVp716O",
-      "imagen_url": null,
-      "ean": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/qT0AAeSwVNVp716O/s-l1600.webp",
+      "ean": "4049011209510",
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-movil-isy-isc-2358-para-samsung-galaxy-s25-ultra-silicona-negro-1594596.html",
       "fecha_visto_primera_vez": "2026-08-21 20:57:12",
@@ -68950,7 +69080,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-inalambrico-harman-kardon-luna-55-w-bluetooth-autonomia-12h-usb-c-negro-1564491.html",
       "fecha_visto_primera_vez": "2026-08-18 10:46:12",
       "seller_id": "mediamarktfanmallorca",
       "nombre_mostrado": null
@@ -91401,7 +91531,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-beats-studio-buds-2023-auriculares-true-wireless-cancelacion-de-ruido-apple-android-negro-oro-1554240.html",
       "fecha_visto_primera_vez": "2026-08-18 10:44:26",
       "seller_id": "mediamarktcastellon",
       "nombre_mostrado": null
@@ -91414,7 +91544,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_juego-nintendo-switch-chicken-run-por-las-plumas-infantiljuvenil-159462968.html",
       "fecha_visto_primera_vez": "2026-08-18 10:44:26",
       "seller_id": "mediamarktcastellon",
       "nombre_mostrado": null
@@ -111863,7 +111993,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/umwAAeSwicFqgyuH/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_powerbank-baseus-picogo-am52-10000-mah-cable-tipo-c-45w-compatible-con-magsafe-carga-rapida-magnetica-qi22-negro-1620846.html",
       "fecha_visto_primera_vez": "2026-08-17 21:33:32",
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null
@@ -111941,7 +112071,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/7icAAeSwdK5qgy00/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aspirador-escoba-samvs15a60agr5wa-samsung-410-w-40-min-silver-135391368.html",
       "fecha_visto_primera_vez": "2026-08-17 21:33:31",
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null
@@ -111980,7 +112110,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/BHIAAeSwbLhqgzF-/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tv-qled-philips-50pus781012-qled-4k-smart-tv-dvb-t2-h265-negro-162834084.html",
       "fecha_visto_primera_vez": "2026-08-17 21:33:31",
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null
@@ -132820,6 +132950,12 @@
           "url": "https://www.ebay.es/itm/317676094135?itmmeta=01M0A7TDN8FTMGPP1ENFAAENHF&hash=item49f6f882b7:g:mHYAAeSwIxRqT1v9"
         },
         {
+          "tienda": "mediamarktmassalfassar",
+          "precio": 5.69,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/397884617830?itmmeta=01M0PAXSE6BEKCPEBM7H7KWTEC&hash=item5ca3c57466:g:e5sAAeSwa5xp714D"
+        },
+        {
           "tienda": "mediamarktalcorcon",
           "precio": 6.99,
           "moneda": "EUR",
@@ -133228,6 +133364,74 @@
       ]
     },
     {
+      "clave": "protector pantalla - samsung, para galaxy a36 5g, transparente",
+      "criterio": "titulo",
+      "titulo": "Protector pantalla - Samsung, Para Galaxy A36 5G, Transparente",
+      "imagen_url": "https://i.ebayimg.com/images/g/siYAAeSwznxqSoH~/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktalfafar",
+          "precio": 2.49,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/297741317558?itmmeta=01M08T4FBX2NYVWADSK9YKGKPF&hash=item4552c3f5b6:g:BzwAAeSwTnJqSoF0"
+        },
+        {
+          "tienda": "mediamarktgranada",
+          "precio": 2.49,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/316868638606?itmmeta=01M0A7Q64Z72GNWBGZ5C33XH8S&hash=item49c6d7b78e:g:miIAAeSwUg1p~cn0"
+        },
+        {
+          "tienda": "mediamarktfanmallorca",
+          "precio": 2.75,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/157369973204?itmmeta=01M0A7MMQFECB188B26GT8J8KK&hash=item24a3fb39d4:g:qvAAAeSwuzZqVjm8"
+        },
+        {
+          "tienda": "mediamarktcartagena",
+          "precio": 2.89,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/147442535821?itmmeta=01M08TH9WW907CEC2ZRHRK8RCK&hash=item2254428d8d:g:ps0AAeSwyWFqWhjO"
+        },
+        {
+          "tienda": "mediamarktelche",
+          "precio": 2.89,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/800014718741?itmmeta=01M0A7KRWYWQ8XX594CSQ37SVF&hash=itemba4497d715:g:4x8AAeSwWi9qBMMP"
+        },
+        {
+          "tienda": "mediamarktislazul",
+          "precio": 2.89,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/306838802422?itmmeta=01M0A7SRCJ99R71T9PH8Y5E04S&hash=item4771048ff6:g:-GsAAeSwLQFqcg7n"
+        },
+        {
+          "tienda": "mediamarkthuelva",
+          "precio": 3.07,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/377062014265?itmmeta=01M0A7S33X2CTFW4BVCDFTJ3CC&hash=item57caa5bd39:g:c60AAeSwX5NqLDip"
+        },
+        {
+          "tienda": "mediamarktcastellon",
+          "precio": 4.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/188695584652?itmmeta=01M0A7HJ53ETDW2HV3NPK8PHAZ&hash=item2bef221f8c:g:LqAAAeSwvM9qZPE8"
+        },
+        {
+          "tienda": "mediamarktbadajoz",
+          "precio": 5.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/800548861300?itmmeta=01M0PAT429PNFR030SK1TEYK41&hash=itemba646e3574:g:Tq8AAeSwW8NqidNx"
+        },
+        {
+          "tienda": "mediamarktbarcelona",
+          "precio": 11.9,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/406329308873?itmmeta=01M08TDA0QV3FHNBW7AGHZ1WT1&hash=item5e9b1d36c9:g:qbEAAeSwlJNpqq6-"
+        }
+      ]
+    },
+    {
       "clave": "protector pantalla - samsung, para galaxy a26 5g, transparente",
       "criterio": "titulo",
       "titulo": "Protector pantalla - Samsung, Para Galaxy A26 5G, Transparente",
@@ -133540,68 +133744,6 @@
           "precio": 4.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/318035059330?itmmeta=01M0A7TYV2MBTRHQ9DV837AQ56&hash=item4a0c5de282:g:msoAAeSwuY1qT19g"
-        }
-      ]
-    },
-    {
-      "clave": "protector pantalla - samsung, para galaxy a36 5g, transparente",
-      "criterio": "titulo",
-      "titulo": "Protector pantalla - Samsung, Para Galaxy A36 5G, Transparente",
-      "imagen_url": "https://i.ebayimg.com/images/g/siYAAeSwznxqSoH~/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktalfafar",
-          "precio": 2.49,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/297741317558?itmmeta=01M08T4FBX2NYVWADSK9YKGKPF&hash=item4552c3f5b6:g:BzwAAeSwTnJqSoF0"
-        },
-        {
-          "tienda": "mediamarktgranada",
-          "precio": 2.49,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/316868638606?itmmeta=01M0A7Q64Z72GNWBGZ5C33XH8S&hash=item49c6d7b78e:g:miIAAeSwUg1p~cn0"
-        },
-        {
-          "tienda": "mediamarktfanmallorca",
-          "precio": 2.75,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/157369973204?itmmeta=01M0A7MMQFECB188B26GT8J8KK&hash=item24a3fb39d4:g:qvAAAeSwuzZqVjm8"
-        },
-        {
-          "tienda": "mediamarktcartagena",
-          "precio": 2.89,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/147442535821?itmmeta=01M08TH9WW907CEC2ZRHRK8RCK&hash=item2254428d8d:g:ps0AAeSwyWFqWhjO"
-        },
-        {
-          "tienda": "mediamarktelche",
-          "precio": 2.89,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/800014718741?itmmeta=01M0A7KRWYWQ8XX594CSQ37SVF&hash=itemba4497d715:g:4x8AAeSwWi9qBMMP"
-        },
-        {
-          "tienda": "mediamarktislazul",
-          "precio": 2.89,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/306838802422?itmmeta=01M0A7SRCJ99R71T9PH8Y5E04S&hash=item4771048ff6:g:-GsAAeSwLQFqcg7n"
-        },
-        {
-          "tienda": "mediamarkthuelva",
-          "precio": 3.07,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/377062014265?itmmeta=01M0A7S33X2CTFW4BVCDFTJ3CC&hash=item57caa5bd39:g:c60AAeSwX5NqLDip"
-        },
-        {
-          "tienda": "mediamarktcastellon",
-          "precio": 4.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/188695584652?itmmeta=01M0A7HJ53ETDW2HV3NPK8PHAZ&hash=item2bef221f8c:g:LqAAAeSwvM9qZPE8"
-        },
-        {
-          "tienda": "mediamarktbarcelona",
-          "precio": 11.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/406329308873?itmmeta=01M08TDA0QV3FHNBW7AGHZ1WT1&hash=item5e9b1d36c9:g:qbEAAeSwlJNpqq6-"
         }
       ]
     },
@@ -135926,6 +136068,56 @@
       ]
     },
     {
+      "clave": "protector pantalla - samsung, para galaxy a56 5g, transparente",
+      "criterio": "titulo",
+      "titulo": "Protector pantalla - Samsung, Para Galaxy A56 5G, Transparente",
+      "imagen_url": "https://i.ebayimg.com/images/g/odAAAeSwr3RqWhge/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktcartagena",
+          "precio": 2.89,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/147442535781?itmmeta=01M08TH7BMVSQPTBEYBNF9TZRY&hash=item2254428d65:g:CIMAAeSwusNqWhhH"
+        },
+        {
+          "tienda": "mediamarktelche",
+          "precio": 2.89,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/800384422690?itmmeta=01M0A7K6QJTM3DRB45FTJCEHXH&hash=itemba5aa11322:g:JMgAAeSw8EFqX7vF"
+        },
+        {
+          "tienda": "mediamarkthuelva",
+          "precio": 3.07,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/376768710372?itmmeta=01M0A7RKVXE7CTS2PRZJC29T00&hash=item57b92a46e4:g:dCcAAeSwPQVqLDlV"
+        },
+        {
+          "tienda": "mediamarktcastellon",
+          "precio": 4.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/188340033213?itmmeta=01M0A7HFHA1A2V9BAWPYS4DB08&hash=item2bd9f0d6bd:g:RBIAAeSwfEFqP8bF"
+        },
+        {
+          "tienda": "mediamarktgranada",
+          "precio": 5.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/316868634607?itmmeta=01M0A7Q8MKKY3EFT8HFSSQJA26&hash=item49c6d7a7ef:g:x3cAAeSw2HNqgyrs"
+        },
+        {
+          "tienda": "mediamarktbadajoz",
+          "precio": 5.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/800548860463?itmmeta=01M0PAT4293YDH2X73S4FFGDR2&hash=itemba646e322f:g:HCoAAeSwijdqidKw"
+        },
+        {
+          "tienda": "mediamarktbarcelona",
+          "precio": 11.9,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/406329308670?itmmeta=01M08TDA0QGD7NQHYCBN9CGP6S&hash=item5e9b1d35fe:g:u1EAAeSwYXxpqq2-"
+        }
+      ]
+    },
+    {
       "clave": "funda móvil - isy isc-5109, para samsung, galaxy a23 5g, tpu, negro",
       "criterio": "titulo",
       "titulo": "Funda móvil - ISY ISC-5109, Para Samsung, Galaxy A23 5G, TPU, Negro",
@@ -137436,50 +137628,6 @@
           "precio": 26.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/186037550013?itmmeta=01M0A7HW10S5GTJKNFRQKRF7FD&hash=item2b50b3bbbd:g:MMAAAOSwkcJk3KYX"
-        }
-      ]
-    },
-    {
-      "clave": "protector pantalla - samsung, para galaxy a56 5g, transparente",
-      "criterio": "titulo",
-      "titulo": "Protector pantalla - Samsung, Para Galaxy A56 5G, Transparente",
-      "imagen_url": "https://i.ebayimg.com/images/g/odAAAeSwr3RqWhge/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktcartagena",
-          "precio": 2.89,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/147442535781?itmmeta=01M08TH7BMVSQPTBEYBNF9TZRY&hash=item2254428d65:g:CIMAAeSwusNqWhhH"
-        },
-        {
-          "tienda": "mediamarktelche",
-          "precio": 2.89,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/800384422690?itmmeta=01M0A7K6QJTM3DRB45FTJCEHXH&hash=itemba5aa11322:g:JMgAAeSw8EFqX7vF"
-        },
-        {
-          "tienda": "mediamarkthuelva",
-          "precio": 3.07,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/376768710372?itmmeta=01M0A7RKVXE7CTS2PRZJC29T00&hash=item57b92a46e4:g:dCcAAeSwPQVqLDlV"
-        },
-        {
-          "tienda": "mediamarktcastellon",
-          "precio": 4.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/188340033213?itmmeta=01M0A7HFHA1A2V9BAWPYS4DB08&hash=item2bd9f0d6bd:g:RBIAAeSwfEFqP8bF"
-        },
-        {
-          "tienda": "mediamarktgranada",
-          "precio": 5.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/316868634607?itmmeta=01M0A7Q8MKKY3EFT8HFSSQJA26&hash=item49c6d7a7ef:g:x3cAAeSw2HNqgyrs"
-        },
-        {
-          "tienda": "mediamarktbarcelona",
-          "precio": 11.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/406329308670?itmmeta=01M08TDA0QGD7NQHYCBN9CGP6S&hash=item5e9b1d35fe:g:u1EAAeSwYXxpqq2-"
         }
       ]
     },
@@ -145142,6 +145290,32 @@
       ]
     },
     {
+      "clave": "apple, cable de usb-c a conector lightning, 2 metros, blanco",
+      "criterio": "titulo",
+      "titulo": "Apple, Cable de USB-C a conector Lightning, 2 metros, Blanco",
+      "imagen_url": "https://i.ebayimg.com/images/g/LLAAAeSw86VqY0wu/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktbahiadecadiz",
+          "precio": 23.79,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/318629296101?itmmeta=01M0ET20MHNRZZ4EKJWM3D3RSD&hash=item4a2fc937e5:g:LLAAAeSw86VqY0wu"
+        },
+        {
+          "tienda": "mediamarktmassalfassar",
+          "precio": 23.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/397884616694?itmmeta=01M0PAXSE60N9S8Y6MCB2KWRRF&hash=item5ca3c56ff6:g:jUUAAeSweDNp7137"
+        },
+        {
+          "tienda": "mediamarktalcala",
+          "precio": 24.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/137550249520?itmmeta=01M08SV2MQM94R283NA8AE2SED&hash=item2006a23e30:g:sfQAAeSwdJpqZJBT"
+        }
+      ]
+    },
+    {
       "clave": "freidora de aire - moulinex easy fry max 5l ez245h,1500 w, 200 °c, 10 programas,",
       "criterio": "titulo",
       "titulo": "Freidora de aire - Moulinex Easy Fry Max 5L EZ245H,1500 W, 200 °C, 10 Programas,",
@@ -151749,7 +151923,7 @@
       "clave": "funda móvil - isy isc-2358, para samsung galaxy s25 ultra, silicona, negro",
       "criterio": "titulo",
       "titulo": "Funda móvil - ISY ISC-2358, Para Samsung Galaxy S25 Ultra, Silicona, Negro",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/qT0AAeSwVNVp716O/s-l1600.webp",
       "ofertas": [
         {
           "tienda": "mediamarktislazul",
@@ -153222,26 +153396,6 @@
           "precio": 15.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/136260244276?itmmeta=01M08SV2MQVXVZCDJGHJQXMJXQ&hash=item1fb9be5334:g:3ccAAeSw-4NqY3sY"
-        }
-      ]
-    },
-    {
-      "clave": "apple, cable de usb-c a conector lightning, 2 metros, blanco",
-      "criterio": "titulo",
-      "titulo": "Apple, Cable de USB-C a conector Lightning, 2 metros, Blanco",
-      "imagen_url": "https://i.ebayimg.com/images/g/LLAAAeSw86VqY0wu/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktbahiadecadiz",
-          "precio": 23.79,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/318629296101?itmmeta=01M0ET20MHNRZZ4EKJWM3D3RSD&hash=item4a2fc937e5:g:LLAAAeSw86VqY0wu"
-        },
-        {
-          "tienda": "mediamarktalcala",
-          "precio": 24.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/137550249520?itmmeta=01M08SV2MQM94R283NA8AE2SED&hash=item2006a23e30:g:sfQAAeSwdJpqZJBT"
         }
       ]
     },
