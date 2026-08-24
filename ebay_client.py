@@ -222,39 +222,50 @@ def obtener_detalles_articulo(item_id: str) -> dict:
 
     IMPORTANTE: usa el navegador automatizado compartido (ver el
     módulo navegador_compartido.py), NO una petición HTTP normal. Se
-    comprobó que eBay devuelve una versión reducida/incompleta de la
-    ficha de artículo cuando se pide con una petición HTTP simple
-    (aunque las páginas de listado de tienda sí funcionan así) —
-    probablemente porque esta página necesita ejecutar JavaScript
-    para cargar el contenido completo.
+    comprobó que eBay a veces devuelve una versión reducida/incompleta
+    de la ficha de artículo (a veces literalmente un aviso de "recarga
+    la página e inténtalo de nuevo") — probablemente un fallo temporal
+    al generar la página en el lado de eBay, no un bloqueo permanente.
+    Por eso se reintenta hasta 3 veces con una pestaña nueva cada vez
+    antes de rendirse.
 
-    Se abre una pestaña NUEVA para cada consulta y se cierra al
+    Se abre una pestaña NUEVA para cada intento y se cierra al
     terminar — reutilizar la misma pestaña para cientos de consultas
     seguidas hacía que acabara "cayéndose" (Target crashed).
     """
     resultado = {"ean": None, "imagen_url": None}
+    url = f"https://www.ebay.es/itm/{item_id}"
 
-    try:
-        pagina = navegador_compartido.nueva_pagina()
-    except RuntimeError as error:
-        print(f"  [Aviso interno] {error}")
+    contenido = None
+    for intento in range(1, 4):
+        try:
+            pagina = navegador_compartido.nueva_pagina()
+        except RuntimeError as error:
+            print(f"  [Aviso interno] {error}")
+            return resultado
+
+        try:
+            pagina.goto(url, timeout=25000)
+            pagina.wait_for_timeout(600)  # pequeño margen para que termine de cargar
+            contenido_intento = pagina.content()
+        except Exception as error:
+            print(f"  [Aviso interno] Intento {intento}/3: no se pudo cargar la ficha "
+                  f"del artículo {item_id} con el navegador: {error}")
+            contenido_intento = ""
+        finally:
+            navegador_compartido.cerrar_pagina(pagina)
+
+        if len(contenido_intento) >= 50000:
+            contenido = contenido_intento
+            break  # página completa, no hace falta reintentar
+
+        print(f"  [Aviso interno] Intento {intento}/3: la ficha del artículo {item_id} "
+              f"vino pequeña ({len(contenido_intento)} caracteres).")
+        contenido = contenido_intento  # nos quedamos con la última por si acaso
+        time.sleep(2)  # pequeña pausa antes de reintentar
+
+    if not contenido:
         return resultado
-
-    try:
-        url = f"https://www.ebay.es/itm/{item_id}"
-        pagina.goto(url, timeout=25000)
-        pagina.wait_for_timeout(600)  # pequeño margen para que termine de cargar
-        contenido = pagina.content()
-    except Exception as error:
-        print(f"  [Aviso interno] No se pudo cargar la ficha del artículo {item_id} "
-              f"con el navegador: {error}")
-        return resultado
-    finally:
-        navegador_compartido.cerrar_pagina(pagina)
-
-    if len(contenido) < 50000:
-        print(f"  [Aviso interno] La ficha del artículo {item_id} sigue siendo "
-              f"pequeña incluso con navegador ({len(contenido)} caracteres).")
 
     soup = BeautifulSoup(contenido, "html.parser")
     texto = soup.get_text(" ", strip=True)
@@ -311,6 +322,5 @@ if __name__ == "__main__":
             print(f"Detalles encontrados: {detalles}")
         finally:
             navegador_compartido.cerrar()
-
 
 
