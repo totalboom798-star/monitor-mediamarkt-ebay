@@ -111,10 +111,15 @@ def procesar_tienda(conexion, tienda_id, seller_id, nombre_mostrado):
             # Avisar por Telegram (solo si NO es la primera carga de esta tienda)
             if not es_primera_carga:
                 ean, imagen_fiable, precio_oficial, mediamarkt_url = _completar_datos_articulo(art)
+                # La foto de la página de listado (art["imagen_url"]) es la
+                # fuente fiable de verdad — la de la ficha individual
+                # (imagen_fiable) solo se usa si por lo que sea la primera
+                # no vino.
+                imagen_final = art.get("imagen_url") or imagen_fiable
                 cursor.execute(
                     "UPDATE articulos SET ean = ?, precio_mediamarkt = ?, mediamarkt_url = ?, "
                     "imagen_url = COALESCE(?, imagen_url) WHERE id = ?",
-                    (ean, precio_oficial, mediamarkt_url, imagen_fiable, articulo_id),
+                    (ean, precio_oficial, mediamarkt_url, imagen_final, articulo_id),
                 )
 
                 try:
@@ -126,7 +131,7 @@ def procesar_tienda(conexion, tienda_id, seller_id, nombre_mostrado):
                         "precio_oficial_mediamarkt": precio_oficial,
                         "precio_oficial_es_aproximado": ean is None,
                         "mediamarkt_url": mediamarkt_url,
-                        "imagen_url": imagen_fiable,
+                        "imagen_url": imagen_final,
                     })
                     cursor.execute(
                         "INSERT INTO notificaciones_enviadas (articulo_id, canal) VALUES (?, 'telegram')",
@@ -141,6 +146,16 @@ def procesar_tienda(conexion, tienda_id, seller_id, nombre_mostrado):
         else:
             # --- Artículo ya conocido ---
             articulo_id, precio_anterior, imagen_guardada, ean_guardado = fila_existente
+
+            # La foto de la página de listado ya es fiable (no hace
+            # falta esperar al "relleno progresivo" para esto, y no
+            # cuesta ninguna petición extra: ya la tenemos de este
+            # mismo escaneo).
+            if art.get("imagen_url") and art["imagen_url"] != imagen_guardada:
+                cursor.execute(
+                    "UPDATE articulos SET imagen_url = ? WHERE id = ?",
+                    (art["imagen_url"], articulo_id),
+                )
 
             if art["precio"] is not None and art["precio"] != precio_anterior:
                 cursor.execute(
