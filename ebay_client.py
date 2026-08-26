@@ -121,27 +121,28 @@ def _url_imagen_valida(img) -> str | None:
     return None
 
 
-def _extraer_imagen_cerca(enlace) -> str | None:
+def _extraer_imagen_del_articulo(enlace, item_id: str) -> str | None:
     """
-    Busca la foto del artículo cerca de su enlace: primero mirando
-    HACIA ATRÁS (las miniaturas suelen ir justo antes del título en
-    este tipo de listados), y si no, hacia adelante. Se filtra por el
-    dominio real de las fotos de eBay (ebayimg.com) para no confundir
-    con logos o iconos de la propia página.
+    Busca la foto del artículo dentro de SU PROPIO contenedor exacto,
+    en vez de "buscar cerca" del enlace (que a veces acababa cogiendo
+    el logo de la cabecera de la tienda si no había ninguna imagen de
+    artículo más próxima antes en el HTML — así salían fotos de otros
+    productos, o incluso el logo, en vez de la foto real).
+
+    Cada artículo de la página de listado va envuelto en un contenedor
+    con un identificador exacto: <article data-testid="ig-{item_id}">
+    — vamos directos a ESE contenedor y cogemos la imagen de dentro,
+    sin ambigüedad posible.
     """
-    img = enlace.find_previous("img")
-    if img is not None:
-        url = _url_imagen_valida(img)
-        if url:
-            return url
+    contenedor_articulo = enlace.find_parent("article", attrs={"data-testid": f"ig-{item_id}"})
+    if contenedor_articulo is None:
+        return None
 
-    img = enlace.find_next("img")
-    if img is not None:
-        url = _url_imagen_valida(img)
-        if url:
-            return url
+    img = contenedor_articulo.find("img")
+    if img is None:
+        return None
 
-    return None
+    return _url_imagen_valida(img)
 
 
 def _articulos_de_una_pagina(seller_id: str, pagina: int) -> list[dict]:
@@ -167,20 +168,14 @@ def _articulos_de_una_pagina(seller_id: str, pagina: int) -> list[dict]:
             continue  # algunos <a> solo envuelven la imagen, sin texto
 
         precio = _extraer_precio_cerca(enlace)
+        imagen_url = _extraer_imagen_del_articulo(enlace, item_id)
 
         articulos[item_id] = {
             "item_id": item_id,
             "titulo": titulo,
             "precio": precio,
             "moneda": "EUR",
-            # La imagen NO se saca de esta página de listado: probamos
-            # a hacerlo "adivinando" cuál estaba cerca del enlace, pero
-            # a veces cogía la foto de OTRO artículo distinto (o el
-            # logo de la tienda). Una foto equivocada es peor que
-            # ninguna, así que la foto se obtiene aparte, de forma
-            # fiable, de la ficha individual del propio artículo (ver
-            # obtener_detalles_articulo).
-            "imagen_url": None,
+            "imagen_url": imagen_url,
             "url": enlace["href"] if enlace["href"].startswith("http")
                    else f"https://www.ebay.es{enlace['href']}",
         }
@@ -322,5 +317,6 @@ if __name__ == "__main__":
             print(f"Detalles encontrados: {detalles}")
         finally:
             navegador_compartido.cerrar()
+
 
 
