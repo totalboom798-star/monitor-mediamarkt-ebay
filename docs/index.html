@@ -169,8 +169,8 @@
 
   .hero-card {
     display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 18px;
+    grid-template-columns: auto 1fr auto;
+    gap: 22px;
     background: var(--paper);
     color: var(--ink);
     border-radius: 4px;
@@ -187,15 +187,9 @@
     width: 8px;
     background: var(--ticket-red);
   }
-  .hero-card .tienda-fila {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 8px;
-  }
-  .hero-card .tienda-img {
-    width: 64px;
-    height: 64px;
+  .hero-card .hero-img {
+    width: 140px;
+    height: 140px;
     object-fit: contain;
     background: #fff;
     border-radius: 6px;
@@ -209,6 +203,8 @@
     letter-spacing: 0.08em;
     color: var(--ticket-red);
     font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
   }
   .hero-card h2 {
     font-family: 'Archivo', sans-serif;
@@ -285,19 +281,17 @@
   .tag:hover { transform: translateY(-3px) rotate(-0.6deg); }
 
   .tag .tag-img {
-    width: 44px;
-    height: 44px;
+    width: 100%;
+    height: 130px;
     object-fit: contain;
     background: #fff;
-    border-radius: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
     border: 1px solid var(--paper-dim);
-    flex: none;
   }
 
   .tag .tienda-fila {
-    display: flex;
-    align-items: center;
-    gap: 7px;
+    display: block;
     margin-bottom: 8px;
     padding-right: 16px;
   }
@@ -684,11 +678,9 @@ function dibujarNovedades(articulos, tiendas) {
   html += `
     <p class="hero-label">Lo último detectado</p>
     <a class="hero-card" href="${destacado.url}" target="_blank" rel="noopener">
+      ${destacado.imagen_url ? `<img class="hero-img" src="${destacado.imagen_url}" alt="" loading="lazy">` : ''}
       <div>
-        <div class="tienda-fila">
-          ${destacado.imagen_url ? `<img class="tienda-img" src="${destacado.imagen_url}" alt="" loading="lazy">` : ''}
-          <span class="tienda-tag">${destacado.nombre_mostrado || destacado.seller_id}</span>
-        </div>
+        <span class="tienda-tag">${destacado.nombre_mostrado || destacado.seller_id}</span>
         <h2>${escapar(destacado.titulo)}</h2>
         <span class="cuando">${hace(destacado.fecha_visto_primera_vez)}</span>
       </div>
@@ -703,8 +695,8 @@ function dibujarNovedades(articulos, tiendas) {
   for (const art of resto) {
     html += `
       <a class="tag" href="${art.url}" target="_blank" rel="noopener">
+        ${art.imagen_url ? `<img class="tag-img" src="${art.imagen_url}" alt="" loading="lazy">` : ''}
         <div class="tienda-fila">
-          ${art.imagen_url ? `<img class="tag-img" src="${art.imagen_url}" alt="" loading="lazy">` : ''}
           <span class="tienda">${art.nombre_mostrado || art.seller_id}</span>
         </div>
         <p class="titulo">${escapar(art.titulo)}</p>
@@ -798,4 +790,5 @@ cargar();
 </script>
 </body>
 </html>
+
 
