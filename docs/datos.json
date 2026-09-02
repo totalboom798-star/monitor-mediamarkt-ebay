@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-09-02T16:19:02.890094+00:00",
+  "actualizado": "2026-09-02T20:20:57.093490+00:00",
   "total_tiendas": 101,
-  "total_articulos": 11595,
+  "total_articulos": 11601,
   "tiendas": [
     {
       "seller_id": "mediamarktalcala",
@@ -169,6 +169,11 @@
       "num_articulos": 104
     },
     {
+      "seller_id": "mediamarktleon",
+      "nombre_mostrado": null,
+      "num_articulos": 97
+    },
+    {
       "seller_id": "mediamarktrivas",
       "nombre_mostrado": null,
       "num_articulos": 97
@@ -177,11 +182,6 @@
       "seller_id": "mediamarktmataro",
       "nombre_mostrado": null,
       "num_articulos": 96
-    },
-    {
-      "seller_id": "mediamarktleon",
-      "nombre_mostrado": null,
-      "num_articulos": 91
     },
     {
       "seller_id": "mediamarktlorca",
@@ -510,6 +510,84 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "ASUS TUF A18 FA808UM-S8005, 18\"Ryzen™ 7 260, 32, 1 TB, RTX™ 5060 FREEDOS",
+      "precio": 1149.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407186928336?itmmeta=01M1HW9QJ57R40CASR7Q3QYDTV&hash=item5ece3b72d0:g:KF0AAeSw9KNql9WI",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-gaming-asus-tuf-gaming-a18-fa808um-s8005-18-wuxga-amd-ryzentm-7-260-32-gb-1-tb-ssd-geforce-rtxtm-5060-sin-sistema-operativo-1598625.html",
+      "fecha_visto_primera_vez": "2026-09-02 20:18:38",
+      "seller_id": "mediamarktleon",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Tablet - Honor Pad X8a, WiFi, 11\" WUXGA, 4GB RAM, 128GB",
+      "precio": 89.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407187112512?itmmeta=01M1HW9QJ5A49FXQXDH02A494Q&hash=item5ece3e4240:g:Gh8AAeSwHUpql-q8",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_honor-5301anvs-12800-gb-gris-11-12800-gb-ram-qualcomm-tablet-android-160751882.html",
+      "fecha_visto_primera_vez": "2026-09-02 20:18:23",
+      "seller_id": "mediamarktleon",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Dron - DJI Neo 2, Sensor CMOS 1/2” 12 MP, 19 min Autonomía, WiFi",
+      "precio": 199.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407187140110?itmmeta=01M1HW9QJ5G6039T01TRWAAEWQ&hash=item5ece3eae0e:g:pVAAAeSwxZRql-0p",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_drone-de-juguete-bizak-neon-dron-acrobatico-110-min-multicolor-171728080.html",
+      "fecha_visto_primera_vez": "2026-09-02 20:18:07",
+      "seller_id": "mediamarktleon",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Mini Dron - DJI Mini 5 Pro, 50 megapixel, 36 min Autonomía",
+      "precio": 729.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407187145613?itmmeta=01M1HW9QJ5ZS10A6G6WFGYCD8Q&hash=item5ece3ec38d:g:ZC4AAeSwwtVql-1N",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_mini-dron-dji-mini-5-pro-50-megapixel-36-min-autonomia-sensor-cmos-de-1-pulgada-con-50-mp-deteccion-de-obstaculos-gris-1605591.html",
+      "fecha_visto_primera_vez": "2026-09-02 20:17:52",
+      "seller_id": "mediamarktleon",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "eBook - Kobo Clara Colour, Pantalla Táctil Color E-Ink Kaleido™ 3 de 6”, 16GB",
+      "precio": 139.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407187212031?itmmeta=01M1HW9QJ55X9TXA37X5P0GZQ7&hash=item5ece3fc6ff:g:~l0AAeSwSUNql~SJ",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_ebook-kobo-clara-colour-6-e-ink-kaleido-3-hd-16-gb-comfortlight-pro-ipx8-pantalla-color-negro-1571224.html",
+      "fecha_visto_primera_vez": "2026-09-02 20:17:38",
+      "seller_id": "mediamarktleon",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Altavoz inalámbrico - Ultimate Ears Miniroll, Bluetooth, 12h Autonomía",
+      "precio": 27.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407187470397?itmmeta=01M1HW9QJ5BB9N4W077D5PDHTM&hash=item5ece43b83d:g:5EkAAeSwNoNqmBG~",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-inalambrico-ultimate-ears-miniroll-bluetooth-12h-autonomia-40m-alcance-ip67-negro-1579682.html",
+      "fecha_visto_primera_vez": "2026-09-02 20:17:23",
+      "seller_id": "mediamarktleon",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Nintendo Switch Metroid Prime 4 Beyond",
       "precio": 24.0,
@@ -4249,7 +4327,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-acer-vero-b7-b277u-g-27-qhd-4-ms-120-hz-negro-158955130.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-asus-zenbook-s16-oled-um5606ga-sr340w-copilot-pc-16-3k-amd-ryzentm-ai-9-465-50-tops-32gb-ram-1tb-ssd-radeontm-880m-windows-11-home-1619455.html",
       "fecha_visto_primera_vez": "2026-09-01 12:23:34",
       "seller_id": "mediamarktleon",
       "nombre_mostrado": null
@@ -4259,7 +4337,7 @@
       "precio": 139.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/407184301316?itmmeta=01M1EERZDJG60VCY4BPD0MNN2P&hash=item5ece135d04:g:rbwAAeSw-qlqloYG",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/rbwAAeSw-qlqloYG/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tablet-xiaomi-redmi-pad-2-wi-fi-11-wqhd-4-gb-ram-128-gb-mediatek-g100-ultra-gris-grafito-funda-1599560.html",
@@ -5832,7 +5910,7 @@
       "precio": 699.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/407182700999?itmmeta=01M1DJVXPR56VYG0K7ZQXFXPSS&hash=item5ecdfaf1c7:g:4NMAAeSwrd5qlYms",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/4NMAAeSwrd5qlYms/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tablet-samsung-galaxy-tab-s11-11-wqxga-12-gb-ram-256-gb-gris-sin-adaptador-de-corriente-con-s-pen-1604133.html",
@@ -5845,7 +5923,7 @@
       "precio": 99.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/407182813875?itmmeta=01M1DJVXPRVA0H25A5XFWMHTQS&hash=item5ecdfcaab3:g:dGMAAeSwR8JqlZxK",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/dGMAAeSwR8JqlZxK/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tv-led-24-peaq-ptv-24gh-5025c-hd-ready-google-tv-dolby-audio-dvb-t2-negro-1597672.html",
@@ -5858,7 +5936,7 @@
       "precio": 999.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/407182815436?itmmeta=01M1DJVXPR5DXR6ZWN7MYYT1KR&hash=item5ecdfcb0cc:g:f7UAAeSwuQVqlZzn",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/f7UAAeSwuQVqlZzn/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_xiaomi-17-ultra-blanco-movil-hyperos-512-gb-16-gb-ram-69-hyper-rgb-oled-display-snapdragonr-8-elite-gen-5-mobile-platform-6000-mah-172080388.html",
@@ -30984,7 +31062,7 @@
     },
     {
       "titulo": "Recipiente hermético - Jata HREC4230, Pack de 3 Recipientes, Vidrio templado",
-      "precio": 8.26,
+      "precio": 9.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/406950211365?itmmeta=01M0ET8J5HE676A0RP1NGGHNHR&hash=item5ec01f6f25:g:JvcAAeSwKs5qUNlu",
       "imagen_url": "https://i.ebayimg.com/images/g/JvcAAeSwKs5qUNlu/s-l300.webp",
@@ -179031,7 +179109,7 @@
       "clave": "tablet - samsung galaxy tab s11, 11\" wqxga+, 12 gb ram, 256 gb, gris, con s pen",
       "criterio": "titulo",
       "titulo": "Tablet - Samsung Galaxy Tab S11, 11\" WQXGA+, 12 GB RAM, 256 GB, Gris, con S Pen",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/4NMAAeSwrd5qlYms/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktleon",
