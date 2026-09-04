@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-09-04T00:23:25.026892+00:00",
+  "actualizado": "2026-09-04T04:18:33.053899+00:00",
   "total_tiendas": 101,
-  "total_articulos": 11747,
+  "total_articulos": 11749,
   "tiendas": [
     {
       "seller_id": "mediamarktalcala",
@@ -224,14 +224,14 @@
       "num_articulos": 65
     },
     {
-      "seller_id": "mediamarktvalenciaaqua",
+      "seller_id": "mediamarktlleida",
       "nombre_mostrado": null,
       "num_articulos": 63
     },
     {
-      "seller_id": "mediamarktlleida",
+      "seller_id": "mediamarktvalenciaaqua",
       "nombre_mostrado": null,
-      "num_articulos": 61
+      "num_articulos": 63
     },
     {
       "seller_id": "mediamarktterrassa",
@@ -510,6 +510,32 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Portátil - HP 15S-FQ5048NS , 15.6\" Full HD, Intel® Core? i7-1255U, 16GB RAM",
+      "precio": 639.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/389367162585?itmmeta=01M1NA50W7S8EB2WHDVA6ER0MF&hash=item5aa81766d9:g:LVIAAeSwTDhpPWhF",
+      "imagen_url": "https://i.ebayimg.com/images/g/LVIAAeSwTDhpPWhF/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-gaming-hp-victus-15-fa2027ns-156-full-hd-intel-coretm-7-240h-16gb-ram-1tb-ssd-rtxtm-5060-sin-sistema-operativo-azul-1598148.html",
+      "fecha_visto_primera_vez": "2026-09-04 04:18:02",
+      "seller_id": "mediamarktlleida",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Portátil - ASUS Vivobook 15 F1504VA-NJ510W, 15.6 \" Full-HD, Intel® Core? i7-1355",
+      "precio": 611.15,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/389477921687?itmmeta=01M1NA50W6YWXXGNBQ9VYABBX1&hash=item5aaeb17397:g:6nYAAeSwebNqS3qQ",
+      "imagen_url": "https://i.ebayimg.com/images/g/6nYAAeSwebNqS3qQ/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-asus-vivobook-15-f1504va-bq254-156-full-hd-intelr-coretm-7-150u-16-gb-ram-512-gb-ssd-hd-graphics-sin-sistema-operativo-1621831.html",
+      "fecha_visto_primera_vez": "2026-09-04 04:17:48",
+      "seller_id": "mediamarktlleida",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Altavoz inalámbrico - Vieta Pro Mini Thunder 2, 100 W, Bluetooth, 15h Autonomía",
       "precio": 99.0,
@@ -179000,6 +179026,26 @@
           "precio": 10.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/135676327087?itmmeta=01M08SVAB6ZEGDQ8C96RMGSCXX&hash=item1f96f074af:g:6CEAAeSwpwZqY3pa"
+        }
+      ]
+    },
+    {
+      "clave": "portátil - asus vivobook 15 f1504va-nj510w, 15.6 \" full-hd, intel® core? i7-1355",
+      "criterio": "titulo",
+      "titulo": "Portátil - ASUS Vivobook 15 F1504VA-NJ510W, 15.6 \" Full-HD, Intel® Core? i7-1355",
+      "imagen_url": "https://i.ebayimg.com/images/g/6nYAAeSwebNqS3qQ/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktlleida",
+          "precio": 611.15,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/389477921687?itmmeta=01M1NA50W6YWXXGNBQ9VYABBX1&hash=item5aaeb17397:g:6nYAAeSwebNqS3qQ"
+        },
+        {
+          "tienda": "mediamarktalcala",
+          "precio": 749.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/137094576634?itmmeta=01M08SVAB6YMZF4PATQWEX64BP&hash=item1feb7939fa:g:PxcAAeSw459qY4Dj"
         }
       ]
     },
