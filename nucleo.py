@@ -183,9 +183,39 @@ def procesar_tienda(conexion, tienda_id, seller_id, nombre_mostrado):
                 )
                 completados_count += 1
 
+    # --- Marcar como inactivos los artículos que ya no aparecen en eBay ---
+    # (vendidos, retirados por el vendedor, etc.) — no se borran, para
+    # no perder el histórico de precios ni romper las coincidencias de
+    # "productos iguales", pero dejan de contar como activos y de
+    # mostrarse en la web.
+    #
+    # Salvaguarda: si el escaneo no trajo NINGÚN artículo, no marcamos
+    # nada como desaparecido — podría ser un fallo temporal (bloqueo,
+    # error de red) y no que la tienda esté realmente vacía. Mejor
+    # dejarlo para la próxima vez que sí antes que borrar todo por error.
+    if not articulos_actuales:
+        print("  Aviso: 0 artículos en este escaneo — no se marca nada como inactivo "
+              "por precaución (podría ser un fallo temporal, no que la tienda esté vacía).")
+        desaparecidos_count = 0
+    else:
+        ids_vistos_ahora = {a["item_id"] for a in articulos_actuales if a.get("item_id")}
+        cursor.execute(
+            "SELECT id, ebay_item_id FROM articulos WHERE tienda_id = ? AND activo = 1",
+            (tienda_id,),
+        )
+        desaparecidos_count = 0
+        for articulo_id_bd, ebay_item_id_bd in cursor.fetchall():
+            if ebay_item_id_bd not in ids_vistos_ahora:
+                cursor.execute(
+                    "UPDATE articulos SET activo = 0 WHERE id = ?",
+                    (articulo_id_bd,),
+                )
+                desaparecidos_count += 1
+
     conexion.commit()
     print(f"  Nuevos: {nuevos_count} | Precios actualizados: {actualizados_count} | "
-          f"Completados (EAN/foto/precio MM antiguos): {completados_count}")
+          f"Completados (EAN/foto/precio MM antiguos): {completados_count} | "
+          f"Desaparecidos (marcados inactivos): {desaparecidos_count}")
 
 
 def _completar_datos_articulo(art: dict) -> tuple[str | None, str | None, float | None, str | None]:
@@ -252,6 +282,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
