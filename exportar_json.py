@@ -58,7 +58,7 @@ def exportar():
     cursor.execute("""
         SELECT t.seller_id, t.nombre_mostrado, COUNT(a.id) AS num_articulos
         FROM tiendas t
-        LEFT JOIN articulos a ON a.tienda_id = t.id
+        LEFT JOIN articulos a ON a.tienda_id = t.id AND a.activo = 1
         WHERE t.activa = 1
         GROUP BY t.id
         ORDER BY num_articulos DESC
@@ -71,6 +71,7 @@ def exportar():
                t.seller_id, t.nombre_mostrado
         FROM articulos a
         JOIN tiendas t ON t.id = a.tienda_id
+        WHERE a.activo = 1
         ORDER BY a.fecha_visto_primera_vez DESC
         LIMIT ?
     """, (MAX_ARTICULOS_EXPORTADOS,))
@@ -119,7 +120,7 @@ def exportar():
 
     grupos.sort(key=lambda g: len(g["ofertas"]), reverse=True)
 
-    cursor.execute("SELECT COUNT(*) AS total FROM articulos")
+    cursor.execute("SELECT COUNT(*) AS total FROM articulos WHERE activo = 1")
     total_articulos = cursor.fetchone()["total"]
 
     conexion.close()
@@ -138,11 +139,6 @@ def exportar():
 
     print(f"Exportado: {len(tiendas)} tiendas, {len(articulos_recientes)} artículos recientes, "
           f"{len(grupos)} grupos de productos coincidentes -> {SALIDA_PATH}")
-
-
-if __name__ == "__main__":
-    exportar()
-
 
 
 if __name__ == "__main__":
