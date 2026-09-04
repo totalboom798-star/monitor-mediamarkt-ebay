@@ -343,6 +343,35 @@
   }
 
   /* ---------- Tiendas ---------- */
+  /* ---------- Paginación ---------- */
+  .paginacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin: 0 0 44px;
+  }
+  .paginacion button {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12.5px;
+    background: var(--ink-soft);
+    border: 1px solid var(--ink-line);
+    color: var(--paper);
+    padding: 9px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .paginacion button:hover:not(:disabled) { border-color: var(--ticket-red); }
+  .paginacion button:disabled {
+    opacity: 0.35;
+    cursor: default;
+  }
+  .paginacion .pag-info {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--slate);
+  }
+
   .tiendas-header {
     display: flex;
     justify-content: space-between;
@@ -559,7 +588,8 @@ let TODAS_TIENDAS = [];
 let TODOS_GRUPOS = [];
 let VISTA_ACTUAL = 'novedades';
 let ORDEN_ACTUAL = 'recientes';
-const MAX_EN_VISTA_PRINCIPAL = 150;
+let PAGINA_ACTUAL = 1;
+const POR_PAGINA = 150;
 
 function render(datos) {
   document.getElementById('num-tiendas').textContent = datos.total_tiendas ?? '—';
@@ -638,14 +668,16 @@ function actualizarVista() {
         (a.nombre_mostrado || a.seller_id || '').toLowerCase().includes(q))
     : TODOS_ARTICULOS;
 
-  // Importante: se ordena ANTES de recortar a la vista principal. Si
-  // se recortara primero, ordenar por precio solo miraría dentro de
-  // los últimos 150 artículos en vez de todo el catálogo.
   articulos = ordenar(articulos, ORDEN_ACTUAL);
 
-  if (!q) {
-    articulos = articulos.slice(0, MAX_EN_VISTA_PRINCIPAL);
-  }
+  // Paginación: se aplica sobre la lista YA filtrada/ordenada completa,
+  // así "más caros primero" pagina correctamente sobre todo el catálogo.
+  const totalArticulos = articulos.length;
+  const totalPaginas = Math.max(1, Math.ceil(totalArticulos / POR_PAGINA));
+  if (PAGINA_ACTUAL > totalPaginas) PAGINA_ACTUAL = totalPaginas;
+  if (PAGINA_ACTUAL < 1) PAGINA_ACTUAL = 1;
+  const inicio = (PAGINA_ACTUAL - 1) * POR_PAGINA;
+  const articulosPagina = articulos.slice(inicio, inicio + POR_PAGINA);
 
   const tiendas = q
     ? TODAS_TIENDAS.filter(t => (t.nombre_mostrado || t.seller_id || '').toLowerCase().includes(q))
@@ -657,13 +689,19 @@ function actualizarVista() {
   const gruposOrdenados = ordenarGrupos(grupos, ORDEN_ACTUAL);
 
   if (VISTA_ACTUAL === 'novedades') {
-    dibujarNovedades(articulos, tiendas);
+    dibujarNovedades(articulosPagina, tiendas, PAGINA_ACTUAL, totalPaginas, totalArticulos);
   } else {
     dibujarGrupos(gruposOrdenados);
   }
 }
 
-function dibujarNovedades(articulos, tiendas) {
+function irAPagina(numero) {
+  PAGINA_ACTUAL = numero;
+  actualizarVista();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function dibujarNovedades(articulos, tiendas, paginaActual, totalPaginas, totalArticulos) {
   const contenido = document.getElementById('contenido');
 
   if (articulos.length === 0) {
@@ -671,25 +709,30 @@ function dibujarNovedades(articulos, tiendas) {
     return;
   }
 
-  const [destacado, ...resto] = articulos;
-
   let html = '';
+  let resto = articulos;
 
-  html += `
-    <p class="hero-label">Lo último detectado</p>
-    <a class="hero-card" href="${destacado.url}" target="_blank" rel="noopener">
-      ${destacado.imagen_url ? `<img class="hero-img" src="${destacado.imagen_url}" alt="" loading="lazy">` : ''}
-      <div>
-        <span class="tienda-tag">${destacado.nombre_mostrado || destacado.seller_id}</span>
-        <h2>${escapar(destacado.titulo)}</h2>
-        <span class="cuando">${hace(destacado.fecha_visto_primera_vez)}</span>
-      </div>
-      <div class="hero-precio">
-        ${formatoPrecio(destacado.precio, destacado.moneda)}
-        ${precioMM(destacado)}
-      </div>
-    </a>
-  `;
+  // El "destacado" grande solo se muestra en la primera página — en
+  // las siguientes ya no representa "lo último detectado" de verdad.
+  if (paginaActual === 1) {
+    const [destacado, ...articulosResto] = articulos;
+    resto = articulosResto;
+    html += `
+      <p class="hero-label">Lo último detectado</p>
+      <a class="hero-card" href="${destacado.url}" target="_blank" rel="noopener">
+        ${destacado.imagen_url ? `<img class="hero-img" src="${destacado.imagen_url}" alt="" loading="lazy">` : ''}
+        <div>
+          <span class="tienda-tag">${destacado.nombre_mostrado || destacado.seller_id}</span>
+          <h2>${escapar(destacado.titulo)}</h2>
+          <span class="cuando">${hace(destacado.fecha_visto_primera_vez)}</span>
+        </div>
+        <div class="hero-precio">
+          ${formatoPrecio(destacado.precio, destacado.moneda)}
+          ${precioMM(destacado)}
+        </div>
+      </a>
+    `;
+  }
 
   html += '<div class="grid">';
   for (const art of resto) {
@@ -712,6 +755,16 @@ function dibujarNovedades(articulos, tiendas) {
     `;
   }
   html += '</div>';
+
+  if (totalPaginas > 1) {
+    html += `
+      <div class="paginacion">
+        <button ${paginaActual <= 1 ? 'disabled' : ''} onclick="irAPagina(${paginaActual - 1})">← Anterior</button>
+        <span class="pag-info">Página ${paginaActual} de ${totalPaginas} · ${totalArticulos} artículos</span>
+        <button ${paginaActual >= totalPaginas ? 'disabled' : ''} onclick="irAPagina(${paginaActual + 1})">Siguiente →</button>
+      </div>
+    `;
+  }
 
   html += `
     <div class="tiendas-header">
@@ -772,9 +825,13 @@ function escapar(texto) {
   return div.innerHTML;
 }
 
-document.getElementById('buscador-input').addEventListener('input', actualizarVista);
+document.getElementById('buscador-input').addEventListener('input', () => {
+  PAGINA_ACTUAL = 1;
+  actualizarVista();
+});
 document.getElementById('orden-select').addEventListener('change', (e) => {
   ORDEN_ACTUAL = e.target.value;
+  PAGINA_ACTUAL = 1;
   actualizarVista();
 });
 document.querySelectorAll('.pestana').forEach(boton => {
@@ -782,6 +839,7 @@ document.querySelectorAll('.pestana').forEach(boton => {
     document.querySelectorAll('.pestana').forEach(b => b.classList.remove('activa'));
     boton.classList.add('activa');
     VISTA_ACTUAL = boton.dataset.pestana;
+    PAGINA_ACTUAL = 1;
     actualizarVista();
   });
 });
