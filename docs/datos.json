@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-09-07T00:32:22.611505+00:00",
+  "actualizado": "2026-09-07T04:20:48.812425+00:00",
   "total_tiendas": 101,
-  "total_articulos": 7739,
+  "total_articulos": 7738,
   "tiendas": [
     {
       "seller_id": "mediamarktjaen",
@@ -11,7 +11,7 @@
     {
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null,
-      "num_articulos": 618
+      "num_articulos": 617
     },
     {
       "seller_id": "mediamarktgranada",
@@ -174,12 +174,12 @@
       "num_articulos": 50
     },
     {
-      "seller_id": "mediamarktalmeria",
+      "seller_id": "mediamarktcordoba",
       "nombre_mostrado": null,
-      "num_articulos": 49
+      "num_articulos": 50
     },
     {
-      "seller_id": "mediamarktcordoba",
+      "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null,
       "num_articulos": 49
     },
@@ -284,11 +284,6 @@
       "num_articulos": 48
     },
     {
-      "seller_id": "mediamarkttoledo",
-      "nombre_mostrado": null,
-      "num_articulos": 48
-    },
-    {
       "seller_id": "mediamarkttorrejon",
       "nombre_mostrado": null,
       "num_articulos": 48
@@ -302,6 +297,11 @@
       "seller_id": "mediamarktvallecas",
       "nombre_mostrado": null,
       "num_articulos": 48
+    },
+    {
+      "seller_id": "mediamarkttoledo",
+      "nombre_mostrado": null,
+      "num_articulos": 47
     },
     {
       "seller_id": "mediamarktsabadell",
@@ -510,6 +510,84 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Apple iPhone Air, Dorado claro, 256 GB, 5G, 6.5 \" OLED Super Retina",
+      "precio": 919.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/389668871741?itmmeta=01M1X1E6SN488PY39FTB50Y8VC&hash=item5aba131e3d:g:x0kAAeSwYlFqXeBo",
+      "imagen_url": "https://i.ebayimg.com/images/g/x0kAAeSwYlFqXeBo/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-iphone-air-negro-espacial-256-gb-5g-65-oled-super-retina-xdr-chip-a19-pro-ios-1606156.html",
+      "fecha_visto_primera_vez": "2026-09-07 04:20:27",
+      "seller_id": "mediamarkttoledo",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Móvil - vivo Bundle V70 FE, Muse Purple, 256GB, 8GB RAM, 6.83\" AMOLED",
+      "precio": 399.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800251890886?itmmeta=01M1X1E6SNN88GQDM8MCP8H2B9&hash=itemba52baccc6:g:M3UAAeSw2OBqXeGK",
+      "imagen_url": "https://i.ebayimg.com/images/g/M3UAAeSw2OBqXeGK/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-vivo-bundle-v70-fe-muse-purple-256gb-8gb-ram-683-amoled-dimensity-7360-turbo-7000-mah-1621939.html",
+      "fecha_visto_primera_vez": "2026-09-07 04:20:12",
+      "seller_id": "mediamarkttoledo",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Impresora multifunción láser - HP Color Laser MFP 178nw, 18 ppm, 600 x 600",
+      "precio": 237.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800095792089?itmmeta=01M1X1E6SNX33SEF6W9C4JZ2A5&hash=itemba496cebd9:g:3bAAAeSwS8tqh0gY",
+      "imagen_url": "https://i.ebayimg.com/images/g/3bAAAeSwS8tqh0gY/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-multifunción-hp-color-laser-mfp-178nw-18-ppm-600-x-600-dpi-a4-wifi-1462180.html",
+      "fecha_visto_primera_vez": "2026-09-07 04:19:57",
+      "seller_id": "mediamarkttoledo",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Licuadora - Moulinex Frutelia +  JU3708, 350 W, 2 velocidades, 0.95 L",
+      "precio": 39.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800479414418?itmmeta=01M1X1E6SMJT7NMZ6RZ37WSK7F&hash=itemba604a8892:g:Dq0AAeSwVzdqhG0J",
+      "imagen_url": "https://i.ebayimg.com/images/g/Dq0AAeSwVzdqhG0J/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_licuadora-moulinex-ju3708-350-w-2-velocidades-0-95-l-2-velocidades-1448922.html",
+      "fecha_visto_primera_vez": "2026-09-07 04:19:43",
+      "seller_id": "mediamarkttoledo",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Auriculares conducción ósea - Shokz OpenRun, Banda para el cuello, Bluetooth",
+      "precio": 109.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800523998698?itmmeta=01M1X1E6SM7A8P9ZEDX400C84T&hash=itemba62f2d5ea:g:JfAAAeSwNuRqgxrW",
+      "imagen_url": "https://i.ebayimg.com/images/g/JfAAAeSwNuRqgxrW/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-conduccion-osea-shokz-openrun-pro-2-standard-banda-para-el-cuello-bluetooth-12h-autonomia-dualpitch-ip55-negro-1583415.html",
+      "fecha_visto_primera_vez": "2026-09-07 04:19:29",
+      "seller_id": "mediamarkttoledo",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Recambio para afeitadora -  Braun 21B, Compatible con afeitadora Series 3, Negro",
+      "precio": 17.47,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/398278235192?itmmeta=01M1X1BWXZWG4P2AMZQY9MX7BR&hash=item5cbb3b9438:g:oZQAAeSwaclqjZ-L",
+      "imagen_url": "https://i.ebayimg.com/images/g/oZQAAeSwaclqjZ-L/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_recambio-para-afeitadora-braun-21b-compatible-con-afeitadora-series-3-negro-1602382.html",
+      "fecha_visto_primera_vez": "2026-09-07 04:18:13",
+      "seller_id": "mediamarktcordoba",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Portátil - Acer Chromebook 314 CBOA314-1H-C065, 14\" Full-HD, Intel® Celeron",
       "precio": 249.9,
@@ -4329,19 +4407,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-grips-fr-tec-demon-slayer-combo-pack-tanjiro-para-mando-xbox-series-xs-antideslizante-multicolor-1575219.html",
       "fecha_visto_primera_vez": "2026-09-04 12:24:30",
-      "seller_id": "mediamarkttoledo",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Pack Merchandising - Pyramid International GP85463, Taza y Posavasos",
-      "precio": 5.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/389919559838?itmmeta=01M1P5Z8NYCD5JQTQZA75QGH2X&hash=item5ac904509e:g:QYgAAeSw4VJqYJzE",
-      "imagen_url": "https://i.ebayimg.com/images/g/QYgAAeSw4VJqYJzE/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pack-merchandising-pyramid-international-deadpool-taza-llavero-posavasos-1589065.html",
-      "fecha_visto_primera_vez": "2026-09-04 12:24:16",
       "seller_id": "mediamarkttoledo",
       "nombre_mostrado": null
     },
@@ -25250,19 +25315,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Porta cápsulas - Scanpart Elka Pieterman, Para 40 cápsulas Nespresso, Metal",
-      "precio": 9.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800544260161?itmmeta=01M0JAKYGZ5XEEHP934GAGMPCF&hash=itemba64280041:g:rJYAAeSw8NRqiAzP",
-      "imagen_url": "https://i.ebayimg.com/images/g/rJYAAeSw8NRqiAzP/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-21 14:11:56",
-      "seller_id": "mediamarkttoledo",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Set de cuchillos - Jata HACC4504, Tacoma Incluido, 5x Cuchillos, Mando",
       "precio": 25.0,
       "moneda": "EUR",
@@ -25294,19 +25346,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/800454858488?itmmeta=01M0JAKYGZZ7GC957AFVX3D36X&hash=itemba5ed3d6f8:g:YZUAAeSw1ihqcezC",
       "imagen_url": "https://i.ebayimg.com/images/g/YZUAAeSw1ihqcezC/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-21 14:11:56",
-      "seller_id": "mediamarkttoledo",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Pack Teclado + Ratón - Microsoft Wireless Comfort Desktop 5050, Inalámbrico",
-      "precio": 39.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800544153833?itmmeta=01M0JAKYGZYQ7ZZ1QG4XA4NMCD&hash=itemba642660e9:g:G1UAAeSwijdqiAWL",
-      "imagen_url": "https://i.ebayimg.com/images/g/G1UAAeSwijdqiAWL/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -25380,37 +25419,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Aspirador de tapicerías - Bissell SpotClean Mini, 330 W, 40 min Autonomía",
-      "precio": 84.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800524120332?itmmeta=01M0JAKYGZ093GW4ZDS529HR6X&hash=itemba62f4b10c:g:bwMAAeSwaclqgyGp",
-      "imagen_url": "https://i.ebayimg.com/images/g/bwMAAeSwaclqgyGp/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-21 14:11:56",
-      "seller_id": "mediamarkttoledo",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Mando Xbox - Microsoft Xbox Elite V2 Core, Bluetooth + Cable USB-C, Blanco",
       "precio": 119.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/800023082175?itmmeta=01M0JAKYH0JHAKEBKH5WCZCWB8&hash=itemba451774bf:g:9WoAAeSwqNVqXd1y",
       "imagen_url": "https://i.ebayimg.com/images/g/9WoAAeSwqNVqXd1y/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-21 14:11:56",
-      "seller_id": "mediamarkttoledo",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "PS5 MotoGP 26",
-      "precio": 49.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800524258168?itmmeta=01M0JAKYH01DWA3YRNYX0VC2FY&hash=itemba62f6cb78:g:rHAAAeSwKVxqgyqT",
-      "imagen_url": "https://i.ebayimg.com/images/g/rHAAAeSwKVxqgyqT/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -25450,19 +25463,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/800502973073?itmmeta=01M0JAKYH0C80YWCXSP26S4P7R&hash=itemba61b20291:g:EMMAAeSwW4tqfgjE",
       "imagen_url": "https://i.ebayimg.com/images/g/EMMAAeSwW4tqfgjE/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-21 14:11:56",
-      "seller_id": "mediamarkttoledo",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Silla gaming - Corsair T3 Rush, Reposacabezas 4D, Espalda inclinable",
-      "precio": 279.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800534953747?itmmeta=01M0JAKYH03WNCKW6RF5ED15M0&hash=itemba6399ff13:g:6ecAAeSwBD9qhcn7",
-      "imagen_url": "https://i.ebayimg.com/images/g/6ecAAeSwBD9qhcn7/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -74485,7 +74485,7 @@
       "precio": 251.1,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/398278256201?itmmeta=01M0A7JDYXEBAPXR1QE3R0EC6X&hash=item5cbb3be649:g:bVIAAeSwfoNqfK1-",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/bVIAAeSwfoNqfK1-/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-acer-chromebook-314-cboa314-1h-c065-14-full-hd-intelr-celeron-n4500-8gb-ram-128gb-emmc-uhd-graphics-google-chrome-os-negro-1590080.html",
@@ -74511,7 +74511,7 @@
       "precio": 260.1,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/398278255925?itmmeta=01M0A7JGG9SYAJ263BFWR689F4&hash=item5cbb3be535:g:u3cAAeSw-zVqfK06",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/u3cAAeSw-zVqfK06/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-samsung-galaxy-a27-5g-negro-128-gb-6-gb-ram-67-fhd-super-amoled-qualcomm-snapdragon-6-gen-3-5000-mah-android-16-1667601.html",
@@ -74537,7 +74537,7 @@
       "precio": 269.1,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/398278255774?itmmeta=01M0A7JGG8NMYS0T3C85KHGBBZ&hash=item5cbb3be49e:g:e~4AAeSw4qpqfK0v",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/e~4AAeSw4qpqfK0v/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -97868,19 +97868,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Monitor gaming - Samsung LS27FG506EUXEN, 27\" QHD, 180 Hz, 1 ms, IPS (Conmutación",
-      "precio": 159.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137322142949?itmmeta=01M08SVAB66WW2ZDK8624KVW4R&hash=item1ff9099ce5:g:TDkAAeSwbG9qY2GA",
-      "imagen_url": "https://i.ebayimg.com/images/g/TDkAAeSwbG9qY2GA/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-17 21:28:09",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Cable USB-C Hama 00200656, USB-C, USB 3.2 Gen2, 5 A, 100 W, 1 m, 10 Gbit/s,",
       "precio": 24.99,
       "moneda": "EUR",
@@ -113380,26 +113367,6 @@
       ]
     },
     {
-      "clave": "porta cápsulas - scanpart elka pieterman, para 40 cápsulas nespresso, metal",
-      "criterio": "titulo",
-      "titulo": "Porta cápsulas - Scanpart Elka Pieterman, Para 40 cápsulas Nespresso, Metal",
-      "imagen_url": "https://i.ebayimg.com/images/g/-mwAAeSwT3JqSoIo/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktalfafar",
-          "precio": 4.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/297384074979?itmmeta=01M08T49KPR92C4AYF7T45F3HX&hash=item453d78dee3:g:eVwAAeSwZnFqcwKj"
-        },
-        {
-          "tienda": "mediamarkttoledo",
-          "precio": 9.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/800544260161?itmmeta=01M0JAKYGZ5XEEHP934GAGMPCF&hash=itemba64280041:g:rJYAAeSw8NRqiAzP"
-        }
-      ]
-    },
-    {
       "clave": "cafetera express - koenic kem 2024 m, 20 bar, 1470 w, función 2 tazas,",
       "criterio": "titulo",
       "titulo": "Cafetera express - KOENIC KEM 2024 M, 20 bar, 1470 W, Función 2 Tazas,",
@@ -116183,7 +116150,7 @@
       "clave": "aspirador escoba - samsung vs20b75agr1/wa jet 75e pet, sin cable, 200 wa, multi",
       "criterio": "titulo",
       "titulo": "Aspirador escoba - Samsung VS20B75AGR1/WA Jet 75E Pet, Sin cable, 200 WA, Multi",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/e~4AAeSw4qpqfK0v/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktmarbella",
@@ -121196,6 +121163,26 @@
           "precio": 19.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/398056864439?itmmeta=01M1MES5QX6JYGVC5ZY5E312HF&hash=item5cae09bab7:g:ozsAAeSw1ihqYibe"
+        }
+      ]
+    },
+    {
+      "clave": "licuadora - moulinex frutelia +  ju3708, 350 w, 2 velocidades, 0.95 l",
+      "criterio": "titulo",
+      "titulo": "Licuadora - Moulinex Frutelia +  JU3708, 350 W, 2 velocidades, 0.95 L",
+      "imagen_url": "https://i.ebayimg.com/images/g/Dq0AAeSwVzdqhG0J/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktvelezmalaga",
+          "precio": 29.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/398198570095?itmmeta=01M0A7XKXC120KVFQSYY457FXG&hash=item5cb67bfc6f:g:R2YAAeSwAQ9qXzpp"
+        },
+        {
+          "tienda": "mediamarkttoledo",
+          "precio": 39.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/800479414418?itmmeta=01M1X1E6SMJT7NMZ6RZ37WSK7F&hash=itemba604a8892:g:Dq0AAeSwVzdqhG0J"
         }
       ]
     },
