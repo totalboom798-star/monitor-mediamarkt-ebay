@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-12T08:38:30.292611+00:00",
+  "actualizado": "2026-09-12T15:22:48.519632+00:00",
   "total_tiendas": 101,
   "total_articulos": 5930,
   "tiendas": [
@@ -102,6 +102,11 @@
       "seller_id": "mediamarktpuertovenecia",
       "nombre_mostrado": null,
       "num_articulos": 50
+    },
+    {
+      "seller_id": "mediamarktlleida",
+      "nombre_mostrado": null,
+      "num_articulos": 49
     },
     {
       "seller_id": "mediamarktmalagaplazamayor",
@@ -210,11 +215,6 @@
     },
     {
       "seller_id": "mediamarktleon",
-      "nombre_mostrado": null,
-      "num_articulos": 47
-    },
-    {
-      "seller_id": "mediamarktlleida",
       "nombre_mostrado": null,
       "num_articulos": 47
     },
@@ -336,12 +336,12 @@
     {
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null,
-      "num_articulos": 33
+      "num_articulos": 32
     },
     {
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null,
-      "num_articulos": 30
+      "num_articulos": 29
     },
     {
       "seller_id": "mediamarktvigomeixoeiro",
@@ -511,6 +511,97 @@
   ],
   "articulos_recientes": [
     {
+      "titulo": "Portátil gaming - HP OMEN 16-ap0014ns Copilot+ PC, 16 \" 2K, AMD Ryzen? AI 7 350",
+      "precio": 1259.1,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/389742125750?itmmeta=01M2B37VJCDA6249RZ1G4WAVMR&hash=item5abe70e2b6:g:clIAAeSw1yJqS356",
+      "imagen_url": "https://i.ebayimg.com/images/g/clIAAeSw1yJqS356/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-gaming-hp-omen-16-ap0015ns-copilot-pc-16-2k-amd-ryzentm-ai-7-350-32-gb-ram-1-tb-ssd-geforce-rtxtm-5070-sin-sistema-operativo-negro-1604500.html",
+      "fecha_visto_primera_vez": "2026-09-12 15:21:34",
+      "seller_id": "mediamarktlleida",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Disco duro externo 2 TB - LaCie Rugged Mini, USB C (3.1 Gen 1), Aluminio, Naranj",
+      "precio": 129.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/389757679114?itmmeta=01M2B37VJB31VE6Y47RBGZ706A&hash=item5abf5e360a:g:6-IAAeSwLuxqV9A2",
+      "imagen_url": "https://i.ebayimg.com/images/g/6-IAAeSwLuxqV9A2/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_disco-duro-2-tb-lacie-rugged-mini-usb-c-3-0-3-1-gen-1-aluminio-naranja-1235546.html",
+      "fecha_visto_primera_vez": "2026-09-12 15:21:18",
+      "seller_id": "mediamarktlleida",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "PS4 LEGO Jurassic World",
+      "precio": 9.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800347884347?itmmeta=01M2B37VJBADH3DB6P82M824EC&hash=itemba58738b3b:g:fk4AAeSw4NdqV994",
+      "imagen_url": "https://i.ebayimg.com/images/g/fk4AAeSw4NdqV994/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_ps4-lego-jurassic-world-1279038.html",
+      "fecha_visto_primera_vez": "2026-09-12 15:21:04",
+      "seller_id": "mediamarktlleida",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Ratón inalámbrico - Logitech MX Master 4 para Mac, 8000ppp, Carga rápida, Clics",
+      "precio": 116.1,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/389757719200?itmmeta=01M2B37VJBKMZ1WSQWM3A1AMWW&hash=item5abf5ed2a0:g:0VUAAeSwyUdqS4FX",
+      "imagen_url": "https://i.ebayimg.com/images/g/0VUAAeSwyUdqS4FX/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_raton-inalambrico-logitech-mx-master-4-8000ppp-carga-rapida-clics-silenciosos-bluetooth-usb-pc-mac-multidispositivo-personalizable-negro-1604903.html",
+      "fecha_visto_primera_vez": "2026-09-12 15:20:50",
+      "seller_id": "mediamarktlleida",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "PS4 LEGO Marvel Super Heroes",
+      "precio": 9.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800347887617?itmmeta=01M2B37VJAMJTBF0EVJ308YJ5M&hash=itemba58739801:g:aCcAAeSw6PpqV9~z",
+      "imagen_url": "https://i.ebayimg.com/images/g/aCcAAeSw6PpqV9~z/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_ps4-lego-marvel-super-heroes-1208848.html",
+      "fecha_visto_primera_vez": "2026-09-12 15:20:34",
+      "seller_id": "mediamarktlleida",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "All in one - Acer Aspire C24-2G, 24\" Full-HD, Intel® Core? i5-13420H, 16GB RAM,",
+      "precio": 701.1,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800040028579?itmmeta=01M2B37VJ8327NJM778HBD9FNQ&hash=itemba461a09a3:g:l9AAAeSw~VhqS4Bi",
+      "imagen_url": "https://i.ebayimg.com/images/g/l9AAAeSw~VhqS4Bi/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-all-in-one-acer-aspire-c24-2g-24-full-hd-intelr-coretm-i5-13420h-16gb-ram-1tb-ssd-uhd-graphics-sin-so-1619003.html",
+      "fecha_visto_primera_vez": "2026-09-12 15:20:19",
+      "seller_id": "mediamarktlleida",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "TV QLED 32\" - Xiaomi 32 A PRO, QLED HD, Quad A53, Smart TV, Google TV, Negro",
+      "precio": 99.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407211356782?itmmeta=01M2B3633DZ13ZPA80X2T3Y0S8&hash=item5ecfb0326e:g:9SUAAeSwcBxqpTf9",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tv-qled-32-xiaomi-32-a-pro-qled-hd-quad-a53-smart-tv-google-tv-negro-1597423.html",
+      "fecha_visto_primera_vez": "2026-09-12 15:18:45",
+      "seller_id": "mediamarktgrancasa",
+      "nombre_mostrado": null
+    },
+    {
       "titulo": "Auriculares deportivos Powerbeats Pro 2, Chip H2 Apple, Cancelación de ruido",
       "precio": 189.99,
       "moneda": "EUR",
@@ -580,7 +671,7 @@
       "precio": 178.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/407202470758?itmmeta=01M2AC0XS02C8GFN5Z775ER6XQ&hash=item5ecf289b66:g:9o4AAeSwP-RqoGXX",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/9o4AAeSwP-RqoGXX/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_disco-duro-ssd-interno-1tb-wdblack-sn850p-nvme-ssd-almacenamiento-para-consolas-ps5tm-hasta-7300mbs-negro-1558566.html",
@@ -2406,19 +2497,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-hp-15-fc1003nsx-156-full-hd-amd-ryzentm-5-7520u-16-gb-ram-512-gb-ssd-radeontm-610m-windows-11-home-sin-cargador-1625245.html",
       "fecha_visto_primera_vez": "2026-09-10 14:52:55",
       "seller_id": "mediamarktpuertovenecia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Nintendo Switch 2 Fortnite: Lote de Fuego Oscuro y Hielo (Código en la caja)",
-      "precio": 14.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800347884814?itmmeta=01M25WR062ZDAK92BS2NTG1AQH&hash=itemba58738d0e:g:KNUAAeSwWZtqV9~C",
-      "imagen_url": "https://i.ebayimg.com/images/g/KNUAAeSwWZtqV9~C/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-fortnite-lote-de-fuego-oscuro-y-hielo-codigo-en-la-caja-1608112.html",
-      "fecha_visto_primera_vez": "2026-09-10 14:51:39",
-      "seller_id": "mediamarktlleida",
       "nombre_mostrado": null
     },
     {
@@ -8818,19 +8896,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Portátil - HP 15S-FQ5048NS , 15.6\" Full HD, Intel® Core? i7-1255U, 16GB RAM",
-      "precio": 639.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/389367162585?itmmeta=01M1NA50W7S8EB2WHDVA6ER0MF&hash=item5aa81766d9:g:LVIAAeSwTDhpPWhF",
-      "imagen_url": "https://i.ebayimg.com/images/g/LVIAAeSwTDhpPWhF/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-gaming-hp-victus-15-fa2027ns-156-full-hd-intel-coretm-7-240h-16gb-ram-1tb-ssd-rtxtm-5060-sin-sistema-operativo-azul-1598148.html",
-      "fecha_visto_primera_vez": "2026-09-04 04:18:02",
-      "seller_id": "mediamarktlleida",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Portátil - ASUS Vivobook 15 F1504VA-NJ510W, 15.6 \" Full-HD, Intel® Core? i7-1355",
       "precio": 611.15,
       "moneda": "EUR",
@@ -13160,19 +13225,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "PS4 Pack 2 juegos: The Division 2 + Watch Dogs: Legion",
-      "precio": 10.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800347885877?itmmeta=01M1E0Q4NGAATBN3E417PK88H3&hash=itemba58739135:g:YycAAeSwAY9qV-BP",
-      "imagen_url": "https://i.ebayimg.com/images/g/YycAAeSwAY9qV-BP/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-01 08:17:39",
-      "seller_id": "mediamarktlleida",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Nintendo Switch 2 Turbo Boost Racing (Código en la caja) + 2 Volantes",
       "precio": 11.9,
       "moneda": "EUR",
@@ -13321,19 +13373,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/800347917834?itmmeta=01M1E0Q4NHW3YAQW19BJDEXWJK&hash=itemba58740e0a:g:MUUAAeSwzM5qV-By",
       "imagen_url": "https://i.ebayimg.com/images/g/MUUAAeSwzM5qV-By/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-01 08:17:39",
-      "seller_id": "mediamarktlleida",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda tablet - Targus THZ984GL, Apple iPad Pro 11\", Pro-Tek, Transparente, Negro",
-      "precio": 29.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/389757678804?itmmeta=01M1E0Q4NH9Y8A22K7YTFT0DPQ&hash=item5abf5e34d4:g:mwEAAeSwzXdqV9AB",
-      "imagen_url": "https://i.ebayimg.com/images/g/mwEAAeSwzXdqV9AB/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -20163,19 +20202,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_termo-electrico-ariston-velis-tech-dry-wifi-80-1500-w-8-bar-80-l-multiposicion-gris-1576403.html",
       "fecha_visto_primera_vez": "2026-08-22 20:58:14",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Mando PS5 - Sony DualSense Edge™ para PlayStation 5 y PC, 1 unidad, Bluetooth, M",
-      "precio": 196.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137650677822?itmmeta=01M0NM1VM6GDYMFAE4QNNBAR28&hash=item200c9ea83e:g:mn4AAeSw6o5qigDk",
-      "imagen_url": "https://i.ebayimg.com/images/g/mn4AAeSw6o5qigDk/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_mando-ps5-sony-dualsense-edgetm-para-playstation-5-y-pc-1-unidad-midnight-black-1592495.html",
-      "fecha_visto_primera_vez": "2026-08-22 20:56:31",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -38531,19 +38557,6 @@
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-xiaomi-14-negro-512-gb-12-gb-ram-636-amoled-120hz-snapdragon-8-gen-3-4610-mah-android-137560191.html",
-      "fecha_visto_primera_vez": "2026-08-18 10:48:06",
-      "seller_id": "mediamarktgrancasa",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Dron DJI Neo, 12 megapixel, Autonomía 18 min, Batería de recambio gratuita.",
-      "precio": 149.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/407138580477?itmmeta=01M0A7RDTFQPYHBP70G668T860&hash=item5ecb59b7fd:g:21oAAeSw0KxqfEr6",
-      "imagen_url": "https://i.ebayimg.com/images/g/21oAAeSw0KxqfEr6/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_drone-de-juguete-bizak-neon-dron-acrobatico-110-min-multicolor-171728080.html",
       "fecha_visto_primera_vez": "2026-08-18 10:48:06",
       "seller_id": "mediamarktgrancasa",
       "nombre_mostrado": null
@@ -68956,19 +68969,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Auriculares True Wireless - JBL Wave Beam, 32 h de Autonomía, Carga rápida",
-      "precio": 30.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800323707578?itmmeta=01M08T90CA13QBVSZC2MGVZ40D&hash=itemba5702a2ba:g:S~gAAeSw8QJqUgs~",
-      "imagen_url": "https://i.ebayimg.com/images/g/S~gAAeSw8QJqUgs~/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-17 21:33:33",
-      "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Memoria USB 64GB - SanDisk Ultra Luxe Type-C, USB 3.2, Hasta 300 MB/s, Compatibl",
       "precio": 8.99,
       "moneda": "EUR",
@@ -81541,6 +81541,32 @@
       ]
     },
     {
+      "clave": "ps4 lego jurassic world",
+      "criterio": "titulo",
+      "titulo": "PS4 LEGO JURASSIC WORLD",
+      "imagen_url": "https://i.ebayimg.com/images/g/fk4AAeSw4NdqV994/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktcastellon",
+          "precio": 9.9,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/188708435323?itmmeta=01M0A7HD2RQ9M61WB5RA2ZMY4H&hash=item2befe6357b:g:jd0AAeSw1stqaPBb"
+        },
+        {
+          "tienda": "mediamarktlleida",
+          "precio": 9.9,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/800347884347?itmmeta=01M2B37VJBADH3DB6P82M824EC&hash=itemba58738b3b:g:fk4AAeSw4NdqV994"
+        },
+        {
+          "tienda": "mediamarktdiagonalmar",
+          "precio": 9.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/206503994050?itmmeta=01M0ET55BH2FMAW0ZTFWEFBVT5&hash=item301498e2c2:g:~LQAAeSw-95qhgg2"
+        }
+      ]
+    },
+    {
       "clave": "cafetera superautomática - de'longhi magnifica s ecam22.113.b, 1450 w, 15 bar",
       "criterio": "titulo",
       "titulo": "Cafetera superautomática - De'Longhi Magnifica S ECAM22.113.B, 1450 W, 15 bar",
@@ -82811,32 +82837,6 @@
           "precio": 29.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/800529329848?itmmeta=01M0JAKYGY252RZ1FCGDSWK5TC&hash=itemba63442eb8:g:1IgAAeSw92lqhHD~"
-        }
-      ]
-    },
-    {
-      "clave": "ps4 pack 2 juegos: the division 2 + watch dogs: legion",
-      "criterio": "titulo",
-      "titulo": "PS4 Pack 2 juegos: The Division 2 + Watch Dogs: Legion",
-      "imagen_url": "https://i.ebayimg.com/images/g/DxoAAeSwo8JqlxTx/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktpamplona",
-          "precio": 9.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/398019387294?itmmeta=01M0GFW0KGNXM9V3KPN9Y74J7R&hash=item5cabcddf9e:g:0kwAAeSw9h5qNnKY"
-        },
-        {
-          "tienda": "mediamarktlleida",
-          "precio": 10.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/800347885877?itmmeta=01M1E0Q4NGAATBN3E417PK88H3&hash=itemba58739135:g:YycAAeSwAY9qV-BP"
-        },
-        {
-          "tienda": "mediamarktbadalona",
-          "precio": 11.19,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/178433648629?itmmeta=01M0XBYKXMYJ4ZYCSWYCJVJ067&hash=item298b7967f5:g:pqkAAeSwTclqitzy"
         }
       ]
     },
@@ -85219,26 +85219,6 @@
       ]
     },
     {
-      "clave": "ps4 lego jurassic world",
-      "criterio": "titulo",
-      "titulo": "PS4 LEGO JURASSIC WORLD",
-      "imagen_url": "https://i.ebayimg.com/images/g/ubsAAeSwYUhqaeHZ/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktcastellon",
-          "precio": 9.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/188708435323?itmmeta=01M0A7HD2RQ9M61WB5RA2ZMY4H&hash=item2befe6357b:g:jd0AAeSw1stqaPBb"
-        },
-        {
-          "tienda": "mediamarktdiagonalmar",
-          "precio": 9.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/206503994050?itmmeta=01M0ET55BH2FMAW0ZTFWEFBVT5&hash=item301498e2c2:g:~LQAAeSw-95qhgg2"
-        }
-      ]
-    },
-    {
       "clave": "cámara instantánea - fujifilm instax mini 12, 62× 46 mm, flash, blanco arcilla",
       "criterio": "titulo",
       "titulo": "Cámara instantánea - Fujifilm Instax Mini 12, 62× 46 mm, Flash, Blanco arcilla",
@@ -87599,6 +87579,26 @@
       ]
     },
     {
+      "clave": "ps4 lego marvel super heroes",
+      "criterio": "titulo",
+      "titulo": "PS4 LEGO Marvel Super Heroes",
+      "imagen_url": "https://i.ebayimg.com/images/g/aCcAAeSw6PpqV9~z/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktlleida",
+          "precio": 9.9,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/800347887617?itmmeta=01M2B37VJAMJTBF0EVJ308YJ5M&hash=itemba58739801:g:aCcAAeSw6PpqV9~z"
+        },
+        {
+          "tienda": "mediamarktgranada",
+          "precio": 11.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/318285276189?itmmeta=01M0A7Q0XMS2WMTP6K16HPZN60&hash=item4a1b47e41d:g:l4EAAeSwmc1qAcat"
+        }
+      ]
+    },
+    {
       "clave": "cepillo eléctrico - philips sonicare hx7108/01 serie 5300, autonomía de 21 días,",
       "criterio": "titulo",
       "titulo": "Cepillo eléctrico - Philips Sonicare HX7108/01 Serie 5300, Autonomía de 21 días,",
@@ -88695,6 +88695,26 @@
           "precio": 79.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/318297211613?itmmeta=01M0GFVTCT549V9YFBBX8XM6N8&hash=item4a1bfe02dd:g:gCQAAeSwnLZqBKyp"
+        }
+      ]
+    },
+    {
+      "clave": "ps4 pack 2 juegos: the division 2 + watch dogs: legion",
+      "criterio": "titulo",
+      "titulo": "PS4 Pack 2 juegos: The Division 2 + Watch Dogs: Legion",
+      "imagen_url": "https://i.ebayimg.com/images/g/DxoAAeSwo8JqlxTx/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktpamplona",
+          "precio": 9.9,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/398019387294?itmmeta=01M0GFW0KGNXM9V3KPN9Y74J7R&hash=item5cabcddf9e:g:0kwAAeSw9h5qNnKY"
+        },
+        {
+          "tienda": "mediamarktbadalona",
+          "precio": 11.19,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/178433648629?itmmeta=01M0XBYKXMYJ4ZYCSWYCJVJ067&hash=item298b7967f5:g:pqkAAeSwTclqitzy"
         }
       ]
     },
