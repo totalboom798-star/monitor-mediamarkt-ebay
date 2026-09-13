@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-09-13T09:42:20.739664+00:00",
+  "actualizado": "2026-09-13T15:57:54.508838+00:00",
   "total_tiendas": 101,
-  "total_articulos": 5183,
+  "total_articulos": 5176,
   "tiendas": [
     {
       "seller_id": "mediamarktgranada",
@@ -41,7 +41,7 @@
     {
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null,
-      "num_articulos": 143
+      "num_articulos": 141
     },
     {
       "seller_id": "mediamarktfanmallorca",
@@ -85,11 +85,6 @@
     },
     {
       "seller_id": "mediamarktcartagena",
-      "nombre_mostrado": null,
-      "num_articulos": 50
-    },
-    {
-      "seller_id": "mediamarktpuertovenecia",
       "nombre_mostrado": null,
       "num_articulos": 50
     },
@@ -219,6 +214,11 @@
       "num_articulos": 46
     },
     {
+      "seller_id": "mediamarktpuertovenecia",
+      "nombre_mostrado": null,
+      "num_articulos": 46
+    },
+    {
       "seller_id": "mediamarktsanjuanaznalfarache",
       "nombre_mostrado": null,
       "num_articulos": 46
@@ -299,14 +299,14 @@
       "num_articulos": 38
     },
     {
-      "seller_id": "mediamarktleon",
+      "seller_id": "mediamarktpalmademallorca",
       "nombre_mostrado": null,
       "num_articulos": 38
     },
     {
-      "seller_id": "mediamarktpalmademallorca",
+      "seller_id": "mediamarktleon",
       "nombre_mostrado": null,
-      "num_articulos": 38
+      "num_articulos": 37
     },
     {
       "seller_id": "mediamarktmassalfassar",
@@ -510,6 +510,71 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Cafetera de cápsulas - Nespresso® Krups Inissia XN1005",
+      "precio": 74.88,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/398067837316?itmmeta=01M2DQPEE9SNAWTEDMHJ5C11K8&hash=item5caeb12984:g:Z7cAAeSwEM5qYiZ0",
+      "imagen_url": "https://i.ebayimg.com/images/g/Z7cAAeSwEM5qYiZ0/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-de-cápsulas-nespresso®-krups-inissia-xn1005p4-presión-de-19-bares-potencia-1260w-rojo-1207703.html",
+      "fecha_visto_primera_vez": "2026-09-13 15:57:28",
+      "seller_id": "mediamarktpuertovenecia",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cafetera superautomática - Krups Roma EA81K870",
+      "precio": 210.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/398067827213?itmmeta=01M2DQPEE85BWFESGA1PBKF6FF&hash=item5caeb1020d:g:EtUAAeSwhQNqYidF",
+      "imagen_url": "https://i.ebayimg.com/images/g/EtUAAeSwhQNqYidF/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-superautomtica-ea81r870-roma-krups-95689913.html",
+      "fecha_visto_primera_vez": "2026-09-13 15:57:13",
+      "seller_id": "mediamarktpuertovenecia",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Tablet - PEAQ MIA TAB 11, 11\" HD, 4GB RAM, 128 GB, Android 15",
+      "precio": 95.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/398022473757?itmmeta=01M2DQPEE80RTD9B4YM814WP1J&hash=item5cabfcf81d:g:W7gAAeSwlktqYia1",
+      "imagen_url": "https://i.ebayimg.com/images/g/W7gAAeSwlktqYia1/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tablet-peaq-mia-tab-11-11-hd-4gb-ram-128-gb-android-15-wifi-5-ips-incell-allwinner-a523-6000mah-negro-1599172.html",
+      "fecha_visto_primera_vez": "2026-09-13 15:56:57",
+      "seller_id": "mediamarktpuertovenecia",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Tablet - PEAQ MIA TAB 11, 11\" HD, 4GB RAM, 128 GB,",
+      "precio": 100.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/398022479480?itmmeta=01M2DQPEE8FV77BSJJ7F92ZTE9&hash=item5cabfd0e78:g:jH4AAeSw8fBqYiaq",
+      "imagen_url": "https://i.ebayimg.com/images/g/jH4AAeSw8fBqYiaq/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tablet-peaq-mia-tab-11-11-hd-4gb-ram-128-gb-android-15-wifi-5-ips-incell-allwinner-a523-6000mah-negro-1599172.html",
+      "fecha_visto_primera_vez": "2026-09-13 15:56:41",
+      "seller_id": "mediamarktpuertovenecia",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Centro de planchado - Philips PSG6022/20, 2400 W, Depósito de 1,8 L, 6.5 bares",
+      "precio": 139.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/397697736350?itmmeta=01M2DQPEE8XES4K8Z25TEY36V9&hash=item5c98a1de9e:g:l-kAAeSw3mlqYiZ~",
+      "imagen_url": "https://i.ebayimg.com/images/g/l-kAAeSw3mlqYiZ~/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_centro-de-planchado-philips-psg602220-2400-w-deposito-de-18-l-65-bares-steamglide-plus-blancoazul-1537892.html",
+      "fecha_visto_primera_vez": "2026-09-13 15:56:24",
+      "seller_id": "mediamarktpuertovenecia",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Juego - Magicbox Piratix Crazy Jungle - 4 Pack 1x12, Aleatorio",
       "precio": 3.74,
@@ -3485,19 +3550,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_hucha-sherwood-hello-kitty-kuromi-20cm-x-13cm-x-17cm-de-peluche-abertura-en-la-parte-inferior-1600528.html",
       "fecha_visto_primera_vez": "2026-09-10 16:11:16",
       "seller_id": "mediamarktsantiagodecompostela",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "MSI  15 B13VE-2446ES, 15.6\"  i7-13620H, 16GB RAM, 512GB SSD, GeForce RTX? 4050",
-      "precio": 850.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397876145482?itmmeta=01M25WW4A6SFYN59NECC6DFEHR&hash=item5ca3442d4a:g:7HcAAeSwzIxqYiY0",
-      "imagen_url": "https://i.ebayimg.com/images/g/7HcAAeSwzIxqYiY0/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-gaming-msi-thin-15-b13ve-2446es-156-full-hd-intelr-coretm-i7-13620h-16-gb-ram-512-gb-ssd-geforce-rtxtm-4050-windows-11-home-64-bit-145398607.html",
-      "fecha_visto_primera_vez": "2026-09-10 14:53:29",
-      "seller_id": "mediamarktpuertovenecia",
       "nombre_mostrado": null
     },
     {
@@ -16618,19 +16670,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Memoria USB 64GB - Sandisk USB SanDisk® Fortnite®, edición Banano,",
-      "precio": 9.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397739405615?itmmeta=01M16PZ58GR9SVDG8QFH67VVGY&hash=item5c9b1db12f:g:xqwAAeSw-ABqYiYv",
-      "imagen_url": "https://i.ebayimg.com/images/g/xqwAAeSw-ABqYiYv/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_memoria-usb-64gb-sandisk-usb-sandiskr-fortniter-edicion-banano-peely-hasta-130-mbs-usb-32-amarillo-1600777.html",
-      "fecha_visto_primera_vez": "2026-08-29 12:14:03",
-      "seller_id": "mediamarktpuertovenecia",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Campana telescópica - Balay 3BT263MB 3 potencias, 360m³/h, 60 cm, Blanco",
       "precio": 110.0,
       "moneda": "EUR",
@@ -16640,19 +16679,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_campana-balay-3bt263mx-telescópica-3-potencias-360m³-h-inox-1366420.html",
       "fecha_visto_primera_vez": "2026-08-29 12:13:48",
-      "seller_id": "mediamarktpuertovenecia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Centro de planchado - Rowenta Perfect Steam Pro DG8626F0, 2400W, 6.9 Bar",
-      "precio": 170.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397889483607?itmmeta=01M16PZ58G9S82KCFDWBN5BNME&hash=item5ca40fb357:g:8I4AAeSwYUhqYiZQ",
-      "imagen_url": "https://i.ebayimg.com/images/g/8I4AAeSwYUhqYiZQ/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_centro-de-planchado-rowenta-perfect-steam-pro-dg8626f0-120-g-min-golpe-450-g-min-gris-y-verde-1427931.html",
-      "fecha_visto_primera_vez": "2026-08-29 12:13:31",
       "seller_id": "mediamarktpuertovenecia",
       "nombre_mostrado": null
     },
@@ -19500,19 +19526,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_accesorio-patinete-electrico-smartgyro-sg27-345-espejo-retrovisor-para-manillar-negro-1594910.html",
       "fecha_visto_primera_vez": "2026-08-24 17:55:51",
-      "seller_id": "mediamarktleon",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Mando Xbox - Microsoft Pulse Cipher Special Edition, Bluetooth, Rojo",
-      "precio": 62.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/406984161034?itmmeta=01M0TEETY95XTEK5GQ9TG4KK16&hash=item5ec225770a:g:JIIAAeSwEMdqY1bM",
-      "imagen_url": "https://i.ebayimg.com/images/g/JIIAAeSwEMdqY1bM/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_mando-microsoft-elite-wireless-controller-v2-4ik-00002-para-xbox-one-y-pc-cable-usb-c-core-negro-blanco-1514723.html",
-      "fecha_visto_primera_vez": "2026-08-24 17:55:08",
       "seller_id": "mediamarktleon",
       "nombre_mostrado": null
     },
@@ -23898,32 +23911,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "TV QD-OLED 65\" - Sony Bravia 8 II, Procesador XR con IA, exposición",
-      "precio": 1899.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398056852789?itmmeta=01M0JAJFRG43756CVJ03RBAPNS&hash=item5cae098d35:g:UpYAAeSwa3tqZylQ",
-      "imagen_url": "https://i.ebayimg.com/images/g/UpYAAeSwa3tqZylQ/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-21 14:11:08",
-      "seller_id": "mediamarktpuertovenecia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "TV OLED 65\" - Sony BRAVIA 8A, 4K UHD HDR, exposición",
-      "precio": 1500.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398056853980?itmmeta=01M0JAJFRG09E9TDMW0G8APXYT&hash=item5cae0991dc:g:VKIAAeSwU6VqYia9",
-      "imagen_url": "https://i.ebayimg.com/images/g/VKIAAeSwU6VqYia9/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-21 14:11:08",
-      "seller_id": "mediamarktpuertovenecia",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Tablet - Huawei MatePad 11.5, Wi-Fi, 11.5\" DCI 2K 8 GB RAM, 256 GB",
       "precio": 225.0,
       "moneda": "EUR",
@@ -23950,19 +23937,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "TV OLED 55\" - Sony BRAVIA XR 55A80L, 4KHDR120, TDT HD, HDMI 2.1",
-      "precio": 1000.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398157941458?itmmeta=01M0JAJFRHDF09FSZ827GPG8J7&hash=item5cb4100ad2:g:wXcAAeSwsHRqYiYY",
-      "imagen_url": "https://i.ebayimg.com/images/g/wXcAAeSwsHRqYiYY/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-21 14:11:08",
-      "seller_id": "mediamarktpuertovenecia",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Ardistel Deluxe Crossbody Bag MC16Nintendo Switch 2, Switch y OLED, Negro",
       "precio": 14.9,
       "moneda": "EUR",
@@ -23981,32 +23955,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/398219544365?itmmeta=01M0JAJFRHVSHTW3E32YN94W8G&hash=item5cb7bc072d:g:Oc8AAeSwwnxqZyny",
       "imagen_url": "https://i.ebayimg.com/images/g/Oc8AAeSwwnxqZyny/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-21 14:11:08",
-      "seller_id": "mediamarktpuertovenecia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Móvil - Samsung Galaxy A16 LTE, Black, 128 GB, 4 GB RAM, 6.7",
-      "precio": 139.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397693750313?itmmeta=01M0JAJFRH0D254Z6QBV0SJRS8&hash=item5c98650c29:g:jksAAeSw3QtqYiXz",
-      "imagen_url": "https://i.ebayimg.com/images/g/jksAAeSw3QtqYiXz/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-21 14:11:08",
-      "seller_id": "mediamarktpuertovenecia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Apple iPhone 16 Plus, Azul ultramar, 128 GB, 5G",
-      "precio": 798.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398068027502?itmmeta=01M0JAJFRHN2D4MD55KG8Z21ZZ&hash=item5caeb4106e:g:iIUAAeSw-~pqYiaZ",
-      "imagen_url": "https://i.ebayimg.com/images/g/iIUAAeSw-~pqYiaZ/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -24158,19 +24106,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Campana convencional - Teka C 6420, 3 Velocidades, 375 m3/h",
-      "precio": 115.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398157765499?itmmeta=01M0JAJFRJGGXKXDJMK5AA4CFX&hash=item5cb40d5b7b:g:kAkAAeSwdJpqYiZD",
-      "imagen_url": "https://i.ebayimg.com/images/g/kAkAAeSwdJpqYiZD/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-21 14:11:08",
-      "seller_id": "mediamarktpuertovenecia",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Soporte TV - ISY ITV 3500, 48\"- 80\", Carga máx. 50 kg, VESA máx. 600 x 400 mm",
       "precio": 44.99,
       "moneda": "EUR",
@@ -24201,7 +24136,7 @@
       "precio": 310.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/398157758563?itmmeta=01M0JAJFRJ992AAKCWAH7GA7K6&hash=item5cb40d4063:g:2XEAAeSwY89qYiYZ",
-      "imagen_url": "https://i.ebayimg.com/images/g/2XEAAeSwY89qYiYZ/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/XQIAAeSwPn5qpALE/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -66148,19 +66083,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Funda - ISY ISC 5114, Samsung, Galaxy A15 / A15 5G, Negro",
-      "precio": 1.5,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/135787091477?itmmeta=01M08T2Q5VGJW5FX9FHBMXQ604&hash=item1f9d8a9615:g:JW4AAeSwLydpxRR4",
-      "imagen_url": "https://i.ebayimg.com/images/g/JW4AAeSwLydpxRR4/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-17 21:30:29",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Protector pantalla - Samsung, Para Samsung Galaxy S24, Transparente",
       "precio": 6.99,
       "moneda": "EUR",
@@ -66231,19 +66153,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/136995164455?itmmeta=01M08T2Q5T58EDKAM44K4606M5&hash=item1fe58c5127:g:MokAAeSwZeRp-iaw",
       "imagen_url": "https://i.ebayimg.com/images/g/MokAAeSwZeRp-iaw/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-17 21:30:28",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector pantalla -, Samsung, Galaxy S24, Cristal templado",
-      "precio": 2.5,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/135787091691?itmmeta=01M08T2Q5T1MHG8CYFKVZAFY3X&hash=item1f9d8a96eb:g:NPkAAeSwePlqHUal",
-      "imagen_url": "https://i.ebayimg.com/images/g/NPkAAeSwePlqHUal/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -71380,6 +71289,32 @@
       ]
     },
     {
+      "clave": "centro de planchado - philips psg6022/20, 2400 w, depósito de 1,8 l, 6.5 bares",
+      "criterio": "titulo",
+      "titulo": "Centro de planchado - Philips PSG6022/20, 2400 W, Depósito de 1,8 L, 6.5 bares",
+      "imagen_url": "https://i.ebayimg.com/images/g/Q4kAAeSw0zlqlTn-/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktoutletpinto",
+          "precio": 90.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/820068559248?itmmeta=01M26PXYCFH8HF6D7V5NY3PZNK&hash=itembeefe52990:g:Q4kAAeSw0zlqlTn-"
+        },
+        {
+          "tienda": "mediamarktcolladovillalba",
+          "precio": 129.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/317731419995?itmmeta=01M0A7HXV04CATX8QG9A1AZ3XE&hash=item49fa44b75b:g:GHkAAeSwgMtqX8J0"
+        },
+        {
+          "tienda": "mediamarktpuertovenecia",
+          "precio": 139.9,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/397697736350?itmmeta=01M2DQPEE8XES4K8Z25TEY36V9&hash=item5c98a1de9e:g:l-kAAeSw3mlqYiZ~"
+        }
+      ]
+    },
+    {
       "clave": "ps5 tt isle of man: ride on the edge 3",
       "criterio": "titulo",
       "titulo": "PS5 TT Isle of Man: Ride on the Edge 3",
@@ -72414,26 +72349,6 @@
           "precio": 11.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/146110930411?itmmeta=01M08T67XPXBSDJW7DN23KPN6Z&hash=item2204e3ddeb:g:YpYAAeSw4aJqT3pg"
-        }
-      ]
-    },
-    {
-      "clave": "funda - isy isc 5114, samsung, galaxy a15 / a15 5g, negro",
-      "criterio": "titulo",
-      "titulo": "Funda - ISY ISC 5114, Samsung, Galaxy A15 / A15 5G, Negro",
-      "imagen_url": "https://i.ebayimg.com/images/g/JW4AAeSwLydpxRR4/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktalcorcon",
-          "precio": 1.5,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/135787091477?itmmeta=01M08T2Q5VGJW5FX9FHBMXQ604&hash=item1f9d8a9615:g:JW4AAeSwLydpxRR4"
-        },
-        {
-          "tienda": "mediamarktalicante",
-          "precio": 9.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/146110904884?itmmeta=01M08T67XPMYZ47WARSKC28Y8T&hash=item2204e37a34:g:VpQAAeSwCY1qT3ro"
         }
       ]
     },
@@ -74794,26 +74709,6 @@
           "precio": 26.51,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/157790338775?itmmeta=01M0A7MCYYTG9K7W7CAJP1CDZ9&hash=item24bd097ed7:g:yIgAAeSwYttqVjKd"
-        }
-      ]
-    },
-    {
-      "clave": "centro de planchado - philips psg6022/20, 2400 w, depósito de 1,8 l, 6.5 bares",
-      "criterio": "titulo",
-      "titulo": "Centro de planchado - Philips PSG6022/20, 2400 W, Depósito de 1,8 L, 6.5 bares",
-      "imagen_url": "https://i.ebayimg.com/images/g/Q4kAAeSw0zlqlTn-/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktoutletpinto",
-          "precio": 90.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/820068559248?itmmeta=01M26PXYCFH8HF6D7V5NY3PZNK&hash=itembeefe52990:g:Q4kAAeSw0zlqlTn-"
-        },
-        {
-          "tienda": "mediamarktcolladovillalba",
-          "precio": 129.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/317731419995?itmmeta=01M0A7HXV04CATX8QG9A1AZ3XE&hash=item49fa44b75b:g:GHkAAeSwgMtqX8J0"
         }
       ]
     },
