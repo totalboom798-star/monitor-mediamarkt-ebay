@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-09-19T15:45:49.128841+00:00",
+  "actualizado": "2026-09-19T18:38:40.040739+00:00",
   "total_tiendas": 101,
-  "total_articulos": 4332,
+  "total_articulos": 4343,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -55,11 +55,6 @@
     },
     {
       "seller_id": "mediamarktcartagena",
-      "nombre_mostrado": null,
-      "num_articulos": 50
-    },
-    {
-      "seller_id": "mediamarktroquetas",
       "nombre_mostrado": null,
       "num_articulos": 50
     },
@@ -150,6 +145,11 @@
     },
     {
       "seller_id": "mediamarktmalagaplazamayor",
+      "nombre_mostrado": null,
+      "num_articulos": 47
+    },
+    {
+      "seller_id": "mediamarktroquetas",
       "nombre_mostrado": null,
       "num_articulos": 47
     },
@@ -324,6 +324,11 @@
       "num_articulos": 33
     },
     {
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null,
+      "num_articulos": 32
+    },
+    {
       "seller_id": "mediamarktlagoh",
       "nombre_mostrado": null,
       "num_articulos": 31
@@ -332,11 +337,6 @@
       "seller_id": "mediamarktvigomeixoeiro",
       "nombre_mostrado": null,
       "num_articulos": 27
-    },
-    {
-      "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null,
-      "num_articulos": 25
     },
     {
       "seller_id": "mediamarktfrancescmacia",
@@ -374,14 +374,14 @@
       "num_articulos": 12
     },
     {
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null,
+      "num_articulos": 11
+    },
+    {
       "seller_id": "mediamarktsevillaairesur",
       "nombre_mostrado": null,
       "num_articulos": 10
-    },
-    {
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null,
-      "num_articulos": 4
     },
     {
       "seller_id": "mediamarktmarbella",
@@ -510,6 +510,227 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "usada Aspirador escoba - Rowenta RH2039WO X-Force Flex 9.60 Allergy,",
+      "precio": 99.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800686271459?itmmeta=01M2XF4Q9XGCFWHC89Z4R3VMQV&hash=itemba6c9eebe3:g:bzIAAeSwH2JqrsFh",
+      "imagen_url": "https://i.ebayimg.com/images/g/bzIAAeSwH2JqrsFh/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aspirador-escoba-rowenta-rh2039wo-x-force-flex-960-allergy-200-w-04-l-45-min-tecnol-ciclonica-3-modos-multisuperficie-tubo-flex-purpura-1550007.html",
+      "fecha_visto_primera_vez": "2026-09-19 18:37:10",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Campana telescópica - Teka TL 6310 W, 2 Velocidades, 332 m3/h, 60 cm, Blanco",
+      "precio": 89.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800686266333?itmmeta=01M2XF4Q9XYXD03GT6BCG238MZ&hash=itemba6c9ed7dd:g:GXAAAeSwfEhqrsC-",
+      "imagen_url": "https://i.ebayimg.com/images/g/GXAAAeSwfEhqrsC-/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_campana-extraíble-teka-tl-6310-w-332-m3-h-dos-velocidades-blanco-1341406.html",
+      "fecha_visto_primera_vez": "2026-09-19 18:36:42",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Campana convencional - Teka C 6420, 3 Velocidades, 375 m3/h,",
+      "precio": 74.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800686263013?itmmeta=01M2XF4Q9WBKPESA17T5XBMKT6&hash=itemba6c9ecae5:g:u2oAAeSwd3NqrsB7",
+      "imagen_url": "https://i.ebayimg.com/images/g/u2oAAeSwd3NqrsB7/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_campana-teka-c-6420-integrable-60-cm-de-ancho-375-m3-h-inox-1342436.html",
+      "fecha_visto_primera_vez": "2026-09-19 18:36:27",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "exposición Campana telescópica - Teka CNL 6415 W,",
+      "precio": 99.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800686254693?itmmeta=01M2XF4Q9WQB4TGQWRACFXS1B2&hash=itemba6c9eaa65:g:PtoAAeSwIIxqrr--",
+      "imagen_url": "https://i.ebayimg.com/images/g/PtoAAeSwIIxqrr--/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_campana-teka-cnl-6415-extraíble-385m³-h-2-velocidades-intensiva-blanco-1341411.html",
+      "fecha_visto_primera_vez": "2026-09-19 18:36:11",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "usada Centro de planchado - Rowenta VR832, 2600 W, 1.7 L, 6.5 bares,",
+      "precio": 69.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800686273312?itmmeta=01M2XF4Q65YDWWPRPJPCYFVS79&hash=itemba6c9ef320:g:UvUAAeSwchVqrsHf",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_centro-de-planchado-rowenta-vr832-2600-w-1-7-l-6-5-bares-350-g-m-negro-azul-1477240.html",
+      "fecha_visto_primera_vez": "2026-09-19 18:35:32",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "usada Cafetera superautomática - Krups Roma EA81K870, 1450 W, 15 bar, 1.7 L,",
+      "precio": 109.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800686279555?itmmeta=01M2XF4Q65HQ3Q3WX36TM13T1K&hash=itemba6c9f0b83:g:1QoAAeSwi8lqrsKP",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-superautomatica-1551062-krups-15-barbar-1450-w-2-tazas-negro-106621665.html",
+      "fecha_visto_primera_vez": "2026-09-19 18:35:18",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "usada Cafetera superautomática - Cecotec Cremmaet Latte, 19 bar, 1300W,",
+      "precio": 199.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800686321182?itmmeta=01M2XF4Q65P6YH5YPT16WTMV5F&hash=itemba6c9fae1e:g:jDYAAeSwvMFqrsXE",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-superautomatica-cecotec-a01eu01115412-19-bar-1300-w-400-ml-1-tazas-negro-162769105.html",
+      "fecha_visto_primera_vez": "2026-09-19 18:35:03",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "usado Grill - Cecotec Rock'nGrill, 2000W, Antiadherente,",
+      "precio": 29.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800686322463?itmmeta=01M2XF4Q65JN453YG78B9VSJHB&hash=itemba6c9fb31f:g:Af8AAeSwFXJqrsYV",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_parrilla-elctrica-rockngrill-1000cecotec-100-83039093.html",
+      "fecha_visto_primera_vez": "2026-09-19 18:34:47",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "usada Cafetera superautomática - KOENIC KFAC 2016025 ES, 20  bar,",
+      "precio": 99.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800686341793?itmmeta=01M2XF4Q65EJZVC4AKBKB8C4G3&hash=itemba6c9ffea1:g:zJQAAeSwE4dqrsa~",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-superautomatica-koenic-kfac-2016025-es-20-bar-16-l-2-tazas-panel-tactil-molinillo-conico-con-5-ajustes-negro-1605747.html",
+      "fecha_visto_primera_vez": "2026-09-19 18:34:33",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "usada, falta cacillo Cafetera express - De'Longhi Dedica EC685.M, 1300 W, 15 b",
+      "precio": 79.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800686415205?itmmeta=01M2XF4Q65YVYAG42B74Y8GKJD&hash=itemba6ca11d65:g:iKoAAeSwnkFqrs25",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-express-de-longhi-ec-dedica-685-m-bomba-de-presión-thermoblock-1350-w-color-metal-1359168.html",
+      "fecha_visto_primera_vez": "2026-09-19 18:34:18",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Móvil Motorola edge 70, Gadget Grey, 512 GB, 12 GB RAM, 6.67\" Super HD, 5200 mAh",
+      "precio": 449.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137755601457?itmmeta=01M2XEWE08XR46CHS3R66HA4MQ&hash=item2012dfaa31:g:d5cAAeSwYD5qrq2r",
+      "imagen_url": "https://i.ebayimg.com/images/g/d5cAAeSwYD5qrq2r/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-motorola-edge-70-gadget-grey-512-gb-12-gb-ram-667-super-hd-poled-amoled-snapdragonr-7-gen-4-5200-mah-1672921.html",
+      "fecha_visto_primera_vez": "2026-09-19 18:31:59",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Móvil - Motorola edge 70, Bronze Green, 512 GB, 12 GB RAM, 6.67 \" Super HD pOLED",
+      "precio": 439.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137755603720?itmmeta=01M2XEWE08XVX75CQWCZSSZ0G1&hash=item2012dfb308:g:qzYAAeSwbUdqrq5P",
+      "imagen_url": "https://i.ebayimg.com/images/g/qzYAAeSwbUdqrq5P/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-motorola-edge-70-bronze-green-512-gb-12-gb-ram-667-super-hd-poled-amoled-snapdragonr-7-gen-4-5200-mah-1608212.html",
+      "fecha_visto_primera_vez": "2026-09-19 18:31:43",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Altavoz inalámbrico JBL Grip,16W Potencia,14h Autonomía,Resistencia agua IP68",
+      "precio": 67.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137755702277?itmmeta=01M2XEWE07Y8CY0XYWTAZSG2MP&hash=item2012e13405:g:PCoAAeSwZsZqrrkF",
+      "imagen_url": "https://i.ebayimg.com/images/g/PCoAAeSwZsZqrrkF/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-inalambrico-jbl-grip-16-w-potencia-bluetooth-14-h-autonomia-resistencia-agua-e-intemperie-ip68-morado-1607211.html",
+      "fecha_visto_primera_vez": "2026-09-19 18:31:27",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Smartwatch - Huawei Watch GT6, 41mm, Pantalla AMOLED, Hasta 14 días Autonomía,",
+      "precio": 185.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137755937633?itmmeta=01M2XEWE07GTE81SM7VA18V7MY&hash=item2012e4cb61:g:jFIAAeSwfuZqrsII",
+      "imagen_url": "https://i.ebayimg.com/images/g/jFIAAeSwfuZqrsII/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_smartwatch-huawei-watch-gt6-41mm-pantalla-amoled-21-dias-autonomia-monitorizacion-avanzada-de-salud-bluetooth-resistente-al-agua-morado-1604382.html",
+      "fecha_visto_primera_vez": "2026-09-19 18:31:12",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Auriculares gaming SteelSeries Arctis Nova 5, 60h, Cancelación ruido, Micrófono",
+      "precio": 109.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137755779972?itmmeta=01M2XEWE06KKNDX33HPXRHNMNJ&hash=item2012e26384:g:b~QAAeSw3c5qrr0s",
+      "imagen_url": "https://i.ebayimg.com/images/g/b~QAAeSw3c5qrr0s/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-gaming-steelseries-arctis-nova-5-circumaurales-bluetooth-hasta-60-horas-cancelacion-ruido-ai-microfono-retractil-negro-1568117.html",
+      "fecha_visto_primera_vez": "2026-09-19 18:30:53",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Auriculares inalámbricos Sony WH-1000XM5B,Estuche rígido,Cancelación ruido,30h,",
+      "precio": 219.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137755736383?itmmeta=01M2XEWE06QYY69BAHDXEWQV01&hash=item2012e1b93f:g:b8MAAeSwgkJqrrsw",
+      "imagen_url": "https://i.ebayimg.com/images/g/b8MAAeSwgkJqrrsw/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-inalambricos-sony-wh-1000xm5b-noise-cancelling-40-h-alexa-y-google-assistant-hi-res-negro-1532952.html",
+      "fecha_visto_primera_vez": "2026-09-19 18:30:38",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Auriculares inalámbricos - Beats Studio Pro, Cancelación Activa de Ruido,Diadema",
+      "precio": 179.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137755724007?itmmeta=01M2XEWE06NMJ0T0GBNHRG8SX2&hash=item2012e188e7:g:iL8AAeSwMYBqrrow",
+      "imagen_url": "https://i.ebayimg.com/images/g/iL8AAeSwMYBqrrow/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-inalambricos-beats-studio-pro-cancelacion-activa-de-ruido-diadema-hasta-40h-negro-1557372.html",
+      "fecha_visto_primera_vez": "2026-09-19 18:30:22",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Reloj deportivo - Garmin Venu X1, Verde, 24mm, 2\" AMOLED, Hasta 14 días",
       "precio": 594.0,
@@ -671,7 +892,7 @@
       "precio": 234.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/800684695111?itmmeta=01M2X56MJHT92PS0SDP525WEDN&hash=itemba6c86de47:g:ks8AAeSwShxqrlMz",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/ks8AAeSwShxqrlMz/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-campana-grupo-filtrante-balay-3bd866mn-3-velocidades-620-mh-visera-de-cristal-594-cm-negro-1671122.html",
@@ -3940,32 +4161,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_robot-aspirador-xiaomi-robot-vacuum-h50-55-w-potencia-de-succion-10000-pa-deposito-25-l-autonomia-150-min-blanco-178245523.html",
       "fecha_visto_primera_vez": "2026-09-17 22:47:59",
       "seller_id": "mediamarktjaen",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Hub - ISY IHU-5600, 4 Puertos, 10 Gbit/s, Plata",
-      "precio": 15.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/305239840228?itmmeta=01M2REW6G4ZTM78E9WFW59TZ0B&hash=item4711b655e4:g:VRwAAeSwf8pqrCRm",
-      "imagen_url": "https://i.ebayimg.com/images/g/VRwAAeSwf8pqrCRm/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_hub-usbconcentrador-isy-ihu-5600-4x-puertos-10-gbits-plata-1538672.html",
-      "fecha_visto_primera_vez": "2026-09-17 19:55:36",
-      "seller_id": "mediamarktroquetas",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda -  Samsung, Para Samsung Galaxy Z Flip7, De Silicona con anillo",
-      "precio": 35.98,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/306914502593?itmmeta=01M2REW6G4GS1PZWHWQ9TGR3N8&hash=item477587a7c1:g:ELkAAeSwShxqrCRK",
-      "imagen_url": "https://i.ebayimg.com/images/g/ELkAAeSwShxqrCRK/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-samsung-para-samsung-galaxy-z-flip7-de-silicona-con-anillo-menta-1601972.html",
-      "fecha_visto_primera_vez": "2026-09-17 19:55:21",
-      "seller_id": "mediamarktroquetas",
       "nombre_mostrado": null
     },
     {
@@ -8172,7 +8367,7 @@
       "precio": 49.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/800660954370?itmmeta=01M2GRXHZW70HEW5GCTV874TG8&hash=itemba6b1c9d02:g:ZIoAAeSwJYxqqArL",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/ZIoAAeSwJYxqqArL/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-multifuncion-tinta-hp-officejet-pro-9132e-inyeccion-de-tinta-gris-145548425.html",
@@ -11415,19 +11610,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-gaming-samsung-odyssey-oled-g6-s27dg612s-27-hd-003-ms-240-hz-plata-149404215.html",
       "fecha_visto_primera_vez": "2026-09-09 16:18:08",
       "seller_id": "mediamarktmurciarondasur",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Stylus pen - Microsoft Surface Pen, Bluetooth 4.0, Negro",
-      "precio": 74.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800626809611?itmmeta=01M23F77MJCVAPWR66E7AV44MH&hash=itemba69139b0b:g:2fkAAeSw469qnurK",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_lapiz-digital-microsoft-surface-slim-pen-2-recargable-negro-1525832.html",
-      "fecha_visto_primera_vez": "2026-09-09 16:15:23",
-      "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null
     },
     {
@@ -27951,19 +28133,6 @@
       "mediamarkt_url": null,
       "fecha_visto_primera_vez": "2026-08-19 09:54:17",
       "seller_id": "mediamarktsalamanca",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Secador - Rowenta Reverso CF9840, Función Reverse 2 en 1, De secador a moldeador",
-      "precio": 45.45,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/306684501239?itmmeta=01M0CQ28A6EXW4F0TX9H5ZB8Y1&hash=item4767d21cf7:g:g68AAeSwaYVqShqY",
-      "imagen_url": "https://i.ebayimg.com/images/g/g68AAeSwaYVqShqY/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-19 09:54:01",
-      "seller_id": "mediamarktroquetas",
       "nombre_mostrado": null
     },
     {
@@ -48819,19 +48988,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Auriculares conducción ósea Shokz OpenRun, Banda para el cuello, Bluetooth",
-      "precio": 109.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/389830735329?itmmeta=01M08T9D3S05YWT9R1FB950CE7&hash=item5ac3b8f5e1:g:5fQAAeSw505qSSow",
-      "imagen_url": "https://i.ebayimg.com/images/g/iA4AAeSw0yNqkA58/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-17 21:34:16",
-      "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Móvil - motorola g05 NFC, Atlantic Deep, 128 GB, 4 GB RAM, 6.67\" Táctil",
       "precio": 119.0,
       "moneda": "EUR",
@@ -48854,19 +49010,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
       "fecha_visto_primera_vez": "2026-08-17 21:33:44",
-      "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cargador - Samsung EP-T1510NBEGEU, 15W, De pared, Sin Cable, USB-C, Negro",
-      "precio": 8.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/387890827744?itmmeta=01M08T92X5HEYTWH6E5GNKXEWD&hash=item5a501851e0:g:HYgAAeSwPL5qCZMx",
-      "imagen_url": "https://i.ebayimg.com/images/g/HYgAAeSwPL5qCZMx/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-17 21:33:43",
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null
     },
@@ -62051,26 +62194,6 @@
           "precio": 179.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/178037540522?itmmeta=01M1QF9WV5EMZJ1MA6H7AK3G6F&hash=item2973dd46aa:g:nJwAAeSwsx9qmpQs"
-        }
-      ]
-    },
-    {
-      "clave": "secador - rowenta reverso cf9840, función reverse 2 en 1, de secador a moldeador",
-      "criterio": "titulo",
-      "titulo": "Secador - Rowenta Reverso CF9840, Función Reverse 2 en 1, De secador a moldeador",
-      "imagen_url": "https://i.ebayimg.com/images/g/g68AAeSwaYVqShqY/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktroquetas",
-          "precio": 45.45,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/306684501239?itmmeta=01M0CQ28A6EXW4F0TX9H5ZB8Y1&hash=item4767d21cf7:g:g68AAeSwaYVqShqY"
-        },
-        {
-          "tienda": "mediamarktcastellon",
-          "precio": 56.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/188695462393?itmmeta=01M0A7HQ3CW6Q9ZPEXQWFFH7MN&hash=item2bef2041f9:g:10IAAeSwMm1qZNvw"
         }
       ]
     },
