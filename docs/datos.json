@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-09-20T04:12:58.087626+00:00",
+  "actualizado": "2026-09-20T13:04:05.368114+00:00",
   "total_tiendas": 101,
-  "total_articulos": 4241,
+  "total_articulos": 4231,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -31,7 +31,7 @@
     {
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null,
-      "num_articulos": 100
+      "num_articulos": 99
     },
     {
       "seller_id": "mediamarkttoledo",
@@ -209,11 +209,6 @@
       "num_articulos": 43
     },
     {
-      "seller_id": "mediamarktjerez",
-      "nombre_mostrado": null,
-      "num_articulos": 43
-    },
-    {
       "seller_id": "mediamarktvalenciaaqua",
       "nombre_mostrado": null,
       "num_articulos": 43
@@ -274,6 +269,11 @@
       "num_articulos": 39
     },
     {
+      "seller_id": "mediamarktjerez",
+      "nombre_mostrado": null,
+      "num_articulos": 39
+    },
+    {
       "seller_id": "mediamarktleon",
       "nombre_mostrado": null,
       "num_articulos": 39
@@ -304,11 +304,6 @@
       "num_articulos": 36
     },
     {
-      "seller_id": "mediamarktalmeria",
-      "nombre_mostrado": null,
-      "num_articulos": 35
-    },
-    {
       "seller_id": "mediamarktgoya",
       "nombre_mostrado": null,
       "num_articulos": 35
@@ -319,6 +314,11 @@
       "num_articulos": 34
     },
     {
+      "seller_id": "mediamarktalmeria",
+      "nombre_mostrado": null,
+      "num_articulos": 33
+    },
+    {
       "seller_id": "mediamarkttalavera",
       "nombre_mostrado": null,
       "num_articulos": 33
@@ -326,7 +326,7 @@
     {
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null,
-      "num_articulos": 29
+      "num_articulos": 27
     },
     {
       "seller_id": "mediamarktvigomeixoeiro",
@@ -336,7 +336,7 @@
     {
       "seller_id": "mediamarktfrancescmacia",
       "nombre_mostrado": null,
-      "num_articulos": 22
+      "num_articulos": 21
     },
     {
       "seller_id": "mediamarktvalenciacolon",
@@ -510,6 +510,32 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Motorola g06 power, Tapestry Blue, 256 GB, 4 GB RAM, 6.88\" HD+ 120 Hz, MediaTek",
+      "precio": 129.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/147557125365?itmmeta=01M2ZEGJWDVRYQVH6F4N49TSCE&hash=item225b170cf5:g:8UkAAeSwBSVqn8At",
+      "imagen_url": "https://i.ebayimg.com/images/g/8UkAAeSwBSVqn8At/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-motorola-g06-power-tapestry-blue-256-gb-4-gb-ram-688-hd-120-hz-mediatek-helio-g81-extreme-7000-mah-1608215.html",
+      "fecha_visto_primera_vez": "2026-09-20 13:02:35",
+      "seller_id": "mediamarktjerez",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Stylus pen - Samsung, EJ-PX510, S Pen, Para Galaxy Tab S9 FE, Tab S9 FE Plus, Gr",
+      "precio": 29.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/147557147159?itmmeta=01M2ZEGJWC59MY36JE1JXV6N0Z&hash=item225b176217:g:2pAAAeSwv8Bqntb1",
+      "imagen_url": "https://i.ebayimg.com/images/g/2pAAAeSwv8Bqntb1/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-stylus-pen-samsung-ej-px510-s-pen-para-galaxy-tab-s9-fe-tab-s9-fe-plus-gris-1609856.html",
+      "fecha_visto_primera_vez": "2026-09-20 13:02:18",
+      "seller_id": "mediamarktjerez",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "PS5 Battlefield 6",
       "precio": 22.99,
@@ -1183,19 +1209,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aspirador-escoba-rowenta-rh2039wo-x-force-flex-960-allergy-200-w-04-l-45-min-tecnol-ciclonica-3-modos-multisuperficie-tubo-flex-purpura-1550007.html",
       "fecha_visto_primera_vez": "2026-09-19 18:37:10",
-      "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Campana telescópica - Teka TL 6310 W, 2 Velocidades, 332 m3/h, 60 cm, Blanco",
-      "precio": 89.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800686266333?itmmeta=01M2XF4Q9XYXD03GT6BCG238MZ&hash=itemba6c9ed7dd:g:GXAAAeSwfEhqrsC-",
-      "imagen_url": "https://i.ebayimg.com/images/g/GXAAAeSwfEhqrsC-/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_campana-extraíble-teka-tl-6310-w-332-m3-h-dos-velocidades-blanco-1341406.html",
-      "fecha_visto_primera_vez": "2026-09-19 18:36:42",
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null
     },
@@ -6725,19 +6738,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "SDCZ48-512G CRUZER ULTRA 512GB 3.0",
-      "precio": 79.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/147557135005?itmmeta=01M2NGZNXQN6JJRG6PWJGB8HKQ&hash=item225b17329d:g:4ooAAeSwP-RqntZv",
-      "imagen_url": "https://i.ebayimg.com/images/g/4ooAAeSwP-RqntZv/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_memoria-usb-512-gb-sandisk-ultra-sdcz48-512g-g46-hasta-130-mb-s-usb-3-0-negro-1492104.html",
-      "fecha_visto_primera_vez": "2026-09-16 16:35:41",
-      "seller_id": "mediamarktjerez",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Funda estuche de carga auriculares - ISY IEC-2400-BK Airpods Pro Case,",
       "precio": 3.5,
       "moneda": "EUR",
@@ -12094,19 +12094,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "LG SG10TY, Bluetooth, Inalámbrico, 420W, Negro",
-      "precio": 649.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/147557130485?itmmeta=01M22NYEXFQ8CYZEJJ1RYSDWKD&hash=item225b1720f5:g:p3AAAeSwnz9qntXp",
-      "imagen_url": "https://i.ebayimg.com/images/g/p3AAAeSwnz9qntXp/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_barra-de-sonido-lg-sg10ty-bluetooth-inalambrico-420w-negro-1572134.html",
-      "fecha_visto_primera_vez": "2026-09-09 09:00:21",
-      "seller_id": "mediamarktjerez",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Philips EP4441/50, LatteGo, Pantalla táctil, 12 ajustes,",
       "precio": 469.0,
       "moneda": "EUR",
@@ -12246,32 +12233,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_memoria-usb-256-gb-sandisk-sdcz74-256g-g46-usb-3-1-hasta-150-mb-s-secureaccess®-rescuepro®-deluxe-plata-1501526.html",
       "fecha_visto_primera_vez": "2026-09-09 08:56:39",
-      "seller_id": "mediamarktjerez",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "ISY ITV 3500, 48\"- 80\", Carga máx. 50 kg, VESA máx. 600 x 400 mm, , Negro",
-      "precio": 59.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/147557129331?itmmeta=01M22NYEXE55AZ32R5VVAHJRZA&hash=item225b171c73:g:oxAAAeSwxONqntXR",
-      "imagen_url": "https://i.ebayimg.com/images/g/oxAAAeSwxONqntXR/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_soporte-tv-isy-itv-3500-48-80-carga-max-50-kg-vesa-max-600-x-400-mm-full-motion-negro-1590196.html",
-      "fecha_visto_primera_vez": "2026-09-09 08:56:06",
-      "seller_id": "mediamarktjerez",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "SDCZ48-256G CRUZER ULTRA 256GB 3.0",
-      "precio": 32.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/147557133743?itmmeta=01M22NYEXE16KA0EFF4SA0RV41&hash=item225b172daf:g:~D0AAeSwKpJqntZA",
-      "imagen_url": "https://i.ebayimg.com/images/g/~D0AAeSwKpJqntZA/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pendrive-de-256gb-sandisk-cruzer-ultra-usb-3-0-256-gb-color-negro-velocidad-hasta-100mb-sg-1297723.html",
-      "fecha_visto_primera_vez": "2026-09-09 08:55:28",
       "seller_id": "mediamarktjerez",
       "nombre_mostrado": null
     },
@@ -12536,19 +12497,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "SDCZ48-512G CRUZER ULTRA 512GB 3.0",
-      "precio": 76.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/147557134454?itmmeta=01M21JAG2B7W6361RCRWE312DK&hash=item225b173076:g:mgMAAeSwIcBqntZa",
-      "imagen_url": "https://i.ebayimg.com/images/g/mgMAAeSwIcBqntZa/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_memoria-usb-512-gb-sandisk-ultra-sdcz48-512g-g46-hasta-130-mb-s-usb-3-0-negro-1492104.html",
-      "fecha_visto_primera_vez": "2026-09-08 22:41:11",
-      "seller_id": "mediamarktjerez",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "TELEVISION HAIER H43K85FUX",
       "precio": 246.0,
       "moneda": "EUR",
@@ -12636,19 +12584,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cepillo-electrico-oral-b-io-6s-pack-doble-5-modos-seguimiento-con-app-pantalla-interactiva-sensor-de-presion-estuche-de-viaje-blanco-y-rosa-1620508.html",
       "fecha_visto_primera_vez": "2026-09-08 22:32:26",
-      "seller_id": "mediamarktjerez",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "JUNIOR 320BT BLUE",
-      "precio": 35.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/147557136142?itmmeta=01M21JAG29VSDQPGARMNQ5YG26&hash=item225b17370e:g:ANAAAeSwDahqntaO",
-      "imagen_url": "https://i.ebayimg.com/images/g/ANAAAeSwDahqntaO/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-infantiles-jbl-junior-320bt-inalambricos-supraaurales-bluetooth-50h-autonomia-microfono-azul-1586253.html",
-      "fecha_visto_primera_vez": "2026-09-08 22:31:25",
       "seller_id": "mediamarktjerez",
       "nombre_mostrado": null
     },
@@ -14340,19 +14275,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-amazon-kindle-para-paperwhite-y-kindle-paperwhite-signature-ligera-plegable-y-resistente-al-agua-tela-verde-jade-1584176.html",
       "fecha_visto_primera_vez": "2026-09-05 16:16:57",
       "seller_id": "mediamarktbadalona",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Apple Beats Solo Buds, Auriculares inalámbricos, 18 horas de autonomía",
-      "precio": 64.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800570585518?itmmeta=01M1RR4HJ618WYAES63TQK7Y9D&hash=itemba65b9b1ae:g:cJIAAeSw7dJqkA-D",
-      "imagen_url": "https://i.ebayimg.com/images/g/cJIAAeSw7dJqkA-D/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-beats-solo-buds-auriculares-inalambricos-18-horas-de-autonomia-bluetooth-clase-1-apple-android-microfono-integrado-negro-mate-1575966.html",
-      "fecha_visto_primera_vez": "2026-09-05 12:20:05",
-      "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null
     },
     {
@@ -34857,19 +34779,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Samsung Galaxy A17 LTE, Negro, 256 GB, 8 GB RAM, 6.7\", FHD+ Super AMOLED, Mediat",
-      "precio": 203.15,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398297313973?itmmeta=01M0A7NE2DTJ42B9DAK823XHZJ&hash=item5cbc5eb2b5:g:DmsAAeSwj6Bqg4H4",
-      "imagen_url": "https://i.ebayimg.com/images/g/DmsAAeSwj6Bqg4H4/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-samsung-galaxy-a17-lte-negro-256-gb-8-gb-ram-67-fhd-super-amoled-mediatek-g99-octa-core-5000-mah-android-15-1604160.html",
-      "fecha_visto_primera_vez": "2026-08-18 10:46:30",
-      "seller_id": "mediamarktfrancescmacia",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Apple Funda de silicona con MagSafe para iPhone 16 Plus, Azul ultramar",
       "precio": 15.0,
       "moneda": "EUR",
@@ -48169,19 +48078,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Secador -  Rowenta x Karl Lagerfeld CV887LF0 K/Pro Stylist, 2200 W, Motor AC Pro",
-      "precio": 25.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178369842460?itmmeta=01M08T7R75Z94F06EBSBEWR4D6&hash=item2987abcd1c:g:ye8AAeSwWXRqcHZf",
-      "imagen_url": "https://i.ebayimg.com/images/g/ye8AAeSwWXRqcHZf/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-17 21:32:42",
-      "seller_id": "mediamarktalmeria",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Accesorio aspirador - Scanpart 1190000112, 3 piezas, Diámetro de 35 mm, Negro",
       "precio": 5.0,
       "moneda": "EUR",
@@ -48191,19 +48087,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
       "fecha_visto_primera_vez": "2026-08-17 21:32:42",
-      "seller_id": "mediamarktalmeria",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Recambio - Philips One Blade QP410/50, 1 cuchilla flexible 360 grados, uso cara",
-      "precio": 10.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178369847848?itmmeta=01M08T7R74XS2DNF4J9TCWVME0&hash=item2987abe228:g:nGkAAeSwMttqcHd5",
-      "imagen_url": "https://i.ebayimg.com/images/g/nGkAAeSwMttqcHd5/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_recambio-para-afeitadora-philips-qp41050-cuchilla-360-para-todos-los-mangos-oneblade-negro-1556312.html",
-      "fecha_visto_primera_vez": "2026-08-17 21:32:41",
       "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null
     },
@@ -55241,19 +55124,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Auriculares inalámbricos - JBL Live 670 NC,  PRODUCTO EXPOSICIÓN",
-      "precio": 60.89,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/136457003882?itmmeta=01M08T2EZF4EEDVS3JFPAAF10P&hash=item1fc578a36a:g:-GUAAeSwvdxqYQvh",
-      "imagen_url": "https://i.ebayimg.com/images/g/-GUAAeSwvdxqYQvh/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-inalambricos-jbl-live-670-nc-cancelacion-ruido-adaptativa-autonomia-hasta-65-h-negro-1562154.html",
-      "fecha_visto_primera_vez": "2026-08-17 21:29:55",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Pack papelería - Pyramid Tubo de lápices Harry Potter Hogwarts",
       "precio": 2.5,
       "moneda": "EUR",
@@ -57924,32 +57794,6 @@
       ]
     },
     {
-      "clave": "sdcz48-512g cruzer ultra 512gb 3.0",
-      "criterio": "titulo",
-      "titulo": "SDCZ48-512G CRUZER ULTRA 512GB 3.0",
-      "imagen_url": "https://i.ebayimg.com/images/g/mgMAAeSwIcBqntZa/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktjerez",
-          "precio": 76.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/147557134454?itmmeta=01M21JAG2B7W6361RCRWE312DK&hash=item225b173076:g:mgMAAeSwIcBqntZa"
-        },
-        {
-          "tienda": "mediamarktjerez",
-          "precio": 79.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/147557135005?itmmeta=01M2NGZNXQN6JJRG6PWJGB8HKQ&hash=item225b17329d:g:4ooAAeSwP-RqntZv"
-        },
-        {
-          "tienda": "mediamarktsantiagodecompostela",
-          "precio": 90.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/318187831061?itmmeta=01M174JP97S3G9TW161R4GFVJW&hash=item4a1578ff15:g:d18AAeSwkuZp6PKv"
-        }
-      ]
-    },
-    {
       "clave": "nintendo switch super street: racer (con volante) (código de descarga)",
       "criterio": "titulo",
       "titulo": "Nintendo Switch Super Street: Racer (con volante) (Código de descarga)",
@@ -59290,26 +59134,6 @@
           "precio": 79.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/146109226544?itmmeta=01M08T67XPY231DMBM9K2C9Z3M&hash=item2204c9de30:g:U7EAAeSw59dqT3dd"
-        }
-      ]
-    },
-    {
-      "clave": "recambio - philips one blade qp410/50, 1 cuchilla flexible 360 grados, uso cara",
-      "criterio": "titulo",
-      "titulo": "Recambio - Philips One Blade QP410/50, 1 cuchilla flexible 360 grados, uso cara",
-      "imagen_url": "https://i.ebayimg.com/images/g/nGkAAeSwMttqcHd5/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktalmeria",
-          "precio": 10.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/178369847848?itmmeta=01M08T7R74XS2DNF4J9TCWVME0&hash=item2987abe228:g:nGkAAeSwMttqcHd5"
-        },
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 16.19,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/396660874396?itmmeta=01M0A7P0JG3BW4AVSRSP074N00&hash=item5c5ad49c9c:g:Aa8AAeSwjb1pxonM"
         }
       ]
     },
