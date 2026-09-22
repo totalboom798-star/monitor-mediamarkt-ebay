@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-09-22T17:12:08.142079+00:00",
+  "actualizado": "2026-09-22T22:59:39.452325+00:00",
   "total_tiendas": 101,
-  "total_articulos": 4079,
+  "total_articulos": 4084,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -31,7 +31,7 @@
     {
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null,
-      "num_articulos": 95
+      "num_articulos": 94
     },
     {
       "seller_id": "mediamarktterrassa",
@@ -44,12 +44,12 @@
       "num_articulos": 50
     },
     {
-      "seller_id": "mediamarkttarragona",
+      "seller_id": "mediamarktlleida",
       "nombre_mostrado": null,
-      "num_articulos": 50
+      "num_articulos": 49
     },
     {
-      "seller_id": "mediamarktlleida",
+      "seller_id": "mediamarkttarragona",
       "nombre_mostrado": null,
       "num_articulos": 49
     },
@@ -234,11 +234,6 @@
       "num_articulos": 40
     },
     {
-      "seller_id": "mediamarktgranada",
-      "nombre_mostrado": null,
-      "num_articulos": 40
-    },
-    {
       "seller_id": "mediamarktgranadanevada",
       "nombre_mostrado": null,
       "num_articulos": 40
@@ -277,6 +272,11 @@
       "seller_id": "mediamarktmurciarondasur",
       "nombre_mostrado": null,
       "num_articulos": 38
+    },
+    {
+      "seller_id": "mediamarktgranada",
+      "nombre_mostrado": null,
+      "num_articulos": 37
     },
     {
       "seller_id": "mediamarktmassalfassar",
@@ -354,6 +354,11 @@
       "num_articulos": 17
     },
     {
+      "seller_id": "mediamarktgoya",
+      "nombre_mostrado": null,
+      "num_articulos": 16
+    },
+    {
       "seller_id": "mediamarktferrol",
       "nombre_mostrado": null,
       "num_articulos": 12
@@ -362,11 +367,6 @@
       "seller_id": "mediamarktsevillaairesur",
       "nombre_mostrado": null,
       "num_articulos": 10
-    },
-    {
-      "seller_id": "mediamarktgoya",
-      "nombre_mostrado": null,
-      "num_articulos": 6
     },
     {
       "seller_id": "mediamarktmarbella",
@@ -510,6 +510,253 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Cámara Nintendo Switch 2 - Nintendo Switch 2, USB-C, Lente gran angular, Sensor",
+      "precio": 25.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/398376804789?itmmeta=01M35NE69NB5TTDYPP9BS5PRP6&hash=item5cc11ba1b5:g:ZpwAAeSwjadqoSrg",
+      "imagen_url": "https://i.ebayimg.com/images/g/ZpwAAeSwjadqoSrg/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-nintendo-switch-2-nintendo-switch-2-usb-c-lente-gran-angular-sensor-imagen-alta-sensibilidad-negro-1598269.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:59:20",
+      "seller_id": "mediamarkttarragona",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Consola retro - My Arcade Micro Player Space Invaders, Pantalla color 2.75\",  Al",
+      "precio": 30.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/398277383865?itmmeta=01M35NE69MH7E9N2CK4WC7RPMF&hash=item5cbb2e96b9:g:NhoAAeSw6glqfFuD",
+      "imagen_url": "https://i.ebayimg.com/images/g/NhoAAeSw6glqfFuD/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_consola-retro-my-arcade-micro-player-space-invaders-pantalla-color-275-altavoz-incorporado-azul-1584984.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:59:06",
+      "seller_id": "mediamarkttarragona",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Protector pantalla - Insta360 x3, Transparente",
+      "precio": 5.18,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/398376744262?itmmeta=01M35NE69MBZD38DP3BGFSXWNX&hash=item5cc11ab546:g:grcAAeSwanZqoSgD",
+      "imagen_url": "https://i.ebayimg.com/images/g/grcAAeSwanZqoSgD/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_protector-pantalla-insta360-x3-transparente-1583388.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:58:52",
+      "seller_id": "mediamarkttarragona",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cargador cámara deportiva - GoPro Dual Charger + Enduro, Cargados + 2 baterías,",
+      "precio": 55.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/398376734296?itmmeta=01M35NE69M9RCFFTPM5Y6E1DSD&hash=item5cc11a8e58:g:RoAAAeSwpPFqoSfG",
+      "imagen_url": "https://i.ebayimg.com/images/g/RoAAAeSwpPFqoSfG/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cargador-para-camara-deportiva-dual-charger-enduro-gopro-negro-150510207.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:58:37",
+      "seller_id": "mediamarkttarragona",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Pistola de masaje-KOENIC Pro, 9velocidad, 8cabezales, Alivia fatiga muscular,USB",
+      "precio": 63.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/318805060802?itmmeta=01M35NA3YSHT6P36534DF67Y2K&hash=item4a3a432cc2:g:fv8AAeSwjPFqlZt1",
+      "imagen_url": "https://i.ebayimg.com/images/g/fv8AAeSwjPFqlZt1/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pistola-de-masaje-bodylife-powergun-compact-para-espalda-schwarz-175356858.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:57:12",
+      "seller_id": "mediamarktgranada",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cable óptico - ISY IC-650, 2 metros, Negro",
+      "precio": 3.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/318904236203?itmmeta=01M35NA3YQ7R608HDVBY943XEC&hash=item4a402c78ab:g:~OkAAeSwNv5qspqt",
+      "imagen_url": "https://i.ebayimg.com/images/g/~OkAAeSwNv5qspqt/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_isy-ic-650-optical-cable-2m-1261735.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:56:57",
+      "seller_id": "mediamarktgranada",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Protector pantalla - ISY IPG 5184-2.5D, Para iPhone 15 Plus, Antihuellas dactila",
+      "precio": 1.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/318904231730?itmmeta=01M35NA3YQQ391WWQQY2D3PQV1&hash=item4a402c6732:g:li0AAeSwzVBqspqU",
+      "imagen_url": "https://i.ebayimg.com/images/g/li0AAeSwzVBqspqU/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_protector-pantalla-isy-ipg-5184-25d-para-iphone-15-pro-max-antihuellas-dactilares-antiaranazos-vidrio-templado-1559122.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:56:17",
+      "seller_id": "mediamarktgranada",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Hub - ISY IAD-1030, USB A, USB C, HDMI, SD y microSD, Carga USB-C hasta 100W",
+      "precio": 58.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/318904265738?itmmeta=01M35NA3YQAQQ4K7GAK5N2F63X&hash=item4a402cec0a:g:g5UAAeSwtjlqsp3C",
+      "imagen_url": "https://i.ebayimg.com/images/g/g5UAAeSwtjlqsp3C/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_hub-isy-iad-1030-usb-a-usb-c-hdmi-sd-y-microsd-carga-usb-c-hasta-100w-plata-1578441.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:56:03",
+      "seller_id": "mediamarktgranada",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Auriculares True Wireless de expsoción Music Sound SWAG, De cápsula,",
+      "precio": 7.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407219106647?itmmeta=01M35N43BEHS6NMQZQVRPHA9C4&hash=item5ed0267357:g:EGYAAeSwj7pqqYp1",
+      "imagen_url": "https://i.ebayimg.com/images/g/EGYAAeSwj7pqqYp1/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-true-wireless-music-sound-btmstwsswaguv-de-capsula-bluetooth-autonomia-de-hasta-20-h-violeta-1550180.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:55:06",
+      "seller_id": "mediamarktgoya",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Tablet de exposición Samsung Galaxy Tab S11, 11\" WQXGA+12GBRAM,512GB,",
+      "precio": 799.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407236416066?itmmeta=01M35N43BEBT1688Z4A2Y6GC2V&hash=item5ed12e9242:g:06EAAeSwamlqsmDp",
+      "imagen_url": "https://i.ebayimg.com/images/g/06EAAeSwamlqsmDp/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-tablet-samsung-galaxy-tab-s11-11-wqxga-12-gb-ram-256-gb-gris-con-s-pen-1622733.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:54:52",
+      "seller_id": "mediamarktgoya",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Microondas integrable de exposicion Candy MIC201EX, 800W, Grill 1000 W, 8",
+      "precio": 90.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407236299261?itmmeta=01M35N43BDW608VTXEWDWKCCRW&hash=item5ed12cc9fd:g:J9QAAeSwYCBqslQx",
+      "imagen_url": "https://i.ebayimg.com/images/g/J9QAAeSwYCBqslQx/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_microondas-integrable-candy-mic-201-ex-inox-94336868.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:54:38",
+      "seller_id": "mediamarktgoya",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Auriculares de exposición True Wireless - JVC HA-A7T2AE, 3 modos sonido,",
+      "precio": 15.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407219105107?itmmeta=01M35N43BDWSVVYWYRB8M61TS2&hash=item5ed0266d53:g:SXIAAeSw4~BqqYpv",
+      "imagen_url": "https://i.ebayimg.com/images/g/SXIAAeSw4~BqqYpv/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-true-wireless-jvc-ha-a7t2ae-3-modos-sonido-microfono-sensor-tactil-24-h-azul-1553534.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:54:24",
+      "seller_id": "mediamarktgoya",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Auriculares True Wireless - Xiaomi Buds 6, Cancelación de ruido, 42",
+      "precio": 19.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407219095750?itmmeta=01M35N43BD2JFZKM471W3BYXMF&hash=item5ed02648c6:g:sAsAAeSwE4dqqYj6",
+      "imagen_url": "https://i.ebayimg.com/images/g/sAsAAeSwE4dqqYj6/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-true-wireless-redmi-buds-6-pro-xiaomi-intraurales-bluetooth-black-149774636.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:54:10",
+      "seller_id": "mediamarktgoya",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cafetera express de exposicion sin caja Solac CE4520, Sistema Double Cream,",
+      "precio": 89.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407236287777?itmmeta=01M35N43BD6ADDJKSSNND2PGT2&hash=item5ed12c9d21:g:q7EAAeSwFjhqslL8",
+      "imagen_url": "https://i.ebayimg.com/images/g/q7EAAeSwFjhqslL8/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-espresso-solac-taste-slim-basic-ce4531-20-bar-1100-w-negro-167487366.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:53:43",
+      "seller_id": "mediamarktgoya",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Portátil de exposición LG 15Z80T-G.AU78B Copilot+ PC, 15\" Full-HD, AMD Ryzen™",
+      "precio": 599.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407236411484?itmmeta=01M35N43BD65J6C49HBD5QJCHJ&hash=item5ed12e805c:g:x1IAAeSw61pqsmAv",
+      "imagen_url": "https://i.ebayimg.com/images/g/x1IAAeSw61pqsmAv/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-lg-16u70r-gaa59b-16-wuxga-ryzentm-5-7530u-16-gb-ram-1-tb-ssd-radeontm-onboard-graphics-windows-11-home-64-bit-138829169.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:53:29",
+      "seller_id": "mediamarktgoya",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "All in One de exposición HP 27-cr1008ns, Full HD, Intel® Core™ Ultra 5-125U,",
+      "precio": 599.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407236427075?itmmeta=01M35N43BD6M0KXRD3Z4TF85HF&hash=item5ed12ebd43:g:2rcAAeSwSrdqsmH9",
+      "imagen_url": "https://i.ebayimg.com/images/g/2rcAAeSwSrdqsmH9/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_all-in-one-hp-24-cr2000ns-238-full-hd-intelr-coretm-ultra-5-225u-16-gb-ram-512-gb-ssd-intelr-uhd-graphics-sin-sistema-operativo-blanco-1601979.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:53:15",
+      "seller_id": "mediamarktgoya",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cepillo eléctrico de dientes de exposición sin caja Philips Sonicare ExpertClea",
+      "precio": 49.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407236301996?itmmeta=01M35N43BDSWBBGTNBVTEPCVSV&hash=item5ed12cd4ac:g:B18AAeSwOudqslSt",
+      "imagen_url": "https://i.ebayimg.com/images/g/B18AAeSwOudqslSt/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cepillo-electrico-philips-hx368333-blanco-140005982.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:53:01",
+      "seller_id": "mediamarktgoya",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "All in one de exposición ASUS V470VAK-WPE067W, 27\" Full-HD, Intel®",
+      "precio": 599.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407236428487?itmmeta=01M35N43BD3ZAB7PT1WR0DWS7V&hash=item5ed12ec2c7:g:0N4AAeSwp7BqsmJE",
+      "imagen_url": "https://i.ebayimg.com/images/g/0N4AAeSwp7BqsmJE/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_all-in-one-asus-v470vak-wpe067w-27-full-hd-intelr-coretm-i7-13620h-16gb-ram-512gb-ssd-uhd-graphics-windows-11-home-1598622.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:52:46",
+      "seller_id": "mediamarktgoya",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Aspirador con bolsa de exposición  AEG VX6-2-IS-P, 800W, 3.5l, Cepillo DustPro",
+      "precio": 49.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407236397287?itmmeta=01M35N43BDZV54AS2Q5AQNK94D&hash=item5ed12e48e7:g:abIAAeSweaVqsl4r",
+      "imagen_url": "https://i.ebayimg.com/images/g/abIAAeSweaVqsl4r/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_-aeg-aspirador-c-saco-vx82-1-2mg-aeg-600-w-107462034.html",
+      "fecha_visto_primera_vez": "2026-09-22 22:52:31",
+      "seller_id": "mediamarktgoya",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Cartucho de tinta - HP 903XL, Magenta, T6M07AE, Instant Ink",
       "precio": 14.0,
@@ -2669,19 +2916,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Teclado inalámbrico de exposición Microsoft WS2-00012 Surface, Bluetooth 4.0,",
-      "precio": 49.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/406054355776?itmmeta=01M3129MJC8AW86MWHB2ZAX2DG&hash=item5e8ab9c340:g:a0IAAeSwJfhqkcUR",
-      "imagen_url": "https://i.ebayimg.com/images/g/a0IAAeSwJfhqkcUR/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_teclado-microsoft-ep2-040201-bluetooth-para-surface-gris-1583752.html",
-      "fecha_visto_primera_vez": "2026-09-21 04:07:08",
-      "seller_id": "mediamarktgoya",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Termo eléctrico - Candy CTR30RS/E, 0.75 bar, 30L, 1500W, Blanco",
       "precio": 99.0,
       "moneda": "EUR",
@@ -2783,19 +3017,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-b-accesorios-ps5-pdp-stick-module-playstation-5-dualsense-edge-negro-1572940.html",
       "fecha_visto_primera_vez": "2026-09-20 22:21:26",
       "seller_id": "mediamarktlloret",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Móvil - Xiaomi 15T Pro, Gris, 1 TB, 12 GB RAM, 6.83\" AMOLED  WQHD+ Eye Care",
-      "precio": 700.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/318773419333?itmmeta=01M30EFZZ5RQ8XH3V5WWEKC3QE&hash=item4a38605d45:g:c7IAAeSwvSNqjHFC",
-      "imagen_url": "https://i.ebayimg.com/images/g/c7IAAeSwvSNqjHFC/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_xiaomi-15t-pro-negro-movil-android-1-tb-12-gb-ram-683-amoled-wqhd-eye-care-mediatek-dimensity-9400-5500-mah-162739244.html",
-      "fecha_visto_primera_vez": "2026-09-20 22:21:06",
-      "seller_id": "mediamarktgranada",
       "nombre_mostrado": null
     },
     {
@@ -5139,19 +5360,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Móvil - Xiaomi Redmi Note 15 Pro+, Azul glaciar, 256 GB, 8 GB RAM,",
-      "precio": 399.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/318773488874?itmmeta=01M2TMDC51TT1PE2F0A6GX0QRR&hash=item4a38616cea:g:pL8AAeSwIK1qjHYP",
-      "imagen_url": "https://i.ebayimg.com/images/g/pL8AAeSwIK1qjHYP/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-xiaomi-redmi-note-15-pro-5g-azul-glaciar-256-gb-8-gb-ram-683-crystalres-amoled-mediatek-dimensity-7400-ultra-6500-mah-1612758.html",
-      "fecha_visto_primera_vez": "2026-09-18 16:09:31",
-      "seller_id": "mediamarktgranada",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Beats Studio Buds +, Auriculares True Wireless, Cancelación de Ruido,",
       "precio": 82.99,
       "moneda": "EUR",
@@ -5913,7 +6121,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_batidora-de-mano-braun-multiquick-5-mq50001mwh-1000-w-21-velocidades-vaso-medidor-600-ml-blancogris-1583096.html",
       "fecha_visto_primera_vez": "2026-09-18 04:02:55",
       "seller_id": "mediamarkttarragona",
       "nombre_mostrado": null
@@ -5926,7 +6134,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-true-wireless-474070-metronic-intraurales-bluetooth-blanco-98945590.html",
       "fecha_visto_primera_vez": "2026-09-18 04:02:55",
       "seller_id": "mediamarkttarragona",
       "nombre_mostrado": null
@@ -5939,7 +6147,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-de-botón-thomson-ear3005bk-negro-1355078.html",
       "fecha_visto_primera_vez": "2026-09-18 04:02:55",
       "seller_id": "mediamarkttarragona",
       "nombre_mostrado": null
@@ -5989,19 +6197,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/398376830683?itmmeta=01M2SAWXT47QZ91GKHVSQQ6RN2&hash=item5cc11c06db:g:wy4AAeSwvAxqoSxi",
       "imagen_url": "https://i.ebayimg.com/images/g/wy4AAeSwvAxqoSxi/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-18 04:02:55",
-      "seller_id": "mediamarkttarragona",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "PS4 Pack 2 juegos: The Division 2 + Watch Dogs: Legion",
-      "precio": 10.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398277276482?itmmeta=01M2SAWXT4HT38CC4XQ8HMRK46&hash=item5cbb2cf342:g:-dAAAeSwMyRqfE8i",
-      "imagen_url": "https://i.ebayimg.com/images/g/-dAAAeSwMyRqfE8i/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -6322,19 +6517,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Nintendo Switch Assassin's Creed The Rebel Collection (Código en la caja)",
-      "precio": 26.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398277348691?itmmeta=01M2SAWXT647FE4NR2NANC8RD7&hash=item5cbb2e0d53:g:AHwAAeSwQQxqfFgV",
-      "imagen_url": "https://i.ebayimg.com/images/g/AHwAAeSwQQxqfFgV/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-18 04:02:55",
-      "seller_id": "mediamarkttarragona",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "PS5 Pack 2 juegos: Funko Fusion + HappyFunland",
       "precio": 17.9,
       "moneda": "EUR",
@@ -6366,19 +6548,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/398277362853?itmmeta=01M2SAWXT78NABF1KXK4DQVSX3&hash=item5cbb2e44a5:g:ykQAAeSwbspqfFn9",
       "imagen_url": "https://i.ebayimg.com/images/g/ykQAAeSwbspqfFn9/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-18 04:02:55",
-      "seller_id": "mediamarkttarragona",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Auriculares True Wireless - Xiaomi Buds 5 Pro, Cancelación de ruido ANC, Titaniu",
-      "precio": 93.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398376765230?itmmeta=01M2SAWXT7127MP9KXPXZNSPMY&hash=item5cc11b072e:g:Qf0AAeSwOfJqoSkx",
-      "imagen_url": "https://i.ebayimg.com/images/g/Qf0AAeSwOfJqoSkx/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -6522,32 +6691,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/398376721994?itmmeta=01M2SAWXT7K5G1NST7YCXZV79C&hash=item5cc11a5e4a:g:k-YAAeSwG2FqoScS",
       "imagen_url": "https://i.ebayimg.com/images/g/k-YAAeSwG2FqoScS/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-18 04:02:55",
-      "seller_id": "mediamarkttarragona",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Soporte GPS - Garmin 50B103 soporte bici para Edge 500",
-      "precio": 3.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398277279513?itmmeta=01M2SAWXT8MN34N9TP08NKRTXG&hash=item5cbb2cff19:g:qa8AAeSwOcNqfE~C",
-      "imagen_url": "https://i.ebayimg.com/images/g/qa8AAeSwOcNqfE~C/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-18 04:02:55",
-      "seller_id": "mediamarkttarragona",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cámara - Lexibook DJ150D, 2 Sensores de 1.3MP, 320×240 pixeles, Pantalla LCD 2\",",
-      "precio": 62.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398376757048?itmmeta=01M2SAWXT8G4TZKEDYV0BHA63Z&hash=item5cc11ae738:g:qgIAAeSwHGpqoSig",
-      "imagen_url": "https://i.ebayimg.com/images/g/qgIAAeSwHGpqoSig/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -23183,32 +23326,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Plancha de vapor-Tefal Virtuo 30 FV2C41, 2000W, 120 g/min, 0.24 l,Vapor vertical",
-      "precio": 17.49,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/318763251732?itmmeta=01M0N6H3DTCF139G9V29BPXF5H&hash=item4a37c53814:g:HnkAAeSwcXFqiCrC",
-      "imagen_url": "https://i.ebayimg.com/images/g/HnkAAeSwcXFqiCrC/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_plancha-de-vapor-fv9845-tefal-035-l-negro-98987583.html",
-      "fecha_visto_primera_vez": "2026-08-22 16:59:14",
-      "seller_id": "mediamarktgranada",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Botella - Schou 72742, 500 ml, Termo, Acero inoxidable, Negro",
-      "precio": 7.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/318763233071?itmmeta=01M0N6H3DSB0N3ETABZT2D15Y5&hash=item4a37c4ef2f:g:zGIAAeSwPdNqiCnF",
-      "imagen_url": "https://i.ebayimg.com/images/g/zGIAAeSwPdNqiCnF/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_botella-schou-72742-500-ml-termo-acero-inoxidable-negro-1573662.html",
-      "fecha_visto_primera_vez": "2026-08-22 16:58:29",
-      "seller_id": "mediamarktgranada",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Freidora de aire-Jata ‎1400 W 4l Hasta 200ºC Temporizador Compatible Alexa Negro",
       "precio": 35.0,
       "moneda": "EUR",
@@ -29515,10 +29632,10 @@
     },
     {
       "titulo": "Pack cargador -  PDP Play & Charge Kit, Para Xbox Serie X y Xbox One , Auton 20h",
-      "precio": 16.99,
+      "precio": 14.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/318744317706?itmmeta=01M0A7PSBWXFE43NVYFRD26W4K&hash=item4a36a44f0a:g:5ngAAeSwqX5qgy-A",
-      "imagen_url": "https://i.ebayimg.com/images/g/5ngAAeSwqX5qgy-A/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/mbUAAeSw7j9qskLV/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -29696,19 +29813,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Funda Nintendo Switch 2-Ardistel Game Traveler Deluxe Travel NS241,Switch",
-      "precio": 16.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/317952583063?itmmeta=01M0A7PVY379YMV2MSP5GRYGHJ&hash=item4a07736597:g:6ksAAeSwHUxp~fTf",
-      "imagen_url": "https://i.ebayimg.com/images/g/6ksAAeSwHUxp~fTf/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:47:38",
-      "seller_id": "mediamarktgranada",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "PS5 Robocop: Rogue City",
       "precio": 12.99,
       "moneda": "EUR",
@@ -29774,37 +29878,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Cafetera superautomática - De'Longhi PrimaDonna Aromatic ECAM630.55.SSM,",
-      "precio": 999.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/318332953252?itmmeta=01M0A7Q3MAS8W4KT2AX1XAJ6R1&hash=item4a1e1f62a4:g:Jc8AAeSwCDZqDc0t",
-      "imagen_url": "https://i.ebayimg.com/images/g/lwwAAeSwkXFqjIOI/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:47:38",
-      "seller_id": "mediamarktgranada",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector pantalla - Samsung, Para Galaxy A36 5G, Transparente",
-      "precio": 2.49,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/316868638606?itmmeta=01M0A7Q64Z72GNWBGZ5C33XH8S&hash=item49c6d7b78e:g:miIAAeSwUg1p~cn0",
-      "imagen_url": "https://i.ebayimg.com/images/g/miIAAeSwUg1p~cn0/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:47:38",
-      "seller_id": "mediamarktgranada",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Candado - Youin Candado plegable, Con luz LED, 640gr, Negro",
-      "precio": 15.0,
+      "precio": 7.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317931505314?itmmeta=01M0A7QDWH3P0B9K5ZAXQPDHZQ&hash=item4a0631c6a2:g:IhoAAeSwNbRqPBXa",
-      "imagen_url": "https://i.ebayimg.com/images/g/DKwAAeSwJfhqjH~B/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/6LIAAeSwFelqslC4/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -53473,19 +53551,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Impresora fotográfica - Fujifilm Instax Link Wide, Bluetooth, Portátil, 86 x 99",
-      "precio": 129.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137621009882?itmmeta=01M08T2CDGJCRDVRBN6WE6XPJC&hash=item200ad9f5da:g:5OYAAeSwfwBqfz1V",
-      "imagen_url": "https://i.ebayimg.com/images/g/5OYAAeSwfwBqfz1V/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-17 21:29:46",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Altavoz inalámbrico - Sonos Sub 4, Bajos Profundos, Subwoofer, Negro",
       "precio": 739.0,
       "moneda": "EUR",
@@ -53586,50 +53651,6 @@
           "precio": 6.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/406329298923?itmmeta=01M08TD2DFB91G1Q88FHC5F4FF&hash=item5e9b1d0feb:g:GGUAAeSwXJ1pqrin"
-        }
-      ]
-    },
-    {
-      "clave": "protector pantalla - samsung, para galaxy a36 5g, transparente",
-      "criterio": "titulo",
-      "titulo": "Protector pantalla - Samsung, Para Galaxy A36 5G, Transparente",
-      "imagen_url": "https://i.ebayimg.com/images/g/siYAAeSwznxqSoH~/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktalfafar",
-          "precio": 2.49,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/297741317558?itmmeta=01M08T4FBX2NYVWADSK9YKGKPF&hash=item4552c3f5b6:g:BzwAAeSwTnJqSoF0"
-        },
-        {
-          "tienda": "mediamarktgranada",
-          "precio": 2.49,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/316868638606?itmmeta=01M0A7Q64Z72GNWBGZ5C33XH8S&hash=item49c6d7b78e:g:miIAAeSwUg1p~cn0"
-        },
-        {
-          "tienda": "mediamarktislazul",
-          "precio": 2.89,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/306838802422?itmmeta=01M0A7SRCJ99R71T9PH8Y5E04S&hash=item4771048ff6:g:-GsAAeSwLQFqcg7n"
-        },
-        {
-          "tienda": "mediamarktcastellon",
-          "precio": 4.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/188695584652?itmmeta=01M0A7HJ53ETDW2HV3NPK8PHAZ&hash=item2bef221f8c:g:LqAAAeSwvM9qZPE8"
-        },
-        {
-          "tienda": "mediamarktbarcelona",
-          "precio": 11.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/406329308873?itmmeta=01M08TDA0QV3FHNBW7AGHZ1WT1&hash=item5e9b1d36c9:g:qbEAAeSwlJNpqq6-"
-        },
-        {
-          "tienda": "mediamarkttalavera",
-          "precio": 23.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/377490424370?itmmeta=01M2JKT8X3F91Q7C0VY099APAT&hash=item57e42ec232:g:UBUAAeSwzmBqpTjR"
         }
       ]
     },
@@ -53832,6 +53853,44 @@
           "precio": 24.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/146878862872?itmmeta=01M08T67XPMSRFXK4X432JYMZ7&hash=item2232a99618:g:MJ4AAeSwyehqT3nt"
+        }
+      ]
+    },
+    {
+      "clave": "protector pantalla - samsung, para galaxy a36 5g, transparente",
+      "criterio": "titulo",
+      "titulo": "Protector pantalla - Samsung, Para Galaxy A36 5G, Transparente",
+      "imagen_url": "https://i.ebayimg.com/images/g/siYAAeSwznxqSoH~/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktalfafar",
+          "precio": 2.49,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/297741317558?itmmeta=01M08T4FBX2NYVWADSK9YKGKPF&hash=item4552c3f5b6:g:BzwAAeSwTnJqSoF0"
+        },
+        {
+          "tienda": "mediamarktislazul",
+          "precio": 2.89,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/306838802422?itmmeta=01M0A7SRCJ99R71T9PH8Y5E04S&hash=item4771048ff6:g:-GsAAeSwLQFqcg7n"
+        },
+        {
+          "tienda": "mediamarktcastellon",
+          "precio": 4.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/188695584652?itmmeta=01M0A7HJ53ETDW2HV3NPK8PHAZ&hash=item2bef221f8c:g:LqAAAeSwvM9qZPE8"
+        },
+        {
+          "tienda": "mediamarktbarcelona",
+          "precio": 11.9,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/406329308873?itmmeta=01M08TDA0QV3FHNBW7AGHZ1WT1&hash=item5e9b1d36c9:g:qbEAAeSwlJNpqq6-"
+        },
+        {
+          "tienda": "mediamarkttalavera",
+          "precio": 23.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/377490424370?itmmeta=01M2JKT8X3F91Q7C0VY099APAT&hash=item57e42ec232:g:UBUAAeSwzmBqpTjR"
         }
       ]
     },
@@ -54433,19 +54492,19 @@
       "clave": "candado - youin candado plegable, con luz led, 640gr, negro",
       "criterio": "titulo",
       "titulo": "Candado - Youin Candado plegable, Con luz LED, 640gr, Negro",
-      "imagen_url": "https://i.ebayimg.com/images/g/3WcAAeSw9vVqoZk9/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/6LIAAeSwFelqslC4/s-l300.webp",
       "ofertas": [
+        {
+          "tienda": "mediamarktgranada",
+          "precio": 7.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/317931505314?itmmeta=01M0A7QDWH3P0B9K5ZAXQPDHZQ&hash=item4a0631c6a2:g:IhoAAeSwNbRqPBXa"
+        },
         {
           "tienda": "mediamarktelche",
           "precio": 8.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/800636880798?itmmeta=01M34ZQPDWKJYPV785FVA8FFTB&hash=itemba69ad479e:g:3WcAAeSw9vVqoZk9"
-        },
-        {
-          "tienda": "mediamarktgranada",
-          "precio": 15.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/317931505314?itmmeta=01M0A7QDWH3P0B9K5ZAXQPDHZQ&hash=item4a0631c6a2:g:IhoAAeSwNbRqPBXa"
         },
         {
           "tienda": "mediamarktsalamanca",
@@ -58762,6 +58821,26 @@
       ]
     },
     {
+      "clave": "consola retro - my arcade micro player space invaders, pantalla color 2.75\",  al",
+      "criterio": "titulo",
+      "titulo": "Consola retro - My Arcade Micro Player Space Invaders, Pantalla color 2.75\",  Al",
+      "imagen_url": "https://i.ebayimg.com/images/g/NhoAAeSw6glqfFuD/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarkttarragona",
+          "precio": 30.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/398277383865?itmmeta=01M35NE69MH7E9N2CK4WC7RPMF&hash=item5cbb2e96b9:g:NhoAAeSw6glqfFuD"
+        },
+        {
+          "tienda": "mediamarktfanmallorca",
+          "precio": 37.91,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/158017364044?itmmeta=01M0A7MCYZM8X6C6WSN6DCYRWZ&hash=item24ca91a04c:g:w3EAAeSwjF1qVjIy"
+        }
+      ]
+    },
+    {
       "clave": "recambio para afeitadora - philips sh91/50, cuchillas nanotech dual precision, a",
       "criterio": "titulo",
       "titulo": "Recambio para afeitadora - Philips SH91/50, Cuchillas NanoTech Dual Precision, A",
@@ -59358,26 +59437,6 @@
           "precio": 12.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/198552203885?itmmeta=01M0D5N1BFVWX3AJ6VFEE633DM&hash=item2e3aa2326d:g:WbEAAeSwfoNqdMTP"
-        }
-      ]
-    },
-    {
-      "clave": "ps4 pack 2 juegos: the division 2 + watch dogs: legion",
-      "criterio": "titulo",
-      "titulo": "PS4 Pack 2 juegos: The Division 2 + Watch Dogs: Legion",
-      "imagen_url": "https://i.ebayimg.com/images/g/DxoAAeSwo8JqlxTx/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktpamplona",
-          "precio": 9.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/398019387294?itmmeta=01M0GFW0KGNXM9V3KPN9Y74J7R&hash=item5cabcddf9e:g:0kwAAeSw9h5qNnKY"
-        },
-        {
-          "tienda": "mediamarkttarragona",
-          "precio": 10.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/398277276482?itmmeta=01M2SAWXT4HT38CC4XQ8HMRK46&hash=item5cbb2cf342:g:-dAAAeSwMyRqfE8i"
         }
       ]
     },
