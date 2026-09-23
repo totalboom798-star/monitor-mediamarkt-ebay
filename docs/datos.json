@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-09-22T22:59:39.452325+00:00",
+  "actualizado": "2026-09-23T04:03:10.166262+00:00",
   "total_tiendas": 101,
-  "total_articulos": 4084,
+  "total_articulos": 4074,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -52,11 +52,6 @@
       "seller_id": "mediamarkttarragona",
       "nombre_mostrado": null,
       "num_articulos": 49
-    },
-    {
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null,
-      "num_articulos": 48
     },
     {
       "seller_id": "mediamarktdonosti",
@@ -209,6 +204,11 @@
       "num_articulos": 43
     },
     {
+      "seller_id": "mediamarktdiagonalmar",
+      "nombre_mostrado": null,
+      "num_articulos": 42
+    },
+    {
       "seller_id": "mediamarkthuelva",
       "nombre_mostrado": null,
       "num_articulos": 42
@@ -349,14 +349,14 @@
       "num_articulos": 18
     },
     {
-      "seller_id": "mediamarktplazadelcarmen",
-      "nombre_mostrado": null,
-      "num_articulos": 17
-    },
-    {
       "seller_id": "mediamarktgoya",
       "nombre_mostrado": null,
       "num_articulos": 16
+    },
+    {
+      "seller_id": "mediamarktplazadelcarmen",
+      "nombre_mostrado": null,
+      "num_articulos": 13
     },
     {
       "seller_id": "mediamarktferrol",
@@ -510,6 +510,19 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Microsoft Surface Pro Copilot+ PC, 13\" Táctil, Snapdragon® X Plus 45 TOPS, 16GB",
+      "precio": 599.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/407229097373?itmmeta=01M366V1F83XW7EPN1EA8JWF0Y&hash=item5ed0bee59d:g:zxcAAeSwFXdqrnJI",
+      "imagen_url": "https://i.ebayimg.com/images/g/zxcAAeSwFXdqrnJI/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_convertible-2-en-1-microsoft-surface-pro-copilot-pc-13-snapdragonr-x-plus-45-tops-16gb-ram-512gb-ssd-adreno-gpu-windows-11-home-platinum-1587040.html",
+      "fecha_visto_primera_vez": "2026-09-23 04:02:43",
+      "seller_id": "mediamarktplazadelcarmen",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Cámara Nintendo Switch 2 - Nintendo Switch 2, USB-C, Lente gran angular, Sensor",
       "precio": 25.9,
@@ -2689,7 +2702,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_motorola-edge-60-fusion-8256-gris-movil-android-256-gb-8-gb-ram-667-poled-nucleos-del-procesador-8-core-descripcion-del-procesador-mediatek-dimensity-7300-5200-mah-170213234.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-motorola-pb7e0034se-amazonite-25600-gb-8-gb-ram-667-poled-mediatek-dimensity-7300-5200-mah-154058520.html",
       "fecha_visto_primera_vez": "2026-09-21 20:22:24",
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null
@@ -6738,19 +6751,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Samsung Galaxy Fit3, 40mm, 256MB, 16MB RAM, 1.6\" AMOLED",
-      "precio": 40.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/406971298611?itmmeta=01M2SAPM5PKMRTQ9BZSN86G5DW&hash=item5ec1613333:g:XUoAAeSwsrNqIDRI",
-      "imagen_url": "https://i.ebayimg.com/images/g/XUoAAeSwsrNqIDRI/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_smartwatch-samsung-sm-r390nzsaeub-40-mm-aluminio-prateado-145427855.html",
-      "fecha_visto_primera_vez": "2026-09-18 04:01:07",
-      "seller_id": "mediamarktplazadelcarmen",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Auriculares True Wireless - JVC HA-A7T2BE, 3 modos sonido, Micrófono",
       "precio": 24.9,
       "moneda": "EUR",
@@ -6773,19 +6773,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_ventilador-de-exterior-x10517-syntek-negro-114227325.html",
       "fecha_visto_primera_vez": "2026-09-18 04:00:37",
-      "seller_id": "mediamarktplazadelcarmen",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Smartwatch - Huawei Watch GT4, 46 mm, AMOLED, Hasta 14 días de autonomía, Negro",
-      "precio": 159.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/406910543847?itmmeta=01M2SAPM5N6TV5Q875A2D1M8JD&hash=item5ebdc227e7:g:iNwAAeSwn8tp~HkK",
-      "imagen_url": "https://i.ebayimg.com/images/g/iNwAAeSwn8tp~HkK/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_smartwatch-huawei-watch-gt4-46-mm-amoled-hasta-14-dias-de-autonomia-marron-1558033.html",
-      "fecha_visto_primera_vez": "2026-09-18 04:00:20",
       "seller_id": "mediamarktplazadelcarmen",
       "nombre_mostrado": null
     },
@@ -8165,19 +8152,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_matamoscas-cmp-paris-cmpmg2056-26-61-cm-extensible-color-aleatorio-azul-negro-rosa-o-lila-1237175.html",
       "fecha_visto_primera_vez": "2026-09-17 04:09:54",
       "seller_id": "mediamarktlloret",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Switch Instant Sports Tennis Bundle (con 2 raquetas) (Código de descarga)",
-      "precio": 7.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/407218257943?itmmeta=01M2P6RXZ15R9QJ5JRSZEE56GW&hash=item5ed0198017:g:tP0AAeSwkUhqqSxE",
-      "imagen_url": "https://i.ebayimg.com/images/g/tP0AAeSwkUhqqSxE/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-instant-sports-tennis-bundle-con-2-raquetas-codigo-de-descarga-1604333.html",
-      "fecha_visto_primera_vez": "2026-09-16 22:53:47",
-      "seller_id": "mediamarktplazadelcarmen",
       "nombre_mostrado": null
     },
     {
@@ -10452,19 +10426,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-nba-2k26-1617499.html",
       "fecha_visto_primera_vez": "2026-09-14 20:18:06",
-      "seller_id": "mediamarktplazadelcarmen",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Nintendo Switch Martian Panic (con pistola) (Código en la caja)",
-      "precio": 7.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/407216613341?itmmeta=01M2GS0K530CPDCWTQH8593HNR&hash=item5ed00067dd:g:my8AAeSwfBJqqDdu",
-      "imagen_url": "https://i.ebayimg.com/images/g/my8AAeSwfBJqqDdu/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-martian-panic-con-pistola-codigo-en-la-caja-1604334.html",
-      "fecha_visto_primera_vez": "2026-09-14 20:16:25",
       "seller_id": "mediamarktplazadelcarmen",
       "nombre_mostrado": null
     },
@@ -14977,19 +14938,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_marco-intercambiable-samsung-vg-scff75bwbxc-para-tv-the-frame-2025-de-75-marron-1622386.html",
       "fecha_visto_primera_vez": "2026-09-05 12:19:20",
       "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Linterna - Nebo NB7004, Con cinta elástica para cabeza, LED, USB, 400 LM, 10 h",
-      "precio": 10.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/407178362482?itmmeta=01M1RABYJWQR8K9VYWEF39HWH4&hash=item5ecdb8be72:g:CAQAAeSwIMRqkr3N",
-      "imagen_url": "https://i.ebayimg.com/images/g/CAQAAeSwIMRqkr3N/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_linternas-neb-flt-1015-g-nebo-negro-grafito-177706698.html",
-      "fecha_visto_primera_vez": "2026-09-05 08:19:00",
-      "seller_id": "mediamarktplazadelcarmen",
       "nombre_mostrado": null
     },
     {
@@ -35007,7 +34955,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/vb8AAeSwnyhqqAvY/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_ps5-horizon-forbidden-west-1517026.html",
       "fecha_visto_primera_vez": "2026-08-18 10:45:08",
       "seller_id": "mediamarktdiagonalmar",
       "nombre_mostrado": null
@@ -35208,19 +35156,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "PS5 Football Manager 26",
-      "precio": 39.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206449956364?itmmeta=01M0A7JV5TVSN9VQ332Y7M832S&hash=item301160560c:g:~eEAAeSw4oNqadky",
-      "imagen_url": "https://i.ebayimg.com/images/g/~eEAAeSw4oNqadky/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:45:08",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Consola retro portátil - My Arcade Pocket Player Pro Space Invaders +Travel Case",
       "precio": 44.99,
       "moneda": "EUR",
@@ -35273,19 +35208,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Tabla de planchar - Jata Hogar HPLA8214, 75 x 34 cm, Gris y Blanco",
-      "precio": 9.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206414120299?itmmeta=01M0A7JV5TAVAXVNBD5TFRB9QN&hash=item300f3d856b:g:1lUAAeSwsFZqVhmN",
-      "imagen_url": "https://i.ebayimg.com/images/g/1lUAAeSwsFZqVhmN/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:45:08",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Soporte TV - ISY ITV 2300, 32\"- 70\", Carga máx. 75 kg, VESA máx. 400 x 400 mm",
       "precio": 24.99,
       "moneda": "EUR",
@@ -35304,19 +35226,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/205504769054?itmmeta=01M0A7JV5TQN789BD1HMBRCER5&hash=item2fd909ec1e:g:yJgAAeSwwvJqYJiu",
       "imagen_url": "https://i.ebayimg.com/images/g/yJgAAeSwwvJqYJiu/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:45:08",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Figura Funko Pop! - MHA Ken Katagi [CAJA DAÑADA]",
-      "precio": 4.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/205641528850?itmmeta=01M0A7JV5TJN7T6YFPB0EHGR5B&hash=item2fe130b612:g:mP8AAeSw54xqHrpx",
-      "imagen_url": "https://i.ebayimg.com/images/g/mP8AAeSw54xqHrpx/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -35377,19 +35286,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Funda móvil - Samsung Flipsuit Case, Para Samsung Galaxy Z Flip6",
-      "precio": 9.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206022524954?itmmeta=01M0A7JXJ35NGTT468A7Y3KKBH&hash=item2ff7e6401a:g:jngAAeSw82ZqHrq4",
-      "imagen_url": "https://i.ebayimg.com/images/g/jngAAeSw82ZqHrq4/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:45:08",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Tarjetero para móvil - Friendly License FRTAR003, Universal, Adhesivo 3M",
       "precio": 3.98,
       "moneda": "EUR",
@@ -35429,19 +35325,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Cargador móvil inalámbrico - ISY IMC 4015, Para Apple iPhone 12, Blanco",
-      "precio": 9.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/205988540706?itmmeta=01M0A7JXJ45DY7GFY2NBA3EKD7&hash=item2ff5dfb122:g:XEQAAeSw3ZZqHrqN",
-      "imagen_url": "https://i.ebayimg.com/images/g/XEQAAeSw3ZZqHrqN/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:45:08",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Ratón inalámbrico - Logitech MX Anywhere 3S para Mac, Bluetooth, 8000 DP",
       "precio": 64.99,
       "moneda": "EUR",
@@ -35460,19 +35343,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/206449961391?itmmeta=01M0A7JXJ4AKXXYFHRKDE9W8DF&hash=item30116069af:g:qkgAAeSwD-lqadrD",
       "imagen_url": "https://i.ebayimg.com/images/g/qkgAAeSwD-lqadrD/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:45:08",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - Samsung Transparente, Para Samsung Galaxy S25",
-      "precio": 9.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206022527203?itmmeta=01M0A7JXJ4YRW34180V81YEYN1&hash=item2ff7e648e3:g:zJMAAeSwvtpqHrqw",
-      "imagen_url": "https://i.ebayimg.com/images/g/zJMAAeSwvtpqHrqw/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -54917,32 +54787,6 @@
       ]
     },
     {
-      "clave": "funda móvil - samsung transparente, para samsung galaxy s25",
-      "criterio": "titulo",
-      "titulo": "Funda móvil - Samsung Transparente, Para Samsung Galaxy S25",
-      "imagen_url": "https://i.ebayimg.com/images/g/zJMAAeSwvtpqHrqw/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktdiagonalmar",
-          "precio": 9.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/206022527203?itmmeta=01M0A7JXJ4YRW34180V81YEYN1&hash=item2ff7e648e3:g:zJMAAeSwvtpqHrqw"
-        },
-        {
-          "tienda": "mediamarktalfafar",
-          "precio": 19.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/298314640154?itmmeta=01M08T4FBYSAWJD694ZSN18QF8&hash=item4574f02b1a:g:-qAAAeSwze9qSoH6"
-        },
-        {
-          "tienda": "mediamarktmassalfassar",
-          "precio": 25.49,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/397884725823?itmmeta=01M18EPYJ7XQ3C66DNSNMX4RED&hash=item5ca3c71a3f:g:Z4sAAeSwO6Vp718j"
-        }
-      ]
-    },
-    {
       "clave": "a17 6.7p/4g/8n/8+256gb/b",
       "criterio": "titulo",
       "titulo": "A17 6.7P/4G/8N/8+256GB/B",
@@ -56741,6 +56585,26 @@
       ]
     },
     {
+      "clave": "funda móvil - samsung transparente, para samsung galaxy s25",
+      "criterio": "titulo",
+      "titulo": "Funda móvil - Samsung Transparente, Para Samsung Galaxy S25",
+      "imagen_url": "https://i.ebayimg.com/images/g/n8cAAeSwyUdqSoHU/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktalfafar",
+          "precio": 19.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/298314640154?itmmeta=01M08T4FBYSAWJD694ZSN18QF8&hash=item4574f02b1a:g:-qAAAeSwze9qSoH6"
+        },
+        {
+          "tienda": "mediamarktmassalfassar",
+          "precio": 25.49,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/397884725823?itmmeta=01M18EPYJ7XQ3C66DNSNMX4RED&hash=item5ca3c71a3f:g:Z4sAAeSwO6Vp718j"
+        }
+      ]
+    },
+    {
       "clave": "pilas aaa - wentronic, 750mah, nimh 4-bl evolta, panasonic, níquel metal hidruro",
       "criterio": "titulo",
       "titulo": "Pilas AAA - Wentronic, 750mAh, NiMH 4-BL EVOLTA, Panasonic, Níquel metal hidruro",
@@ -56837,26 +56701,6 @@
           "precio": 27.9,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/187068643856?itmmeta=01M346R4MMRH8E81M9H0VTCT67&hash=item2b8e28fa10:g:eG0AAeSwQyBn3p43"
-        }
-      ]
-    },
-    {
-      "clave": "cargador móvil inalámbrico - isy imc 4015, para apple iphone 12, blanco",
-      "criterio": "titulo",
-      "titulo": "Cargador móvil inalámbrico - ISY IMC 4015, Para Apple iPhone 12, Blanco",
-      "imagen_url": "https://i.ebayimg.com/images/g/XEQAAeSw3ZZqHrqN/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktdiagonalmar",
-          "precio": 9.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/205988540706?itmmeta=01M0A7JXJ45DY7GFY2NBA3EKD7&hash=item2ff5dfb122:g:XEQAAeSw3ZZqHrqN"
-        },
-        {
-          "tienda": "mediamarktalicante",
-          "precio": 14.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/146878852549?itmmeta=01M08T5XABSF4C1VXV0HQ5F52J&hash=item2232a96dc5:g:FFYAAeSwjKBqT37F"
         }
       ]
     },
@@ -59957,26 +59801,6 @@
           "precio": 149.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/198515784773?itmmeta=01M1EXH5JF0G8TRP9A885M8S3F&hash=item2e38767c45:g:i1UAAeSwuZlqYJHb"
-        }
-      ]
-    },
-    {
-      "clave": "nintendo switch martian panic (con pistola) (código en la caja)",
-      "criterio": "titulo",
-      "titulo": "Nintendo Switch Martian Panic (con pistola) (Código en la caja)",
-      "imagen_url": "https://i.ebayimg.com/images/g/my8AAeSwfBJqqDdu/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktplazadelcarmen",
-          "precio": 7.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/407216613341?itmmeta=01M2GS0K530CPDCWTQH8593HNR&hash=item5ed00067dd:g:my8AAeSwfBJqqDdu"
-        },
-        {
-          "tienda": "mediamarktplacacatalunya",
-          "precio": 9.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/398343939193?itmmeta=01M1E0QCQCDN1JW6ZBQ92770M2&hash=item5cbf262479:g:b7UAAeSwcJ1qlZnq"
         }
       ]
     },
