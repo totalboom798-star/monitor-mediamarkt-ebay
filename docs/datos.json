@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-09-24T16:57:18.493373+00:00",
+  "actualizado": "2026-09-24T23:12:40.161574+00:00",
   "total_tiendas": 101,
-  "total_articulos": 4095,
+  "total_articulos": 3965,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -22,11 +22,6 @@
       "seller_id": "mediamarktalfafar",
       "nombre_mostrado": null,
       "num_articulos": 198
-    },
-    {
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null,
-      "num_articulos": 173
     },
     {
       "seller_id": "mediamarktalcorcon",
@@ -60,6 +55,11 @@
     },
     {
       "seller_id": "mediamarktesplugues",
+      "nombre_mostrado": null,
+      "num_articulos": 48
+    },
+    {
+      "seller_id": "mediamarktgandia",
       "nombre_mostrado": null,
       "num_articulos": 48
     },
@@ -254,11 +254,6 @@
       "num_articulos": 39
     },
     {
-      "seller_id": "mediamarktleon",
-      "nombre_mostrado": null,
-      "num_articulos": 39
-    },
-    {
       "seller_id": "mediamarktmurciarondasur",
       "nombre_mostrado": null,
       "num_articulos": 38
@@ -270,6 +265,11 @@
     },
     {
       "seller_id": "mediamarktgranada",
+      "nombre_mostrado": null,
+      "num_articulos": 37
+    },
+    {
+      "seller_id": "mediamarktleon",
       "nombre_mostrado": null,
       "num_articulos": 37
     },
@@ -296,7 +296,7 @@
     {
       "seller_id": "mediamarktplacacatalunya",
       "nombre_mostrado": null,
-      "num_articulos": 36
+      "num_articulos": 35
     },
     {
       "seller_id": "mediamarkttalavera",
@@ -321,7 +321,7 @@
     {
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null,
-      "num_articulos": 26
+      "num_articulos": 24
     },
     {
       "seller_id": "mediamarktfrancescmacia",
@@ -4827,19 +4827,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Sin MANDO!! -- TV LED 24\" - PEAQ PTV 24GH-5025C, GOOGLE TV",
-      "precio": 69.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/407234428229?itmmeta=01M33MKF2XXCECSJK6E6QRPR6F&hash=item5ed1103d45:g:8NoAAeSwZkVqsUDG",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tv-led-24-peaq-ptv-24gh-5025c-hd-ready-google-tv-dolby-audio-dvb-t2-negro-1597672.html",
-      "fecha_visto_primera_vez": "2026-09-22 04:06:07",
-      "seller_id": "mediamarktleon",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Disco duro externo 6 TB - Seagate Expansion STKR6000400, HDD, 6000 GB, USB 3.0",
       "precio": 209.0,
       "moneda": "EUR",
@@ -6422,19 +6409,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_centro-de-planchado-rowenta-vr832-2600-w-1-7-l-6-5-bares-350-g-m-negro-azul-1477240.html",
       "fecha_visto_primera_vez": "2026-09-19 18:35:32",
-      "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "usado Grill - Cecotec Rock'nGrill, 2000W, Antiadherente,",
-      "precio": 29.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800686322463?itmmeta=01M2XF4Q65JN453YG78B9VSJHB&hash=itemba6c9fb31f:g:Af8AAeSwFXJqrsYV",
-      "imagen_url": "https://i.ebayimg.com/images/g/Af8AAeSwFXJqrsYV/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_parrilla-elctrica-rockngrill-1000cecotec-100-83039093.html",
-      "fecha_visto_primera_vez": "2026-09-19 18:34:47",
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null
     },
@@ -14535,19 +14509,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-superautomatica-jura-15501-ena-full-metropolitan-eb-15-bar-1450-w-negro-1551899.html",
       "fecha_visto_primera_vez": "2026-09-10 14:50:38",
       "seller_id": "mediamarktlleida",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Lenovo Yoga Slim 7 14AKP10, 14\" OLED, AMD Ryzen™ AI 7 350 32GB, 1TB , ™ 860M,",
-      "precio": 969.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/407199760983?itmmeta=01M24Q21B3WZXVNFZQMNR4JN6Q&hash=item5eceff4257:g:KKYAAeSwvAxqnvsP",
-      "imagen_url": "https://i.ebayimg.com/images/g/bxQAAeSw2X5qqPFD/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-lenovo-yoga-slim-7-14akp10-copilot-pc-14-wuxga-amd-ryzen-ai-7-350-32-gb-ram-1000-gb-ssd-radeontm-860m-windows-idioma-del-teclado-es-verde-azulado-165065096.html",
-      "fecha_visto_primera_vez": "2026-09-10 03:55:07",
-      "seller_id": "mediamarktleon",
       "nombre_mostrado": null
     },
     {
@@ -24054,58 +24015,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Protector pantalla - Samsung, Compatible con Galaxy S24 FE, Anti-reflejante",
-      "precio": 9.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398313769941?itmmeta=01M0TEAD3BAN6A7FHHX6VA98ZW&hash=item5cbd59cbd5:g:gdYAAeSw6RlqiYXF",
-      "imagen_url": "https://i.ebayimg.com/images/g/gdYAAeSw6RlqiYXF/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-protector-pantalla-samsung-ef-us721ctegww-compatible-con-galaxy-s24-fe-anti-reflejante-plastico-1668064.html",
-      "fecha_visto_primera_vez": "2026-08-24 17:51:58",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector pantalla - Samsung Front Protector Film, Para Samsung Galaxy Z Fold6",
-      "precio": 9.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398313771113?itmmeta=01M0TEAD3BH1T21VQ9D0HNY3AP&hash=item5cbd59d069:g:UmMAAeSwGDJqiYaj",
-      "imagen_url": "https://i.ebayimg.com/images/g/UmMAAeSwGDJqiYaj/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_protector-pantalla-samsung-front-protector-film-para-samsung-galaxy-z-fold6-pet-pc-reciclado-anti-reflejo-1577675.html",
-      "fecha_visto_primera_vez": "2026-08-24 17:51:43",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Disco duro externo 1 TB - Western Digital WD - SIN CABLE",
-      "precio": 55.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398313766272?itmmeta=01M0TEAD3A6D1P0JYX6JE9SGZ9&hash=item5cbd59bd80:g:ULsAAeSwwTlqiYRF",
-      "imagen_url": "https://i.ebayimg.com/images/g/ULsAAeSwwTlqiYRF/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_disco-duro-externo-1-tb-western-digital-wdbajn0010bbk-wesn-5-gbps-usb-3-0-hdd-negro-1501379.html",
-      "fecha_visto_primera_vez": "2026-08-24 17:51:26",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Disco duro externo Western Digital 2 TB - SIN CABLE",
-      "precio": 64.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398313763873?itmmeta=01M0TEAD39K2M4F7MZ6W65HF6R&hash=item5cbd59b421:g:L3wAAeSwhFRqiYQZ",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_disco-duro-externo-2-tb-western-digital-wdbajn0020bbk-wesn-5-gbps-usb-3-0-hdd-negro-1501380.html",
-      "fecha_visto_primera_vez": "2026-08-24 17:50:33",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Ventilador de techo - Koenic EU01_108553, 35W, 6 Velocidades,",
       "precio": 69.0,
       "moneda": "EUR",
@@ -25296,7 +25205,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/Fw4AAeSwwS5qkwsg/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-multifuncion-hp-envy-inspire-7924e-imprimir-escaner-copiar-fotografia-wifi-hp-smart-doble-cara-1526302.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-multifuncion-tinta-hp-deskjet-4220e-inyeccion-de-tinta-24-bits-145342315.html",
       "fecha_visto_primera_vez": "2026-08-21 21:03:33",
       "seller_id": "mediamarktplacacatalunya",
       "nombre_mostrado": null
@@ -25310,19 +25219,6 @@
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pc-gaming-acer-nitro-50-n50-656-intelr-coretm-i5-14400f-16gb-ram-512-gb-ssd-geforce-rtxtm-5060-sin-sistema-operativo-negro-1607335.html",
-      "fecha_visto_primera_vez": "2026-08-21 21:03:33",
-      "seller_id": "mediamarktplacacatalunya",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Monitor gaming - Samsung Odyssey G3 LS27DG304EUXEN ,",
-      "precio": 90.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398289037600?itmmeta=01M0K25P81E2ERJMJWK3S0Z0QA&hash=item5cbbe06920:g:QTIAAeSwWg9qhdFV",
-      "imagen_url": "https://i.ebayimg.com/images/g/zsUAAeSwXSZqkwtP/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-gaming-samsung-ls27dg304euxen-27-full-hd-1-ms-negro-150876424.html",
       "fecha_visto_primera_vez": "2026-08-21 21:03:33",
       "seller_id": "mediamarktplacacatalunya",
       "nombre_mostrado": null
@@ -25348,7 +25244,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/k8YAAeSwN0tqkwse/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-hp-omnibook-5-next-gen-ai-14-hh0008ns-copilot-pc-14-2k-oled-intelr-coretm-ultra-7-355-49-tops-32gb-ram-1tb-ssd-w11h-sin-cargador-1625250.html",
       "fecha_visto_primera_vez": "2026-08-21 21:03:33",
       "seller_id": "mediamarktplacacatalunya",
       "nombre_mostrado": null
@@ -25494,58 +25390,6 @@
       "mediamarkt_url": null,
       "fecha_visto_primera_vez": "2026-08-21 21:03:30",
       "seller_id": "mediamarktparets",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - Samsung, Galaxy A15 5G, Trasera, Transparente",
-      "precio": 12.5,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398311139304?itmmeta=01M0K23E5CP05QZATE1AJS841D&hash=item5cbd31a7e8:g:F2UAAeSwA-tqiCpX",
-      "imagen_url": "https://i.ebayimg.com/images/g/F2UAAeSwA-tqiCpX/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-samsung-galaxy-a15-5g-trasera-transparente-1566559.html",
-      "fecha_visto_primera_vez": "2026-08-21 21:03:12",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - Samsung, para Galaxy S24, Silicona, 6.2\"",
-      "precio": 9.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398311126914?itmmeta=01M0K23E5C3J7KQGZSK3R5QKYF&hash=item5cbd317782:g:qKYAAeSwk7FqiCmn",
-      "imagen_url": "https://i.ebayimg.com/images/g/qKYAAeSwk7FqiCmn/s-l300.webp",
-      "ean": "8809894143648",
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-samsung-para-galaxy-s24-silicona-62-resistente-a-rayones-transparente-1566620.html",
-      "fecha_visto_primera_vez": "2026-08-21 21:03:04",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - Samsung, Para Galaxy S24",
-      "precio": 9.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398311146751?itmmeta=01M0K23E5C5PDPKA57HS74B17W&hash=item5cbd31c4ff:g:224AAeSw3vtqiCwR",
-      "imagen_url": "https://i.ebayimg.com/images/g/224AAeSw3vtqiCwR/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-samsung-para-galaxy-s24-silicona-62-resistente-a-rayones-transparente-1566620.html",
-      "fecha_visto_primera_vez": "2026-08-21 21:02:44",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - Samsung, para Galaxy A25 5G, Trasera",
-      "precio": 2.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398311141300?itmmeta=01M0K23E5CY43N8S4NCB44E764&hash=item5cbd31afb4:g:u9YAAeSwFh9qiCr9",
-      "imagen_url": "https://i.ebayimg.com/images/g/u9YAAeSwFh9qiCr9/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-samsung-para-galaxy-a25-5g-trasera-bolsillo-para-tarjeta-negroazul-1566563.html",
-      "fecha_visto_primera_vez": "2026-08-21 21:02:21",
-      "seller_id": "mediamarktgandia",
       "nombre_mostrado": null
     },
     {
@@ -31308,110 +31152,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Nintendo Switch Two Point Campus",
-      "precio": 2.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397021356396?itmmeta=01M0A7NPG6XAX70Q4JGNFD3SAH&hash=item5c7051216c:g:xVEAAeSwwvJqaKJI",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-two-point-hospital-full-health-collection-game-key-card-1671527.html",
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Pilas AA - Duracell PLUS Pilas alcalinas MN1500 AA LR6 / LR06, 1.5",
-      "precio": 8.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397692870809?itmmeta=01M0A7NPG6FWRDDESCERB66VXG&hash=item5c9857a099:g:x1gAAeSwVktqax9r",
-      "imagen_url": "https://i.ebayimg.com/images/g/x1gAAeSwVktqax9r/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_duracell-aa-lr06-plus-power-18-1508541.html",
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 2444, Carga Magsafe, Para iPhone 15 Pro, Blanco",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935601752?itmmeta=01M0A7NPG6A7HEQCW5DGC8RA0Z&hash=item5ca6cf6858:g:MXcAAeSwpfRqayA0",
-      "imagen_url": "https://i.ebayimg.com/images/g/MXcAAeSwpfRqayA0/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector cámara móvil - ISY ICP 1002,  iPhone 15 & iPhone 15 Plus, Cristal",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935732730?itmmeta=01M0A7NPG60ZKX14PYEXRSV9WS&hash=item5ca6d167fa:g:1KkAAeSwkxVqAcjs",
-      "imagen_url": "https://i.ebayimg.com/images/g/1KkAAeSwkxVqAcjs/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Micrófono - Vieta Pro Party Mic Duo, -25 db, Inlámbrico, Negro",
-      "precio": 34.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397657216822?itmmeta=01M0A7NPG6GMVDHA820RT3QA3P&hash=item5c96379736:g:2ngAAeSwZl5qaxt6",
-      "imagen_url": "https://i.ebayimg.com/images/g/2ngAAeSwZl5qaxt6/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC-2421 MagISY, Apple iPhone 13 Pro Max, Trasera, , Verde",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935755171?itmmeta=01M0A7NPG6H8FPR4PCA2YA7VZ7&hash=item5ca6d1bfa3:g:xUkAAeSw9fpqAcu8",
-      "imagen_url": "https://i.ebayimg.com/images/g/xUkAAeSw9fpqAcu8/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector pantalla - Samsung, Para Samsung Galaxy S25 Plus,",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397692899426?itmmeta=01M0A7NPG69XN5DKSHJ8NJ7WVW&hash=item5c98581062:g:DyoAAeSw17BqafJO",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_protector-pantalla-samsung-para-samsung-galaxy-s25-plus-anti-reflecting-film-transparente-1591518.html",
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cafetera de cápsulas - Nespresso® Krups Vertuo Pop XN920510, , 0.56 L, Spicy Red",
-      "precio": 29.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397678165069?itmmeta=01M0A7NPG6AHF60RWK8AQZBNMA&hash=item5c97773c4d:g:P4IAAeSwN-lqafUg",
-      "imagen_url": "https://i.ebayimg.com/images/g/P4IAAeSwN-lqafUg/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Hucha - Trifuerza de \"The Legend Of Zelda\", Cerámica, 15 cm",
       "precio": 9.99,
       "moneda": "EUR",
@@ -31425,167 +31165,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Funda + cordón para móvil - ISY ISC-3823, Para Apple iPhone 14, Negro",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935564520?itmmeta=01M0A7NPG65VB1N9GP2GGNTP2Z&hash=item5ca6ced6e8:g:Yd8AAeSwkXBqAb5m",
-      "imagen_url": "https://i.ebayimg.com/images/g/Yd8AAeSwkXBqAb5m/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-cordon-para-movil-isy-isc-3823-apple-iphone-14-negro-1540697.html",
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Pilas AA recargables - ISY IAB-2003, 2 baterías AA,",
-      "precio": 2.5,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397692915367?itmmeta=01M0A7NPG6HTYCB8DYJJZG8D5A&hash=item5c98584ea7:g:iRUAAeSwAY9qax-w",
-      "imagen_url": "https://i.ebayimg.com/images/g/iRUAAeSwAY9qax-w/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "HP OmniBook X 14- fe1002ns Copilot+ PC, 14 \" 2.2K, Snapdragon® X Plus",
-      "precio": 499.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/396668367586?itmmeta=01M0A7NPG66KYXTE7FT6T6E746&hash=item5c5b46f2e2:g:-vAAAeSwraVqafDA",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 3733, Antisalpicaduras y golpes, Para iPhone 15, Negro",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935596675?itmmeta=01M0A7NPG6ZYHQEP9HZP3E4XRP&hash=item5ca6cf5483:g:dhEAAeSwBDpqay92",
-      "imagen_url": "https://i.ebayimg.com/images/g/dhEAAeSwBDpqay92/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC-2406 MagISY, Para Apple iPhone 13 Pro, Trasera, Silicona,",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935868326?itmmeta=01M0A7NPG6X4T2FGA1PW0BAE0Q&hash=item5ca6d379a6:g:LD4AAeSwCctqAdFb",
-      "imagen_url": "https://i.ebayimg.com/images/g/LD4AAeSwCctqAdFb/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Cafetera superautomática - Cecotec Cremmaet Macchia Black, 19 bar, 1350 W,",
       "precio": 199.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/397061208010?itmmeta=01M0A7NPG637X9QFZ236AGRQSB&hash=item5c72b137ca:g:tyEAAeSwzM5qaKLr",
       "imagen_url": "https://i.ebayimg.com/images/g/tyEAAeSwzM5qaKLr/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 3733,  Para iPhone 15 Pro Max, Negro",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935556047?itmmeta=01M0A7NPG6F8YRN229H1A2GTPD&hash=item5ca6ceb5cf:g:qt0AAeSwYlFqaxxE",
-      "imagen_url": "https://i.ebayimg.com/images/g/qt0AAeSwYlFqaxxE/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cámara de vigilancia IP - Amazon Outdoor Camera Plus Battery, 2K,  Blanco",
-      "precio": 40.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397796431032?itmmeta=01M0A7NPG6PVZR6WYJJJKSXQNS&hash=item5c9e83d4b8:g:Q08AAeSwLDFqafZV",
-      "imagen_url": "https://i.ebayimg.com/images/g/Q08AAeSwLDFqafZV/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Robot friegasuelos - Dreame L10s Ultra Gen 2, 75W,",
-      "precio": 259.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398230761401?itmmeta=01M0A7NPG6NC31CF0BC4YXVNJN&hash=item5cb8672fb9:g:SJ8AAeSwh0NqazR-",
-      "imagen_url": "https://i.ebayimg.com/images/g/SJ8AAeSwh0NqazR-/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 2506, Para Samsung Galaxy A55, SmOKey black",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935845614?itmmeta=01M0A7NPG6KQFYSHEA9MCGFZQ7&hash=item5ca6d320ee:g:MkwAAeSw9apqay-k",
-      "imagen_url": "https://i.ebayimg.com/images/g/MkwAAeSw9apqay-k/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Toalla - KOENIC Microfibra, 80x40cm, Poliéster y nylon, Súper absorción, Azul",
-      "precio": 2.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/396999075113?itmmeta=01M0A7NPG6R1RBXZ9Y834S3DZM&hash=item5c6efd2529:g:xAoAAeSwxGxpxouC",
-      "imagen_url": "https://i.ebayimg.com/images/g/xAoAAeSwxGxpxouC/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC-2318, Apple, iPhone 14 Plus, Azul",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935572840?itmmeta=01M0A7NPG69WGE78ANHTRAWY29&hash=item5ca6cef768:g:xO4AAeSwAKZqAb7y",
-      "imagen_url": "https://i.ebayimg.com/images/g/xO4AAeSwAKZqAb7y/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector pantalla - Samsung, Para Samsung Galaxy S24, Transparente",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397692919314?itmmeta=01M0A7NPG6P446ATAQBP71MKT4&hash=item5c98585e12:g:Fl4AAeSwknFqafHO",
-      "imagen_url": "https://i.ebayimg.com/images/g/Fl4AAeSwknFqafHO/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -31607,297 +31191,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Protector pantalla - Samsung, Para Galaxy A26 5G, Transparente",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935902770?itmmeta=01M0A7NPG6DCD3SHVE6XW4K0EM&hash=item5ca6d40032:g:~hcAAeSwmc1qAdNC",
-      "imagen_url": "https://i.ebayimg.com/images/g/~hcAAeSwmc1qAdNC/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 1114 MagISY, Para iPhone 15 Plus, , Transparente",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935620867?itmmeta=01M0A7NPG685KT032H0N4JE75S&hash=item5ca6cfb303:g:QOgAAeSwUr5qax48",
-      "imagen_url": "https://i.ebayimg.com/images/g/QOgAAeSwUr5qax48/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Secador - Rowenta Reverso CF9840, Función Reverse 2 en 1,",
-      "precio": 39.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397796447401?itmmeta=01M0A7NPG6B88GDRZV0FY2ZPAY&hash=item5c9e8414a9:g:w8oAAeSwRydqafX2",
-      "imagen_url": "https://i.ebayimg.com/images/g/w8oAAeSwRydqafX2/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 2334, Para Apple iPhone 15 Pro, Silicona,  Negro",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935610946?itmmeta=01M0A7NPG6E01GCATVVX95HM13&hash=item5ca6cf8c42:g:5wIAAeSwRQxqax1g",
-      "imagen_url": "https://i.ebayimg.com/images/g/5wIAAeSwRQxqax1g/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cafetera superautomática - Krups Roma EA81K870, 1450 W, 15 bar, 1.7 L,",
-      "precio": 159.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397878840789?itmmeta=01M0A7NPG61ERFHN9S81CP9XP3&hash=item5ca36d4dd5:g:P3AAAeSwjYdqaxuM",
-      "imagen_url": "https://i.ebayimg.com/images/g/P3AAAeSwjYdqaxuM/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-superautomatica-krups-roma-ea81k870-1450-w-15-bar-17-l-3-temp-2-tazas-negro-1551062.html",
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector cámara móvil - ISY ICP 1006,iPhone 16 y iPhone 16 Plus, Cristal ,",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935593712?itmmeta=01M0A7NPG6KBTB6KF9TJKK6V34&hash=item5ca6cf48f0:g:AkkAAeSwxYdqAcBn",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Nintendo Switch Let's Sing 2025 + 2 micrófonos",
-      "precio": 31.49,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397769569223?itmmeta=01M0A7NPG6AZTVSH8VDABEMR2V&hash=item5c9ce9f3c7:g:4X0AAeSwrptqayNW",
-      "imagen_url": "https://i.ebayimg.com/images/g/4X0AAeSwrptqayNW/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC-2420 MagISY, Para Apple iPhone 13 Pro, , Silicona, Verde",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935892213?itmmeta=01M0A7NPG6PJN7J0B4RRY68V8F&hash=item5ca6d3d6f5:g:~qcAAeSwa5xqAdJC",
-      "imagen_url": "https://i.ebayimg.com/images/g/~qcAAeSwa5xqAdJC/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cartucho de tinta - Brother LC426XL XL, 6000 páginas,  ISO/IEC 24711, Cian",
-      "precio": 6.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397538751299?itmmeta=01M0A7NPG6E5F5XFAPJTHF2ZNX&hash=item5c8f27f343:g:v80AAeSwFuJqafC5",
-      "imagen_url": "https://i.ebayimg.com/images/g/v80AAeSwFuJqafC5/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Plancha de vapor - Cecotec IronHero 3200 Vital",
-      "precio": 19.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397270958255?itmmeta=01M0A7NPG6P1WD1VYEGNMER1JV&hash=item5c7f31c0af:g:AfkAAeSw9ZVqaecC",
-      "imagen_url": "https://i.ebayimg.com/images/g/AfkAAeSw9ZVqaecC/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 2504, Samsung, Galaxy S24 Ultra, Blanco",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935894294?itmmeta=01M0A7NPG6HGSXXT8P3APWA6PJ&hash=item5ca6d3df16:g:j4cAAeSwMCZqAdJY",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC-3724, Apple, iPhone 14 Pro Max, Negro",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397938949531?itmmeta=01M0A7NPG63YRDZ5WMW2AZGK3W&hash=item5ca7027d9b:g:p7QAAeSwcM9qAuA8",
-      "imagen_url": "https://i.ebayimg.com/images/g/p7QAAeSwcM9qAuA8/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC-2316, Apple, iPhone 14 Pro Max, Grafito",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935591638?itmmeta=01M0A7NPG74ECYVT9KAMBCJBH2&hash=item5ca6cf40d6:g:ZngAAeSwa3tqaxzu",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "All in One - HP 24-cr2002ns 23,8\" Full HD, Intel® Core? Ultra 5 225U,  Blanco",
-      "precio": 599.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397476491196?itmmeta=01M0A7NPG7TCW11FEPJG6NHYTD&hash=item5c8b71efbc:g:vacAAeSwms5qbc~a",
-      "imagen_url": "https://i.ebayimg.com/images/g/vacAAeSwms5qbc~a/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Pulsera de actividad - Polar Loop, Negro, Sin Pantalla,",
-      "precio": 129.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398123632139?itmmeta=01M0A7NPG7H1BA7JGQP4KAH31Q&hash=item5cb204860b:g:NTQAAeSw9apqay~2",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - Samsung, Para Samsung Galaxy A34, Trasera, 6.6\", Transparente",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935906784?itmmeta=01M0A7NPG7JBEJ3RG67TMVMQ5D&hash=item5ca6d40fe0:g:kZ0AAeSw77xqAdRx",
-      "imagen_url": "https://i.ebayimg.com/images/g/kZ0AAeSw77xqAdRx/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC-2430, Apple, iPhone 14 Plus, Negro",
-      "precio": 1.01,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935632968?itmmeta=01M0A7NPG709FFY381CY85ZJGC&hash=item5ca6cfe248:g:bIQAAeSwamJqAcPE",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Accesorio aire acondicionado -  4 Cremalleras, Cinta Autoadherente, 210x90 cm",
-      "precio": 8.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397199418404?itmmeta=01M0A7NPG7TAZ1SQTM2RJN00TF&hash=item5c7aee2424:g:FioAAeSw-ABqaKT6",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Póster 3D - SHERWOOD One Piece Gum Gum Pistol, Pástico, Efecto 3D, Multicolor",
-      "precio": 5.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397926205471?itmmeta=01M0A7NPG7Z7F82A8M16SHDTWM&hash=item5ca640081f:g:NzkAAeSwo4NqaxvS",
-      "imagen_url": "https://i.ebayimg.com/images/g/NzkAAeSwo4NqaxvS/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Funda móvil - ISY ISC 1118, Compatible con iPhone 16 Plus, Resistente a Golpes,",
       "precio": 3.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660871355?itmmeta=01M0A7NPG7XWKTKNPS0AM921A8&hash=item5c5ad490bb:g:H~UAAeSwknFqZ0~a",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 2341, Samsung, Galaxy S23 FE, Negro",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935786342?itmmeta=01M0A7NPG7Q26CP7B1N22KYX9Y&hash=item5ca6d23966:g:s~kAAeSwNKlqax8L",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "REACONDICIONADO Seminuevo Muy bueno Auriculares True Wireless - Sony",
-      "precio": 59.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398082803593?itmmeta=01M0A7NPG7MET369DFTWXPTA6F&hash=item5caf958789:g:LCEAAeSwckZqQ7BO",
-      "imagen_url": "https://i.ebayimg.com/images/g/LCEAAeSwckZqQ7BO/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector pantalla - ISY IPG-5048-2.5D, Para Samsung Galaxy A40, Cristal",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935752238?itmmeta=01M0A7NPG7S2MY8SGKEBVN00TR&hash=item5ca6d1b42e:g:hrUAAeSwU0hqAcsm",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/H~UAAeSwknFqZ0~a/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -31910,7 +31208,7 @@
       "precio": 4.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660869128?itmmeta=01M0A7NPG7JKK2W7ZZE787SB2T&hash=item5c5ad48808:g:~c8AAeSwQ7dqZ0r2",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/~c8AAeSwQ7dqZ0r2/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -31923,72 +31221,7 @@
       "precio": 2.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660870448?itmmeta=01M0A7NPG7MQ45Y4MGMJKWQFFZ&hash=item5c5ad48d30:g:bWUAAeSwLDFqZ068",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Pincel - CMP Paris 74162, Silicona y bambú, 22 cm",
-      "precio": 1.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/396660873927?itmmeta=01M0A7NS4JNNBBE7RC5K83E8Q1&hash=item5c5ad49ac7:g:I2UAAeSwt4FqZ1UD",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector pantalla - ISY IPG-5146-2.5D, Para Samsung Galaxy S22 Plus, Vidrio",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935728790?itmmeta=01M0A7NS4JCHXNY1ASA91H0AVP&hash=item5ca6d15896:g:EP0AAeSwQIpqAciy",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC-1028, Para iPhone 14 Pro Max, Trasera, TPU, Transparente",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935536386?itmmeta=01M0A7NS4JK9R8VE1DT8QWRXDJ&hash=item5ca6ce6902:g:1ikAAeSwSeRqAbq5",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 2335, Para Apple iPhone 15 Pro Max, Silicona, , Negro",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935615001?itmmeta=01M0A7NS4JR1836C7JKT73MBB0&hash=item5ca6cf9c19:g:w0cAAeSwgCRqax3b",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Toalla - KOENIC Microfibra, 152x76 cm, Poliéster y nylon, Súper absorción, Azul",
-      "precio": 3.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/396999075427?itmmeta=01M0A7NS4JK7XWAV91HEM1F13V&hash=item5c6efd2663:g:0cAAAeSwPFVqaeZS",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/bWUAAeSwLDFqZ068/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -32001,49 +31234,10 @@
       "precio": 1.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396060548670?itmmeta=01M0A7NS4JZG6BRB5YY576RP1P&hash=item5c370c5e3e:g:RqkAAeSwkN9qaepb",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/RqkAAeSwkN9qaepb/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC-1027, Para iPhone 14 Pro, TPU, Transparente",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935575802?itmmeta=01M0A7NS4JWXY83W4JN8HFS465&hash=item5ca6cf02fa:g:bYEAAeSwVRdqAb6v",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector pantalla - ISY IPG 5175-2.5D, Para Samsung Galaxy A54 5G,",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935683221?itmmeta=01M0A7NS4JFY1P1EV78QEAY85F&hash=item5ca6d0a695:g:r1YAAeSwHQBqAcda",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda tablet - Maillon Technologique , Para Lenovo M10 FHD X606F/X, 10,3”",
-      "precio": 4.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935658298?itmmeta=01M0A7NS4J751DHCD3X72FJKDB&hash=item5ca6d0453a:g:qdIAAeSwrsFqax4o",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_rallador-cmp-paris-cmpkb6791-4-caras-en-inox-color-aleatorio-1226031.html",
       "fecha_visto_primera_vez": "2026-08-18 10:46:41",
       "seller_id": "mediamarktgandia",
       "nombre_mostrado": null
@@ -32053,20 +31247,7 @@
       "precio": 29.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/397024516848?itmmeta=01M0A7NS4JSGNHNRJT1DHM36JH&hash=item5c70815af0:g:TpIAAeSwRQxqafDn",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 3144, Compatible con iPhone 16, Resistente a golpes, Negro",
-      "precio": 4.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/396660871406?itmmeta=01M0A7NS4J1CMXX9T82JEGWDHR&hash=item5c5ad490ee:g:vfsAAeSwcUpqZ1Co",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/TpIAAeSwRQxqafDn/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -32079,20 +31260,7 @@
       "precio": 9.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660877391?itmmeta=01M0A7NS4JTZ2BW5N3779W8K3T&hash=item5c5ad4a84f:g:T-IAAeSwwvJqaJb1",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC-1109, Para iPhone 14 Pro, Trasera, TPU, Transparente",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935605849?itmmeta=01M0A7NS4JY4RBB7KSW34DQFBM&hash=item5ca6cf7859:g:RNcAAeSwhLRqAcHM",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/T-IAAeSwwvJqaJb1/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -32105,137 +31273,7 @@
       "precio": 14.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660877596?itmmeta=01M0A7NS4KKT6VB315DE9BC4K0&hash=item5c5ad4a91c:g:LtwAAeSwjYdqaJeO",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cartucho de tinta - Brother LC421XLC, Rendimiento de hasta 500 páginas, Cian",
-      "precio": 4.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397538747880?itmmeta=01M0A7NS4KFPS8EQAH5JD4R471&hash=item5c8f27e5e8:g:5Z8AAeSwi5hpxotG",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC-2437, Apple, iPhone 14 Pro, Violeta",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935887563?itmmeta=01M0A7NS4KH6XKYD8E9VE7QX0R&hash=item5ca6d3c4cb:g:gAgAAeSwXBNqAdEK",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Pilas botón- ISY IBA-3032, Pack 10 pilas de botón, Litio alcalino, Plata",
-      "precio": 2.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/396661046046?itmmeta=01M0A7NS4KTQT2Y7YBD4EH221F&hash=item5c5ad73b1e:g:~jcAAeSwf7Jpxor3",
-      "imagen_url": "https://i.ebayimg.com/images/g/~jcAAeSwf7Jpxor3/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 1039, Samsung, Galaxy S23 FE, Transparente",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935877049?itmmeta=01M0A7NS4KTKNGS3GC0W1V4610&hash=item5ca6d39bb9:g:ThMAAeSw~gZqax-h",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 2502, Samsung, Galaxy S24+, Negro",
-      "precio": 1.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/396661063604?itmmeta=01M0A7NS4KC7Z5QDH1E1RG4GC6&hash=item5c5ad77fb4:g:nt4AAeSwU7hqaJkY",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Figura Funko Pop! - Spider-Man India, Spider-Man:",
-      "precio": 4.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397692806203?itmmeta=01M0A7NS4KR75DR02X7EC7HCAA&hash=item5c9856a43b:g:d1cAAeSwUKRqafOH",
-      "imagen_url": "https://i.ebayimg.com/images/g/d1cAAeSwUKRqafOH/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Afeitadora multifunción - Braun Series 7 MGK7491, Recortadora 17 en 1,",
-      "precio": 49.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397796798934?itmmeta=01M0A7NS4KS39Y6DF1C6303XM3&hash=item5c9e8971d6:g:Z00AAeSwxUxqaxr2",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector pantalla - ISY IPG 5189-2.5D, Samsung, Galaxy S24+, Cristal templado",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935677254?itmmeta=01M0A7NS4KXBC66ZA9RZJAZPCN&hash=item5ca6d08f46:g:apQAAeSwCy1qAcbI",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC-3817 HangOn, Para Apple iPhone 13 Pro, Trasera, TPU, Negro",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935795268?itmmeta=01M0A7NS4KQRG18BPJYCHP2P19&hash=item5ca6d25c44:g:k7sAAeSwyXRqAc1a",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Secador - Rowenta CV7822, Motor profesional AC, Potencia 2100 W, 3 Temp, 2 Vel",
-      "precio": 28.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397783351710?itmmeta=01M0A7NS4K7XN9MP3DVEZAD8RG&hash=item5c9dbc419e:g:O1AAAeSwLDFqafV-",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/LtwAAeSwjYdqaJeO/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -32248,7 +31286,7 @@
       "precio": 9.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660875960?itmmeta=01M0A7NS4K7TQMZK61S3JE7A0Q&hash=item5c5ad4a2b8:g:KPIAAeSwRRNqaKSs",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/KPIAAeSwRRNqaKSs/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -32270,76 +31308,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Funda móvil - ISY ISC-3818 HangOn, Para Apple iPhone 13 Pro Max, Trasera,",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935579293?itmmeta=01M0A7NS4KFYTQR6RHX3PS3P7J&hash=item5ca6cf109d:g:jqgAAeSw3w1qAb-v",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda tablet - Lenovo Folio Case para Tab M10 3.ª Gen Film, 10.1\", Gris",
-      "precio": 5.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935653931?itmmeta=01M0A7NS4K7W0XSQKBMC612X91&hash=item5ca6d0342b:g:A-gAAeSwXCBqAcTa",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector pantalla - ISY IPG-5111-2.5D, Para Samsung Galaxy S21, 6.2\",",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935687005?itmmeta=01M0A7NS4KHWRENQPAZWK5R7AF&hash=item5ca6d0b55d:g:LCQAAeSw3uFqAcap",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC-2314, Apple, iPhone 14 Plus, Negro",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935607006?itmmeta=01M0A7NS4KZWMQTECK8Q9FP2NQ&hash=item5ca6cf7cde:g:aWoAAeSwd-5qAcIz",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Smartwatch - Samsung Watch 4 BT, 40 mm,",
-      "precio": 79.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397556585712?itmmeta=01M0A7NS4KRV8CKYJ3J1SRZ0SW&hash=item5c903814f0:g:GQMAAeSw4VVqafFN",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Cafetera express - Cecotec Cafelizzia 790 Steel",
       "precio": 59.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/397024504508?itmmeta=01M0A7NS4K6C6H0BD0Q47RXKJZ&hash=item5c70812abc:g:-cUAAeSwxLNqaKIQ",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/-cUAAeSwxLNqaKIQ/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -32352,20 +31325,7 @@
       "precio": 1.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396661060157?itmmeta=01M0A7NS4MJH0V3EDGYC6TZJ56&hash=item5c5ad7723d:g:gmYAAeSwW3hqaJkM",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector pantalla - ISY IPG 5174-2.5D, Para Samsung Galaxy A34 5G,",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935711268?itmmeta=01M0A7NS4MXF5G9VJBYE9F1CB8&hash=item5ca6d11424:g:HHoAAeSwEv9qAchr",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/gmYAAeSwW3hqaJkM/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -32387,118 +31347,14 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Protector pantalla - ISY IPG 5128-2.5D, Para Samsung Galaxy A22 5G, 6.6\", Vidrio",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935723109?itmmeta=01M0A7NS4MY2SM84RJ60X54JSC&hash=item5ca6d14265:g:qPYAAeSwmc1qAci6",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Pack Correas Samsung Galaxy Watch Fit 3, Vino y Lila",
-      "precio": 6.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398128823137?itmmeta=01M0A7NS4MB4RKD4E8RD0TJV4Y&hash=item5cb253bb61:g:d3sAAeSwFc5qRUl-",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Funda - ISY IEC-2400-SL Airpods Pro Case, Compatible con Appel AirPods Pro, LED",
       "precio": 1.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/395699650609?itmmeta=01M0A7NS4MX1YRQBD1HNWKQ985&hash=item5c21898031:g:6ZIAAeSwtWFqaKBK",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/6ZIAAeSwtWFqaKBK/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 2505, Samsung, Galaxy S24+, Blanco",
-      "precio": 1.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/396661062293?itmmeta=01M0A7NS4M89KF52BQ4ZYP4FJQ&hash=item5c5ad77a95:g:NZYAAeSwROhqaJnJ",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cartucho de tinta - Brother LC424, ISO/IEC 24711, 750 páginas, Magenta",
-      "precio": 4.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397538746421?itmmeta=01M0A7NS4MQE8GY20GJJH13KNF&hash=item5c8f27e035:g:5h0AAeSwwaxpxos0",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Luces LED - Forever RTV100452, Neón, USB, Bar, Multicolor",
-      "precio": 19.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397160393102?itmmeta=01M0A7NS4M7HN9478Q30SFMH82&hash=item5c789aa98e:g:n9YAAeSw4VVqaKMi",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Soporte de movil universal para coche - ISY I-1000, negro",
-      "precio": 4.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/395699564701?itmmeta=01M0A7NS4MWHT0K3MM275GMYGA&hash=item5c2188309d:g:Et8AAeSwEMdqZ0tJ",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Luces LED - Forever RTV100211, Neón, BAT+USB, Cactus, Orange, Green",
-      "precio": 7.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397160399775?itmmeta=01M0A7NS4MVT4QQMF0M17T5361&hash=item5c789ac39f:g:qCMAAeSwjYdqaKOr",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector pantalla - ISY IPG 5168-2.5D, Google Pixel 7, , Cristal templado",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935589202?itmmeta=01M0A7NS4MSHV85T3P3XKT33TR&hash=item5ca6cf3752:g:1PUAAeSwAKZqAcCd",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-isy-iec-2400-sl-airpods-pro-case-compatible-con-appel-airpods-pro-led-frontal-visible-plata-1556560.html",
       "fecha_visto_primera_vez": "2026-08-18 10:46:41",
       "seller_id": "mediamarktgandia",
       "nombre_mostrado": null
@@ -32508,33 +31364,7 @@
       "precio": 1.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660871304?itmmeta=01M0A7NS4MAWTAWRNG8EJH8HJ2&hash=item5c5ad49088:g:Um8AAeSw8fBqZ1Ak",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC-1026, Apple, iPhone 14 Plus, Transparente",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935608756?itmmeta=01M0A7NS4N9PWC4E2FRJ4JXNKP&hash=item5ca6cf83b4:g:pksAAeSwnxZqAcG7",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda tablet - Maillon Technologique , Para Lenovo M10 X360, 10.1 ”, Tela, Negro",
-      "precio": 5.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935666558?itmmeta=01M0A7NS4NBHK5GXWS48CPA1EA&hash=item5ca6d0657e:g:xEoAAeSwQdhqAcYH",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/Um8AAeSw8fBqZ1Ak/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -32547,20 +31377,7 @@
       "precio": 1.88,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660875058?itmmeta=01M0A7NS4NDJG1QMYJJRABTAZM&hash=item5c5ad49f32:g:utYAAeSwMm1qaKJj",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Figura Funko Pop! - Television: The Witcher - Jaskier, 9 cm",
-      "precio": 4.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397692798719?itmmeta=01M0A7NVMM1GRDM960AXQ6A3SK&hash=item5c985686ff:g:zB4AAeSwBEtqafP9",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/utYAAeSwMm1qaKJj/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -32573,7 +31390,7 @@
       "precio": 2.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660874476?itmmeta=01M0A7NVMMHP1W8Z6X4QZ6TVB1&hash=item5c5ad49cec:g:5BQAAeSwcQBqZ1UH",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/5BQAAeSwcQBqZ1UH/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -32586,33 +31403,7 @@
       "precio": 1.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396060553357?itmmeta=01M0A7NVMMVBBZA3Y0HWBP59ZM&hash=item5c370c708d:g:E5IAAeSwgV5pxotG",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Póster 3D - Sherwood Harry Potter, Papel brillo",
-      "precio": 2.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397692844195?itmmeta=01M0A7NVMMKW4FT4J5254F29ZE&hash=item5c985738a3:g:xacAAeSwyBZpxoww",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC  2336 , Para Apple iPhone 15 Plus, Silicona,  Negro",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935612435?itmmeta=01M0A7NVMNFGNVRXT8RHC8NZ7T&hash=item5ca6cf9213:g:N70AAeSwROhqax0V",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/E5IAAeSwgV5pxotG/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -32625,98 +31416,7 @@
       "precio": 30.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396587324958?itmmeta=01M0A7NVMN9DBB26G78Q4Y6T66&hash=item5c5672561e:g:mj8AAeSw2~5qZ0qj",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Luces LED - Forever RTV100452, Neón, USB, Bar, Multicolor",
-      "precio": 19.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397160395696?itmmeta=01M0A7NVMNZA2K1FK1FH87KCQR&hash=item5c789ab3b0:g:JpsAAeSw~gZqaKNP",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Soporte TV - Vogels TVM1649, 40\" - 77\", Giratorio 180º,",
-      "precio": 59.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397693743919?itmmeta=01M0A7NVMNMPXNGPG2SW3CS2CT&hash=item5c9864f32f:g:bXoAAeSwBGxqafIj",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector pantalla - ISY IPG 5173-2.5D, Para Samsung Galaxy A14 4G/5G,",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935689849?itmmeta=01M0A7NVMNB03E7QVY31RTSMEM&hash=item5ca6d0c079:g:caYAAeSwhANqAcdS",
-      "imagen_url": "https://i.ebayimg.com/images/g/caYAAeSwhANqAcdS/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC-5009, Para Samsung Galaxy A23 5G, TPU, Transparente",
-      "precio": 1.79,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935915993?itmmeta=01M0A7NVMNPFGTABCVDEDGTC78&hash=item5ca6d433d9:g:ZmsAAeSw6YdqAdUO",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Figura Funko Pop! - My Hero Academia: Ken Takagi, Vinilo, 9 cm",
-      "precio": 4.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397692807887?itmmeta=01M0A7NVMNNGCHP1AB06DV5WBM&hash=item5c9856aacf:g:s4kAAeSwNm9qafK-",
-      "imagen_url": "https://i.ebayimg.com/images/g/s4kAAeSwNm9qafK-/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 1032, Samsung Galaxy S23+, Trasera, Transparente",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935649531?itmmeta=01M0A7NVMNN9HNA2S8XTWC98YV&hash=item5ca6d022fb:g:yt0AAeSwLqJqAcRy",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Figura Funko Pop! - Movies: The Flash - Iris West",
-      "precio": 4.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397692766945?itmmeta=01M0A7NVMNJ3MRHH9H5DZ4P9BF&hash=item5c98560ae1:g:9VwAAeSw-jdqafU5",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/mj8AAeSw2~5qZ0qj/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -32729,88 +31429,10 @@
       "precio": 1.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/395699651471?itmmeta=01M0A7NVMNBWD7WN42CXCCQYV5&hash=item5c2189838f:g:8d4AAeSwWUhqZ0sf",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/8d4AAeSwWUhqZ0sf/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Figura Funko Pop! - Movies: The Muppet Christmas Carol - Fozziwig, Vinilo, 9 cm",
-      "precio": 4.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397692800559?itmmeta=01M0A7NVMN3D33HCAER0V6Z83C&hash=item5c98568e2f:g:zXUAAeSw459qafPN",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector pantalla - ISY IPG 5118-2.5D, Para Samsung Galaxy A32 5G, 6.5\",",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935701735?itmmeta=01M0A7NVMNMW44EZGAPK0HB6BK&hash=item5ca6d0eee7:g:XUsAAeSwK5hqAchD",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Figura Funko Pop! - Book of Boba Fett: Majordomo, Multicolor",
-      "precio": 4.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397692770615?itmmeta=01M0A7NVMNKVE5JAKZBX29RJRJ&hash=item5c98561937:g:IGcAAeSwxhdqafSz",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC-5109, Para Samsung, Galaxy A23 5G, TPU, Negro",
-      "precio": 1.79,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935917413?itmmeta=01M0A7NVMN4B1PARC2DQ7QCRVP&hash=item5ca6d43965:g:7ckAAeSwSzpqAdS~",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "REACONDICIONADO Muy bueno Robot aspirador - Xiaomi Vacuum S20, 45W, WiFi,",
-      "precio": 99.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397678136804?itmmeta=01M0A7NVMNRFWNP5NGM2VTAS0R&hash=item5c9776cde4:g:7hQAAeSwVklpxouI",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Barbero - Philips One Blade Pro QP6542/15, maquinilla de afeitar cara y cuerpo,",
-      "precio": 43.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397796456822?itmmeta=01M0A7NVMNVVM8F2WT345RVKVX&hash=item5c9e843976:g:7KEAAeSwHHhpz5Xl",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-isy-iec-2400-bk-airpods-pro-case-compatible-con-appel-airpods-pro-led-frontal-visible-negro-1556559.html",
       "fecha_visto_primera_vez": "2026-08-18 10:46:41",
       "seller_id": "mediamarktgandia",
       "nombre_mostrado": null
@@ -32820,7 +31442,7 @@
       "precio": 1.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660872364?itmmeta=01M0A7NVMNV5WXRHXCAZ3J746C&hash=item5c5ad494ac:g:67YAAeSwXiNqZ1GC",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/67YAAeSwXiNqZ1GC/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -32833,7 +31455,7 @@
       "precio": 1.07,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660875450?itmmeta=01M0A7NVMN8C1HP6QAE4QEDEBK&hash=item5c5ad4a0ba:g:qWoAAeSwA4FpxonD",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/qWoAAeSwA4FpxonD/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -32846,98 +31468,7 @@
       "precio": 17.9,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660870972?itmmeta=01M0A7NVMNV2SV1552N731RD79&hash=item5c5ad48f3c:g:TQwAAeSwvw1qZ06B",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Aspirador escoba - Rowenta RH2079 X-Force Flex 9.60 Animal Care, 100 AW, 0.4 L,",
-      "precio": 129.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/396660874873?itmmeta=01M0A7NVMN4K5P7617MC2P5PZR&hash=item5c5ad49e79:g:O2AAAeSw529qafXA",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Amasadora de mano - Philips HR3741/00, 5 velocidades + Turbo, 450 W, Blanco",
-      "precio": 23.49,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397031066671?itmmeta=01M0A7NVMNPZXD631H18WPVFH1&hash=item5c70e54c2f:g:pqMAAeSwUXxqaKH9",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector pantalla - ISY IPG 5169-3D, Google Pixel 7 Pro,, Cristal templado",
-      "precio": 1.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397935586777?itmmeta=01M0A7NVMNR4PN2MPGRD9RJ6MM&hash=item5ca6cf2dd9:g:c2UAAeSwvPRqAcBo",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Figura Funko Pop! - Blue Beetle Movie: Jaime Reyes, Vinilo, 9 cm",
-      "precio": 4.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397692792960?itmmeta=01M0A7NVMP4SW3JECQV6JBCFS1&hash=item5c98567080:g:4rMAAeSwwnxqafRH",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Freidora de aire - Cecotec Cecofry Rain M, 1550 W, 5.5L,",
-      "precio": 52.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397527180016?itmmeta=01M0A7NVMPSSTYS45YB09FE3WF&hash=item5c8e7762f0:g:wusAAeSw4J9pxovo",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Luces LED - Forever RTV100446, Neón, USB, Plexi, Gamepad, Multicolor",
-      "precio": 19.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397160405045?itmmeta=01M0A7NVMPCTN0FPDY90SYQ7DV&hash=item5c789ad835:g:EwMAAeSw1bNqaKQF",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "2 manoplas silicona, Resisten altas temperaturas, Color surtido (aleatorio)",
-      "precio": 2.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397199473288?itmmeta=01M0A7NVMPEXYK6VHMADZ7T8JY&hash=item5c7aeefa88:g:W9gAAeSwzY5qaKUM",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/TQwAAeSwvw1qZ06B/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -32959,24 +31490,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Figura Funko Pop! - Marvel Moonknight:",
-      "precio": 4.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397692774256?itmmeta=01M0A7NVMP6R4TENRWJS2ZA8GD&hash=item5c98562770:g:gaIAAeSw2JtqafR2",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Batidora de mano - Ufesa BP4752, 1400 W, 20 Velocidades, 4 Cuchillas, Turbo,",
       "precio": 32.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396960009611?itmmeta=01M0A7NVMP57FZYARSH6GN9QB4&hash=item5c6ca90d8b:g:2boAAeSwGjJqaKDz",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/2boAAeSwGjJqaKDz/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -32989,7 +31507,7 @@
       "precio": 49.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660874533?itmmeta=01M0A7NVMP2HVANANB4YZH3M6S&hash=item5c5ad49d25:g:lasAAeSw6XlqZ1V1",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/lasAAeSw6XlqZ1V1/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33002,33 +31520,7 @@
       "precio": 149.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660875597?itmmeta=01M0A7NVMPJFBZ0W16A43FHZ9K&hash=item5c5ad4a14d:g:890AAeSwk8ZqZ1ZN",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda tabla planchar - Leifheit 71613, Algodón, 120x40 cm",
-      "precio": 14.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397435227931?itmmeta=01M0A7NVMPWVJQDXT264C3DQFA&hash=item5c88fc4f1b:g:zjYAAeSwPSxpxorp",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cartucho de tinta - Brother LC426XL XL, 6000 páginas,  ISO/IEC 24711, Amarillo",
-      "precio": 25.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397538743039?itmmeta=01M0A7NVMPB0RJ8DMVPW10SZVC&hash=item5c8f27d2ff:g:6UgAAeSwq4Fpxovv",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/890AAeSwk8ZqZ1ZN/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33041,20 +31533,7 @@
       "precio": 46.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660914095?itmmeta=01M0A7NVMPVKF8PECPTQG5XZJR&hash=item5c5ad537af:g:0QUAAeSw459qaJgU",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Botella de tinta - Epson T6641 EcoTank, Compatible con ET-2600, 70 ml, Negro",
-      "precio": 9.58,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397520291912?itmmeta=01M0A7NVMP32EY5Z99PPWPRE22&hash=item5c8e0e4848:g:9RsAAeSwjX9pxotc",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/0QUAAeSw459qaJgU/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33067,33 +31546,7 @@
       "precio": 14.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660955985?itmmeta=01M0A7NVMPN8E8W96TVQDFZCCD&hash=item5c5ad5db51:g:hIMAAeSwNRxqaJkl",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Repelente de mosquitos - NK HO32001, Hasta 100 m2, Presión de sonido ultrasónico",
-      "precio": 4.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/396660872495?itmmeta=01M0A7NVMP0E76M38H8MFFBG2H&hash=item5c5ad4952f:g:2wAAAeSwSFFqZ1Gg",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Plancha de pelo - Rowenta x Karl Lagerfeld K/Pro Stylist, Tecnología Iónica, Ker",
-      "precio": 39.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/396660876648?itmmeta=01M0A7NVMPVX0PRMCNVKQ8WCZG&hash=item5c5ad4a568:g:msEAAeSwVktqZ1bp",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/hIMAAeSwNRxqaJkl/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33106,7 +31559,7 @@
       "precio": 21.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660871655?itmmeta=01M0A7NVMP8M78VX34V92P4DS6&hash=item5c5ad491e7:g:KwgAAeSw1uFqZ1DJ",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/KwgAAeSw1uFqZ1DJ/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33116,49 +31569,10 @@
     },
     {
       "titulo": "Juego - CMP Paris Cmpea9826 Huevo Mágico Dinosaurio, +3 años, Surtido sorpresa",
-      "precio": 3.77,
+      "precio": 2.59,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660874027?itmmeta=01M0A7NVMP05CJ69XV98CC1NQ5&hash=item5c5ad49b2b:g:xsoAAeSw9lFpxopp",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Batidor - CMP Paris 74163, Silicona y bambú, 25.5 cm",
-      "precio": 2.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397199485262?itmmeta=01M0A7NVMPWC87RVGYWWX6MZGZ&hash=item5c7aef294e:g:rywAAeSwWUhqaKV3",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Freidora de aire - Ninja Dual Zone AF300EU, 2400W, 7.6 l, Negro",
-      "precio": 129.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397721351305?itmmeta=01M0A7NVMP35DAKM8E5329QJ55&hash=item5c9a0a3489:g:dcIAAeSwT55qafX7",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Figura Funko Pop! - The Marvels: Dar-Benn, Vinilo, 9.5 cm, Multicolor",
-      "precio": 4.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397692804371?itmmeta=01M0A7NVMP3SMNGGDX04YEN0FZ&hash=item5c98569d13:g:PDwAAeSwgxZqafOm",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/4iAAAeSwx0VqotaJ/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33171,20 +31585,7 @@
       "precio": 79.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/397024501660?itmmeta=01M0A7NVMP36ZVW1RFQ3X7XGH5&hash=item5c70811f9c:g:t~4AAeSwahlqaKJD",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Jarra Filtrante - BRITA Marella Blanca (2,4 l)  Incluye  Cartuchos",
-      "precio": 32.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397475729087?itmmeta=01M0A7P0JGTE0MZRB4KAJ2PXDS&hash=item5c8b664ebf:g:2BAAAeSwRXppxosC",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/t~4AAeSwahlqaKJD/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33197,20 +31598,7 @@
       "precio": 1.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660872708?itmmeta=01M0A7P0JGV9CQ74V5H428C7W2&hash=item5c5ad49604:g:MtgAAeSwxMpqZ1Ku",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 3740, Samsung, Galaxy S24+, Fibra de carbono, Negro",
-      "precio": 2.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/396661061446?itmmeta=01M0A7P0JGVY0ZT9FR02JASJXK&hash=item5c5ad77746:g:bFoAAeSwizZqaJmV",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/MtgAAeSwxMpqZ1Ku/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33223,7 +31611,7 @@
       "precio": 9.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396661070448?itmmeta=01M0A7P0JGD7A3EYKNWBBTAWD9&hash=item5c5ad79a70:g:qGkAAeSwBP5pxong",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/JaAAAeSw-1xqrVC3/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33236,20 +31624,7 @@
       "precio": 6.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660932002?itmmeta=01M0A7P0JGRQWFGZPZMCE5KKH2&hash=item5c5ad57da2:g:vMwAAeSwN~9pxonB",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Recambio para cepillo dental - Oral-B Pro CrossAction, Cabezales De Recambio, Pa",
-      "precio": 15.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/396660872234?itmmeta=01M0A7P0JGA9CMQM6AZMGT12QM&hash=item5c5ad4942a:g:0m8AAeSwlDZqZ1Hs",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/vMwAAeSwN~9pxonB/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33262,7 +31637,7 @@
       "precio": 14.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660868721?itmmeta=01M0A7P0JGTMHC1150Q7JCF9S6&hash=item5c5ad48671:g:9GkAAeSwN-lqZ0sP",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/9GkAAeSwN-lqZ0sP/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33275,7 +31650,7 @@
       "precio": 59.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396661049568?itmmeta=01M0A7P0JG534FVV5CH18XGXFC&hash=item5c5ad748e0:g:04YAAeSw3jFqaKDX",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/04YAAeSw3jFqaKDX/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33288,20 +31663,7 @@
       "precio": 6.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660873716?itmmeta=01M0A7P0JGT5YFG153B6NVRBV5&hash=item5c5ad499f4:g:170AAeSwWXRqZ1RM",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Adaptador USB-C - CellularLine Sound Charge, De USB-C a USB-C",
-      "precio": 18.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397415960684?itmmeta=01M0A7P0JGEG6ZT6VWHV6P6XVV&hash=item5c87d6506c:g:S70AAeSwErFqaehu",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/170AAeSwWXRqZ1RM/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33314,7 +31676,7 @@
       "precio": 44.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396587336995?itmmeta=01M0A7P0JGH9R99S3A40H59YE7&hash=item5c56728523:g:UoQAAeSw2MxqZ0oW",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/UoQAAeSw2MxqZ0oW/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33327,33 +31689,7 @@
       "precio": 16.19,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660874396?itmmeta=01M0A7P0JG3BW4AVSRSP074N00&hash=item5c5ad49c9c:g:Aa8AAeSwjb1pxonM",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Plancha de vapor - Philips DST7031/70, 250 g, Apagado automático, 300 ml, Verde",
-      "precio": 71.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/396660873205?itmmeta=01M0A7P0JHETY1Z36YK34B0YFJ&hash=item5c5ad497f5:g:7VUAAeSwRRNqZ1Mz",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cepillo eléctrico - InnoGIO GIO-450PINK, Para niños, Sónico, Función de memoria,",
-      "precio": 19.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/396660877522?itmmeta=01M0A7P0JH069238MECPGMZFS0&hash=item5c5ad4a8d2:g:ZZAAAeSwvw1qaJfT",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/Aa8AAeSwjb1pxonM/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33366,7 +31702,7 @@
       "precio": 4.9,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660872580?itmmeta=01M0A7P0JH2BJENHXYST6J1KMX&hash=item5c5ad49584:g:B4IAAeSwt4FqZ1Jx",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/B4IAAeSwt4FqZ1Jx/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33379,20 +31715,7 @@
       "precio": 2.15,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660873069?itmmeta=01M0A7P0JHHMG2HBKXVFRYK6A4&hash=item5c5ad4976d:g:I0QAAeSwwbZqZ1MT",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-18 10:46:41",
-      "seller_id": "mediamarktgandia",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Batidora de mano - Moulinex Powelix Life DD953D, 3 en 1, 1200 W, T",
-      "precio": 44.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397515383442?itmmeta=01M0A7P0JHTVAG47MKWXWQBZ4C&hash=item5c8dc36292:g:61kAAeSwAlppxotD",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/I0QAAeSwwbZqZ1MT/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33405,7 +31728,7 @@
       "precio": 4.49,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660873479?itmmeta=01M0A7P0JHH1XXA90W9B3SN87E&hash=item5c5ad49907:g:1AcAAeSwAbdqZ1P4",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/1AcAAeSwAbdqZ1P4/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33418,7 +31741,7 @@
       "precio": 1.5,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396661076156?itmmeta=01M0A7P0JH6RDP716T00P8FNQJ&hash=item5c5ad7b0bc:g:~B4AAeSwT1Bpxood",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/~B4AAeSwT1Bpxood/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33431,7 +31754,7 @@
       "precio": 59.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396893619123?itmmeta=01M0A7P0JHA2G0K9Y7SGX60JR2&hash=item5c68b403b3:g:lGsAAeSwBDpqaKCO",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/lGsAAeSwBDpqaKCO/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33444,7 +31767,7 @@
       "precio": 70.19,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/396660877041?itmmeta=01M0A7P0JHM1DH163B1TJ4B5PA&hash=item5c5ad4a6f1:g:3SMAAeSwbG9qaJcQ",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/3SMAAeSwbG9qaJcQ/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -46128,19 +44451,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "exposicion sin caja original TV QNED 43\" - LG 43QNED82A6B, UHD 4K, Procesador In",
-      "precio": 319.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800486579719?itmmeta=01M08T90CAMSSZPWWTK0FGTCYJ&hash=itemba60b7de07:g:7sgAAeSwiX5qeeIL",
-      "imagen_url": "https://i.ebayimg.com/images/g/7sgAAeSwiX5qeeIL/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-17 21:33:33",
-      "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "exposicion sin caja TV QLED 50\" - Philips Ambilight 50PUS8510/12, UHD 4K,",
       "precio": 295.0,
       "moneda": "EUR",
@@ -53751,14 +52061,8 @@
       "clave": "protector pantalla - samsung, para samsung galaxy s24, transparente",
       "criterio": "titulo",
       "titulo": "Protector pantalla - Samsung, Para Samsung Galaxy S24, Transparente",
-      "imagen_url": "https://i.ebayimg.com/images/g/Fl4AAeSwknFqafHO/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/04cAAeSwcXFqkxlj/s-l300.webp",
       "ofertas": [
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 1.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/397692919314?itmmeta=01M0A7NPG6P446ATAQBP71MKT4&hash=item5c98585e12:g:Fl4AAeSwknFqafHO"
-        },
         {
           "tienda": "mediamarktciudadreal",
           "precio": 1.48,
@@ -53876,44 +52180,6 @@
           "precio": 21.59,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/396362148372?itmmeta=01M350W7QNEEK5N9V0KW8NFKQ8&hash=item5c49066a14:g:PEIAAeSwsONn4vEU"
-        }
-      ]
-    },
-    {
-      "clave": "funda móvil - isy isc 3144, compatible con iphone 16, resistente a golpes, negro",
-      "criterio": "titulo",
-      "titulo": "Funda móvil - ISY ISC 3144, Compatible con iPhone 16, Resistente a golpes, Negro",
-      "imagen_url": "https://i.ebayimg.com/images/g/7jgAAeSwMk1qgy2k/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktislazul",
-          "precio": 1.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/306932545323?itmmeta=01M0A7SNZS1BXDT6MEEGGPK0YV&hash=item47769af72b:g:7jgAAeSwMk1qgy2k"
-        },
-        {
-          "tienda": "mediamarktciudadreal",
-          "precio": 2.49,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/227185887066?itmmeta=01M1690VRTQ4K3NPFD7KH7VZ85&hash=item34e555875a:g:JK8AAeSwC5xqkb2U"
-        },
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 4.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/396660871406?itmmeta=01M0A7NS4J1CMXX9T82JEGWDHR&hash=item5c5ad490ee:g:vfsAAeSwcUpqZ1Co"
-        },
-        {
-          "tienda": "mediamarktalmeria",
-          "precio": 5.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/178369837670?itmmeta=01M08T82G58QXKF9QZ6PAJMV51&hash=item2987abba66:g:yIoAAeSwv99qcHWH"
-        },
-        {
-          "tienda": "mediamarktalcorcon",
-          "precio": 7.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/136632610779?itmmeta=01M08T2HKARS8R00SSGZ2QA00V&hash=item1fcff02fdb:g:kk4AAeSwocpqdMVe"
         }
       ]
     },
@@ -54222,34 +52488,34 @@
       ]
     },
     {
-      "clave": "funda móvil - isy isc 3740, samsung, galaxy s24+, fibra de carbono, negro",
+      "clave": "funda móvil - isy isc 3144, compatible con iphone 16, resistente a golpes, negro",
       "criterio": "titulo",
-      "titulo": "Funda móvil - ISY ISC 3740, Samsung, Galaxy S24+, Fibra de carbono, Negro",
-      "imagen_url": "https://i.ebayimg.com/images/g/Pn4AAeSw8ohqAg7D/s-l300.webp",
+      "titulo": "Funda móvil - ISY ISC 3144, Compatible con iPhone 16, Resistente a golpes, Negro",
+      "imagen_url": "https://i.ebayimg.com/images/g/7jgAAeSwMk1qgy2k/s-l300.webp",
       "ofertas": [
         {
-          "tienda": "mediamarktelche",
-          "precio": 1.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/389168997287?itmmeta=01M0A7K6QF4ZBXRN8HRCGS7YMG&hash=item5a9c47a3a7:g:Pn4AAeSw8ohqAg7D"
-        },
-        {
           "tienda": "mediamarktislazul",
-          "precio": 1.0,
+          "precio": 1.99,
           "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/307130125684?itmmeta=01M0A7SNZTJXK1EPANPSRRKCX3&hash=item478261cd74:g:r2MAAeSwyudqgfxk"
+          "url": "https://www.ebay.es/itm/306932545323?itmmeta=01M0A7SNZS1BXDT6MEEGGPK0YV&hash=item47769af72b:g:7jgAAeSwMk1qgy2k"
         },
         {
-          "tienda": "mediamarktgandia",
-          "precio": 2.99,
+          "tienda": "mediamarktciudadreal",
+          "precio": 2.49,
           "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/396661061446?itmmeta=01M0A7P0JGVY0ZT9FR02JASJXK&hash=item5c5ad77746:g:bFoAAeSwizZqaJmV"
+          "url": "https://www.ebay.es/itm/227185887066?itmmeta=01M1690VRTQ4K3NPFD7KH7VZ85&hash=item34e555875a:g:JK8AAeSwC5xqkb2U"
+        },
+        {
+          "tienda": "mediamarktalmeria",
+          "precio": 5.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/178369837670?itmmeta=01M08T82G58QXKF9QZ6PAJMV51&hash=item2987abba66:g:yIoAAeSwv99qcHWH"
         },
         {
           "tienda": "mediamarktalcorcon",
-          "precio": 4.99,
+          "precio": 7.0,
           "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/136632628118?itmmeta=01M08T2Q5VR0TPG6N0Y2MWS1VT&hash=item1fcff07396:g:JYYAAeSwnhhpxRQC"
+          "url": "https://www.ebay.es/itm/136632610779?itmmeta=01M08T2HKARS8R00SSGZ2QA00V&hash=item1fcff02fdb:g:kk4AAeSwocpqdMVe"
         }
       ]
     },
@@ -54606,38 +52872,6 @@
       ]
     },
     {
-      "clave": "funda móvil - isy isc 2505, samsung, galaxy s24+, blanco",
-      "criterio": "titulo",
-      "titulo": "Funda móvil - ISY ISC 2505, Samsung, Galaxy S24+, Blanco",
-      "imagen_url": "https://i.ebayimg.com/images/g/MvIAAeSwKDVqAg5U/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktelche",
-          "precio": 1.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/389046763190?itmmeta=01M0A7K6QJDCCT9AWZH27P5Y6J&hash=item5a94fe7eb6:g:MvIAAeSwKDVqAg5U"
-        },
-        {
-          "tienda": "mediamarktislazul",
-          "precio": 1.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/306932079529?itmmeta=01M0A7SNZT4MMAADYJDG09TJ6Z&hash=item477693dba9:g:ZgsAAeSwrBFqgzii"
-        },
-        {
-          "tienda": "mediamarktsantiagodecompostela",
-          "precio": 1.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/318053557256?itmmeta=01M174JP97C385ERSZR03FA4HW&hash=item4a0d782408:g:cQYAAeSw3JRpwr3f"
-        },
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 1.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/396661062293?itmmeta=01M0A7NS4M89KF52BQ4ZYP4FJQ&hash=item5c5ad77a95:g:NZYAAeSwROhqaJnJ"
-        }
-      ]
-    },
-    {
       "clave": "ps5 tom clancy's rainbow six siege x (ed. elite)",
       "criterio": "titulo",
       "titulo": "PS5 Tom Clancy's Rainbow Six Siege X (Ed. Elite)",
@@ -54702,38 +52936,6 @@
       ]
     },
     {
-      "clave": "protector pantalla - samsung front protector film, para samsung galaxy z fold6",
-      "criterio": "titulo",
-      "titulo": "Protector pantalla - Samsung Front Protector Film, Para Samsung Galaxy Z Fold6",
-      "imagen_url": "https://i.ebayimg.com/images/g/pG0AAeSw7dJqiAoy/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarkttoledo",
-          "precio": 1.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/800544229322?itmmeta=01M0JAKYGY3PYTENNH2F42J552&hash=itemba642787ca:g:pG0AAeSw7dJqiAoy"
-        },
-        {
-          "tienda": "mediamarktsanjuanaznalfarache",
-          "precio": 1.8,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/358293197506?itmmeta=01M0Y2TBFZDDF6FK90AGN7QFWH&hash=item536bf052c2:g:6gsAAeSwVcxqGrGS"
-        },
-        {
-          "tienda": "mediamarktvalenciaaqua",
-          "precio": 9.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/318558403383?itmmeta=01M2QR3QEGEZGR24CFW65PHK1S&hash=item4a2b8f7b37:g:u~sAAeSwEBRqTjm8"
-        },
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 9.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/398313771113?itmmeta=01M0TEAD3BH1T21VQ9D0HNY3AP&hash=item5cbd59d069:g:UmMAAeSwGDJqiYaj"
-        }
-      ]
-    },
-    {
       "clave": "funda - isy isc-5009, para samsung galaxy a23 5g, tpu, transparente",
       "criterio": "titulo",
       "titulo": "Funda - ISY ISC-5009, Para Samsung Galaxy A23 5G, TPU, Transparente",
@@ -54760,28 +52962,28 @@
       ]
     },
     {
-      "clave": "funda móvil - isy isc 1032, samsung galaxy s23+, trasera, transparente",
+      "clave": "funda móvil - isy isc 3740, samsung, galaxy s24+, fibra de carbono, negro",
       "criterio": "titulo",
-      "titulo": "Funda móvil - ISY ISC 1032, Samsung Galaxy S23+, Trasera, Transparente",
-      "imagen_url": "https://i.ebayimg.com/images/g/adkAAeSw-V9qdMTG/s-l300.webp",
+      "titulo": "Funda móvil - ISY ISC 3740, Samsung, Galaxy S24+, Fibra de carbono, Negro",
+      "imagen_url": "https://i.ebayimg.com/images/g/Pn4AAeSw8ohqAg7D/s-l300.webp",
       "ofertas": [
         {
-          "tienda": "mediamarktgandia",
+          "tienda": "mediamarktelche",
           "precio": 1.0,
           "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/397935649531?itmmeta=01M0A7NVMNN9HNA2S8XTWC98YV&hash=item5ca6d022fb:g:yt0AAeSwLqJqAcRy"
+          "url": "https://www.ebay.es/itm/389168997287?itmmeta=01M0A7K6QF4ZBXRN8HRCGS7YMG&hash=item5a9c47a3a7:g:Pn4AAeSw8ohqAg7D"
+        },
+        {
+          "tienda": "mediamarktislazul",
+          "precio": 1.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/307130125684?itmmeta=01M0A7SNZTJXK1EPANPSRRKCX3&hash=item478261cd74:g:r2MAAeSwyudqgfxk"
         },
         {
           "tienda": "mediamarktalcorcon",
-          "precio": 1.8,
+          "precio": 4.99,
           "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/136632640961?itmmeta=01M08T2HKCXVSKKWPDCBXV1XAB&hash=item1fcff0a5c1:g:adkAAeSw-V9qdMTG"
-        },
-        {
-          "tienda": "mediamarktalicante",
-          "precio": 2.49,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/146878852813?itmmeta=01M08T600MSHZBJZZXQDWY89CF&hash=item2232a96ecd:g:jpIAAeSwfRRqT38y"
+          "url": "https://www.ebay.es/itm/136632628118?itmmeta=01M08T2Q5VR0TPG6N0Y2MWS1VT&hash=item1fcff07396:g:JYYAAeSwnhhpxRQC"
         }
       ]
     },
@@ -54834,32 +53036,6 @@
           "precio": 19.9,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/298313751830?itmmeta=01M08T49KPCZ7S792PJYFD59X5&hash=item4574e29d16:g:XEMAAeSwb-JqSoLX"
-        }
-      ]
-    },
-    {
-      "clave": "toalla - koenic microfibra, 80x40cm, poliéster y nylon, súper absorción, azul",
-      "criterio": "titulo",
-      "titulo": "Toalla - KOENIC Microfibra, 80x40cm, Poliéster y nylon, Súper absorción, Azul",
-      "imagen_url": "https://i.ebayimg.com/images/g/9ScAAeSwSl5qSoEA/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktalfafar",
-          "precio": 1.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/298130489062?itmmeta=01M08T46VZYHY2KDCHK3CE75ZN&hash=item4569f63ee6:g:A~0AAeSwCNRqSoNT"
-        },
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 2.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/396999075113?itmmeta=01M0A7NPG6R1RBXZ9Y834S3DZM&hash=item5c6efd2529:g:xAoAAeSwxGxpxouC"
-        },
-        {
-          "tienda": "mediamarktcastellon",
-          "precio": 3.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/188695421472?itmmeta=01M0A7HJ52KHBC9XSM7XMC5KWZ&hash=item2bef1fa220:g:8kwAAeSwogFqZNaa"
         }
       ]
     },
@@ -55306,32 +53482,6 @@
       ]
     },
     {
-      "clave": "funda móvil - samsung, galaxy a15 5g, trasera, transparente",
-      "criterio": "titulo",
-      "titulo": "Funda móvil - Samsung, Galaxy A15 5G, Trasera, Transparente",
-      "imagen_url": "https://i.ebayimg.com/images/g/OpYAAeSwOa9qlavD/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktalmeria",
-          "precio": 5.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/178456278815?itmmeta=01M1H10V3CPB0D7JZ2G7VAVWM4&hash=item298cd2b71f:g:OpYAAeSwOa9qlavD"
-        },
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 12.5,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/398311139304?itmmeta=01M0K23E5CP05QZATE1AJS841D&hash=item5cbd31a7e8:g:F2UAAeSwA-tqiCpX"
-        },
-        {
-          "tienda": "mediamarktbarcelona",
-          "precio": 14.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/406338317916?itmmeta=01M08TDA0RTGZZN286XEKMNQV5&hash=item5e9ba6ae5c:g:vW4AAeSw7tJpqq8E"
-        }
-      ]
-    },
-    {
       "clave": "funda móvil - samsung, galaxy a15 5g, trasera, bolsillo para tarjeta, lima",
       "criterio": "titulo",
       "titulo": "Funda móvil - Samsung, Galaxy A15 5G, Trasera, Bolsillo para tarjeta, Lima",
@@ -55696,6 +53846,32 @@
       ]
     },
     {
+      "clave": "funda móvil - isy isc 2505, samsung, galaxy s24+, blanco",
+      "criterio": "titulo",
+      "titulo": "Funda móvil - ISY ISC 2505, Samsung, Galaxy S24+, Blanco",
+      "imagen_url": "https://i.ebayimg.com/images/g/MvIAAeSwKDVqAg5U/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktelche",
+          "precio": 1.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/389046763190?itmmeta=01M0A7K6QJDCCT9AWZH27P5Y6J&hash=item5a94fe7eb6:g:MvIAAeSwKDVqAg5U"
+        },
+        {
+          "tienda": "mediamarktislazul",
+          "precio": 1.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/306932079529?itmmeta=01M0A7SNZT4MMAADYJDG09TJ6Z&hash=item477693dba9:g:ZgsAAeSwrBFqgzii"
+        },
+        {
+          "tienda": "mediamarktsantiagodecompostela",
+          "precio": 1.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/318053557256?itmmeta=01M174JP97C385ERSZR03FA4HW&hash=item4a0d782408:g:cQYAAeSw3JRpwr3f"
+        }
+      ]
+    },
+    {
       "clave": "apple adaptador de corriente usb-c de 30 w",
       "criterio": "titulo",
       "titulo": "Apple Adaptador de Corriente USB-C de 30 W",
@@ -55748,32 +53924,6 @@
       ]
     },
     {
-      "clave": "funda móvil - isy isc 2341, samsung, galaxy s23 fe, negro",
-      "criterio": "titulo",
-      "titulo": "Funda móvil - ISY ISC 2341, Samsung, Galaxy S23 FE, Negro",
-      "imagen_url": "https://i.ebayimg.com/images/g/6VQAAeSwoAJqhcnb/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 1.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/397935786342?itmmeta=01M0A7NPG7Q26CP7B1N22KYX9Y&hash=item5ca6d23966:g:s~kAAeSwNKlqax8L"
-        },
-        {
-          "tienda": "mediamarktlugo",
-          "precio": 1.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/318754366746?itmmeta=01M0GFVTCQFN3NW2QW2RECDF50&hash=item4a373da51a:g:6VQAAeSwoAJqhcnb"
-        },
-        {
-          "tienda": "mediamarktsalamanca",
-          "precio": 3.49,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/396360938980?itmmeta=01M350W7QKHZ0BWC3BAES0F10M&hash=item5c48f3f5e4:g:Z-8AAeSwiFZqGHBU"
-        }
-      ]
-    },
-    {
       "clave": "cable usb-c - isy icn-5000-wt-cc, de usb-c a usb-c, 2 m, blanco",
       "criterio": "titulo",
       "titulo": "Cable USB-C - ISY ICN-5000-WT-CC, De USB-C a USB-C, 2 m, Blanco",
@@ -55822,6 +53972,32 @@
           "precio": 7.97,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/226548822340?itmmeta=01M0X0KZVNA1P6MTZ9S93CD59A&hash=item34bf5cb144:g:pq0AAeSwbEZqTsfC"
+        }
+      ]
+    },
+    {
+      "clave": "protector pantalla - samsung front protector film, para samsung galaxy z fold6",
+      "criterio": "titulo",
+      "titulo": "Protector pantalla - Samsung Front Protector Film, Para Samsung Galaxy Z Fold6",
+      "imagen_url": "https://i.ebayimg.com/images/g/pG0AAeSw7dJqiAoy/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarkttoledo",
+          "precio": 1.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/800544229322?itmmeta=01M0JAKYGY3PYTENNH2F42J552&hash=itemba642787ca:g:pG0AAeSw7dJqiAoy"
+        },
+        {
+          "tienda": "mediamarktsanjuanaznalfarache",
+          "precio": 1.8,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/358293197506?itmmeta=01M0Y2TBFZDDF6FK90AGN7QFWH&hash=item536bf052c2:g:6gsAAeSwVcxqGrGS"
+        },
+        {
+          "tienda": "mediamarktvalenciaaqua",
+          "precio": 9.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/318558403383?itmmeta=01M2QR3QEGEZGR24CFW65PHK1S&hash=item4a2b8f7b37:g:u~sAAeSwEBRqTjm8"
         }
       ]
     },
@@ -56154,26 +54330,6 @@
       ]
     },
     {
-      "clave": "protector pantalla - isy ipg 5173-2.5d, para samsung galaxy a14 4g/5g,",
-      "criterio": "titulo",
-      "titulo": "Protector pantalla - ISY IPG 5173-2.5D, Para Samsung Galaxy A14 4G/5G,",
-      "imagen_url": "https://i.ebayimg.com/images/g/caYAAeSwhANqAcdS/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 1.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/397935689849?itmmeta=01M0A7NVMNB03E7QVY31RTSMEM&hash=item5ca6d0c079:g:caYAAeSwhANqAcdS"
-        },
-        {
-          "tienda": "mediamarktalcorcon",
-          "precio": 1.4,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/137100125113?itmmeta=01M08T2EZH7MVRYPTRZXY41DFX&hash=item1febcde3b9:g:x5UAAeSwI-lp5dr-"
-        }
-      ]
-    },
-    {
       "clave": "figura funko pop! - marvel: she hulk, 9.5 cm, multicolor",
       "criterio": "titulo",
       "titulo": "Figura Funko Pop! - Marvel: She Hulk, 9.5 cm, Multicolor",
@@ -56234,22 +54390,22 @@
       ]
     },
     {
-      "clave": "figura funko pop! - movies: the flash - iris west",
+      "clave": "funda móvil - isy isc 1032, samsung galaxy s23+, trasera, transparente",
       "criterio": "titulo",
-      "titulo": "Figura Funko Pop! - Movies: The Flash - Iris West",
-      "imagen_url": "https://i.ebayimg.com/images/g/NWwAAeSwOk1qYJED/s-l300.webp",
+      "titulo": "Funda móvil - ISY ISC 1032, Samsung Galaxy S23+, Trasera, Transparente",
+      "imagen_url": "https://i.ebayimg.com/images/g/adkAAeSw-V9qdMTG/s-l300.webp",
       "ofertas": [
         {
-          "tienda": "mediamarktgandia",
-          "precio": 4.99,
+          "tienda": "mediamarktalcorcon",
+          "precio": 1.8,
           "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/397692766945?itmmeta=01M0A7NVMNJ3MRHH9H5DZ4P9BF&hash=item5c98560ae1:g:9VwAAeSw-jdqafU5"
+          "url": "https://www.ebay.es/itm/136632640961?itmmeta=01M08T2HKCXVSKKWPDCBXV1XAB&hash=item1fcff0a5c1:g:adkAAeSw-V9qdMTG"
         },
         {
-          "tienda": "mediamarktalcorcon",
-          "precio": 9.5,
+          "tienda": "mediamarktalicante",
+          "precio": 2.49,
           "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/135385167726?itmmeta=01M08T2HKBW4J5EVSJKY6440ZJ&hash=item1f8595b76e:g:NWwAAeSwOk1qYJED"
+          "url": "https://www.ebay.es/itm/146878852813?itmmeta=01M08T600MSHZBJZZXQDWY89CF&hash=item2232a96ecd:g:jpIAAeSwfRRqT38y"
         }
       ]
     },
@@ -56310,46 +54466,6 @@
           "precio": 11.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/146110930411?itmmeta=01M08T67XPXBSDJW7DN23KPN6Z&hash=item2204e3ddeb:g:YpYAAeSw4aJqT3pg"
-        }
-      ]
-    },
-    {
-      "clave": "protector pantalla - isy ipg 5189-2.5d, samsung, galaxy s24+, cristal templado",
-      "criterio": "titulo",
-      "titulo": "Protector pantalla - ISY IPG 5189-2.5D, Samsung, Galaxy S24+, Cristal templado",
-      "imagen_url": "https://i.ebayimg.com/images/g/YAcAAeSwh91pxRRU/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 1.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/397935677254?itmmeta=01M0A7NS4KXBC66ZA9RZJAZPCN&hash=item5ca6d08f46:g:apQAAeSwCy1qAcbI"
-        },
-        {
-          "tienda": "mediamarktalcorcon",
-          "precio": 2.49,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/135787092110?itmmeta=01M08T2Q5VG2HC44H8PWC40P44&hash=item1f9d8a988e:g:YAcAAeSwh91pxRRU"
-        }
-      ]
-    },
-    {
-      "clave": "funda móvil - isy isc 2444, carga magsafe, para iphone 15 pro, blanco",
-      "criterio": "titulo",
-      "titulo": "Funda móvil - ISY ISC 2444, Carga Magsafe, Para iPhone 15 Pro, Blanco",
-      "imagen_url": "https://i.ebayimg.com/images/g/MXcAAeSwpfRqayA0/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 1.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/397935601752?itmmeta=01M0A7NPG6A7HEQCW5DGC8RA0Z&hash=item5ca6cf6858:g:MXcAAeSwpfRqayA0"
-        },
-        {
-          "tienda": "mediamarktalcorcon",
-          "precio": 6.5,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/136632552855?itmmeta=01M08T2Q5VVWVSZ69YQZ34RG8B&hash=item1fcfef4d97:g:t4gAAeSwdylpxRWj"
         }
       ]
     },
@@ -56470,6 +54586,26 @@
           "precio": 9.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/800544797445?itmmeta=01M0JAKYGYXR4SFBAXMZ1DVTF7&hash=itemba64303305:g:OMkAAeSwRUZqiC0F"
+        }
+      ]
+    },
+    {
+      "clave": "toalla - koenic microfibra, 80x40cm, poliéster y nylon, súper absorción, azul",
+      "criterio": "titulo",
+      "titulo": "Toalla - KOENIC Microfibra, 80x40cm, Poliéster y nylon, Súper absorción, Azul",
+      "imagen_url": "https://i.ebayimg.com/images/g/9ScAAeSwSl5qSoEA/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktalfafar",
+          "precio": 1.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/298130489062?itmmeta=01M08T46VZYHY2KDCHK3CE75ZN&hash=item4569f63ee6:g:A~0AAeSwCNRqSoNT"
+        },
+        {
+          "tienda": "mediamarktcastellon",
+          "precio": 3.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/188695421472?itmmeta=01M0A7HJ52KHBC9XSM7XMC5KWZ&hash=item2bef1fa220:g:8kwAAeSwogFqZNaa"
         }
       ]
     },
@@ -56857,7 +54993,7 @@
       "clave": "accesorio aspirador - scanpart 1190000105, cepillo para parqué y gres, universal",
       "criterio": "titulo",
       "titulo": "Accesorio aspirador - Scanpart 1190000105, Cepillo para parqué y gres, Universal",
-      "imagen_url": "https://i.ebayimg.com/images/g/lXcAAeSw~5tqSoFZ/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/vMwAAeSwN~9pxonB/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktgandia",
@@ -56910,26 +55046,6 @@
           "precio": 8.9,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/298153686026?itmmeta=01M08T4FBWSG8B7SYVYJV8511Z&hash=item456b58340a:g:BxIAAeSw3nlqSoJa"
-        }
-      ]
-    },
-    {
-      "clave": "funda tabla planchar - leifheit 71613, algodón, 120x40 cm",
-      "criterio": "titulo",
-      "titulo": "Funda tabla planchar - Leifheit 71613, Algodón, 120x40 cm",
-      "imagen_url": "https://i.ebayimg.com/images/g/Ur0AAeSwb-JqSoEz/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 14.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/397435227931?itmmeta=01M0A7NVMPWVJQDXT264C3DQFA&hash=item5c88fc4f1b:g:zjYAAeSwPSxpxorp"
-        },
-        {
-          "tienda": "mediamarktalfafar",
-          "precio": 16.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/298314570572?itmmeta=01M08T4FBX73ANZC58FXEDQ2MD&hash=item4574ef1b4c:g:oCwAAeSwES9qSoH3"
         }
       ]
     },
@@ -57090,26 +55206,6 @@
           "precio": 27.9,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/187068643856?itmmeta=01M346R4MMRH8E81M9H0VTCT67&hash=item2b8e28fa10:g:eG0AAeSwQyBn3p43"
-        }
-      ]
-    },
-    {
-      "clave": "funda móvil - isy isc-5009, para samsung galaxy a23 5g, tpu, transparente",
-      "criterio": "titulo",
-      "titulo": "Funda móvil - ISY ISC-5009, Para Samsung Galaxy A23 5G, TPU, Transparente",
-      "imagen_url": null,
-      "ofertas": [
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 1.79,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/397935915993?itmmeta=01M0A7NVMNPFGTABCVDEDGTC78&hash=item5ca6d433d9:g:ZmsAAeSw6YdqAdUO"
-        },
-        {
-          "tienda": "mediamarktalicante",
-          "precio": 2.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/146878851517?itmmeta=01M08T600KKE416WG7HMD0B2KP&hash=item2232a969bd:g:kfAAAeSwhZBqT36f"
         }
       ]
     },
@@ -57914,6 +56010,26 @@
       ]
     },
     {
+      "clave": "funda móvil - samsung, galaxy a15 5g, trasera, transparente",
+      "criterio": "titulo",
+      "titulo": "Funda móvil - Samsung, Galaxy A15 5G, Trasera, Transparente",
+      "imagen_url": "https://i.ebayimg.com/images/g/OpYAAeSwOa9qlavD/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktalmeria",
+          "precio": 5.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/178456278815?itmmeta=01M1H10V3CPB0D7JZ2G7VAVWM4&hash=item298cd2b71f:g:OpYAAeSwOa9qlavD"
+        },
+        {
+          "tienda": "mediamarktbarcelona",
+          "precio": 14.9,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/406338317916?itmmeta=01M08TDA0RTGZZN286XEKMNQV5&hash=item5e9ba6ae5c:g:vW4AAeSw7tJpqq8E"
+        }
+      ]
+    },
+    {
       "clave": "protector pantalla - samsung ef-us721ctegww, compatible con galaxy s24 fe, anti-",
       "criterio": "titulo",
       "titulo": "Protector pantalla - Samsung EF-US721CTEGWW, Compatible con Galaxy S24 FE, Anti-",
@@ -58474,30 +56590,10 @@
       ]
     },
     {
-      "clave": "protector pantalla - samsung, para galaxy a26 5g, transparente",
-      "criterio": "titulo",
-      "titulo": "Protector pantalla - Samsung, Para Galaxy A26 5G, Transparente",
-      "imagen_url": "https://i.ebayimg.com/images/g/~hcAAeSwmc1qAdNC/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 1.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/397935902770?itmmeta=01M0A7NPG6DCD3SHVE6XW4K0EM&hash=item5ca6d40032:g:~hcAAeSwmc1qAdNC"
-        },
-        {
-          "tienda": "mediamarktcastellon",
-          "precio": 4.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/188695583165?itmmeta=01M0A7HMM73QBJBZ95J0X23G8Y&hash=item2bef2219bd:g:hbkAAeSw9HxqZPFc"
-        }
-      ]
-    },
-    {
       "clave": "repelente de mosquitos - nk ultrasonico, 150m², frecuencia ultrasónica, blanco",
       "criterio": "titulo",
       "titulo": "Repelente de mosquitos - NK Ultrasonico, 150m², Frecuencia ultrasónica, Blanco",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/B4IAAeSwt4FqZ1Jx/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktgandia",
@@ -59234,110 +57330,10 @@
       ]
     },
     {
-      "clave": "funda móvil - isy isc-2318, apple, iphone 14 plus, azul",
-      "criterio": "titulo",
-      "titulo": "Funda móvil - ISY ISC-2318, Apple, iPhone 14 Plus, Azul",
-      "imagen_url": "https://i.ebayimg.com/images/g/xO4AAeSwAKZqAb7y/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 1.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/397935572840?itmmeta=01M0A7NPG69WGE78ANHTRAWY29&hash=item5ca6cef768:g:xO4AAeSwAKZqAb7y"
-        },
-        {
-          "tienda": "mediamarktsantcugat",
-          "precio": 5.49,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/318052140869?itmmeta=01M2NH9MD482VWKMEHP73A693G&hash=item4a0d628745:g:KkEAAeSwG7dqThOA"
-        }
-      ]
-    },
-    {
-      "clave": "toalla - koenic microfibra, 152x76 cm, poliéster y nylon, súper absorción, azul",
-      "criterio": "titulo",
-      "titulo": "Toalla - KOENIC Microfibra, 152x76 cm, Poliéster y nylon, Súper absorción, Azul",
-      "imagen_url": "https://i.ebayimg.com/images/g/1M4AAeSwJFFqiEKi/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 3.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/396999075427?itmmeta=01M0A7NS4JK7XWAV91HEM1F13V&hash=item5c6efd2663:g:0cAAAeSwPFVqaeZS"
-        },
-        {
-          "tienda": "mediamarkttoledo",
-          "precio": 5.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/800545148758?itmmeta=01M0JAKYH0W41G24VR2JWDMRF1&hash=itemba64358f56:g:1M4AAeSwJFFqiEKi"
-        }
-      ]
-    },
-    {
-      "clave": "funda móvil - isy isc-1027, para iphone 14 pro, tpu, transparente",
-      "criterio": "titulo",
-      "titulo": "Funda móvil - ISY ISC-1027, Para iPhone 14 Pro, TPU, Transparente",
-      "imagen_url": "https://i.ebayimg.com/images/g/lXwAAeSwIo5qThM2/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 1.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/397935575802?itmmeta=01M0A7NS4JWXY83W4JN8HFS465&hash=item5ca6cf02fa:g:bYEAAeSwVRdqAb6v"
-        },
-        {
-          "tienda": "mediamarktsantcugat",
-          "precio": 3.49,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/318052109739?itmmeta=01M2NH9MD4AH0Y2ZE28BR83JPQ&hash=item4a0d620dab:g:lXwAAeSwIo5qThM2"
-        }
-      ]
-    },
-    {
-      "clave": "funda móvil - isy isc-2437, apple, iphone 14 pro, violeta",
-      "criterio": "titulo",
-      "titulo": "Funda móvil - ISY ISC-2437, Apple, iPhone 14 Pro, Violeta",
-      "imagen_url": "https://i.ebayimg.com/images/g/oPYAAeSwFolqThOG/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 1.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/397935887563?itmmeta=01M0A7NS4KH6XKYD8E9VE7QX0R&hash=item5ca6d3c4cb:g:gAgAAeSwXBNqAdEK"
-        },
-        {
-          "tienda": "mediamarktsantcugat",
-          "precio": 9.49,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/318052118952?itmmeta=01M2NH9MD4B57J375XYH5VVXR4&hash=item4a0d6231a8:g:oPYAAeSwFolqThOG"
-        }
-      ]
-    },
-    {
-      "clave": "funda móvil - isy isc 2502, samsung, galaxy s24+, negro",
-      "criterio": "titulo",
-      "titulo": "Funda móvil - ISY ISC 2502, Samsung, Galaxy S24+, Negro",
-      "imagen_url": "https://i.ebayimg.com/images/g/Hw0AAeSwIVVqggT4/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktislazul",
-          "precio": 1.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/307130163453?itmmeta=01M0A7SRCJQ2Q0A7SRHCK8S2RH&hash=item47826260fd:g:Hw0AAeSwIVVqggT4"
-        },
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 1.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/396661063604?itmmeta=01M0A7NS4KC7Z5QDH1E1RG4GC6&hash=item5c5ad77fb4:g:nt4AAeSwU7hqaJkY"
-        }
-      ]
-    },
-    {
       "clave": "funda móvil - isy isc 2346, compatible con samsung, galaxy a55 5g, antisalpicadu",
       "criterio": "titulo",
       "titulo": "Funda móvil - ISY ISC 2346, Compatible con Samsung, Galaxy A55 5G, Antisalpicadu",
-      "imagen_url": "https://i.ebayimg.com/images/g/b2IAAeSwWTFn4pRI/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/gmYAAeSwW3hqaJkM/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktgandia",
@@ -59357,7 +57353,7 @@
       "clave": "libreta - cmp paris eae1000, 80 hojas, con bolígrafo, páginas blancas",
       "criterio": "titulo",
       "titulo": "Libreta - CMP PARIS EAE1000, 80 hojas, Con bolígrafo, Páginas blancas",
-      "imagen_url": "https://i.ebayimg.com/images/g/lHkAAeSwVZ5qhZv~/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/utYAAeSwMm1qaKJj/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktgandia",
@@ -59397,7 +57393,7 @@
       "clave": "cargador móvil - isy iwc 4065, 65w, universal, blanco",
       "criterio": "titulo",
       "titulo": "Cargador móvil - ISY IWC 4065, 65W, Universal, Blanco",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/KwgAAeSw1uFqZ1DJ/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktmassalfassar",
@@ -59417,7 +57413,7 @@
       "clave": "quitapelusas - nk ho32011, con adhesivo, negro",
       "criterio": "titulo",
       "titulo": "Quitapelusas - NK HO32011, Con adhesivo, Negro",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/I0QAAeSwwbZqZ1MT/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktgandia",
@@ -59437,7 +57433,7 @@
       "clave": "freidora de aire - princess 182022 digital aerofryer xl, 4.5l, 1500 w, negro",
       "criterio": "titulo",
       "titulo": "Freidora de aire - Princess 182022 Digital Aerofryer XL, 4.5L, 1500 W, Negro",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/lGsAAeSwBDpqaKCO/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktterrassa",
@@ -59710,6 +57706,26 @@
           "precio": 12.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/198552203885?itmmeta=01M0D5N1BFVWX3AJ6VFEE633DM&hash=item2e3aa2326d:g:WbEAAeSwfoNqdMTP"
+        }
+      ]
+    },
+    {
+      "clave": "funda móvil - isy isc 2341, samsung, galaxy s23 fe, negro",
+      "criterio": "titulo",
+      "titulo": "Funda móvil - ISY ISC 2341, Samsung, Galaxy S23 FE, Negro",
+      "imagen_url": "https://i.ebayimg.com/images/g/6VQAAeSwoAJqhcnb/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktlugo",
+          "precio": 1.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/318754366746?itmmeta=01M0GFVTCQFN3NW2QW2RECDF50&hash=item4a373da51a:g:6VQAAeSwoAJqhcnb"
+        },
+        {
+          "tienda": "mediamarktsalamanca",
+          "precio": 3.49,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/396360938980?itmmeta=01M350W7QKHZ0BWC3BAES0F10M&hash=item5c48f3f5e4:g:Z-8AAeSwiFZqGHBU"
         }
       ]
     },
