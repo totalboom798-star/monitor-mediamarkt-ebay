@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-09-24T23:12:40.161574+00:00",
+  "actualizado": "2026-09-25T04:12:25.463420+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3965,
+  "total_articulos": 3964,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -184,14 +184,14 @@
       "num_articulos": 44
     },
     {
-      "seller_id": "mediamarktlleida",
+      "seller_id": "mediamarktpamplona",
       "nombre_mostrado": null,
       "num_articulos": 44
     },
     {
-      "seller_id": "mediamarktpamplona",
+      "seller_id": "mediamarktlleida",
       "nombre_mostrado": null,
-      "num_articulos": 44
+      "num_articulos": 43
     },
     {
       "seller_id": "mediamarktlloret",
@@ -511,6 +511,19 @@
   ],
   "articulos_recientes": [
     {
+      "titulo": "Nintendo Switch Digimon Survive (Código en la caja)",
+      "precio": 9.68,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800348019783?itmmeta=01M3BC43S0GRKQ7PER3GNAG6JK&hash=itemba58759c47:g:MXIAAeSwEChqV-ZK",
+      "imagen_url": "https://i.ebayimg.com/images/g/MXIAAeSwEChqV-ZK/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-digimon-survive-codigo-de-descarga-1577697.html",
+      "fecha_visto_primera_vez": "2026-09-25 04:11:15",
+      "seller_id": "mediamarktlleida",
+      "nombre_mostrado": null
+    },
+    {
       "titulo": "Pilas AA - Duracell Plus Powerboost, Tamaño AA, 12 pilas",
       "precio": 14.99,
       "moneda": "EUR",
@@ -547,32 +560,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_recambio-para-afeitadora-braun-74s-compatible-con-afeitadoras-series-7-plata-1602384.html",
       "fecha_visto_primera_vez": "2026-09-24 16:56:11",
       "seller_id": "mediamarktlorca",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Nintendo Switch La Lego Pelicula 2: El Videojuego",
-      "precio": 13.49,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800347956597?itmmeta=01M3A5BKV4KS87NJAEV54G0ASH&hash=itemba5874a575:g:v2YAAeSwo9lqV-Lr",
-      "imagen_url": "https://i.ebayimg.com/images/g/v2YAAeSwo9lqV-Lr/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-la-lego-pelicula-2-el-videojuego-1442901.html",
-      "fecha_visto_primera_vez": "2026-09-24 16:55:14",
-      "seller_id": "mediamarktlleida",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Impresora tinta - Epson EcoTank ET-1810, Color, WiFi, Tinta recargable",
-      "precio": 134.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800039981972?itmmeta=01M3A5BKV4TR62ZYQAARDKK7A9&hash=itemba46195394:g:DosAAeSwRfZqS4BE",
-      "imagen_url": "https://i.ebayimg.com/images/g/DosAAeSwRfZqS4BE/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-epson-ecotank-et-1810-33-ppm-15-ppm-5760-x-1440-ppp-epson-dye-ink-negro-1520117.html",
-      "fecha_visto_primera_vez": "2026-09-24 16:54:56",
-      "seller_id": "mediamarktlleida",
       "nombre_mostrado": null
     },
     {
@@ -19953,7 +19940,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-lego-harry-potter-collection-game-key-card-1675650.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-lego-harry-potter-collection-95509331.html",
       "fecha_visto_primera_vez": "2026-09-01 08:17:39",
       "seller_id": "mediamarktlleida",
       "nombre_mostrado": null
@@ -58446,26 +58433,6 @@
           "precio": 44.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/318843076407?itmmeta=01M2BDD3VAP5HSZ2NP293D6P6Z&hash=item4a3c873f37:g:pHkAAeSw1Klqn~F-"
-        }
-      ]
-    },
-    {
-      "clave": "nintendo switch la lego pelicula 2: el videojuego",
-      "criterio": "titulo",
-      "titulo": "Nintendo Switch La Lego Pelicula 2: El Videojuego",
-      "imagen_url": "https://i.ebayimg.com/images/g/TgcAAeSw0Cpqopow/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktmataro",
-          "precio": 8.41,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/398380745702?itmmeta=01M2BTFYS841RM0GYZTPM6TCDC&hash=item5cc157c3e6:g:TgcAAeSw0Cpqopow"
-        },
-        {
-          "tienda": "mediamarktlleida",
-          "precio": 13.49,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/800347956597?itmmeta=01M3A5BKV4KS87NJAEV54G0ASH&hash=itemba5874a575:g:v2YAAeSwo9lqV-Lr"
         }
       ]
     },
