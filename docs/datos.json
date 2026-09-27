@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-09-27T19:51:48.028064+00:00",
+  "actualizado": "2026-09-27T23:03:18.452791+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3876,
+  "total_articulos": 3871,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -94,11 +94,6 @@
       "num_articulos": 47
     },
     {
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null,
-      "num_articulos": 47
-    },
-    {
       "seller_id": "mediamarktmajadahonda",
       "nombre_mostrado": null,
       "num_articulos": 47
@@ -154,6 +149,11 @@
       "num_articulos": 45
     },
     {
+      "seller_id": "mediamarktciudadreal",
+      "nombre_mostrado": null,
+      "num_articulos": 44
+    },
+    {
       "seller_id": "mediamarktfanmallorca",
       "nombre_mostrado": null,
       "num_articulos": 44
@@ -196,7 +196,7 @@
     {
       "seller_id": "mediamarktburgos",
       "nombre_mostrado": null,
-      "num_articulos": 41
+      "num_articulos": 40
     },
     {
       "seller_id": "mediamarktelche",
@@ -294,12 +294,12 @@
       "num_articulos": 33
     },
     {
-      "seller_id": "mediamarkttalavera",
+      "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null,
-      "num_articulos": 32
+      "num_articulos": 31
     },
     {
-      "seller_id": "mediamarktalmeria",
+      "seller_id": "mediamarkttalavera",
       "nombre_mostrado": null,
       "num_articulos": 31
     },
@@ -510,6 +510,214 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Protector pantalla - FR-TEC FT1055, Para Nintendo Switch OLED, Cristal templado",
+      "precio": 1.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/226704318200?itmmeta=01M3JHCSDNYEE1JCDGEBPHMJCY&hash=item34c8a15ef8:g:iQ4AAeSwvClqrT4-",
+      "imagen_url": "https://i.ebayimg.com/images/g/iQ4AAeSwvClqrT4-/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_protector-pantalla-fr-tec-ft1055-para-nintendo-switch-oled-cristal-templado-dureza-9h-transparente-1519245.html",
+      "fecha_visto_primera_vez": "2026-09-27 23:02:08",
+      "seller_id": "mediamarktciudadreal",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Smartwatch - Samsung Galaxy Watch7 BT 40mm, 1.31\", Exynos W1000, 32GB",
+      "precio": 179.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/227535869480?itmmeta=01M3JHCSDN09SJVRY81262DHN2&hash=item34fa31d628:g:s1cAAeSwGGtqs~Bq",
+      "imagen_url": "https://i.ebayimg.com/images/g/s1cAAeSwGGtqs~Bq/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_smartwatch-samsung-galaxy-watch8-bt-40-mm-131-exynos-w1000-32-gb-2-gb-ram-325-mah-android-plata-1602842.html",
+      "fecha_visto_primera_vez": "2026-09-27 23:01:54",
+      "seller_id": "mediamarktciudadreal",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Aire acondicionado portátil - ok. OAC 12026 ES, 3010 fg/h, 2 Velocidades",
+      "precio": 239.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/227527253494?itmmeta=01M3JHCSDNC5BJYHY6S5J4ZY3B&hash=item34f9ae5df6:g:afkAAeSw4~BqrTrc",
+      "imagen_url": "https://i.ebayimg.com/images/g/afkAAeSw4~BqrTrc/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aire-acondicionado-portatil-ok-oac-9026-es-2236-fgh-25m-55-dba-deshumidificador-ruedas-blanco-1619318.html",
+      "fecha_visto_primera_vez": "2026-09-27 23:01:40",
+      "seller_id": "mediamarktciudadreal",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Placa inducción - AEG TI63IQ10IZ, 3 zonas, Zona grande 28 cm, SaphirMatt",
+      "precio": 399.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/227537521149?itmmeta=01M3JHCSDNJ8S8KYYYVT1SQ692&hash=item34fa4b09fd:g:YpcAAeSw5wZqtV4s",
+      "imagen_url": "https://i.ebayimg.com/images/g/YpcAAeSw5wZqtV4s/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_placa-induccion-aeg-ti63iq10iz-3-zonas-zona-grande-28-cm-powerboost-58-cm-negro-mate-1595878.html",
+      "fecha_visto_primera_vez": "2026-09-27 23:01:26",
+      "seller_id": "mediamarktciudadreal",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "All in one - HP 27-cr0121ns, 27\" Full-HD, Intel® Core™ i5-1335U, 16GB RAM",
+      "precio": 899.69,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/227537411014?itmmeta=01M3JHCSDN7DZVJBCXG6J31V28&hash=item34fa495bc6:g:NWcAAeSw3CxqtUqu",
+      "imagen_url": "https://i.ebayimg.com/images/g/NWcAAeSw3CxqtUqu/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_all-in-one-hp-27-cr0121ns-27-full-hd-intelr-coretm-i5-1335u-16gb-ram-512gb-ssd-irisr-x-windows-11-home-blanco-caracola-1667618.html",
+      "fecha_visto_primera_vez": "2026-09-27 23:01:10",
+      "seller_id": "mediamarktciudadreal",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Aire acondicionado portátil - Cecotec ForceClima 9150 Style, 2250 fg/h,",
+      "precio": 199.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/227527252698?itmmeta=01M3JHCSDMHWJ805G4CTVNGVAJ&hash=item34f9ae5ada:g:ansAAeSw4kFqrTqO",
+      "imagen_url": "https://i.ebayimg.com/images/g/ansAAeSw4kFqrTqO/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-aire-acondicionado-portatil-cecotec-forceclima-9150-style-2250-fgh-2-velocidades-25m-4-modos-deshumidificador-1587097.html",
+      "fecha_visto_primera_vez": "2026-09-27 23:00:56",
+      "seller_id": "mediamarktciudadreal",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cafetera tradicional - Cecotec Piccolina 200, 100 ml, 2 tazas, Acero Inoxidable",
+      "precio": 5.49,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/227527231716?itmmeta=01M3JHCSDM47R8CSMANCX2FN3M&hash=item34f9ae08e4:g:GboAAeSwmuBqrTWY",
+      "imagen_url": "https://i.ebayimg.com/images/g/GboAAeSwmuBqrTWY/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-tradicional-cecotec-piccolina-200-100-ml-2-tazas-acero-inoxidable-termorresistente-apto-para-todas-superficies-gris-1589935.html",
+      "fecha_visto_primera_vez": "2026-09-27 23:00:41",
+      "seller_id": "mediamarktciudadreal",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Aire acondicionado portátil - Koenic KAC 7026 W ES Mobile Air conditioner",
+      "precio": 169.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/227527255024?itmmeta=01M3JHCSDMV0BBNWYXE040YNZS&hash=item34f9ae63f0:g:bokAAeSwSaNqrTs1",
+      "imagen_url": "https://i.ebayimg.com/images/g/bokAAeSwSaNqrTs1/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aire-acondicionado-portatil-koenic-kac-7026-w-es-mobile-air-conditioner-3-modos-2-velocidades-modo-noche-temporizador-mando-a-distancia-blanco-1621347.html",
+      "fecha_visto_primera_vez": "2026-09-27 23:00:27",
+      "seller_id": "mediamarktciudadreal",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Aire acondicionado portátil - ok. OAC 7026 ES, 1720 fg/h, 2 Velocidades",
+      "precio": 159.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/227527252388?itmmeta=01M3JHCSDMNW420X9DYA9MGP2T&hash=item34f9ae59a4:g:wHQAAeSwMaJqrTpX",
+      "imagen_url": "https://i.ebayimg.com/images/g/wHQAAeSwMaJqrTpX/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aire-acondicionado-portatil-ok-oac-9026-es-2236-fgh-25m-55-dba-deshumidificador-ruedas-blanco-1619318.html",
+      "fecha_visto_primera_vez": "2026-09-27 23:00:00",
+      "seller_id": "mediamarktciudadreal",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "TV OLED 48\" - LG OLED48B6ELC, OLED 4K, Procesador Inteligente α8 AI Processor",
+      "precio": 699.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/227537467348?itmmeta=01M3JHCSDMZYKBESHYJ9DD9QHR&hash=item34fa4a37d4:g:pLEAAeSw-zpqtVQo",
+      "imagen_url": "https://i.ebayimg.com/images/g/pLEAAeSw-zpqtVQo/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/search.html?query=TV+OLED+48\"+-+LG+OLED48B6ELC,+OLED+4K,+Procesador+Inteligente+α8+AI+Processor",
+      "fecha_visto_primera_vez": "2026-09-27 22:59:09",
+      "seller_id": "mediamarktciudadreal",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "TV OLED 48\" - LG OLED48C55LA, OLED 4K",
+      "precio": 699.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/227537489947?itmmeta=01M3JHCSDM6MD1JVCS83K4W5Y0&hash=item34fa4a901b:g:5rgAAeSwEcVqtVfY",
+      "imagen_url": "https://i.ebayimg.com/images/g/5rgAAeSwEcVqtVfY/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tv-oled-48-lg-oled48c54la-oled-4k-a9-ai-procesador-4k-gen8-smart-tv-negro-1672609.html",
+      "fecha_visto_primera_vez": "2026-09-27 22:58:53",
+      "seller_id": "mediamarktciudadreal",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Google Pixel 10 Pro, Obsidiana, 256 GB, 16 GB RAM, 6.3\" Super Actua OLED",
+      "precio": 749.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/227537479842?itmmeta=01M3JHCSDMN62J95D435YKMSYY&hash=item34fa4a68a2:g:1TgAAeSwxxxqtVXF",
+      "imagen_url": "https://i.ebayimg.com/images/g/1TgAAeSwxxxqtVXF/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-google-pixel-10-pro-obsidiana-256-gb-16-gb-ram-63-super-actua-oled-google-tensor-g5-4870-mah-android-16-1672885.html",
+      "fecha_visto_primera_vez": "2026-09-27 22:58:39",
+      "seller_id": "mediamarktciudadreal",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Xiaomi 17, Verde, 512GB, 12GB RAM, 6.3\" CrystalRes OLED display",
+      "precio": 699.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/227537483009?itmmeta=01M3JHCSDM8HCHTP407BAQF8VG&hash=item34fa4a7501:g:iykAAeSwlCJqtVae",
+      "imagen_url": "https://i.ebayimg.com/images/g/iykAAeSwlCJqtVae/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_xiaomi-17-verde-movil-hyperos-512-gb-12-gb-ram-63-crystalres-oled-display-snapdragonr-8-elite-gen-5-mobile-platform-6330-mah-172080400.html",
+      "fecha_visto_primera_vez": "2026-09-27 22:58:24",
+      "seller_id": "mediamarktciudadreal",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "TV QLED 55\" - Samsung TQ55Q7F5AUXXC, QLED 4K, Q4 AI Processor, Smart TV",
+      "precio": 399.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/227537579884?itmmeta=01M3JHCSDM1R490FC6ZC7WRJA8&hash=item34fa4bef6c:g:xhkAAeSwVrpqtWSR",
+      "imagen_url": "https://i.ebayimg.com/images/g/xhkAAeSwVrpqtWSR/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tv-qled-55-samsung-tq55q7faau-uhd-4k-q4-ai-processor-smart-tv-dvb-t2-h265-negro-154825432.html",
+      "fecha_visto_primera_vez": "2026-09-27 22:58:09",
+      "seller_id": "mediamarktciudadreal",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Aire acondicionado Split 1 x 1 - TCL Elite F4, 2923 fg/h, Wi-Fi, Smart Inverter",
+      "precio": 229.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/227539129979?itmmeta=01M3JHCSDMPPNSF26TN2J6YFZ3&hash=item34fa63967b:g:k74AAeSwS1lqtqrn",
+      "imagen_url": "https://i.ebayimg.com/images/g/k74AAeSwS1lqtqrn/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aire-acondicionado-split-1-x-1-hisense-kc50xs1g-5000-fgh-funcion-inverter-blanco-152097785.html",
+      "fecha_visto_primera_vez": "2026-09-27 22:57:42",
+      "seller_id": "mediamarktciudadreal",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Aire acondicionado Split 1 x 1 - LG PLUSWF12Z.SET, 3010 fg/h, Wi-Fi",
+      "precio": 399.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/227539116630?itmmeta=01M3JHCSDMYXHYW51D0JWNMT8Y&hash=item34fa636256:g:e5gAAeSw8D1qtqe5",
+      "imagen_url": "https://i.ebayimg.com/images/g/e5gAAeSw8D1qtqe5/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aire-acondicionado-split-1-x-1-lg-pluswf12zset-3010-fgh-wi-fi-kw-manager-gold-fintm-blanco-1620929.html",
+      "fecha_visto_primera_vez": "2026-09-27 22:57:27",
+      "seller_id": "mediamarktciudadreal",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Auriculares inalámbricos - Sony WH-1000XM5S, Cancelación ruido (Noise Cancelling",
       "precio": 249.0,
@@ -11249,45 +11457,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Funda móvil - ISY ISC-2358, Para Samsung Galaxy S25 Ultra, Silicona, Negro",
-      "precio": 5.48,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/227185963416?itmmeta=01M2P6FHDT0X7YH83P0XDJDW9F&hash=item34e556b198:g:80oAAeSw1Llqkcae",
-      "imagen_url": "https://i.ebayimg.com/images/g/80oAAeSw1Llqkcae/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-movil-isy-isc-2358-para-samsung-galaxy-s25-ultra-silicona-negro-1594596.html",
-      "fecha_visto_primera_vez": "2026-09-16 22:51:29",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 1047, Compatible con iPhone 16 Pro Max, Resistente",
-      "precio": 5.49,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/227185971700?itmmeta=01M2P6FHDT8BBKN75QAQHPBM88&hash=item34e556d1f4:g:46QAAeSwqrFqWlj3",
-      "imagen_url": "https://i.ebayimg.com/images/g/46QAAeSwqrFqWlj3/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-isy-isc-1047-compatible-con-iphone-16-pro-max-resistente-a-golpes-transparente-1579619.html",
-      "fecha_visto_primera_vez": "2026-09-16 22:51:14",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Raton inalámbrico - Rapoo M100 Silent ratón RF inalámbrica + Bluetooth 1300",
-      "precio": 7.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/226778244682?itmmeta=01M2P6FHDS6KVYAM3ZRHC4HFPK&hash=item34cd09664a:g:cJQAAeSwARRqZJk~",
-      "imagen_url": "https://i.ebayimg.com/images/g/cJQAAeSwARRqZJk~/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_raton-inalambico-rapoo-m100-silent-ratón-rf-inalámbrica-bluetooth-1300-dpi-ambidextro-negro-1486065.html",
-      "fecha_visto_primera_vez": "2026-09-16 22:51:00",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Funda móvil - ISY ISC 1045, Compatible con iPhone 16, Resistente a Golpes",
       "precio": 2.49,
       "moneda": "EUR",
@@ -11297,19 +11466,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-isy-isc-1045-compatible-con-iphone-16-resistente-a-golpes-transparente-1579617.html",
       "fecha_visto_primera_vez": "2026-09-16 22:50:44",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda eBook - SILVER HT, eBook 6\", Universal, Wave, Negro",
-      "precio": 7.39,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/227117961422?itmmeta=01M2P6FHDS0AHR345DG5NA5N2A&hash=item34e14910ce:g:1x8AAeSwhq5qkcU5",
-      "imagen_url": "https://i.ebayimg.com/images/g/1x8AAeSwhq5qkcU5/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-ebook-silver-ht-ebook-6-universal-wave-negro-1459095.html",
-      "fecha_visto_primera_vez": "2026-09-16 22:50:31",
       "seller_id": "mediamarktciudadreal",
       "nombre_mostrado": null
     },
@@ -11327,32 +11483,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Cafetera express - De'Longhi Dedica EC685.M, 1300 W, 15 bar, Thermoblock",
-      "precio": 109.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/227521239249?itmmeta=01M2P6FHDRVDVGHJVEM5K0097V&hash=item34f95298d1:g:er8AAeSw-hBqp~IL",
-      "imagen_url": "https://i.ebayimg.com/images/g/er8AAeSw-hBqp~IL/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-express-de-longhi-ec-dedica-685-m-bomba-de-presión-thermoblock-1350-w-color-metal-1359168.html",
-      "fecha_visto_primera_vez": "2026-09-16 22:50:01",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cafetera superautomática - De'Longhi Magnifica S ECAM22.113.B, 1450 W",
-      "precio": 229.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/227522832757?itmmeta=01M2P6FHDR6ZQCN14YY0K863JY&hash=item34f96ae975:g:GucAAeSwzEtqqnD0",
-      "imagen_url": "https://i.ebayimg.com/images/g/GucAAeSwzEtqqnD0/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-superautomatica-de-longhi-magnifica-s-ecam22020w-15-bar-1450-w-2-tazas-blanco-152355376.html",
-      "fecha_visto_primera_vez": "2026-09-16 22:49:20",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Báscula de baño - ok. OPS 15122, LCD, Hasta 150 kg, Vidrio, Blanco",
       "precio": 4.9,
       "moneda": "EUR",
@@ -11366,32 +11496,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Robot friegasuelos - iRobot Roomba® 105 Combo Y351240, 12.8V",
-      "precio": 161.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/227524367854?itmmeta=01M2P6FHDRRNASW9DK9628TFPY&hash=item34f98255ee:g:pBAAAeSwXf5qqqtT",
-      "imagen_url": "https://i.ebayimg.com/images/g/pBAAAeSwXf5qqqtT/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_robot-friegasuelos-irobot-roombar-105-combo-y311240-128v-200-ml-autonomia-2h-blanco-1595525.html",
-      "fecha_visto_primera_vez": "2026-09-16 22:48:28",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Robot aspirador - Cecotec Conga 9990 AI Spin Revolution Ultra Power Home",
-      "precio": 169.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/227524368471?itmmeta=01M2P6FHDRH3HPVY63TRBAQFBQ&hash=item34f9825857:g:yYQAAeSwYdBqqquL",
-      "imagen_url": "https://i.ebayimg.com/images/g/yYQAAeSwYdBqqquL/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_robot-aspirador-cecotec-conga-9990-ai-spin-revolution-ultra-power-home-1000w-240-min-10000-pa-app-base-autovaciado-ia-hasta-240m2-negro-1608152.html",
-      "fecha_visto_primera_vez": "2026-09-16 22:48:13",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Robot friegasuelos - iRobot Roomba® 205 Combo DustCompactor, 1820 ml",
       "precio": 149.9,
       "moneda": "EUR",
@@ -11399,7 +11503,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/VHkAAeSwbUdqqqsF/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_robot-friegasuelos-irobot-roombar-205-combo-dustcompactor-1820-ml-128v-autonomia-3h-negro-1595527.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_robot-friegasuelos-irobot-roombar-205-combo-dustcompactor-128-v-potencia-de-succion-7-kpa-autonomia-3h-negro-158649592.html",
       "fecha_visto_primera_vez": "2026-09-16 22:47:59",
       "seller_id": "mediamarktciudadreal",
       "nombre_mostrado": null
@@ -12671,19 +12775,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/377488461382?itmmeta=01M2JKT8X23SAE1TB53WGF8MQX&hash=item57e410ce46:g:xMIAAeSwj0lqo~GD",
       "imagen_url": "https://i.ebayimg.com/images/g/xMIAAeSwj0lqo~GD/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-15 13:24:04",
-      "seller_id": "mediamarkttalavera",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Impresora multifunción tinta - Epson EcoTank ET-2956, ET-2950 series, Inyección",
-      "precio": 267.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/377490423770?itmmeta=01M2JKT8X2DSRXM7Y405RP4VC1&hash=item57e42ebfda:g:FaQAAeSwvx5qpTir",
-      "imagen_url": "https://i.ebayimg.com/images/g/FaQAAeSwvx5qpTir/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -16319,19 +16410,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Bolas lavado - Scanpart 1940000203, Bolas antipelusas, 6 unidades, 4cm diámetro",
-      "precio": 2.48,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/226763041829?itmmeta=01M1WM48XD7HMVR3G51MMP0C1N&hash=item34cc216c25:g:x3MAAeSwLDFqWmPv",
-      "imagen_url": "https://i.ebayimg.com/images/g/x3MAAeSwLDFqWmPv/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_accesorio-lavadora-scanpart-1940000203-bolas-antipelusas-6-unidades-blanco-1568383.html",
-      "fecha_visto_primera_vez": "2026-09-07 00:29:07",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Antiolor Frigorífico - CMP Paris Cmpkb5657 Set 2 Bolas Antiolor Frigo,color azul",
       "precio": 1.18,
       "moneda": "EUR",
@@ -16371,37 +16449,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "TV OLED 42\" - LG OLED42C55LA, OLED 4K, Procesador Inteligente α9 AI Proces",
-      "precio": 699.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/227499321163?itmmeta=01M1WM48XA9ABVF04AFYD6TER6&hash=item34f804274b:g:lLwAAeSwD~1qlX4Q",
-      "imagen_url": "https://i.ebayimg.com/images/g/lLwAAeSwD~1qlX4Q/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/search.html?query=TV+OLED+42\"+-+LG+OLED42C55LA,+OLED+4K,+Procesador+Inteligente+α9+AI+Proces",
-      "fecha_visto_primera_vez": "2026-09-07 00:27:12",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "TV OLED 55\" - LG OLED55B56LA, OLED 4K, Procesador Inteligente α8 AI Process",
-      "precio": 699.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/227499325540?itmmeta=01M1WM48XA172TCSCK1CEDAA0B&hash=item34f8043864:g:rhUAAeSw1PxqlX7s",
-      "imagen_url": "https://i.ebayimg.com/images/g/rhUAAeSw1PxqlX7s/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/search.html?query=TV+OLED+55\"+-+LG+OLED55B56LA,+OLED+4K,+Procesador+Inteligente+α8+AI+Process",
-      "fecha_visto_primera_vez": "2026-09-07 00:26:43",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "TV OLED 48\" - LG OLED48B56LA, OLED 4K, Procesador Inteligente α8 AI Process",
       "precio": 649.9,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/227499328821?itmmeta=01M1WM48XA6GFZ16261ARN891G&hash=item34f8044535:g:d1AAAeSwF5BqlYAb",
-      "imagen_url": "https://i.ebayimg.com/images/g/d1AAAeSwF5BqlYAb/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/190AAeSw9rpqtV3z/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/search.html?query=TV+OLED+48\"+-+LG+OLED48B56LA,+OLED+4K,+Procesador+Inteligente+α8+AI+Process",
@@ -18503,19 +18555,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Portátil - ASUS E410MA-EK1945, 14\" Full HD, Intel® Celeron Sin sistema operativo",
-      "precio": 150.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/397725924859?itmmeta=01M1G5B5V4H92W0P0KDJ0CCCRM&hash=item5c9a4ffdfb:g:elMAAeSwL4ppuU5p",
-      "imagen_url": "https://i.ebayimg.com/images/g/elMAAeSwL4ppuU5p/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-b-portatil-asus-e410ma-ek1284-14-full-hd-intelr-celeronr-n4020-4gb-ram-256gb-ssd-uhd-graphics-600-sin-sistema-operativo-1564691.html",
-      "fecha_visto_primera_vez": "2026-09-02 04:16:59",
-      "seller_id": "mediamarktburgos",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Depiladora IPL - Braun Luz Pulsada Silk·expert Pro 3 PL3122,",
       "precio": 180.0,
       "moneda": "EUR",
@@ -18614,7 +18653,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/N5kAAeSwmehpijYw/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_depiladora-ipl-philips-lumea-s8000-bri94500-luz-pulsada-12-meses-sin-vello-2-cabezales-cara-y-cuerpo-450000-pulsos-sensor-piel-smarskin-1563976.html",
       "fecha_visto_primera_vez": "2026-09-02 04:16:59",
       "seller_id": "mediamarktburgos",
       "nombre_mostrado": null
@@ -18900,7 +18939,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/2HUAAeSwE51phOXn/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_manos-libres-hama-00184184-155184076.html",
       "fecha_visto_primera_vez": "2026-09-02 04:16:59",
       "seller_id": "mediamarktburgos",
       "nombre_mostrado": null
@@ -18939,7 +18978,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/YBsAAeSw47Fpyofd/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_purificador-de-aire-cecotec-totalpure-7500-connected-60-w-200-m³-4-velocidades-led-wi-fi-blanco-1483033.html",
       "fecha_visto_primera_vez": "2026-09-02 04:16:59",
       "seller_id": "mediamarktburgos",
       "nombre_mostrado": null
@@ -21272,19 +21311,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Xbox Series X|One Call of Duty®: Modern Warfare III - C.O.D.E.",
-      "precio": 15.88,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/226894929122?itmmeta=01M18DP93H52YSR1FGQHH1HWAV&hash=item34d3fddce2:g:uMYAAeSww45qkcIo",
-      "imagen_url": "https://i.ebayimg.com/images/g/uMYAAeSww45qkcIo/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_xbox-series-xors-call-of-dutyr-modern-warfarer-iii-ed-vault-codigo-de-descarga-1602077.html",
-      "fecha_visto_primera_vez": "2026-08-30 04:10:18",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "TV OLED 55\" - Samsung TQ55S90FAEXXC, OLED 4K, NQ4 AI Gen3 Processor",
       "precio": 849.0,
       "moneda": "EUR",
@@ -22559,24 +22585,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Cafetera superautomática - De'Longhi Magnifica Start Milk, ECAM220.80.SB",
-      "precio": 299.89,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/227342255873?itmmeta=01M1690VRT9AZK5JYBFZKCMD3Y&hash=item34eea78701:g:LaoAAeSwlyZqkc22",
-      "imagen_url": "https://i.ebayimg.com/images/g/LaoAAeSwlyZqkc22/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-29 08:08:51",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Pilas AA recargables - Duracell AA, 4 unidades, 2500 mAh LR06 / LR6, Negro",
-      "precio": 9.89,
+      "precio": 9.49,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/227396020294?itmmeta=01M1690VRT6VAF4CYNDNH3BD4Y&hash=item34f1dbe846:g:2XwAAeSw10tqNXgt",
-      "imagen_url": "https://i.ebayimg.com/images/g/2XwAAeSw10tqNXgt/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/fHgAAeSwEjRqrTxk/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -22589,7 +22602,7 @@
       "precio": 299.9,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/227425218146?itmmeta=01M1690VRTTFF1ADQ5V5D1EETF&hash=item34f3996e62:g:dY0AAeSwtWFqY0ad",
-      "imagen_url": "https://i.ebayimg.com/images/g/dY0AAeSwtWFqY0ad/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/9-sAAeSwncFqs-2n/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -22664,10 +22677,10 @@
     },
     {
       "titulo": "Accesorio PS5 - Sony Ardistel Soporte vertical para consolas PS5, Negro",
-      "precio": 16.49,
+      "precio": 9.9,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/227238875092?itmmeta=01M1690VRVS777QBZPX65PD577&hash=item34e87e0fd4:g:ZZ8AAeSw7EhqWlqb",
-      "imagen_url": "https://i.ebayimg.com/images/g/ZZ8AAeSw7EhqWlqb/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/TJkAAeSwDG9qrT3x/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -22702,24 +22715,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Cargador móvil - VIVO 44W Flash Charger, USB, Protección de carga, Carga rápida",
-      "precio": 9.77,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/227119555215?itmmeta=01M1690VRVFZ74E63P4149S0KS&hash=item34e161628f:g:M30AAeSwTclqkbAU",
-      "imagen_url": "https://i.ebayimg.com/images/g/M30AAeSwTclqkbAU/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-29 08:08:51",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Papel fotográfico - Polaroid, Compatible con impresora fotográfica de bolsillo",
-      "precio": 8.9,
+      "precio": 7.9,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/227326392094?itmmeta=01M1690VRVVFG0GNK10SHZ6QQG&hash=item34edb5771e:g:vAAAAeSw~LpqWlhc",
-      "imagen_url": "https://i.ebayimg.com/images/g/vAAAAeSw~LpqWlhc/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/AVMAAeSwf8pqrT0Q/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -22729,13 +22729,13 @@
     },
     {
       "titulo": "Móvil - Samsung Galaxy S25, Navy, 256 GB, 12 GB RAM, 6.2\" FHD+ con IA",
-      "precio": 599.9,
+      "precio": 561.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/227199651589?itmmeta=01M1690VRVZWT1H5A5MPG14JBE&hash=item34e6278f05:g:W4EAAeSwcXdqWlm4",
-      "imagen_url": "https://i.ebayimg.com/images/g/W4EAAeSwcXdqWlm4/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/EpIAAeSwCxdqrT3H/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-samsung-galaxy-s25-navy-128-gb-12-gb-ram-62-fhd-con-ia-snapdragon-8-4000-mah-android-15-1592037.html",
       "fecha_visto_primera_vez": "2026-08-29 08:08:51",
       "seller_id": "mediamarktciudadreal",
       "nombre_mostrado": null
@@ -22746,19 +22746,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/226930589811?itmmeta=01M1690VRV924MSM8P6D30T7EY&hash=item34d61e0073:g:3GwAAeSw0olqNswn",
       "imagen_url": "https://i.ebayimg.com/images/g/xgIAAeSwJm1qkxe1/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-29 08:08:51",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "TV Neo QLED 55\" - Samsung TQ55QN88DBTXXC, UHD 4K Mini LED",
-      "precio": 519.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/227204323677?itmmeta=01M1690VRV3PM41X3VA94RJWW9&hash=item34e66ed95d:g:gR4AAeSw2RNqNtSA",
-      "imagen_url": "https://i.ebayimg.com/images/g/XxUAAeSwbp5qlYEb/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -22793,50 +22780,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Base de carga - ISY IC-5009, Para Nintendo Switch, Joy-Con, Pro-Controller",
-      "precio": 6.49,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/227123894225?itmmeta=01M1690VRWH6KXXH6Y669917R2&hash=item34e1a397d1:g:GBUAAeSw02Jqkcdn",
-      "imagen_url": "https://i.ebayimg.com/images/g/GBUAAeSw02Jqkcdn/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-29 08:08:51",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Kit accesorios - Ardistel Smart Pack, Para NintendoSwitch, Protector de pantalla",
-      "precio": 4.29,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/226487206975?itmmeta=01M1690VRW87YH927RTPCR89JY&hash=item34bbb0843f:g:LOYAAeSwIR1qkcPe",
-      "imagen_url": "https://i.ebayimg.com/images/g/LOYAAeSwIR1qkcPe/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-29 08:08:51",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Radio portátil - NK Majestic RT20, AM/FM, Sintonización Analógica",
-      "precio": 9.88,
+      "precio": 9.87,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/227183315606?itmmeta=01M1690VRWVQAHSR1N0XHYF1V0&hash=item34e52e4a96:g:3GkAAeSwNKlqWmBo",
-      "imagen_url": "https://i.ebayimg.com/images/g/3GkAAeSwNKlqWmBo/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-29 08:08:51",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Pack Tupper - Tefal Clip&Close K3029012, 5 recipientes , 0.15 L-3.7 L,  Plástico",
-      "precio": 9.89,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/227102872390?itmmeta=01M1690VRWQV17NF3BZ2P9SXHE&hash=item34e062d346:g:Dt4AAeSwRZlqFZsJ",
-      "imagen_url": "https://i.ebayimg.com/images/g/Dt4AAeSwRZlqFZsJ/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/1AQAAeSwgQNqrUGz/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -22850,19 +22798,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/227016053065?itmmeta=01M1690VRWBYHF9B9WWMBSDA95&hash=item34db361149:g:ksEAAeSwVf1qkccc",
       "imagen_url": "https://i.ebayimg.com/images/g/ksEAAeSwVf1qkccc/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-29 08:08:51",
-      "seller_id": "mediamarktciudadreal",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Aspirador escoba - Dyson v11™, Potencia succión 185 AW, Autonomía 60 min",
-      "precio": 399.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/227114587416?itmmeta=01M1690VRWMV3FWEWDZ5B58J9X&hash=item34e1159518:g:UzQAAeSwA95pC3nH",
-      "imagen_url": "https://i.ebayimg.com/images/g/UzQAAeSwA95pC3nH/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -52845,32 +52780,6 @@
       ]
     },
     {
-      "clave": "funda móvil - isy isc-2358, para samsung galaxy s25 ultra, silicona, negro",
-      "criterio": "titulo",
-      "titulo": "Funda móvil - ISY ISC-2358, Para Samsung Galaxy S25 Ultra, Silicona, Negro",
-      "imagen_url": "https://i.ebayimg.com/images/g/80oAAeSw1Llqkcae/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktciudadreal",
-          "precio": 5.48,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/227185963416?itmmeta=01M2P6FHDT0X7YH83P0XDJDW9F&hash=item34e556b198:g:80oAAeSw1Llqkcae"
-        },
-        {
-          "tienda": "mediamarkttarragona",
-          "precio": 6.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/397176799513?itmmeta=01M3FY4V3Y55C29WKDMRETV7ZY&hash=item5c79950119:g:St4AAeSwTJBqtRQW"
-        },
-        {
-          "tienda": "mediamarktmassalfassar",
-          "precio": 7.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/397884854667?itmmeta=01M0K1T0BA4K95XVMDDAYG9YD8&hash=item5ca3c9118b:g:qT0AAeSwVNVp716O"
-        }
-      ]
-    },
-    {
       "clave": "apple funda transparente para iphone 16 con magsafe",
       "criterio": "titulo",
       "titulo": "Apple Funda transparente para iPhone 16 con MagSafe",
@@ -52949,32 +52858,6 @@
       ]
     },
     {
-      "clave": "pack tupper - tefal clip&close k3029012, 5 recipientes , 0.15 l-3.7 l,  plástico",
-      "criterio": "titulo",
-      "titulo": "Pack Tupper - Tefal Clip&Close K3029012, 5 recipientes , 0.15 L-3.7 L,  Plástico",
-      "imagen_url": "https://i.ebayimg.com/images/g/Dt4AAeSwRZlqFZsJ/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktciudadreal",
-          "precio": 9.89,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/227102872390?itmmeta=01M1690VRWQV17NF3BZ2P9SXHE&hash=item34e062d346:g:Dt4AAeSwRZlqFZsJ"
-        },
-        {
-          "tienda": "mediamarktgetafe",
-          "precio": 10.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/226995845102?itmmeta=01M38RW8N3ZPZHHG0N6GABD019&hash=item34da01b7ee:g:tHsAAeSw371qVK~Z"
-        },
-        {
-          "tienda": "mediamarkttalavera",
-          "precio": 24.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/377490424567?itmmeta=01M2JKT8WYA3YC0EYB2XDM0ZDJ&hash=item57e42ec2f7:g:DuwAAeSwKexqpTjh"
-        }
-      ]
-    },
-    {
       "clave": "nintendo switch super street: racer (con volante) (código de descarga)",
       "criterio": "titulo",
       "titulo": "Nintendo Switch Super Street: Racer (con volante) (Código de descarga)",
@@ -53049,32 +52932,6 @@
           "precio": 39.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/318739230898?itmmeta=01M1HEK1JQGFGCGTCG8XNXN4HZ&hash=item4a3656b0b2:i:318739230898"
-        }
-      ]
-    },
-    {
-      "clave": "funda ebook - silver ht, ebook 6\", universal, wave, negro",
-      "criterio": "titulo",
-      "titulo": "Funda eBook - SILVER HT, eBook 6\", Universal, Wave, Negro",
-      "imagen_url": "https://i.ebayimg.com/images/g/1x8AAeSwhq5qkcU5/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktciudadreal",
-          "precio": 7.39,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/227117961422?itmmeta=01M2P6FHDS0AHR345DG5NA5N2A&hash=item34e14910ce:g:1x8AAeSwhq5qkcU5"
-        },
-        {
-          "tienda": "mediamarktlosbarrios",
-          "precio": 7.59,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/128075554062?itmmeta=01M2D1Q62VVYVRFFVAQYXNENNQ&hash=item1dd1e5dd0e:g:MGsAAeSwKexqpTuP"
-        },
-        {
-          "tienda": "mediamarktlorca",
-          "precio": 12.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/318890870580?itmmeta=01M3504QQM6RZTQ7MCSS4ES77Z&hash=item4a3f608734:g:Ih8AAeSw7LZqroup"
         }
       ]
     },
@@ -55725,26 +55582,6 @@
       ]
     },
     {
-      "clave": "impresora multifunción tinta - epson ecotank et-2956, et-2950 series, inyección",
-      "criterio": "titulo",
-      "titulo": "Impresora multifunción tinta - Epson EcoTank ET-2956, ET-2950 series, Inyección",
-      "imagen_url": "https://i.ebayimg.com/images/g/FaQAAeSwvx5qpTir/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktcordoba",
-          "precio": 251.1,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/398278256131?itmmeta=01M0A7JDYW40Q7X7XEFNKCNKF6&hash=item5cbb3be603:g:gTgAAeSws4lqfK0~"
-        },
-        {
-          "tienda": "mediamarkttalavera",
-          "precio": 267.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/377490423770?itmmeta=01M2JKT8X2DSRXM7Y405RP4VC1&hash=item57e42ebfda:g:FaQAAeSwvx5qpTir"
-        }
-      ]
-    },
-    {
       "clave": "cafetera de cápsulas - de'longhi nespresso® lattissima one en510.w, 1450w, 19 ba",
       "criterio": "titulo",
       "titulo": "Cafetera de cápsulas - De'Longhi Nespresso® Lattissima One EN510.W, 1450W, 19 ba",
@@ -56048,19 +55885,19 @@
       "clave": "móvil - samsung galaxy s25, navy, 256 gb, 12 gb ram, 6.2\" fhd+ con ia",
       "criterio": "titulo",
       "titulo": "Móvil - Samsung Galaxy S25, Navy, 256 GB, 12 GB RAM, 6.2\" FHD+ con IA",
-      "imagen_url": "https://i.ebayimg.com/images/g/NY0AAeSwBDhqrAq9/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/EpIAAeSwCxdqrT3H/s-l300.webp",
       "ofertas": [
+        {
+          "tienda": "mediamarktciudadreal",
+          "precio": 561.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/227199651589?itmmeta=01M1690VRVZWT1H5A5MPG14JBE&hash=item34e6278f05:g:W4EAAeSwcXdqWlm4"
+        },
         {
           "tienda": "mediamarktfinestrat",
           "precio": 599.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/158045028859?itmmeta=01M0A7N88M7VG53WDDX2WH1ZBT&hash=item24cc37c1fb:g:0mYAAeSwhnRqTOas"
-        },
-        {
-          "tienda": "mediamarktciudadreal",
-          "precio": 599.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/227199651589?itmmeta=01M1690VRVZWT1H5A5MPG14JBE&hash=item34e6278f05:g:W4EAAeSwcXdqWlm4"
         }
       ]
     },
@@ -56525,6 +56362,26 @@
       ]
     },
     {
+      "clave": "funda móvil - isy isc-2358, para samsung galaxy s25 ultra, silicona, negro",
+      "criterio": "titulo",
+      "titulo": "Funda móvil - ISY ISC-2358, Para Samsung Galaxy S25 Ultra, Silicona, Negro",
+      "imagen_url": "https://i.ebayimg.com/images/g/St4AAeSwTJBqtRQW/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarkttarragona",
+          "precio": 6.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/397176799513?itmmeta=01M3FY4V3Y55C29WKDMRETV7ZY&hash=item5c79950119:g:St4AAeSwTJBqtRQW"
+        },
+        {
+          "tienda": "mediamarktmassalfassar",
+          "precio": 7.9,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/397884854667?itmmeta=01M0K1T0BA4K95XVMDDAYG9YD8&hash=item5ca3c9118b:g:qT0AAeSwVNVp716O"
+        }
+      ]
+    },
+    {
       "clave": "apple funda de silicona con magsafe para el iphone 15, negro",
       "criterio": "titulo",
       "titulo": "Apple Funda de Silicona con MagSafe para el iPhone 15, Negro",
@@ -56805,34 +56662,14 @@
       ]
     },
     {
-      "clave": "cargador móvil - vivo 44w flash charger, usb, protección de carga, carga rápida",
-      "criterio": "titulo",
-      "titulo": "Cargador móvil - VIVO 44W Flash Charger, USB, Protección de carga, Carga rápida",
-      "imagen_url": "https://i.ebayimg.com/images/g/M30AAeSwTclqkbAU/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktciudadreal",
-          "precio": 9.77,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/227119555215?itmmeta=01M1690VRVFZ74E63P4149S0KS&hash=item34e161628f:g:M30AAeSwTclqkbAU"
-        },
-        {
-          "tienda": "mediamarkttorrejon",
-          "precio": 15.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/287266285751?itmmeta=01M2WDNY2B4Z2892RG5GWR0T7F&hash=item42e267a8b7:g:N-0AAeSwe5tp2mPj"
-        }
-      ]
-    },
-    {
       "clave": "papel fotográfico - polaroid, compatible con impresora fotográfica de bolsillo",
       "criterio": "titulo",
       "titulo": "Papel fotográfico - Polaroid, Compatible con impresora fotográfica de bolsillo",
-      "imagen_url": "https://i.ebayimg.com/images/g/vAAAAeSw~LpqWlhc/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/AVMAAeSwf8pqrT0Q/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktciudadreal",
-          "precio": 8.9,
+          "precio": 7.9,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/227326392094?itmmeta=01M1690VRVVFG0GNK10SHZ6QQG&hash=item34edb5771e:g:vAAAAeSw~LpqWlhc"
         },
@@ -56848,11 +56685,11 @@
       "clave": "radio portátil - nk majestic rt20, am/fm, sintonización analógica",
       "criterio": "titulo",
       "titulo": "Radio portátil - NK Majestic RT20, AM/FM, Sintonización Analógica",
-      "imagen_url": "https://i.ebayimg.com/images/g/3GkAAeSwNKlqWmBo/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/1AQAAeSwgQNqrUGz/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktciudadreal",
-          "precio": 9.88,
+          "precio": 9.87,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/227183315606?itmmeta=01M1690VRWVQAHSR1N0XHYF1V0&hash=item34e52e4a96:g:3GkAAeSwNKlqWmBo"
         },
@@ -57241,6 +57078,46 @@
           "precio": 26.91,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/318861871512?itmmeta=01M2RE86GZHYJ9VSP80HZ5KTW4&hash=item4a3da60998:g:EGIAAeSwpwVqpYlt"
+        }
+      ]
+    },
+    {
+      "clave": "funda ebook - silver ht, ebook 6\", universal, wave, negro",
+      "criterio": "titulo",
+      "titulo": "Funda eBook - SILVER HT, eBook 6\", Universal, Wave, Negro",
+      "imagen_url": "https://i.ebayimg.com/images/g/MGsAAeSwKexqpTuP/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktlosbarrios",
+          "precio": 7.59,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/128075554062?itmmeta=01M2D1Q62VVYVRFFVAQYXNENNQ&hash=item1dd1e5dd0e:g:MGsAAeSwKexqpTuP"
+        },
+        {
+          "tienda": "mediamarktlorca",
+          "precio": 12.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/318890870580?itmmeta=01M3504QQM6RZTQ7MCSS4ES77Z&hash=item4a3f608734:g:Ih8AAeSw7LZqroup"
+        }
+      ]
+    },
+    {
+      "clave": "pack tupper - tefal clip&close k3029012, 5 recipientes , 0.15 l-3.7 l,  plástico",
+      "criterio": "titulo",
+      "titulo": "Pack Tupper - Tefal Clip&Close K3029012, 5 recipientes , 0.15 L-3.7 L,  Plástico",
+      "imagen_url": "https://i.ebayimg.com/images/g/tHsAAeSw371qVK~Z/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktgetafe",
+          "precio": 10.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/226995845102?itmmeta=01M38RW8N3ZPZHHG0N6GABD019&hash=item34da01b7ee:g:tHsAAeSw371qVK~Z"
+        },
+        {
+          "tienda": "mediamarkttalavera",
+          "precio": 24.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/377490424567?itmmeta=01M2JKT8WYA3YC0EYB2XDM0ZDJ&hash=item57e42ec2f7:g:DuwAAeSwKexqpTjh"
         }
       ]
     },
