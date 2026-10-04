@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-10-04T13:55:01.800692+00:00",
+  "actualizado": "2026-10-04T19:25:14.058661+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3921,
+  "total_articulos": 3914,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -26,7 +26,7 @@
     {
       "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null,
-      "num_articulos": 93
+      "num_articulos": 90
     },
     {
       "seller_id": "mediamarktnuevacondomina",
@@ -279,6 +279,11 @@
       "num_articulos": 37
     },
     {
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null,
+      "num_articulos": 36
+    },
+    {
       "seller_id": "mediamarkttorrejon",
       "nombre_mostrado": null,
       "num_articulos": 36
@@ -287,11 +292,6 @@
       "seller_id": "mediamarktplacacatalunya",
       "nombre_mostrado": null,
       "num_articulos": 35
-    },
-    {
-      "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null,
-      "num_articulos": 33
     },
     {
       "seller_id": "mediamarktlosbarrios",
@@ -304,11 +304,6 @@
       "num_articulos": 31
     },
     {
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null,
-      "num_articulos": 30
-    },
-    {
       "seller_id": "mediamarkttalavera",
       "nombre_mostrado": null,
       "num_articulos": 30
@@ -317,6 +312,11 @@
       "seller_id": "mediamarktvigomeixoeiro",
       "nombre_mostrado": null,
       "num_articulos": 27
+    },
+    {
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null,
+      "num_articulos": 23
     },
     {
       "seller_id": "mediamarktfrancescmacia",
@@ -511,6 +511,71 @@
   ],
   "articulos_recientes": [
     {
+      "titulo": "exposicion Campana convencional - Teka 40465531 C 6420 W, 3 Velocidades,",
+      "precio": 79.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800686255697?itmmeta=01M445VS256NJC2SA0NTNRS5VE&hash=itemba6c9eae51:g:KIgAAeSwkIlqwj4S",
+      "imagen_url": "https://i.ebayimg.com/images/g/KIgAAeSwkIlqwj4S/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_campana-teka-40465531-c-6420-w-convencional-blanco-60cm-ancho-375-m³-h-3-velocidades-1342928.html",
+      "fecha_visto_primera_vez": "2026-10-04 19:23:49",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Campana telescópica - Balay 3BT262MB, 300m³/h, 3 potencias, 60 cm, Blanco",
+      "precio": 69.94,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800756739009?itmmeta=01M445VPE7BPKCYZS32APGKZ10&hash=itemba70d22bc1:g:~d8AAeSw~C5qwl5d",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_campana-balay-3bt262mx-extraíble-300m³-h-3-potencias-60-cm-inox-1365997.html",
+      "fecha_visto_primera_vez": "2026-10-04 19:22:55",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Campana telescópica - Cata TFH 6430 GBH, Telescópica,",
+      "precio": 84.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800756746573?itmmeta=01M445VPE7YA84GPW4Y6106AZG&hash=itemba70d2494d:g:lcMAAeSwpb1qwl6l",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_campana-extraible-cata-tfh-6430-gbh-telescopica-4-niveles-de-potencia-3204-mh-598-cm-led-blanco-1577029.html",
+      "fecha_visto_primera_vez": "2026-10-04 19:22:41",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Campana grupo filtrante - Cata CORONA X 80, 3 Velocidades",
+      "precio": 299.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800756760595?itmmeta=01M445VPE7GMPNS9W8M6TASNHR&hash=itemba70d28013:g:9lIAAeSw5Alqwl9i",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_campana-de-grupo-filtrante-corona-x-80-b-cata-4-velocidades-inox-134380633.html",
+      "fecha_visto_primera_vez": "2026-10-04 19:22:27",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "PC gaming - Lenovo LOQ Tower 26ADR10,  AMD Ryzen™ 7 8745HX, 16GB RAM, 512GB SSD,",
+      "precio": 1214.1,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137809452105?itmmeta=01M445PT1DWG3G9CFGEW71BJW0&hash=item2016155c49:g:VzIAAeSwoWtqwWVl",
+      "imagen_url": "https://i.ebayimg.com/images/g/VzIAAeSwoWtqwWVl/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pc-gaming-lenovo-loq-tower-26adr10-amd-ryzentm-7-8745hx-16gb-ram-512gb-ssd-geforce-rtxtm-5060-ti-windows-11-home-negro-1667328.html",
+      "fecha_visto_primera_vez": "2026-10-04 19:20:22",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
       "titulo": "Campana convencional - Teka C 6420, 3 Velocidades,",
       "precio": 79.99,
       "moneda": "EUR",
@@ -521,58 +586,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_campana-teka-c-6420-integrable-60-cm-de-ancho-375-m3-h-inox-1342436.html",
       "fecha_visto_primera_vez": "2026-10-04 13:53:04",
       "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Reloj despertador inteligente - Amazon Echo Spot (modelo 2024), Sonido de calida",
-      "precio": 107.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137809448713?itmmeta=01M43JSMGG13MDMHE4SS5JDTD7&hash=item2016154f09:g:ZcAAAeSwm-xqwWSV",
-      "imagen_url": "https://i.ebayimg.com/images/g/ZcAAAeSwm-xqwWSV/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reloj-despertador-inteligente-amazon-echo-spot-modelo-2024-sonido-de-calidad-y-alexa-negro-1578352.html",
-      "fecha_visto_primera_vez": "2026-10-04 13:50:59",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Trípode - Hama Star 63, Cabezal de inclinación 3D, Placa de liberación rápida",
-      "precio": 34.19,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137809425553?itmmeta=01M43JSMGEBXCAQDNFCH0JHP41&hash=item201614f491:g:aYEAAeSw5ahqwWFR",
-      "imagen_url": "https://i.ebayimg.com/images/g/aYEAAeSw5ahqwWFR/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_trípode-hama-star-63-2250074.html",
-      "fecha_visto_primera_vez": "2026-10-04 13:50:46",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Portátil - Lenovo IdeaPad Slim 3 15Q8X10 Copilot+ PC, 15.3\" WUXGA, Snapdragon® X",
-      "precio": 602.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137809473668?itmmeta=01M43JSMGCV3N2VRSMYPSBQZ6C&hash=item201615b084:g:iloAAeSwPV5qwWex",
-      "imagen_url": "https://i.ebayimg.com/images/g/iloAAeSwPV5qwWex/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-lenovo-ideapad-slim-3-15q8x10-copilot-pc-153-wuxga-snapdragonr-x-x1-26-100-16gb-ram-512gb-ssd-w11h-no-incluye-cargador-1623672.html",
-      "fecha_visto_primera_vez": "2026-10-04 13:50:31",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Altavoz bluetooth - JBL Flip 6, 30 W, Autonomía 12 h, IP67, PartyBoost, Negro",
-      "precio": 89.01,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137809378959?itmmeta=01M43JSJ3JG12EGXRT3SEQHKZZ&hash=item2016143e8f:g:ZdsAAeSwxk5qwV6m",
-      "imagen_url": "https://i.ebayimg.com/images/g/ZdsAAeSwxk5qwV6m/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-bluetooth-jbl-flip-6-30-w-autonomia-12-h-ip67-partyboost-negro-1666918.html",
-      "fecha_visto_primera_vez": "2026-10-04 13:50:17",
-      "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
     {
@@ -637,19 +650,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tv-led-32-samsung-tu32h5005fkxxc-full-hd-hyper-real-smart-tv-negro-1623979.html",
       "fecha_visto_primera_vez": "2026-10-04 05:01:22",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "eBook - Kobo Libra Colour, 7\" E Ink Kaleido 3, 32 GB, FastGLR, IPX8, Pantalla co",
-      "precio": 242.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137809470826?itmmeta=01M42MFZG75E9582VZJ0GP0M8V&hash=item201615a56a:g:OHEAAeSw2LhqwWck",
-      "imagen_url": "https://i.ebayimg.com/images/g/OHEAAeSw2LhqwWck/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_ebook-kobo-libra-colour-7-e-ink-kaleido-3-32-gb-fastglr-ipx8-pantalla-color-negro-1571225.html",
-      "fecha_visto_primera_vez": "2026-10-04 05:01:07",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -797,32 +797,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Samsung Galaxy Z Flip8, Rosa, 256 GB, 12 GB RAM, 6.9\" Dynamic AMOLED 2X , Exynos",
-      "precio": 966.6,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137809496589?itmmeta=01M41Z346TYZM43ANKQJET8NPP&hash=item2016160a0d:g:jDgAAeSw60pqwWrR",
-      "imagen_url": "https://i.ebayimg.com/images/g/jDgAAeSw60pqwWrR/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-samsung-galaxy-z-flip8-rosa-256-gb-12-gb-ram-69-dynamic-amoled-2x-exynos-2600-4300-mah-android-17-1669929.html",
-      "fecha_visto_primera_vez": "2026-10-03 22:47:08",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Barra de sonido - LG S95AR, Bluetooth, Inalámbrico, 810 W, Google Assistant, Ama",
-      "precio": 1160.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137809405757?itmmeta=01M41Z346S54DYXMQQ5YC6ABE8&hash=item201614a73d:g:Z1AAAeSwxCtqwWBn",
-      "imagen_url": "https://i.ebayimg.com/images/g/Z1AAAeSwxCtqwWBn/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_barra-de-sonido-lg-s95ar-bluetooth-inalambrico-810-w-google-assistant-amazon-alexa-dolby-atmos-ia-ready-negro-1667273.html",
-      "fecha_visto_primera_vez": "2026-10-03 22:46:41",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Auriculares conducción ósea - Shokz Openmove, Banda para el cuello, Bluetooth, 6",
       "precio": 62.01,
       "moneda": "EUR",
@@ -871,19 +845,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-samsung-galaxy-z-fold8-grafito-256-gb-12-gb-ram-76-dynamic-amoled-2x-qualcomm-snapdragon-8-elite-gen-5-4800-mah-android-17-1669935.html",
       "fecha_visto_primera_vez": "2026-10-03 22:45:40",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Aspirador escoba - Rowenta RH2039WO X-Force Flex 9.60 Allergy, 200 W, 0.4 L, 45",
-      "precio": 149.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137808986079?itmmeta=01M41JHF4DN9G7R48R619STKA5&hash=item20160e3fdf:g:H1QAAeSwxXVqwTZG",
-      "imagen_url": "https://i.ebayimg.com/images/g/H1QAAeSwxXVqwTZG/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aspirador-escoba-rowenta-rh2039wo-x-force-flex-960-allergy-200-w-04-l-45-min-tecnol-ciclonica-3-modos-multisuperficie-tubo-flex-purpura-1550007.html",
-      "fecha_visto_primera_vez": "2026-10-03 19:08:25",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -1538,19 +1499,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Sistema WiFi Mesh - Mercusys Halo H80X, 3000 Mbps, MU-MIMO, WiF",
-      "precio": 85.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178545463232?itmmeta=01M3WM0415Q82S83QC7ZJ593ZD&hash=item2992238fc0:g:a6EAAeSwCCpqvn1l",
-      "imagen_url": "https://i.ebayimg.com/images/g/a6EAAeSwCCpqvn1l/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_sistema-wifi-mesh-mercusys-halo-h80x-3000-mbps-mu-mimo-wifi-6-hasta-460m-150-dispositivos-blanco-1572466.html",
-      "fecha_visto_primera_vez": "2026-10-01 21:13:11",
-      "seller_id": "mediamarktalmeria",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "TV LED 27\" - LG StanbyMe 27LX6TDGA, QHD, Procesador Inteligente ?8 con IA",
       "precio": 999.0,
       "moneda": "EUR",
@@ -1586,19 +1534,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_accesorio-aspirador-scanpart-1190000105-cepillo-para-parqué-y-gres-universal-35-mm-de-diámetro-negro-1314989.html",
       "fecha_visto_primera_vez": "2026-10-01 21:12:25",
-      "seller_id": "mediamarktalmeria",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Auriculares inalámbricos - Marshall ?Monitor II A.N.C., Bluetooth, Cancelación",
-      "precio": 179.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178545468330?itmmeta=01M3WM04150VR4FZH9K2A7K9ZR&hash=item299223a3aa:g:Q-cAAeSwlzdqvn4J",
-      "imagen_url": "https://i.ebayimg.com/images/g/Q-cAAeSwlzdqvn4J/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-b-auriculares-inalambricos-marshall-monitor-ii-anc-bluetooth-cancelacion-de-ruido-anc-negro-1563642.html",
-      "fecha_visto_primera_vez": "2026-10-01 21:12:10",
       "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null
     },
@@ -1993,19 +1928,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Robot aspirador - Xiaomi Vacuum S20, 45W, WiFi, Navegación láser,",
-      "precio": 150.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178545468422?itmmeta=01M3WM01DNZQYS6M9ZVHYBEBQE&hash=item299223a406:g:bL4AAeSwrHJqvn5O",
-      "imagen_url": "https://i.ebayimg.com/images/g/bL4AAeSwrHJqvn5O/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-robot-aspirador-xiaomi-vacuum-s40-70w-180-min-navegacion-laser-lds-control-por-app-blanco-1609297.html",
-      "fecha_visto_primera_vez": "2026-10-01 20:59:58",
-      "seller_id": "mediamarktalmeria",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "TV LED 24\" - PEAQ PTV 24GH-5025C, HD Ready, Google SOLO LLEVA CARGADOR MECHERO",
       "precio": 85.0,
       "moneda": "EUR",
@@ -2218,7 +2140,7 @@
       "precio": 9.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/800739230348?itmmeta=01M3T0XWDFY1RNZ39KJC8SA69R&hash=itemba6fc7028c:g:oZgAAeSwmGtqvUNK",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/oZgAAeSwmGtqvUNK/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-wrc-generations-1545152.html",
@@ -2231,7 +2153,7 @@
       "precio": 45.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/800739233187?itmmeta=01M3T0XWDF8WS4E8PKCHFNM288&hash=itemba6fc70da3:g:MiYAAeSwVyVqvUNY",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/MiYAAeSwVyVqvUNY/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_ps5-saros-1616740.html",
@@ -2244,7 +2166,7 @@
       "precio": 49.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/800739260418?itmmeta=01M3T0XWDFB9RDR873CK6RM2EW&hash=itemba6fc77802:g:5NMAAeSwWLdqvURg",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/5NMAAeSwWLdqvURg/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-xenoblade-chronicles-x-definitive-edition-1621296.html",
@@ -10270,19 +10192,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_motorola-edge-60-fusion-8256-gris-movil-android-256-gb-8-gb-ram-667-poled-nucleos-del-procesador-8-core-descripcion-del-procesador-mediatek-dimensity-7300-5200-mah-170213234.html",
       "fecha_visto_primera_vez": "2026-09-21 20:22:24",
-      "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Auriculares True Wireless - JBL Wave Beam 2, 40 h Autonomía, IP54",
-      "precio": 54.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800695639773?itmmeta=01M32T36TREPRZWGBC77HVXCJ1&hash=itemba6d2ddedd:g:~CwAAeSwx9pqsWR3",
-      "imagen_url": "https://i.ebayimg.com/images/g/~CwAAeSwx9pqsWR3/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-true-wireless-jbl-wave-beam-2-40-h-autonomia-ip54-cancelacion-de-ruido-ergonomico-rosa-1589658.html",
-      "fecha_visto_primera_vez": "2026-09-21 20:21:55",
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null
     },
@@ -57257,7 +57166,7 @@
       "clave": "nintendo switch wrc generations (código en la caja)",
       "criterio": "titulo",
       "titulo": "Nintendo Switch WRC Generations (Código en la caja)",
-      "imagen_url": "https://i.ebayimg.com/images/g/V9MAAeSw~DhqSh-N/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/oZgAAeSwmGtqvUNK/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktbadajoz",
