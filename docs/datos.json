@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-10-06T01:29:58.621719+00:00",
+  "actualizado": "2026-10-06T11:12:43.152318+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3921,
+  "total_articulos": 3908,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -26,7 +26,7 @@
     {
       "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null,
-      "num_articulos": 85
+      "num_articulos": 84
     },
     {
       "seller_id": "mediamarktnuevacondomina",
@@ -37,11 +37,6 @@
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null,
       "num_articulos": 64
-    },
-    {
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null,
-      "num_articulos": 57
     },
     {
       "seller_id": "mediamarktcartagena",
@@ -107,6 +102,11 @@
       "seller_id": "mediamarktsevillasantajusta",
       "nombre_mostrado": null,
       "num_articulos": 47
+    },
+    {
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null,
+      "num_articulos": 46
     },
     {
       "seller_id": "mediamarktroquetas",
@@ -389,14 +389,14 @@
       "num_articulos": 3
     },
     {
-      "seller_id": "mediamarktbadalona",
+      "seller_id": "mediamarktsplau",
       "nombre_mostrado": null,
       "num_articulos": 2
     },
     {
-      "seller_id": "mediamarktsplau",
+      "seller_id": "mediamarktbadalona",
       "nombre_mostrado": null,
-      "num_articulos": 2
+      "num_articulos": 1
     },
     {
       "seller_id": "mediamarktbarakaldo",
@@ -511,16 +511,107 @@
   ],
   "articulos_recientes": [
     {
-      "titulo": "Webcam - HP  HP 320, 1080p, USB-A, Gran angular 66º, Negro",
-      "precio": 34.19,
+      "titulo": "Cargador de pared - OPPO Supervooc 100W Power Adapter Kit, Compatibilidad Univer",
+      "precio": 53.91,
       "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178433608634?itmmeta=01M47D7657G02W6F46419C2252&hash=item298b78cbba:g:BGkAAeSw0BpqitUg",
-      "imagen_url": "https://i.ebayimg.com/images/g/BGkAAeSw0BpqitUg/s-l300.webp",
+      "url": "https://www.ebay.es/itm/137815531765?itmmeta=01M48E91RRHDCHNW7C60YGN88N&hash=item20167220f5:g:py8AAeSwoWtqw~Nb",
+      "imagen_url": "https://i.ebayimg.com/images/g/py8AAeSwoWtqw~Nb/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_webcam-hp-hp-320-1080p-usb-a-gran-angular-66º-negro-1548384.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:29:24",
-      "seller_id": "mediamarktbadalona",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cargador-de-pared-oppo-supervooc-100w-power-adapter-kit-compatibilidad-universal-blanco-1668371.html",
+      "fecha_visto_primera_vez": "2026-10-06 11:08:52",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Microondas con horno –  Samsung MC28A5137CK/E1, 900 W, 6 niveles, 28 l, Por Conv",
+      "precio": 229.5,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137815558702?itmmeta=01M48E91RQS3JJXRD9ZH9XA8GS&hash=item2016728a2e:g:YdwAAeSwGNRqw~Zu",
+      "imagen_url": "https://i.ebayimg.com/images/g/YdwAAeSwGNRqw~Zu/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_microondas-samsung-mc28a5137cke1-900-w-6-niveles-28-l-slim-frytm-negro-1579993.html",
+      "fecha_visto_primera_vez": "2026-10-06 11:08:35",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Soporte TV - Hama 00220843, Pantalla de 94 a 305 cm (37\" a 120\"), VESA 1100 x 60",
+      "precio": 57.51,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137815533905?itmmeta=01M48E91RQ3BT069CE4GG009TN&hash=item2016722951:g:jBkAAeSwQ6Jqw~Pg",
+      "imagen_url": "https://i.ebayimg.com/images/g/jBkAAeSwQ6Jqw~Pg/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_soporte-tv-hama-00220843-pantalla-de-94-a-305-cm-37-a-120-vesa-1100-x-600-fijo-negro-1565966.html",
+      "fecha_visto_primera_vez": "2026-10-06 11:08:20",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Máquina de coser - Alfa Style 30 19 Puntadas, Luz LED, 70 W, Blanco",
+      "precio": 170.1,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137815543602?itmmeta=01M48E91RQ4XWJS7T5K36AVF89&hash=item2016724f32:g:BWcAAeSwgyBqw~UN",
+      "imagen_url": "https://i.ebayimg.com/images/g/BWcAAeSwgyBqw~UN/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_máquina-de-coser-alfa-style-30-19-puntadas-luz-led-70-w-blanco-1296777.html",
+      "fecha_visto_primera_vez": "2026-10-06 11:08:05",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Centro de planchado - Philips PSG6023/20, OptimalTEMP, Sin Quemaduras, ProVeloci",
+      "precio": 175.5,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137815543688?itmmeta=01M48E91RNNEX89H9S7E17ET01&hash=item2016724f88:g:az8AAeSwzZpqw~UV",
+      "imagen_url": "https://i.ebayimg.com/images/g/az8AAeSwzZpqw~UV/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_centro-de-planchado-philips-psg602320-optimaltemp-sin-quemaduras-provelocity-2400-w-65-bar-500-gmin-steamglide-plus-18-l-azul-oscuro-1667748.html",
+      "fecha_visto_primera_vez": "2026-10-06 11:07:49",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Microondas con horno - LG MJ3965BPH, 39 L, Horno 4 en 1, Tecnología Smart Invert",
+      "precio": 259.57,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137815558937?itmmeta=01M48E91RNAN3F559QVQYXH56X&hash=item2016728b19:g:nIwAAeSwOTVqw~Zz",
+      "imagen_url": "https://i.ebayimg.com/images/g/nIwAAeSwOTVqw~Zz/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_microondas-lg-mj3965bph-39-l-horno-4-en-1-tecnología-smart-inverter-1419123.html",
+      "fecha_visto_primera_vez": "2026-10-06 11:07:34",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Centro de planchado - Rowenta Force Pro 300 VR5430, 2400 W, 310 g/min, 6.2 bar,",
+      "precio": 98.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137815544087?itmmeta=01M48E91RMZ0DCE9F8ZY20XVFS&hash=item2016725117:g:KzwAAeSw4Ppqw~Ur",
+      "imagen_url": "https://i.ebayimg.com/images/g/KzwAAeSw4Ppqw~Ur/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_centro-de-planchado-rowenta-force-pro-300-vr5430-2400-w-310-gmin-62-bar-suela-de-durilium-airglide-verde-1624234.html",
+      "fecha_visto_primera_vez": "2026-10-06 11:07:20",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Apple Cargador MagSafe, 2 metros, Compatibilidad Qi, Para todos los iPhone 12, 1",
+      "precio": 53.09,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137815527649?itmmeta=01M48E8ZAHHTGEVM4NQMZXREAH&hash=item20167210e1:g:hAQAAeSwQ6Jqw~Lx",
+      "imagen_url": "https://i.ebayimg.com/images/g/hAQAAeSwQ6Jqw~Lx/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-cargador-magsafe-2-metros-compatibilidad-qi-para-todos-los-iphone-12-13-14-15-16-17-y-air-blanco-1606184.html",
+      "fecha_visto_primera_vez": "2026-10-06 11:07:05",
+      "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
     {
@@ -550,45 +641,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Mini horno - Moulinex OX4648 OPTIMO, 1600 W, Capacidad 33 L,  Hasta 240°C, 6 mod",
-      "precio": 103.5,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815543082?itmmeta=01M47CA3KJAYKJKDJQ3CD7TG2R&hash=item2016724d2a:g:RqUAAeSwEhdqw~Tt",
-      "imagen_url": "https://i.ebayimg.com/images/g/RqUAAeSwEhdqw~Tt/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_mini-horno-moulinex-ox-4648-optimo-potencia-1600w-capacidad-33l-temporizador-1318121.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:25:04",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Olla - Tefal Primary set E308S, 11 piezas, Cazo 16 cm, Cacerolas 18/20/24, Tapas",
-      "precio": 62.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815534979?itmmeta=01M47CA3KGQFKF1EDJY61TG30R&hash=item2016722d83:g:QmgAAeSwgeNqw~P9",
-      "imagen_url": "https://i.ebayimg.com/images/g/QmgAAeSwgeNqw~P9/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_olla-tefal-primary-set-e308s-11-piezas-cazo-16-cm-cacerolas-182024-tapas-de-cristal-espatula-cuchara-cucharon-acero-inoxidable-induccion-1667232.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:24:48",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Centro de planchado - Philips GC7844/20, 2400 W, Golpe de vapor 400 g/min, 6.5 b",
-      "precio": 125.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815543806?itmmeta=01M47CA3KEQR9E8KX92AWXVKNH&hash=item2016724ffe:g:BzEAAeSw8DZqw~Te",
-      "imagen_url": "https://i.ebayimg.com/images/g/BzEAAeSw8DZqw~Te/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_centro-de-planchado-philips-gc7844-20-2400-w-golpe-de-vapor-400-g-min-6-5-bar-suela-de-steamglide-verde-1491865.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:24:33",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Apple Funda transparente Clear Case con MagSafe, Para iPhone 17, Transparente",
       "precio": 45.89,
       "moneda": "EUR",
@@ -598,162 +650,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-funda-transparente-clear-case-con-magsafe-para-iphone-17-pro-max-transparente-1606215.html",
       "fecha_visto_primera_vez": "2026-10-06 01:24:14",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Olla a presión - Taurus Great Moments Superrapid, 6 l, Válvula de salida de vapo",
-      "precio": 82.71,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815535015?itmmeta=01M47CA3KC54AE9BKBE5SYW98R&hash=item2016722da7:g:Lp4AAeSwpvhqw~QA",
-      "imagen_url": "https://i.ebayimg.com/images/g/Lp4AAeSwpvhqw~QA/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_olla-a-presion-taurus-great-moments-superrapid-6-l-valvula-de-salida-de-vapor-regulable-sistema-de-apertura-facil-acero-inoxidable-1668049.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:23:59",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Soporte TV - Vogel's MA5040C1, 43\" - 90\", 600x400mm max, Inclinable 10º, Giro ha",
-      "precio": 77.31,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815534758?itmmeta=01M47CA3KCJVZ9WW4M9J70XD1B&hash=item2016722ca6:g:fjMAAeSwYa5qw~Pq",
-      "imagen_url": "https://i.ebayimg.com/images/g/fjMAAeSwYa5qw~Pq/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_soporte-tv-fijo-8712285324260vogels-32--55-95694397.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:23:43",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Ratón gaming - SteelSeries Aerox 3 Wireless Gen 2, Inalámbrico, 26000 dpi, 4K Fa",
-      "precio": 98.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815509993?itmmeta=01M47CA3KB10NE4W667B55ZFKB&hash=item201671cbe9:g:9vcAAeSwMtRqw~Gq",
-      "imagen_url": "https://i.ebayimg.com/images/g/9vcAAeSwMtRqw~Gq/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_raton-gaming-steelseries-aerox-3-wireless-gen-2-inalambrico-26000-dpi-4k-fast-sensor-truemove-26k-ultraligero-fantasma-1660472.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:23:28",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Plancha de vapor vertical - Rowenta Origin Home IS3280D1, 2000 W, 1.4 L, 42 g/mi",
-      "precio": 98.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815543432?itmmeta=01M47CA3KANC3EBHMT5K14J6P4&hash=item2016724e88:g:VqgAAeSwCFxqw~UB",
-      "imagen_url": "https://i.ebayimg.com/images/g/VqgAAeSwCFxqw~UB/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_plancha-de-vapor-vertical-rowenta-origin-home-is3280d1-2000-w-14-l-42-gmin-calentamiento-en-45-s-45-min-plancha-y-desinfecta-la-ropa-blanco-1558678.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:23:12",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Freidora - Tefal FR8040, 2300 W, 3.5 l de aceite, 1.2 Kg de comida, Filtrado aut",
-      "precio": 116.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815544256?itmmeta=01M47CA3KAKFD92KTCDZM6DT26&hash=item20167251c0:g:IrQAAeSw7Ppqw~U0",
-      "imagen_url": "https://i.ebayimg.com/images/g/IrQAAeSw7Ppqw~U0/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_freidora-tefal-fr8040-2300-w-35-l-de-aceite-12-kg-de-comida-filtrado-automatico-temporizador-digital-negro-acero-inoxidable-1623887.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:22:55",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Smartwatch - Huawei Watch Fit 5, 46.23 mm, Correa 20mm, 7 días Autonomía en Uso",
-      "precio": 170.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815643175?itmmeta=01M47CA0ZK6487MENK4E4VRV1S&hash=item201673d427:g:09kAAeSw6Mhqw~y2",
-      "imagen_url": "https://i.ebayimg.com/images/g/09kAAeSw6Mhqw~y2/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_smartwatch-huawei-watch-fit-5-4623-mm-correa-20mm-7-dias-autonomia-en-uso-tipico-pantalla-amoled-182-purpura-1626100.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:22:41",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Teclado inalámbrico - Logitech MX Keys S, Bluetooth, USB, Teclas programables, C",
-      "precio": 103.5,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815510892?itmmeta=01M47CA0ZJE990ZM9G3QFERKAJ&hash=item201671cf6c:g:fgEAAeSwrX9qw~Gy",
-      "imagen_url": "https://i.ebayimg.com/images/g/fgEAAeSwrX9qw~Gy/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_teclado-inalambrico-logitech-mx-keys-s-bluetooth-usb-teclas-programables-carga-rapida-retroiluminacion-multidispositivo-windowsmac-negro-1554219.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:22:25",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Smartwatch - Huawei Watch Fit 5, 46.23 mm, Correa 20mm, 7 días Autonomía en Uso",
-      "precio": 170.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815642117?itmmeta=01M47CA0ZJKRKASCPM7AB1JS65&hash=item201673d005:g:-98AAeSwGhFqw~yP",
-      "imagen_url": "https://i.ebayimg.com/images/g/-98AAeSwGhFqw~yP/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_smartwatch-huawei-watch-fit-5-4623-mm-correa-20mm-7-dias-autonomia-en-uso-tipico-pantalla-amoled-182-purpura-1626100.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:22:07",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Set de sartenes - Tefal L881S4 Ingenio, 4 piezas, Mango extraíble, Revestimiento",
-      "precio": 71.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815542417?itmmeta=01M47CA0ZJJPPPSS8X2J49DSBV&hash=item2016724a91:g:S4MAAeSwPV5qw~TH",
-      "imagen_url": "https://i.ebayimg.com/images/g/S4MAAeSwPV5qw~TH/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_set-de-sartenes-tefal-l881s4-ingenio-4-piezas-mango-extraible-revestimiento-titanio-antiadherente-indicador-de-calor-acero-inox-1592747.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:21:52",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Fregona eléctrica - Rowenta X-Clean 2 GZ2251, Wet & dry, 35 min autonomía, Modos",
-      "precio": 206.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815544587?itmmeta=01M47CA0ZJ5Y77S2SAVH937YVE&hash=item201672530b:g:de0AAeSwZ2Zqw~VT",
-      "imagen_url": "https://i.ebayimg.com/images/g/de0AAeSwZ2Zqw~VT/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-fregona-electrica-rowenta-x-clean-2-gz2251-wet-and-dry-35-min-autonomia-modos-ecomax-ligera-2-en-1-1674324.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:21:36",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Smartwatch - Samsung Galaxy Watch8 BT 40 mm, 1.31\", Exynos W1000, 32 GB, 2 GB RA",
-      "precio": 242.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815643519?itmmeta=01M47CA0ZH0S2A3DWWA3DMCPCA&hash=item201673d57f:g:ynsAAeSwbn5qw~yJ",
-      "imagen_url": "https://i.ebayimg.com/images/g/ynsAAeSwbn5qw~yJ/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_smartwatch-samsung-galaxy-watch8-bt-40-mm-131-exynos-w1000-32-gb-2-gb-ram-325-mah-android-plata-1602842.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:21:20",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Auriculares gaming - JBL QUANTUM610BLK, Bluetooth, Inalámbrico, 40h, Cancelación",
-      "precio": 130.5,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815616563?itmmeta=01M47CA0ZHA94E20ENZGFVBE4X&hash=item2016736c33:g:J4QAAeSw2Lhqw~r9",
-      "imagen_url": "https://i.ebayimg.com/images/g/J4QAAeSw2Lhqw~r9/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-gaming-jbl-quantum610blk-bluetooth-inalambrico-40h-negro-1536911.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:21:05",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -806,19 +702,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_termo-electrico-ariston-velis-pro-wifi-100-1500-w-8-bar-100-l-blanco-1576172.html",
       "fecha_visto_primera_vez": "2026-10-06 01:19:51",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Nintendo Switch Dragon Ball: Sparking! Zero",
-      "precio": 53.91,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815634758?itmmeta=01M47CA0ZFTRDBH1W373JG094D&hash=item201673b346:g:su8AAeSw~XZqw~ul",
-      "imagen_url": "https://i.ebayimg.com/images/g/su8AAeSw~XZqw~ul/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-dragon-ball-sparking-zero-1604408.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:19:23",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -1265,19 +1148,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "HP CL PACK 1587275 ENVY 6530E",
-      "precio": 98.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137809462510?itmmeta=01M46FXB6KKW1Y7R0A4DWPA9B0&hash=item20161584ee:g:m~QAAeSwp0JqwWYA",
-      "imagen_url": "https://i.ebayimg.com/images/g/m~QAAeSwp0JqwWYA/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pack-teclado-raton-hp-235-profesional-inalambrico-silencioso-16-meses-autonomia-negro-1594615.html",
-      "fecha_visto_primera_vez": "2026-10-05 16:57:29",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Portátil gaming - Gigabyte AERO X16 3VHK3ESC93AH, 16\" WQXGA, AMD Ryzen™ 7 260,",
       "precio": 1169.1,
       "moneda": "EUR",
@@ -1404,32 +1274,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-hp-omnibook-3-laptop-ai-14-ht0008nsx-14-2k-intelr-coretm-ultra-5-processor-225u-8-gb-ram-512-gb-ssd-windows-11-home-sin-cargador-1625243.html",
       "fecha_visto_primera_vez": "2026-10-03 22:49:31",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cámara deportiva - SK8 Cam 4K, Vídeo Ultra HD, WiFi, Super angular, Pantalla 2\"",
-      "precio": 39.6,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137809424179?itmmeta=01M41Z346V3MGS4N4W8YM80EZX&hash=item201614ef33:g:8csAAeSw-wtqwWE0",
-      "imagen_url": "https://i.ebayimg.com/images/g/8csAAeSw-wtqwWE0/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cámara-deportiva-sk8-cam-4k-vídeo-ultra-hd-wifi-super-angular-pantalla-lcd-1392641.html",
-      "fecha_visto_primera_vez": "2026-10-03 22:48:49",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cámara deportiva - Insta360 Ace Pro 2, 8K, 180 minutos Autonomía, Negro",
-      "precio": 359.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137809425794?itmmeta=01M41Z346SZHQ9CVNZMN1V9R2N&hash=item201614f582:g:P4UAAeSwkXNqwWFI",
-      "imagen_url": "https://i.ebayimg.com/images/g/P4UAAeSwkXNqwWFI/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-deportiva-insta360-ace-pro-2-4k-180-minutos-autonomia-negro-1585510.html",
-      "fecha_visto_primera_vez": "2026-10-03 22:45:56",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -1638,19 +1482,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_smartwatch-apple-watch-series-9-sm-aluminio-blanco-140310134.html",
       "fecha_visto_primera_vez": "2026-10-01 21:25:14",
-      "seller_id": "mediamarktalmeria",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cápsulas monodosis - Starbucks Nespresso - Guatemala, Arábica, Frutos seco",
-      "precio": 3.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178545468014?itmmeta=01M3WM09B7HFS6P6YZ2YEDWEEF&hash=item299223a26e:g:zHUAAeSwt-dqvn4w",
-      "imagen_url": "https://i.ebayimg.com/images/g/zHUAAeSwt-dqvn4w/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_capsulas-monodosis-starbucks-nespresso-guatemala-arabica-frutos-secos-10-capsulas-1544414.html",
-      "fecha_visto_primera_vez": "2026-10-01 21:24:59",
       "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null
     },
@@ -57694,26 +57525,6 @@
       ]
     },
     {
-      "clave": "fregona eléctrica - rowenta x-clean 2 gz2251, wet & dry, 35 min autonomía, modos",
-      "criterio": "titulo",
-      "titulo": "Fregona eléctrica - Rowenta X-Clean 2 GZ2251, Wet & dry, 35 min autonomía, Modos",
-      "imagen_url": "https://i.ebayimg.com/images/g/fcIAAeSww5Zqn-~l/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktbahiadecadiz",
-          "precio": 203.15,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/318843062795?itmmeta=01M20FF7MZYEYZXQ1ZN0R44HHB&hash=item4a3c870a0b:g:fcIAAeSww5Zqn-~l"
-        },
-        {
-          "tienda": "mediamarktalcala",
-          "precio": 206.1,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/137815544587?itmmeta=01M47CA0ZJ5Y77S2SAVH937YVE&hash=item201672530b:g:de0AAeSwZ2Zqw~VT"
-        }
-      ]
-    },
-    {
       "clave": "plancha secador - revlon one step air straight, cerámica, de cabello húmedo a li",
       "criterio": "titulo",
       "titulo": "Plancha Secador - Revlon One Step Air Straight, Cerámica, De cabello húmedo a Li",
@@ -58054,46 +57865,6 @@
       ]
     },
     {
-      "clave": "mini horno - moulinex ox4648 optimo, 1600 w, capacidad 33 l,  hasta 240°c, 6 mod",
-      "criterio": "titulo",
-      "titulo": "Mini horno - Moulinex OX4648 OPTIMO, 1600 W, Capacidad 33 L,  Hasta 240°C, 6 mod",
-      "imagen_url": "https://i.ebayimg.com/images/g/RqUAAeSwEhdqw~Tt/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktalcala",
-          "precio": 103.5,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/137815543082?itmmeta=01M47CA3KJAYKJKDJQ3CD7TG2R&hash=item2016724d2a:g:RqUAAeSwEhdqw~Tt"
-        },
-        {
-          "tienda": "mediamarktlorca",
-          "precio": 113.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/318890878369?itmmeta=01M3504QQNJ6GMHD0T7QYEHB58&hash=item4a3f60a5a1:g:bn4AAeSwbbpqro0g"
-        }
-      ]
-    },
-    {
-      "clave": "cámara deportiva - insta360 ace pro 2, 8k, 180 minutos autonomía, negro",
-      "criterio": "titulo",
-      "titulo": "Cámara deportiva - Insta360 Ace Pro 2, 8K, 180 minutos Autonomía, Negro",
-      "imagen_url": "https://i.ebayimg.com/images/g/P4UAAeSwkXNqwWFI/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktalcala",
-          "precio": 359.1,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/137809425794?itmmeta=01M41Z346SZHQ9CVNZMN1V9R2N&hash=item201614f582:g:P4UAAeSwkXNqwWFI"
-        },
-        {
-          "tienda": "mediamarktlorca",
-          "precio": 399.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/318890878928?itmmeta=01M3504QQNGPHQB8HM00M9RC2J&hash=item4a3f60a7d0:g:LMgAAeSwINFqro05"
-        }
-      ]
-    },
-    {
       "clave": "linterna - isy ifs-1000, pack de 3 linternas, tamaños l m s, negro",
       "criterio": "titulo",
       "titulo": "Linterna - ISY IFS-1000, Pack de 3 linternas, Tamaños L M S, Negro",
@@ -58130,46 +57901,6 @@
           "precio": 9.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/396684202162?itmmeta=01M3FY4V3ZRM9RAT431YW95ZS1&hash=item5c5c3890b2:g:tBwAAeSwuyVqtP85"
-        }
-      ]
-    },
-    {
-      "clave": "centro de planchado - philips gc7844/20, 2400 w, golpe de vapor 400 g/min, 6.5 b",
-      "criterio": "titulo",
-      "titulo": "Centro de planchado - Philips GC7844/20, 2400 W, Golpe de vapor 400 g/min, 6.5 b",
-      "imagen_url": "https://i.ebayimg.com/images/g/BzEAAeSw8DZqw~Te/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktmataro",
-          "precio": 119.2,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/398396977857?itmmeta=01M39AZZJBF6F4GHZDH9DQ4JCG&hash=item5cc24f72c1:g:EM4AAeSwnLRqqTWP"
-        },
-        {
-          "tienda": "mediamarktalcala",
-          "precio": 125.1,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/137815543806?itmmeta=01M47CA3KEQR9E8KX92AWXVKNH&hash=item2016724ffe:g:BzEAAeSw8DZqw~Te"
-        }
-      ]
-    },
-    {
-      "clave": "cámara deportiva - sk8 cam 4k, vídeo ultra hd, wifi, super angular, pantalla 2\"",
-      "criterio": "titulo",
-      "titulo": "Cámara deportiva - SK8 Cam 4K, Vídeo Ultra HD, WiFi, Super angular, Pantalla 2\"",
-      "imagen_url": "https://i.ebayimg.com/images/g/fw8AAeSwKRxqtoDy/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktdiagonalmar",
-          "precio": 31.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/206581377494?itmmeta=01M3FXPH3AXBXFC93R4KVZD5F8&hash=item301935a9d6:g:fw8AAeSwKRxqtoDy"
-        },
-        {
-          "tienda": "mediamarktalcala",
-          "precio": 39.6,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/137809424179?itmmeta=01M41Z346V3MGS4N4W8YM80EZX&hash=item201614ef33:g:8csAAeSw-wtqwWE0"
         }
       ]
     },
