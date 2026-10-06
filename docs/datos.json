@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-10-06T11:12:43.152318+00:00",
+  "actualizado": "2026-10-06T18:11:15.685034+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3908,
+  "total_articulos": 3902,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -26,7 +26,7 @@
     {
       "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null,
-      "num_articulos": 84
+      "num_articulos": 83
     },
     {
       "seller_id": "mediamarktnuevacondomina",
@@ -36,7 +36,7 @@
     {
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null,
-      "num_articulos": 64
+      "num_articulos": 63
     },
     {
       "seller_id": "mediamarktcartagena",
@@ -102,11 +102,6 @@
       "seller_id": "mediamarktsevillasantajusta",
       "nombre_mostrado": null,
       "num_articulos": 47
-    },
-    {
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null,
-      "num_articulos": 46
     },
     {
       "seller_id": "mediamarktroquetas",
@@ -187,6 +182,11 @@
       "seller_id": "mediamarktvalenciaaqua",
       "nombre_mostrado": null,
       "num_articulos": 43
+    },
+    {
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null,
+      "num_articulos": 42
     },
     {
       "seller_id": "mediamarktdiagonalmar",
@@ -511,54 +511,67 @@
   ],
   "articulos_recientes": [
     {
-      "titulo": "Cargador de pared - OPPO Supervooc 100W Power Adapter Kit, Compatibilidad Univer",
-      "precio": 53.91,
+      "titulo": "Placa inducción - Samsung NZ63B5046GK/U1, Zona Flex,  Zona dual 28 cm, 59 cm, Wi",
+      "precio": 422.1,
       "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815531765?itmmeta=01M48E91RRHDCHNW7C60YGN88N&hash=item20167220f5:g:py8AAeSwoWtqw~Nb",
-      "imagen_url": "https://i.ebayimg.com/images/g/py8AAeSwoWtqw~Nb/s-l300.webp",
+      "url": "https://www.ebay.es/itm/137815644032?itmmeta=01M4969VCDEP7CJ2WJ2D3ZRQ4F&hash=item201673d780:g:GvIAAeSwMD9qw~zf",
+      "imagen_url": "https://i.ebayimg.com/images/g/GvIAAeSwMD9qw~zf/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cargador-de-pared-oppo-supervooc-100w-power-adapter-kit-compatibilidad-universal-blanco-1668371.html",
-      "fecha_visto_primera_vez": "2026-10-06 11:08:52",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_placa-induccion-samsung-nz63b5046gku1-3-zonas-21-cm-x-38-cm-59-cm-power-boost-wi-fi-integrado-negro-1572793.html",
+      "fecha_visto_primera_vez": "2026-10-06 18:08:18",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
     {
-      "titulo": "Microondas con horno –  Samsung MC28A5137CK/E1, 900 W, 6 niveles, 28 l, Por Conv",
-      "precio": 229.5,
+      "titulo": "Router - TP-Link Archer MX700, 4G Wi-Fi6, AX3000 Doble banda, 3Gbps, Puerto Giga",
+      "precio": 98.99,
       "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815558702?itmmeta=01M48E91RQS3JJXRD9ZH9XA8GS&hash=item2016728a2e:g:YdwAAeSwGNRqw~Zu",
-      "imagen_url": "https://i.ebayimg.com/images/g/YdwAAeSwGNRqw~Zu/s-l300.webp",
+      "url": "https://www.ebay.es/itm/137815510599?itmmeta=01M4969VCB7FGAZAGC09FMM0HR&hash=item201671ce47:g:MUwAAeSwWyBqw~Gy",
+      "imagen_url": "https://i.ebayimg.com/images/g/MUwAAeSwWyBqw~Gy/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_microondas-samsung-mc28a5137cke1-900-w-6-niveles-28-l-slim-frytm-negro-1579993.html",
-      "fecha_visto_primera_vez": "2026-10-06 11:08:35",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_router-tp-link-archer-mx700-1201-mbits-mu-mimo-4g-ax1500-dual-band-wi-fi-lte-blanco-1623729.html",
+      "fecha_visto_primera_vez": "2026-10-06 18:08:05",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
     {
-      "titulo": "Soporte TV - Hama 00220843, Pantalla de 94 a 305 cm (37\" a 120\"), VESA 1100 x 60",
-      "precio": 57.51,
+      "titulo": "Afeitadora - Philips S7000 S7887/35, Afeitadora eléctrica, Seco y mojado, Conexi",
+      "precio": 107.1,
       "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815533905?itmmeta=01M48E91RQ3BT069CE4GG009TN&hash=item2016722951:g:jBkAAeSwQ6Jqw~Pg",
-      "imagen_url": "https://i.ebayimg.com/images/g/jBkAAeSwQ6Jqw~Pg/s-l300.webp",
+      "url": "https://www.ebay.es/itm/137815543941?itmmeta=01M4969RWN11SYD7ERVMDQR79N&hash=item2016725085:g:N8YAAeSw8tlqw~Uj",
+      "imagen_url": "https://i.ebayimg.com/images/g/N8YAAeSw8tlqw~Uj/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_soporte-tv-hama-00220843-pantalla-de-94-a-305-cm-37-a-120-vesa-1100-x-600-fijo-negro-1565966.html",
-      "fecha_visto_primera_vez": "2026-10-06 11:08:20",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_afeitadora-electrica-philips-serie-7000-s788735-uso-en-seco-y-mojado-60-min-cromado-oscuro-1551610.html",
+      "fecha_visto_primera_vez": "2026-10-06 18:07:50",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
     {
-      "titulo": "Máquina de coser - Alfa Style 30 19 Puntadas, Luz LED, 70 W, Blanco",
-      "precio": 170.1,
+      "titulo": "Aspirador escoba - Rowenta  X Force 8.80 RH1872E, 250 W, Potencia succión 100 AW",
+      "precio": 110.82,
       "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815543602?itmmeta=01M48E91RQ4XWJS7T5K36AVF89&hash=item2016724f32:g:BWcAAeSwgyBqw~UN",
-      "imagen_url": "https://i.ebayimg.com/images/g/BWcAAeSwgyBqw~UN/s-l300.webp",
+      "url": "https://www.ebay.es/itm/137815544513?itmmeta=01M4969RWM99Z8Y1G2CVT70ADF&hash=item20167252c1:g:QE0AAeSwznhqw~VH",
+      "imagen_url": "https://i.ebayimg.com/images/g/QE0AAeSwznhqw~VH/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_máquina-de-coser-alfa-style-30-19-puntadas-luz-led-70-w-blanco-1296777.html",
-      "fecha_visto_primera_vez": "2026-10-06 11:08:05",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aspirador-escoba-rowenta-x-force-880-rh1872e-250-w-potencia-succion-100-aw-13-kg-60-min-autonomia-044-l-ligera-especial-mascotas-rojo-1624454.html",
+      "fecha_visto_primera_vez": "2026-10-06 18:07:35",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Walkie Talkie - Midland XT30 Pro, Carga Rápida, 16 canales, USB, Alcance de 6 km",
+      "precio": 71.91,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137815533185?itmmeta=01M4969RWKWFAVM0KSTT6GH57D&hash=item2016722681:g:fr8AAeSw5etqw~Pi",
+      "imagen_url": "https://i.ebayimg.com/images/g/fr8AAeSw5etqw~Pi/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_walkie-talkie-midland-xt30-pro-carga-rapida-16-canales-usb-alcance-de-6-km-verde-1567683.html",
+      "fecha_visto_primera_vez": "2026-10-06 18:07:16",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -602,19 +615,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Apple Cargador MagSafe, 2 metros, Compatibilidad Qi, Para todos los iPhone 12, 1",
-      "precio": 53.09,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815527649?itmmeta=01M48E8ZAHHTGEVM4NQMZXREAH&hash=item20167210e1:g:hAQAAeSwQ6Jqw~Lx",
-      "imagen_url": "https://i.ebayimg.com/images/g/hAQAAeSwQ6Jqw~Lx/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-cargador-magsafe-2-metros-compatibilidad-qi-para-todos-los-iphone-12-13-14-15-16-17-y-air-blanco-1606184.html",
-      "fecha_visto_primera_vez": "2026-10-06 11:07:05",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Silla gaming - Drift DR90 Pro V8, 2D (regulable en altura y anchura), Hasta 150",
       "precio": 139.5,
       "moneda": "EUR",
@@ -637,32 +637,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-true-wireless-huawei-freebuds-se-4-10h-autonomia-cancelacion-de-ruido-ip54-bluetooth-54-blanco-1604732.html",
       "fecha_visto_primera_vez": "2026-10-06 01:25:18",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Apple Funda transparente Clear Case con MagSafe, Para iPhone 17, Transparente",
-      "precio": 45.89,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815527910?itmmeta=01M47CA3KEWCNTPVTNZ6H2E0TT&hash=item20167211e6:g:5SUAAeSwUMdqw~L4",
-      "imagen_url": "https://i.ebayimg.com/images/g/5SUAAeSwUMdqw~L4/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-funda-transparente-clear-case-con-magsafe-para-iphone-17-pro-max-transparente-1606215.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:24:14",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Volante - Logitech G G29 + Auriculares gaming ASTRO A10, PlayStation 5 y 4/PC, M",
-      "precio": 251.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815601196?itmmeta=01M47CA0ZHWVNN2FTX7ZER5MCJ&hash=item201673302c:g:IH8AAeSwv1tqw~on",
-      "imagen_url": "https://i.ebayimg.com/images/g/IH8AAeSwv1tqw~on/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_volante-g29-auriculares-gaming-astro-a10-playstation-5-y-4pc-microfono-force-feedback-negro-1555468.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:20:49",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -715,19 +689,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-gaming-steelseries-arctis-nova-7-gen-2-50h-autonomia-24-ghz-inalambrico-bluetooth-negro-1620992.html",
       "fecha_visto_primera_vez": "2026-10-06 01:19:08",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "PS4 Elden Ring (Ed. Standard)",
-      "precio": 33.21,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815598471?itmmeta=01M47CA0ZF8HEM4BCQXVNJ4QMJ&hash=item2016732587:g:JyMAAeSw95dqw~mZ",
-      "imagen_url": "https://i.ebayimg.com/images/g/JyMAAeSw95dqw~mZ/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_ps4-elden-ring-1459054.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:18:53",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -1210,19 +1171,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_campana-de-grupo-filtrante-corona-x-80-b-cata-4-velocidades-inox-134380633.html",
       "fecha_visto_primera_vez": "2026-10-04 19:22:27",
       "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "PC gaming - Lenovo LOQ Tower 26ADR10,  AMD Ryzen™ 7 8745HX, 16GB RAM, 512GB SSD,",
-      "precio": 1214.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137809452105?itmmeta=01M445PT1DWG3G9CFGEW71BJW0&hash=item2016155c49:g:VzIAAeSwoWtqwWVl",
-      "imagen_url": "https://i.ebayimg.com/images/g/VzIAAeSwoWtqwWVl/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pc-gaming-lenovo-loq-tower-26adr10-amd-ryzentm-7-8745hx-16gb-ram-512gb-ssd-geforce-rtxtm-5060-ti-windows-11-home-negro-1667328.html",
-      "fecha_visto_primera_vez": "2026-10-04 19:20:22",
-      "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
     {
@@ -1989,19 +1937,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_disco-duro-externo-5tb-seagate-stkn5000400-expansion-portatil-hdd-5000-gb-usb-32-gen-1-negro-1519476.html",
       "fecha_visto_primera_vez": "2026-10-01 21:11:09",
-      "seller_id": "mediamarktalmeria",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Aceite para la barba - WAHL 3999.0460 Refrescante, 0.03 l, Con aromas de",
-      "precio": 5.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178545464592?itmmeta=01M3WM04146DBANXEQZ8G1GQ0X&hash=item2992239510:g:U9gAAeSwPV5qvn2g",
-      "imagen_url": "https://i.ebayimg.com/images/g/U9gAAeSwPV5qvn2g/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_accesorio-afeitadora-wahl-39990460-refrescante-003-l-aceite-de-barba-con-aromas-de-menta-fresca-eucalipto-y-arbol-de-te-1535772.html",
-      "fecha_visto_primera_vez": "2026-10-01 21:10:55",
       "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null
     },
@@ -51055,19 +50990,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Samsung Galaxy S25 Edge, Azul, 512 GB, 12 GB RAM, 6.7\" WQHD+",
-      "precio": 764.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137592526837?itmmeta=01M08T2EZGPYC15764EZRRWTJ1&hash=item20092757f5:g:B~8AAeSwhrBqdHBQ",
-      "imagen_url": "https://i.ebayimg.com/images/g/9XAAAeSwdy9qhe8N/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-samsung-galaxy-s25-edge-azul-512-gb-12-gb-ram-67-wqhd-qualcomm-snapdragon-8-elite-3900-mah-android-15-1597851.html",
-      "fecha_visto_primera_vez": "2026-08-17 21:29:56",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Pack papelería - Pyramid Tubo de lápices Harry Potter Hogwarts",
       "precio": 2.5,
       "moneda": "EUR",
@@ -57265,26 +57187,6 @@
       ]
     },
     {
-      "clave": "ps4 elden ring (ed. standard)",
-      "criterio": "titulo",
-      "titulo": "PS4 Elden Ring (Ed. Standard)",
-      "imagen_url": "https://i.ebayimg.com/images/g/JyMAAeSw95dqw~mZ/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktalcala",
-          "precio": 33.21,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/137815598471?itmmeta=01M47CA0ZF8HEM4BCQXVNJ4QMJ&hash=item2016732587:g:JyMAAeSw95dqw~mZ"
-        },
-        {
-          "tienda": "mediamarktlleida",
-          "precio": 229.42,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/800347886825?itmmeta=01M1E0Q4NH5G4P7TT09VD8WXMB&hash=itemba587394e9:g:T4kAAeSwMttqV9~k"
-        }
-      ]
-    },
-    {
       "clave": "exprimidor - smeg cjf-11-rdeu, 0.2 l, 70 w, rojo brillante",
       "criterio": "titulo",
       "titulo": "Exprimidor - Smeg CJF-11-RDEU, 0.2 l, 70 W, Rojo brillante",
@@ -57541,26 +57443,6 @@
           "precio": 33.54,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/318843079619?itmmeta=01M20FF7MZDDXNT2QRE1RD2V99&hash=item4a3c874bc3:g:tEcAAeSwgyJqn~Nb"
-        }
-      ]
-    },
-    {
-      "clave": "volante - logitech g g29 + auriculares gaming astro a10, playstation 5 y 4/pc, m",
-      "criterio": "titulo",
-      "titulo": "Volante - Logitech G G29 + Auriculares gaming ASTRO A10, PlayStation 5 y 4/PC, M",
-      "imagen_url": "https://i.ebayimg.com/images/g/fEAAAeSwNOpqn~BA/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktbahiadecadiz",
-          "precio": 197.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/318843062858?itmmeta=01M20FF7N0AM8DZWR10VW3A0AK&hash=item4a3c870a4a:g:fEAAAeSwNOpqn~BA"
-        },
-        {
-          "tienda": "mediamarktalcala",
-          "precio": 251.1,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/137815601196?itmmeta=01M47CA0ZHWVNN2FTX7ZER5MCJ&hash=item201673302c:g:IH8AAeSwv1tqw~on"
         }
       ]
     },
