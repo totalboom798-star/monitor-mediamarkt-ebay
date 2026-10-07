@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-10-07T15:25:51.110640+00:00",
+  "actualizado": "2026-10-07T21:11:31.022290+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3900,
+  "total_articulos": 3891,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -26,7 +26,7 @@
     {
       "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null,
-      "num_articulos": 83
+      "num_articulos": 81
     },
     {
       "seller_id": "mediamarktnuevacondomina",
@@ -36,7 +36,7 @@
     {
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null,
-      "num_articulos": 68
+      "num_articulos": 67
     },
     {
       "seller_id": "mediamarktcartagena",
@@ -279,24 +279,24 @@
       "num_articulos": 37
     },
     {
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null,
-      "num_articulos": 36
-    },
-    {
       "seller_id": "mediamarkttorrejon",
       "nombre_mostrado": null,
       "num_articulos": 36
     },
     {
-      "seller_id": "mediamarktplacacatalunya",
+      "seller_id": "mediamarktalcala",
       "nombre_mostrado": null,
-      "num_articulos": 35
+      "num_articulos": 33
     },
     {
       "seller_id": "mediamarktlosbarrios",
       "nombre_mostrado": null,
       "num_articulos": 33
+    },
+    {
+      "seller_id": "mediamarktplacacatalunya",
+      "nombre_mostrado": null,
+      "num_articulos": 32
     },
     {
       "seller_id": "mediamarktgrancasa",
@@ -511,6 +511,19 @@
   ],
   "articulos_recientes": [
     {
+      "titulo": "Robot aspirador - Dyson Spot+Scrub™ Ai, Aspira y friega, Elimina manchas ocultas",
+      "precio": 899.1,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137815644872?itmmeta=01M4C308RZJK66GS27X4H3PSBE&hash=item201673dac8:g:FY0AAeSwttBqw~0K",
+      "imagen_url": "https://i.ebayimg.com/images/g/FY0AAeSwttBqw~0K/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_robot-aspirador-dyson-spotscrubtm-ai-aspira-y-friega-limpieza-200-min-ia-avanzada-autolimpiante-negroazul-1618617.html",
+      "fecha_visto_primera_vez": "2026-10-07 21:07:02",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
       "titulo": "Router - TP-Link TL-MR6400, 4G LTE, 300 Mbps, 2 antenas, Ethernet, Control Paren",
       "precio": 51.99,
       "moneda": "EUR",
@@ -719,19 +732,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Router - TP-Link Archer MX700, 4G Wi-Fi6, AX3000 Doble banda, 3Gbps, Puerto Giga",
-      "precio": 98.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815510599?itmmeta=01M4969VCB7FGAZAGC09FMM0HR&hash=item201671ce47:g:MUwAAeSwWyBqw~Gy",
-      "imagen_url": "https://i.ebayimg.com/images/g/MUwAAeSwWyBqw~Gy/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_router-tp-link-archer-mx700-1201-mbits-mu-mimo-4g-ax1500-dual-band-wi-fi-lte-blanco-1623729.html",
-      "fecha_visto_primera_vez": "2026-10-06 18:08:05",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Auriculares True Wireless - Huawei FreeBuds SE 4, 10h Autonomía, Cancelación de",
       "precio": 44.01,
       "moneda": "EUR",
@@ -741,19 +741,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-true-wireless-huawei-freebuds-se-4-10h-autonomia-cancelacion-de-ruido-ip54-bluetooth-54-blanco-1604732.html",
       "fecha_visto_primera_vez": "2026-10-06 01:25:18",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Robot friegasuelos - IRobot Roomba® 115 Combo base AutoEmpty™, 15 kPa, 250min, 6",
-      "precio": 170.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815645142?itmmeta=01M47CA0ZG0WX8MA8HWR7GVQPQ&hash=item201673dbd6:g:VxEAAeSwt~tqw~zg",
-      "imagen_url": "https://i.ebayimg.com/images/g/VxEAAeSwt~tqw~zg/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_robot-friegasuelos-irobot-roombar-115-combo-base-autoemptytm-15-kpa-250min-63dba-recarga-y-reanudacion-automaticas-clearviewtm-lidar-blanco-1620659.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:20:34",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -780,19 +767,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-gaming-steelseries-arctis-nova-7-gen-2-50h-autonomia-24-ghz-inalambrico-bluetooth-negro-1620992.html",
       "fecha_visto_primera_vez": "2026-10-06 01:19:08",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Mando Xbox - Microsoft Xbox, Bluetooth, Deep Pink, Rosa, Para Xbox Series X|S, X",
-      "precio": 55.71,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815612718?itmmeta=01M47CA0ZE1QMZNTTTEXW3C2NE&hash=item2016735d2e:g:dYsAAeSwfKJqw~ri",
-      "imagen_url": "https://i.ebayimg.com/images/g/dYsAAeSwfKJqw~ri/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_mando-xbox-microsoft-xbox-bluetooth-deep-pink-rosa-1598825.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:18:10",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -1213,19 +1187,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Altavoz bluetooth - JBL Go 5, 4.8 W, Bluetooth, Autonomía 10 horas, Iluminación",
-      "precio": 44.91,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137809372210?itmmeta=01M41Z346XBKS7AGQBBKFME6BV&hash=item2016142432:g:IhEAAeSwPGRqwV4b",
-      "imagen_url": "https://i.ebayimg.com/images/g/IhEAAeSwPGRqwV4b/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-bluetooth-jbl-go-5-48-w-bluetooth-autonomia-10-horas-iluminacion-ambiental-ip68-azul-1627606.html",
-      "fecha_visto_primera_vez": "2026-10-03 22:52:00",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Portátil - HP OmniBook 3 Laptop AI 14-ht0008nsx, 14\", 2K, Intel® Core™ Ultra 5 2",
       "precio": 584.1,
       "moneda": "EUR",
@@ -1599,19 +1560,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-inalambrico-vieta-pro-karaoke-party-25-w-bluetooth-50-autonomia-hasta-10-horas-negro-1549720.html",
       "fecha_visto_primera_vez": "2026-10-01 21:20:40",
-      "seller_id": "mediamarktalmeria",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 3733, Antisalpicaduras y golpes, Para iPhone 15 Pro Max,",
-      "precio": 5.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178545470808?itmmeta=01M3WM09B46KGTE1VFAX0RFT98&hash=item299223ad58:g:8u4AAeSwm4Fqvn7b",
-      "imagen_url": "https://i.ebayimg.com/images/g/8u4AAeSwm4Fqvn7b/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-isy-isc-3733-antisalpicaduras-y-golpes-para-iphone-15-pro-max-negro-1559130.html",
-      "fecha_visto_primera_vez": "2026-10-01 21:20:24",
       "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null
     },
@@ -2015,19 +1963,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cepillo-electrico-innogio-gio-450pink-para-ninos-sonico-funcion-de-memoria-ipx7-luces-de-colores-rosa-1535336.html",
       "fecha_visto_primera_vez": "2026-10-01 21:08:47",
-      "seller_id": "mediamarktalmeria",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Adaptador Wi-Fi USB - TP-Link Archer T3U, Velocidad transferencia 1300 Mbps,",
-      "precio": 15.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178545468110?itmmeta=01M3WM01DRK9XQ5G2PF0B7C2XG&hash=item299223a2ce:g:lQ8AAeSw4dRqvn45",
-      "imagen_url": "https://i.ebayimg.com/images/g/lQ8AAeSw4dRqvn45/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_adaptador-wi-fi-usb-tp-link-archer-t3u-ac1300-doble-banda-1300mbps-mu-mimo-usb-3-0-negro-1453095.html",
-      "fecha_visto_primera_vez": "2026-10-01 21:08:07",
       "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null
     },
@@ -21688,19 +21623,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "PC gaming Lenovo LOQ Tower 17IRR9, Intel® Core? i5-14400F, 16GB RAM, 512GB SSD,",
-      "precio": 799.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398330848025?itmmeta=01M1E0QCQDXXQWWCJ40EQPVKS8&hash=item5cbe5e6319:g:7ZEAAeSwLrNqkwt9",
-      "imagen_url": "https://i.ebayimg.com/images/g/7ZEAAeSwLrNqkwt9/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pc-gaming-lenovo-90x000gjes-intelr-coretm-i5-14400f-16-gb-ram-512-gb-ssd-geforce-rtxtm-5060-windows-11-home-negro-162758772.html",
-      "fecha_visto_primera_vez": "2026-09-01 08:25:55",
-      "seller_id": "mediamarktplacacatalunya",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "PC sobremesa - Acer XC-840, Intel® Celeron® N4505, 8GB RAM",
       "precio": 269.0,
       "moneda": "EUR",
@@ -21918,19 +21840,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_lenovo-idea-tab-plus-256-gb-luna-grey-121-wqxga-12-gb-ram-mediatek-dimensity-6400-tablet-android-168840010.html",
       "fecha_visto_primera_vez": "2026-09-01 08:20:53",
-      "seller_id": "mediamarktplacacatalunya",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Portátil - Acer Aspire 14 AI A14-52M Copilot+ PC, 14\" WUXGA OLED, Intel® Core?",
-      "precio": 749.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398334395760?itmmeta=01M1E0QCQCBP616BMMPQPCHNR3&hash=item5cbe948570:g:NRsAAeSw-qlqkwv7",
-      "imagen_url": "https://i.ebayimg.com/images/g/NRsAAeSw-qlqkwv7/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-acer-aspire-14-ai-a14-53m-72q0-copilot-pc-14-wuxga-oled-intelr-coretm-ultra-7-258v-47-tops-32gb-ram-1tb-ssd-arctm-graphics-windows-11-1607315.html",
-      "fecha_visto_primera_vez": "2026-09-01 08:20:37",
       "seller_id": "mediamarktplacacatalunya",
       "nombre_mostrado": null
     },
@@ -26362,20 +26271,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/Fw4AAeSwwS5qkwsg/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-multifuncion-tinta-hp-40q45b686-inyeccion-de-tinta-24-bits-145342353.html",
-      "fecha_visto_primera_vez": "2026-08-21 21:03:33",
-      "seller_id": "mediamarktplacacatalunya",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "PC gaming - Acer Nitro 50 N50-656, Intel® Core™ i5-14400F,",
-      "precio": 699.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/398304870239?itmmeta=01M0K25P81VHWAJBKX9SFYCBTV&hash=item5cbcd1ff5f:g:2CoAAeSw5GRqhfxO",
-      "imagen_url": "https://i.ebayimg.com/images/g/kJAAAeSwl01qkwtA/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pc-gaming-acer-nitro-50-n50-656-intelr-coretm-i5-14400f-16gb-ram-512-gb-ssd-geforce-rtxtm-5060-sin-sistema-operativo-negro-1607335.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-multifuncion-tinta-hp-714j2b-impresion-con-tinta-x-dpi-a4-a5-a6-beige-149782073.html",
       "fecha_visto_primera_vez": "2026-08-21 21:03:33",
       "seller_id": "mediamarktplacacatalunya",
       "nombre_mostrado": null
@@ -26388,7 +26284,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/o~UAAeSw1INqkwtn/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-lenovo-yoga-pro-7-15iph11-copilot-pc-153-oled-intelr-coretm-ultra-7-356h-50-tops-32gb-ram-1tb-ssd-rtxtm-5050-w11h-incl-lapiz-1623679.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-lenovo-yoga-slim-7-14ill11-copilot-pc-14-oled-intelr-coretm-ultra-5-226v-16gb-ram-1tb-ssd-arctm-130v-windows-11-home-sin-cargador-1667316.html",
       "fecha_visto_primera_vez": "2026-08-21 21:03:33",
       "seller_id": "mediamarktplacacatalunya",
       "nombre_mostrado": null
@@ -26401,7 +26297,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/k8YAAeSwN0tqkwse/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-hp-omnibook-5-next-gen-ai-14-hh0008ns-copilot-pc-14-2k-oled-intelr-coretm-ultra-7-355-49-tops-32gb-ram-1tb-ssd-w11h-sin-cargador-1625250.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_convertible-2-en-1-hp-omnibook-5-flip-next-gen-ai-14-km0001nsx-copilotpc-2k-intelr-coretm-ultra-9-386h50tops-32gb-ram1tb-ssdw11h-sin-cargador-1625249.html",
       "fecha_visto_primera_vez": "2026-08-21 21:03:33",
       "seller_id": "mediamarktplacacatalunya",
       "nombre_mostrado": null
@@ -50548,19 +50444,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Regleta - PowerCube BXPC1200 Azul, 4 tomas + USB",
-      "precio": 14.98,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/135787081071?itmmeta=01M08T2Q5TZZN4YFNV0Y964KZR&hash=item1f9d8a6d6f:g:UygAAeSw2QVpxRMU",
-      "imagen_url": "https://i.ebayimg.com/images/g/UygAAeSw2QVpxRMU/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-17 21:30:27",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Funda - Isy ISC 2506, Para Samsung Galaxy A55, Smokey black",
       "precio": 4.99,
       "moneda": "EUR",
@@ -53455,26 +53338,6 @@
           "precio": 7.16,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/137100122904?itmmeta=01M08T2HKBN3RTGQ2EWHE7AP95&hash=item1febcddb18:g:8QMAAeSwgvRqdMqH"
-        }
-      ]
-    },
-    {
-      "clave": "regleta - powercube bxpc1200 azul, 4 tomas + usb",
-      "criterio": "titulo",
-      "titulo": "Regleta - PowerCube BXPC1200 Azul, 4 tomas + USB",
-      "imagen_url": "https://i.ebayimg.com/images/g/UygAAeSw2QVpxRMU/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktalcorcon",
-          "precio": 14.98,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/135787081071?itmmeta=01M08T2Q5TZZN4YFNV0Y964KZR&hash=item1f9d8a6d6f:g:UygAAeSw2QVpxRMU"
-        },
-        {
-          "tienda": "mediamarktalfafar",
-          "precio": 16.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/298314627648?itmmeta=01M08T4FBXQA9Y5E4ZGJWG04Q8&hash=item4574effa40:g:9uAAAeSwAMtqSoH0"
         }
       ]
     },
