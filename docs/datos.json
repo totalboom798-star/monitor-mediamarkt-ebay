@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-06T23:43:12.118198+00:00",
+  "actualizado": "2026-10-07T05:07:46.097808+00:00",
   "total_tiendas": 101,
   "total_articulos": 3898,
   "tiendas": [
@@ -219,6 +219,11 @@
       "num_articulos": 40
     },
     {
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null,
+      "num_articulos": 39
+    },
+    {
       "seller_id": "mediamarkthuelva",
       "nombre_mostrado": null,
       "num_articulos": 39
@@ -227,11 +232,6 @@
       "seller_id": "mediamarktjaen",
       "nombre_mostrado": null,
       "num_articulos": 39
-    },
-    {
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null,
-      "num_articulos": 38
     },
     {
       "seller_id": "mediamarktmurciarondasur",
@@ -316,7 +316,7 @@
     {
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null,
-      "num_articulos": 23
+      "num_articulos": 22
     },
     {
       "seller_id": "mediamarktfrancescmacia",
@@ -511,6 +511,45 @@
   ],
   "articulos_recientes": [
     {
+      "titulo": "Soporte TV - Hama 00220844, De 37\" - 120\", VESA máx 1100 x 600 mm, Inclinable, N",
+      "precio": 66.51,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137815533000?itmmeta=01M4ABX0A2C1FCPNHZTSQ5ZFZF&hash=item20167225c8:g:bVwAAeSwSWNqw~O-",
+      "imagen_url": "https://i.ebayimg.com/images/g/bVwAAeSwSWNqw~O-/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_soporte-tv-soporte-tv-pared-400x400-inclinable-32-65-neg-hama-32-75-400x400-negro-135391711.html",
+      "fecha_visto_primera_vez": "2026-10-07 05:04:54",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Plancha de pelo - ghd Gold Profesional Styler Hydra, Tecnología Dual Zone, Calen",
+      "precio": 191.7,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137815544020?itmmeta=01M4ABX09XRDJZJHVZGGDDAAZ2&hash=item20167250d4:g:L3wAAeSwGj1qw~Up",
+      "imagen_url": "https://i.ebayimg.com/images/g/L3wAAeSwGj1qw~Up/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_plancha-de-pelo-ghd-gold-profesional-styler-hydra-tecnologia-dual-zone-calentamiento-rapido-25-s-negro-1565181.html",
+      "fecha_visto_primera_vez": "2026-10-07 05:04:40",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Microondas con grill - ok. OMWG 2024-3 S, 700 W, 5 Niveles de Potencia, 20l, Con",
+      "precio": 53.91,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137815558107?itmmeta=01M4ABX09X6YD1BK20XC3116ZG&hash=item20167287db:g:oRIAAeSwCCpqw~Zk",
+      "imagen_url": "https://i.ebayimg.com/images/g/oRIAAeSwCCpqw~Zk/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_microondas-con-grill-ok-omwg-2024-3-s-1050-w-5-niveles-de-potencia-20l-control-mecanico-plata-1592322.html",
+      "fecha_visto_primera_vez": "2026-10-07 05:04:25",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
       "titulo": "Auriculares gaming - JBL Quantum 200, De diadema, Con cable, Multiplataforma, Ja",
       "precio": 53.91,
       "moneda": "EUR",
@@ -559,19 +598,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/search.html?query=2000015075084",
       "fecha_visto_primera_vez": "2026-10-06 23:40:52",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Disco duro externo 1 TB - Western Digital WD Easystore, Portátil, HDD, USB 3.2 G",
-      "precio": 98.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815510211?itmmeta=01M49SCY35AWZF38H73GSHB1CK&hash=item201671ccc3:g:VysAAeSwWrFqw~Go",
-      "imagen_url": "https://i.ebayimg.com/images/g/VysAAeSwWrFqw~Go/s-l300.webp",
-      "ean": "0718037885896",
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_disco-duro-externo-1-tb-western-digital-wdbajn0010bbk-wesn-5-gbps-usb-3-0-hdd-negro-1501379.html",
-      "fecha_visto_primera_vez": "2026-10-06 23:40:39",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -745,19 +771,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "SAI - Woxter UPS 2000 VA, LED, AVR, Alarma acústica",
-      "precio": 124.2,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815511402?itmmeta=01M47CA0ZDD28P77KS8FAWYNAW&hash=item201671d16a:g:S1MAAeSwVI5qw~G0",
-      "imagen_url": "https://i.ebayimg.com/images/g/S1MAAeSwVI5qw~G0/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_sai-woxter-ups-2000-va-led-avr-alarma-acústica-1435715.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:16:36",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Nintendo Switch 2 Star Fox",
       "precio": 51.21,
       "moneda": "EUR",
@@ -905,7 +918,7 @@
       "precio": 404.1,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/137815593581?itmmeta=01M47CA0ZBJM46Q5V2MNRTN3W1&hash=item201673126d:g:SXYAAeSwoW5qw~ja",
-      "imagen_url": "https://i.ebayimg.com/images/g/SXYAAeSwoW5qw~ja/s-l1600.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/SXYAAeSwoW5qw~ja/s-l300.webp",
       "ean": "8056262721414",
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_gafas-ia-ray-ban-meta-wayfarer-gen-2-negro-mate-lentes-polarizadas-en-grafito-degradado-talla-estandar-1606646.html",
@@ -918,7 +931,7 @@
       "precio": 45.81,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/137815626089?itmmeta=01M47CA0ZBD9K2X3T5S8Z90XCV&hash=item2016739169:g:cCIAAeSwvvRqw~tN",
-      "imagen_url": "https://i.ebayimg.com/images/g/cCIAAeSwvvRqw~tN/s-l1600.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/cCIAAeSwvvRqw~tN/s-l300.webp",
       "ean": "0045496479831",
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-super-mario-bros-wonder-1556534.html",
@@ -931,7 +944,7 @@
       "precio": 80.91,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/137815619289?itmmeta=01M47CA0ZBC0N23G6KS2VFEZYC&hash=item20167376d9:g:hv4AAeSwBWFqw~sT",
-      "imagen_url": "https://i.ebayimg.com/images/g/hv4AAeSwBWFqw~sT/s-l1600.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/hv4AAeSwBWFqw~sT/s-l300.webp",
       "ean": "0196388601080",
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_mando-xbox-xbox-xx-mxfh6-xbox-series-xxbox-onexbox-series-sxbox-series-inalambrica-multicolor-1628252.html",
@@ -1067,19 +1080,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-gaming-gigabyte-aero-x16-3vhk3esc93ah-16-wqxga-amd-ryzentm-7-260-16gb-ram-512gb-ssd-geforce-rtxtm-5060-windows-11-home-1666429.html",
       "fecha_visto_primera_vez": "2026-10-05 16:56:33",
       "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "exposicion Campana convencional - Teka 40465531 C 6420 W, 3 Velocidades,",
-      "precio": 79.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800686255697?itmmeta=01M445VS256NJC2SA0NTNRS5VE&hash=itemba6c9eae51:g:KIgAAeSwkIlqwj4S",
-      "imagen_url": "https://i.ebayimg.com/images/g/KIgAAeSwkIlqwj4S/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_campana-teka-40465531-c-6420-w-convencional-blanco-60cm-ancho-375-m³-h-3-velocidades-1342928.html",
-      "fecha_visto_primera_vez": "2026-10-04 19:23:49",
-      "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null
     },
     {
@@ -2312,7 +2312,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/~dkAAeSw1oBqvn8u/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-aire-acondicionado-split-1-x-1-lg-wifieco09set-2150-fgh-wi-fi-thinq-blanco-1672829.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aire-acondicionado-split-1-x-1-lg-wifieco09set-2150-fgh-wi-fi-thinq-blanco-1620923.html",
       "fecha_visto_primera_vez": "2026-10-01 20:55:57",
       "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null
