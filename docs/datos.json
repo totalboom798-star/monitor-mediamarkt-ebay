@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-13T01:59:48.154630+00:00",
+  "actualizado": "2026-10-13T11:36:56.386994+00:00",
   "total_tiendas": 101,
   "total_articulos": 3798,
   "tiendas": [
@@ -311,7 +311,7 @@
     {
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null,
-      "num_articulos": 22
+      "num_articulos": 23
     },
     {
       "seller_id": "mediamarktfrancescmacia",
@@ -336,7 +336,7 @@
     {
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null,
-      "num_articulos": 17
+      "num_articulos": 16
     },
     {
       "seller_id": "mediamarktgoya",
@@ -510,6 +510,19 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Monitor - MSI PRO MP275PG, 27\" Full-HD, 100 Hz, 4 ms, IPS",
+      "precio": 109.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800790281986?itmmeta=01M4TGNXS40SZ20NMESCT6K8EK&hash=itemba72d1ff02:g:VTUAAeSwpRNqzgOU",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-msi-pro-mp275pg-27-full-hd-100-hz-4-ms-ips-adaptive-sync-altura-ajustable-hdr-negro-1591311.html",
+      "fecha_visto_primera_vez": "2026-10-13 11:34:48",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Adaptador de HDMI a Mini DisplayPort - Hama 00200332, UHD, HDMI in",
       "precio": 12.0,
@@ -1794,19 +1807,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_smartwatch-huawei-watch-fit-5-pro-4877-mm-correa-20-mm-7-dias-autonomia-en-uso-tipico-pantalla-amoled-192-negro-1626101.html",
       "fecha_visto_primera_vez": "2026-10-06 01:17:54",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "PS5 Dragon Quest I & II HD-2D Remake",
-      "precio": 51.21,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815635341?itmmeta=01M47CA0ZE6KX6AZZMTKHVECVZ&hash=item201673b58d:g:nNwAAeSwGNdqw~vv",
-      "imagen_url": "https://i.ebayimg.com/images/g/nNwAAeSwGNdqw~vv/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_ps5-dragon-quest-i-and-ii-hd-2d-remake-1597841.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:17:39",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -52879,6 +52879,26 @@
           "precio": 219.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/406822775691?itmmeta=01M08TCN7BPSMBBSG0SZGZJ7E7&hash=item5eb886eb8b:g:yvUAAeSwgZNpzk9C"
+        }
+      ]
+    },
+    {
+      "clave": "monitor - msi pro mp275pg, 27\" full-hd, 100 hz, 4 ms, ips",
+      "criterio": "titulo",
+      "titulo": "Monitor - MSI PRO MP275PG, 27\" Full-HD, 100 Hz, 4 ms, IPS",
+      "imagen_url": null,
+      "ofertas": [
+        {
+          "tienda": "mediamarktbarcelona",
+          "precio": 99.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/406718895497?itmmeta=01M08TCN7BJD90WYBHTTXTDJMV&hash=item5eb255d589:g:aSAAAeSwjx5pqrtd"
+        },
+        {
+          "tienda": "mediamarktbadajoz",
+          "precio": 109.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/800790281986?itmmeta=01M4TGNXS40SZ20NMESCT6K8EK&hash=itemba72d1ff02:g:VTUAAeSwpRNqzgOU"
         }
       ]
     },
