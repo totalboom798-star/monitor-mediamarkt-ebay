@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-10-14T04:13:00.995646+00:00",
+  "actualizado": "2026-10-14T13:30:31.765133+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3801,
+  "total_articulos": 3796,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -314,11 +314,6 @@
       "num_articulos": 23
     },
     {
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null,
-      "num_articulos": 22
-    },
-    {
       "seller_id": "mediamarktfrancescmacia",
       "nombre_mostrado": null,
       "num_articulos": 19
@@ -337,6 +332,11 @@
       "seller_id": "mediamarktvalladolid",
       "nombre_mostrado": null,
       "num_articulos": 18
+    },
+    {
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null,
+      "num_articulos": 17
     },
     {
       "seller_id": "mediamarktgoya",
@@ -511,45 +511,6 @@
   ],
   "articulos_recientes": [
     {
-      "titulo": "Centro de planchado - Rowenta Perfect Steam Pro DG8626F0, 2400W, 6.9 Bar, 120 g/",
-      "precio": 209.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815543162?itmmeta=01M4W9HDJCX0CQ9KHC4TMME8AK&hash=item2016724d7a:g:cN8AAeSwqRlqzn4r",
-      "imagen_url": "https://i.ebayimg.com/images/g/cN8AAeSwqRlqzn4r/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/search.html?query=Centro+de+planchado+-+Rowenta+Perfect+Steam+Pro+DG8626F0,+2400W,+6.9+Bar,+120+g/",
-      "fecha_visto_primera_vez": "2026-10-14 04:09:44",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cafetera superautomática - De'Longhi Magnifica Evo Next ECAM 310.80.SB, 1450 Wat",
-      "precio": 549.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137841417363?itmmeta=01M4W9HB61AV4PZX91TJR56SW0&hash=item2017fd1c93:g:Mz8AAeSwqeFqzofn",
-      "imagen_url": "https://i.ebayimg.com/images/g/Mz8AAeSwqeFqzofn/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-superautomatica-delonghi-magnifica-evo-next-ecam-31080sb-1450-watt-15-bar-molinillo-integrado-deposito-de-leche-platanegro-1621085.html",
-      "fecha_visto_primera_vez": "2026-10-14 04:09:29",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Robot friegasuelos - IRobot Roomba® 115 Combo, 15000 Pa, 250 min, 63 dB(A), Reca",
-      "precio": 125.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815645285?itmmeta=01M4VT50GJ17B4MRT6ZTSJSED8&hash=item201673dc65:g:U2AAAeSw95dqw~0u",
-      "imagen_url": "https://i.ebayimg.com/images/g/U2AAAeSw95dqw~0u/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_robot-friegasuelos-irobot-roombar-115-combo-15000-pa-250-min-63-dba-recarga-y-reanudacion-automaticas-clearviewtm-lidar-blanco-1620658.html",
-      "fecha_visto_primera_vez": "2026-10-13 23:41:14",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Cafetera superautomática - Krups Coffee Crush, Café en grano y molido, 15 bares,",
       "precio": 269.0,
       "moneda": "EUR",
@@ -559,19 +520,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-superautomatica-krups-coffee-crush-cafe-en-grano-y-molido-15-bares-4-recetas-de-cafe-tactil-compacta-5-niveles-de-molienda-inox-1624669.html",
       "fecha_visto_primera_vez": "2026-10-13 23:40:59",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cafetera express - Smeg ECF12CREU, 15 bar, 1350 W, 2 Tazas, Incluye Espumador de",
-      "precio": 409.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137841388615?itmmeta=01M4VT4Y1CSQSPH4KD15AB2Q1T&hash=item2017fcac47:g:JCEAAeSwhNRqzoZe",
-      "imagen_url": "https://i.ebayimg.com/images/g/JCEAAeSwhNRqzoZe/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-express-smeg-ecf12creu-15-bar-1350-w-2-tazas-incluye-espumador-de-leche-sistema-de-calentamiento-thermoblock-crema-1670203.html",
-      "fecha_visto_primera_vez": "2026-10-13 23:40:44",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -609,7 +557,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-msi-pro-mp275pg-27-full-hd-100-hz-4-ms-ips-adaptive-sync-altura-ajustable-hdr-negro-1591311.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-msi-pro-mp275pg-27-full-hd-4-ms-negro-153923902.html",
       "fecha_visto_primera_vez": "2026-10-13 11:34:48",
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null
@@ -1857,7 +1805,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/OosAAeSwv1tqxiN9/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_heladera-moulinex-dolci-9-programas-de-postres-helados-3-tarrinas-de-tritan-14-l-600w-resultados-cremosos-autolimpieza-blanco-1611353.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-heladera-moulinex-dolci-9-programas-de-postres-helados-3-tarrinas-de-tritan-14-l-600w-resultados-cremosos-1666518.html",
       "fecha_visto_primera_vez": "2026-10-07 15:20:00",
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null
@@ -1911,19 +1859,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_secador-dyson-supersonictm-hd07-accesorios-tecnologia-avanzada-1600-w-secado-rapido-3-temp-azul-de-prusiacobre-1590976.html",
       "fecha_visto_primera_vez": "2026-10-06 01:16:06",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Nintendo Switch Final Fantasy Tactics - The Ivalice Chronicles",
-      "precio": 49.41,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815639188?itmmeta=01M47CA0ZD643BXWD9X7ZBWPTA&hash=item201673c494:g:lKYAAeSwp7tqw~w7",
-      "imagen_url": "https://i.ebayimg.com/images/g/lKYAAeSwp7tqw~w7/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-final-fantasy-tactics-the-ivalice-chronicles-1601771.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:15:50",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
