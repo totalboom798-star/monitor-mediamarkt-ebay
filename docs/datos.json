@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-10-17T03:41:00.325514+00:00",
+  "actualizado": "2026-10-17T08:28:44.864761+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3794,
+  "total_articulos": 3796,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -24,12 +24,12 @@
       "num_articulos": 198
     },
     {
-      "seller_id": "mediamarktalmeria",
+      "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null,
-      "num_articulos": 62
+      "num_articulos": 61
     },
     {
-      "seller_id": "mediamarktalcorcon",
+      "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null,
       "num_articulos": 61
     },
@@ -314,6 +314,11 @@
       "num_articulos": 22
     },
     {
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null,
+      "num_articulos": 19
+    },
+    {
       "seller_id": "mediamarktfrancescmacia",
       "nombre_mostrado": null,
       "num_articulos": 19
@@ -324,19 +329,14 @@
       "num_articulos": 19
     },
     {
-      "seller_id": "mediamarktsantboi",
-      "nombre_mostrado": null,
-      "num_articulos": 18
-    },
-    {
       "seller_id": "mediamarktvalladolid",
       "nombre_mostrado": null,
       "num_articulos": 18
     },
     {
-      "seller_id": "mediamarktalcala",
+      "seller_id": "mediamarktsantboi",
       "nombre_mostrado": null,
-      "num_articulos": 15
+      "num_articulos": 17
     },
     {
       "seller_id": "mediamarktgoya",
@@ -511,6 +511,84 @@
   ],
   "articulos_recientes": [
     {
+      "titulo": "Cafetera superautomática - De'Longhi Magnifica S ECAM22.113.B, 1450 W, 15 bar, M",
+      "precio": 269.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137850819721?itmmeta=01M54F88CK4AJ0EDAYN3BC0HRS&hash=item20188c9489:g:GZkAAeSw69Zq0yRe",
+      "imagen_url": "https://i.ebayimg.com/images/g/GZkAAeSw69Zq0yRe/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-superautomática-de-longhi-magnifica-s-ecam-22-113-b-1450-w-1-8-l-250-g-13-programas-negro-1468539.html",
+      "fecha_visto_primera_vez": "2026-10-17 08:24:14",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cafetera superautomática - De'Longhi Magnifica Start ECAM220.21.BG, Molinillo in",
+      "precio": 309.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137850813706?itmmeta=01M54F88CKFBXSMWD6TYR7D97Y&hash=item20188c7d0a:g:JQsAAeSwdylq0yP-",
+      "imagen_url": "https://i.ebayimg.com/images/g/JQsAAeSwdylq0yP-/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-superautomatica-delonghi-magnifica-start-ecam22021bg-molinillo-integrado-15-bar-1450-w-negro-1549890.html",
+      "fecha_visto_primera_vez": "2026-10-17 08:23:59",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Freidora de aire - Cosori Dual Blaze Twinfry, Con revestimiento cerámico 6 en 1,",
+      "precio": 189.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137850808088?itmmeta=01M54F88CJ8PD6J6HH4TJR29RF&hash=item20188c6718:g:GkcAAeSwHIpq0yNa",
+      "imagen_url": "https://i.ebayimg.com/images/g/GkcAAeSwHIpq0yNa/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_freidora-de-aire-cosori-turbo-tower-compact-doble-cesta-86-l-2630-w-230-c-revestimiento-ceramico-premium-negro-1619903.html",
+      "fecha_visto_primera_vez": "2026-10-17 08:23:43",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Freidora de aire - Cosori Turbo Tower Compact, Doble cesta, 8.6 l, 2630 W, 230 °",
+      "precio": 149.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137850804649?itmmeta=01M54F88CJJPGJ4CBV4QF50DW8&hash=item20188c59a9:g:a3YAAeSw4f9q0yKR",
+      "imagen_url": "https://i.ebayimg.com/images/g/a3YAAeSw4f9q0yKR/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_freidora-de-aire-cosori-turbo-tower-compact-doble-cesta-86-l-2630-w-230-c-revestimiento-ceramico-premium-negro-1619903.html",
+      "fecha_visto_primera_vez": "2026-10-17 08:23:27",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cafetera express - De'Longhi Dedica EC685.M, 1300 W, 15 bar, Thermoblock, Espres",
+      "precio": 139.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137850805889?itmmeta=01M54F88CJVVHBKMC4FGA73JD2&hash=item20188c5e81:g:icQAAeSwycVq0yJl",
+      "imagen_url": "https://i.ebayimg.com/images/g/icQAAeSwycVq0yJl/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-express-de-longhi-ec-dedica-685-m-bomba-de-presión-thermoblock-1350-w-color-metal-1359168.html",
+      "fecha_visto_primera_vez": "2026-10-17 08:23:12",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Depiladora - Braun Silk·épil 9 Flex 9-030 3D, En seco y en mojado, Cabezal flexi",
+      "precio": 139.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137850824060?itmmeta=01M54F88CHQ2RM69K69TBXH3JY&hash=item20188ca57c:g:I7MAAeSwMjZq0yS7",
+      "imagen_url": "https://i.ebayimg.com/images/g/I7MAAeSwMjZq0yS7/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_depiladora-braun-silkepil-9-flex-0-030-3d-en-seco-y-en-mojado-cabezal-flexible-en-3d-piel-suave-duradera-2-accesorios-adicionales-oro-1622631.html",
+      "fecha_visto_primera_vez": "2026-10-17 08:22:16",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
       "titulo": "Funda móvil - ISY ISC 3145, Compatible con iPhone 16 Pro, Resistente a golpes",
       "precio": 5.99,
       "moneda": "EUR",
@@ -533,19 +611,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-hp-omnibook-3-laptop-ai-14-ht0010nsx-14-2k-intel-core-ultra-5-225u-8-gb-ram-256-gb-ssd-onboard-graphics-windows-11-home-cubierta-y-marco-del-teclado-en-plata-mica-y-base-en-color-gris-hierro-181968520.html",
       "fecha_visto_primera_vez": "2026-10-16 22:41:52",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Centro de planchado - KOENIC KST 81525, 2200 W, 420g/min, 8 bar, Cerámica,",
-      "precio": 54.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137849408577?itmmeta=01M53DZE6VFJVWCXARDKSR7D3E&hash=item2018770c41:g:5cEAAeSwFUpq0m2g",
-      "imagen_url": "https://i.ebayimg.com/images/g/5cEAAeSwFUpq0m2g/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-centro-de-planchado-koenic-kst-81525-2200-w-420gmin-8-bar-ceramica-antracita-y-azul-1676260.html",
-      "fecha_visto_primera_vez": "2026-10-16 22:41:37",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -2032,19 +2097,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Smartwatch - Huawei Watch Fit 5 Pro, 48.77 mm, Correa 20 mm, 7 días Autonomía en",
-      "precio": 260.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137815643711?itmmeta=01M47CA0ZECF2RG59RXYGJWV9Y&hash=item201673d63f:g:xjUAAeSwdhJqw~zR",
-      "imagen_url": "https://i.ebayimg.com/images/g/xjUAAeSwdhJqw~zR/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_smartwatch-huawei-watch-fit-5-pro-4877-mm-correa-20-mm-7-dias-autonomia-en-uso-tipico-pantalla-amoled-192-negro-1626101.html",
-      "fecha_visto_primera_vez": "2026-10-06 01:17:54",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Nintendo Switch 2 Star Fox",
       "precio": 51.21,
       "moneda": "EUR",
@@ -2795,19 +2847,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_powerbank-samsung-eb-p4520xuegeu-bateria-externa-20000-mah-usb-tipo-c-3-puertos-carga-rapida-beige-1573090.html",
       "fecha_visto_primera_vez": "2026-10-01 21:07:20",
-      "seller_id": "mediamarktalmeria",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Pilas AAA recargables - Duracell AAA LR03 / LR3,  850mAh, Paquete de 4, Negro",
-      "precio": 21.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178545463346?itmmeta=01M3WM01DQXWMS0TH0Z1G1BXF8&hash=item2992239032:g:ek0AAeSwiVpqvn1u",
-      "imagen_url": "https://i.ebayimg.com/images/g/ek0AAeSwiVpqvn1u/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pilas-aaa-duracell-recharge-ultra-1-2-v-recargables-4-uds-1114818.html",
-      "fecha_visto_primera_vez": "2026-10-01 21:06:49",
       "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null
     },
@@ -24438,7 +24477,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/hy8AAeSwJQppxRGT/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_afeitadora-braun-shaver-series-5-51-w1000s-negro-137440459.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_afeitadora-braun-4210201394150-60-min-carga-rapida-recortador-de-precision-afeitado-en-seco-afeitado-en-humedo-cromo-144343194.html",
       "fecha_visto_primera_vez": "2026-08-23 16:59:45",
       "seller_id": "mediamarktsantboi",
       "nombre_mostrado": null
@@ -24516,7 +24555,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/aJEAAeSwjbZpfjVr/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-altavoz-jbl-partycover-club-120-para-partybox-club-120-goma-de-estireno-butadieno-y-tejido-de-punto-de-poliester-de-doble-cara-negro-1595122.html",
       "fecha_visto_primera_vez": "2026-08-23 16:59:45",
       "seller_id": "mediamarktsantboi",
       "nombre_mostrado": null
@@ -24568,7 +24607,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/nZoAAeSw2FtpPXDA/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_placa-de-induccion-bosch-pke61raa2e-4-zonas-5950-cm-negro-144358684.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-placa-induccion-bosch-pie875hc1e-4-zonas-28-cm-home-connect-funcion-sprint-80-cm-negro-1579216.html",
       "fecha_visto_primera_vez": "2026-08-23 16:59:45",
       "seller_id": "mediamarktsantboi",
       "nombre_mostrado": null
@@ -24579,19 +24618,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/366455582296?itmmeta=01M0QS0NF1PHJSP2X8DMGPT0BM&hash=item5552746e58:g:DM4AAeSwFSNqIays",
       "imagen_url": "https://i.ebayimg.com/images/g/DM4AAeSwFSNqIays/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-23 16:59:45",
-      "seller_id": "mediamarktsantboi",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Móvil - Xiaomi Redmi 15C Negro 256GB, 4GB RAM 6.9\" HD+, MediaTek Helio G81-Ultra",
-      "precio": 139.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/366114567915?itmmeta=01M0QS0NF1X83TV2FE6SAGDBXH&hash=item553e20f6eb:g:AgYAAeSwLKtpYgQ7",
-      "imagen_url": "https://i.ebayimg.com/images/g/AgYAAeSwLKtpYgQ7/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -51993,26 +52019,6 @@
           "precio": 17.9,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/318890872620?itmmeta=01M3504QQMADJ0A5SK0K4HRGSQ&hash=item4a3f608f2c:g:WeoAAeSwnnJqrowG"
-        }
-      ]
-    },
-    {
-      "clave": "pilas aaa recargables - duracell aaa lr03 / lr3,  850mah, paquete de 4, negro",
-      "criterio": "titulo",
-      "titulo": "Pilas AAA recargables - Duracell AAA LR03 / LR3,  850mAh, Paquete de 4, Negro",
-      "imagen_url": "https://i.ebayimg.com/images/g/vWAAAeSwKTRqefuO/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktalfafar",
-          "precio": 9.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/298229782269?itmmeta=01M08T46VYWKR9C1JTPMEMWGKP&hash=item456fe156fd:g:DYQAAeSw-lpqSoMh"
-        },
-        {
-          "tienda": "mediamarktalmeria",
-          "precio": 21.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/178545463346?itmmeta=01M3WM01DQXWMS0TH0Z1G1BXF8&hash=item2992239032:g:ek0AAeSwiVpqvn1u"
         }
       ]
     },
