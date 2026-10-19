@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-10-18T22:23:59.244175+00:00",
+  "actualizado": "2026-10-19T09:48:20.954479+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3800,
+  "total_articulos": 3795,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -279,11 +279,6 @@
       "num_articulos": 35
     },
     {
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null,
-      "num_articulos": 34
-    },
-    {
       "seller_id": "mediamarktlosbarrios",
       "nombre_mostrado": null,
       "num_articulos": 33
@@ -302,6 +297,11 @@
       "seller_id": "mediamarkttalavera",
       "nombre_mostrado": null,
       "num_articulos": 30
+    },
+    {
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null,
+      "num_articulos": 29
     },
     {
       "seller_id": "mediamarktvigomeixoeiro",
@@ -511,6 +511,32 @@
   ],
   "articulos_recientes": [
     {
+      "titulo": "Smartwatch infantil - Elari KidPhone 4GR, 1.3\", 48 horas, 4G, Bluetooth, IP67, W",
+      "precio": 98.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137852164766?itmmeta=01M59RPJ12C3VPTWBM7GZJXTPP&hash=item2018a11a9e:g:1MkAAeSw8Nxq08bF",
+      "imagen_url": "https://i.ebayimg.com/images/g/1MkAAeSw8Nxq08bF/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_elari-kidphone4grgpssosvideollamadab-1508976.html",
+      "fecha_visto_primera_vez": "2026-10-19 09:44:24",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Recambio para afeitadora - Philips SH91/50, Cuchillas NanoTech Dual Precision, A",
+      "precio": 52.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137852095674?itmmeta=01M59RPF5VXWHZE35ZA3N0ERPD&hash=item2018a00cba:g:3uYAAeSwredq072-",
+      "imagen_url": "https://i.ebayimg.com/images/g/3uYAAeSwredq072-/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_recambio-para-afeitadora-philips-sh9150-cuchillas-nanotech-dual-precision-autoafilables-inox-1519965.html",
+      "fecha_visto_primera_vez": "2026-10-19 09:44:10",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
       "titulo": "Smartwatch - Amazfit Active Max, Correa 22mm, Pantalla AMOLED 1,5”, 25 días de A",
       "precio": 148.96,
       "moneda": "EUR",
@@ -563,19 +589,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Grill - KOENIC KCG 2020, 2000 W, Termostato regulable, Apagado automático, Antia",
-      "precio": 49.82,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137852095278?itmmeta=01M58HFSWFKHAZNZ48VWK5WQ0F&hash=item2018a00b2e:g:nNAAAeSwiB5q072P",
-      "imagen_url": "https://i.ebayimg.com/images/g/nNAAAeSwiB5q072P/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_plancha-de-asar-koenic-kcg-2020-2000-w-termostato-regulable-apagado-automatico-antiadherente-placas-extraibles-negroplata-1538307.html",
-      "fecha_visto_primera_vez": "2026-10-18 22:18:55",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Pulsera de actividad - Huawei Band 11, Morado, 16mm, 1.62\" AMOLED, 5ATM, 14 Días",
       "precio": 40.41,
       "moneda": "EUR",
@@ -615,19 +628,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Nintendo Switch 2 MOUSE: P.I. For Hire",
-      "precio": 40.49,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137852193358?itmmeta=01M572S7D64MMPQCRPCPX6S4SH&hash=item2018a18a4e:g:i6UAAeSwtfZq08oN",
-      "imagen_url": "https://i.ebayimg.com/images/g/i6UAAeSwtfZq08oN/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_juego-nintendo-switch-2-mouse-pi-for-hire-nintendo-switch-accion-173965919.html",
-      "fecha_visto_primera_vez": "2026-10-18 08:43:53",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Nintendo Switch 2 Sociable Soccer Champions Kit for Switch (Código en la caja)",
       "precio": 31.49,
       "moneda": "EUR",
@@ -637,58 +637,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-sociable-soccer-champions-kit-for-switch-codigo-en-la-caja-1627103.html",
       "fecha_visto_primera_vez": "2026-10-18 08:43:39",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Microondas ok OMW 2024-3 W, 700W, 5 Niveles de Potencia, 20 l, Blanco",
-      "precio": 35.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137852159262?itmmeta=01M572S50Z4F92CND4183NDC1E&hash=item2018a1051e:g:VDIAAeSwyMNq08Ts",
-      "imagen_url": "https://i.ebayimg.com/images/g/VDIAAeSwyMNq08Ts/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_microondas-ok-omw-2024-3-w-1050-w-5-niveles-de-potencia-20-l-control-mecanico-blanco-1567339.html",
-      "fecha_visto_primera_vez": "2026-10-18 08:43:25",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Robot friegasuelos - Xiaomi Vacuum S40 Pro, 160 W, Ventilador de Succión 15000 P",
-      "precio": 197.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137852144174?itmmeta=01M572S50YRF8R2QQYJMJT07ST&hash=item2018a0ca2e:g:K7wAAeSwsDBq08Np",
-      "imagen_url": "https://i.ebayimg.com/images/g/K7wAAeSwsDBq08Np/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_robot-friegasuelos-xiaomi-vacuum-s40-pro-160-w-ventilador-de-succion-15000-pa-180-min-autonomia-hogar-de-180-m-blanco-1609455.html",
-      "fecha_visto_primera_vez": "2026-10-18 08:43:10",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Mando Nintendo Switch - Turtle Beach Afterglow™ Wave Wireless Controller, Para N",
-      "precio": 54.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137852242234?itmmeta=01M572S50WRVSX5JQ6S3KZMACE&hash=item2018a2493a:g:gXkAAeSwIUlq081U",
-      "imagen_url": "https://i.ebayimg.com/images/g/gXkAAeSwIUlq081U/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_mando-nintendo-switch-turtle-beach-afterglowtm-wave-wireless-controller-para-nintendo-switch-switch-lite-switch-oled-switch-2-morado-1606013.html",
-      "fecha_visto_primera_vez": "2026-10-18 08:42:41",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Mando Nintendo Switch 2 - Hori Turbo, Para Nintendo Switch 2, Switch y Switch OL",
-      "precio": 25.49,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137852234400?itmmeta=01M55Y5MBSXJKFWCA98P098RWC&hash=item2018a22aa0:g:noAAAeSw1L1q08zm",
-      "imagen_url": "https://i.ebayimg.com/images/g/noAAAeSw1L1q08zm/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_mando-nintendo-switch-2-hori-turbo-para-nintendo-switch-2-switch-y-switch-oled-cable-boton-c-licencia-oficial-nintendo-negro-1600897.html",
-      "fecha_visto_primera_vez": "2026-10-17 22:12:47",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -793,19 +741,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-final-fantasy-vii-remake-integrade-1606672.html",
       "fecha_visto_primera_vez": "2026-10-17 22:02:50",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "TV OLED 55\" - LG OLED55B6ELC, OLED 4K, Procesador Inteligente α8 AI Processor 4K",
-      "precio": 1049.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137851886806?itmmeta=01M55H9WQSTF0MPCA6B4RVEJ8H&hash=item20189cdcd6:g:ekAAAeSwt1Zq06ZE",
-      "imagen_url": "https://i.ebayimg.com/images/g/ekAAAeSwt1Zq06ZE/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/search.html?query=TV+OLED+55\"+-+LG+OLED55B6ELC,+OLED+4K,+Procesador+Inteligente+α8+AI+Processor+4K",
-      "fecha_visto_primera_vez": "2026-10-17 18:27:40",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -51615,6 +51550,32 @@
       ]
     },
     {
+      "clave": "recambio para afeitadora - philips sh91/50, cuchillas nanotech dual precision, a",
+      "criterio": "titulo",
+      "titulo": "Recambio para afeitadora - Philips SH91/50, Cuchillas NanoTech Dual Precision, A",
+      "imagen_url": "https://i.ebayimg.com/images/g/i2oAAeSwDw1qn~L6/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktbahiadecadiz",
+          "precio": 31.79,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/318843080180?itmmeta=01M2BDD3VBEY40PM1MHVD8446Y&hash=item4a3c874df4:g:i2oAAeSwDw1qn~L6"
+        },
+        {
+          "tienda": "mediamarktfanmallorca",
+          "precio": 51.29,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/158115191101?itmmeta=01M0A7MFF65ZP3WNQD8AXB8AWQ&hash=item24d066593d:g:YgUAAeSw3jFqYytA"
+        },
+        {
+          "tienda": "mediamarktalcala",
+          "precio": 52.9,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/137852095674?itmmeta=01M59RPF5VXWHZE35ZA3N0ERPD&hash=item2018a00cba:g:3uYAAeSwredq072-"
+        }
+      ]
+    },
+    {
       "clave": "apple cable de usb-c de 60w, iphone, ipad, mac, airpods, 1 metros, blanco",
       "criterio": "titulo",
       "titulo": "Apple Cable de USB-C DE 60W, iPhone, iPad, Mac, AirPods, 1 metros, Blanco",
@@ -54531,26 +54492,6 @@
           "precio": 37.91,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/158017364044?itmmeta=01M0A7MCYZM8X6C6WSN6DCYRWZ&hash=item24ca91a04c:g:w3EAAeSwjF1qVjIy"
-        }
-      ]
-    },
-    {
-      "clave": "recambio para afeitadora - philips sh91/50, cuchillas nanotech dual precision, a",
-      "criterio": "titulo",
-      "titulo": "Recambio para afeitadora - Philips SH91/50, Cuchillas NanoTech Dual Precision, A",
-      "imagen_url": "https://i.ebayimg.com/images/g/i2oAAeSwDw1qn~L6/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktbahiadecadiz",
-          "precio": 31.79,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/318843080180?itmmeta=01M2BDD3VBEY40PM1MHVD8446Y&hash=item4a3c874df4:g:i2oAAeSwDw1qn~L6"
-        },
-        {
-          "tienda": "mediamarktfanmallorca",
-          "precio": 51.29,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/158115191101?itmmeta=01M0A7MFF65ZP3WNQD8AXB8AWQ&hash=item24d066593d:g:YgUAAeSw3jFqYytA"
         }
       ]
     },
