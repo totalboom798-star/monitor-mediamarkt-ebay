@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-10-19T09:48:20.954479+00:00",
+  "actualizado": "2026-10-19T18:36:22.189495+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3795,
+  "total_articulos": 3787,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -26,7 +26,7 @@
     {
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null,
-      "num_articulos": 59
+      "num_articulos": 58
     },
     {
       "seller_id": "mediamarktalmeria",
@@ -299,11 +299,6 @@
       "num_articulos": 30
     },
     {
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null,
-      "num_articulos": 29
-    },
-    {
       "seller_id": "mediamarktvigomeixoeiro",
       "nombre_mostrado": null,
       "num_articulos": 27
@@ -314,9 +309,14 @@
       "num_articulos": 25
     },
     {
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null,
+      "num_articulos": 23
+    },
+    {
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null,
-      "num_articulos": 22
+      "num_articulos": 21
     },
     {
       "seller_id": "mediamarktfrancescmacia",
@@ -511,6 +511,19 @@
   ],
   "articulos_recientes": [
     {
+      "titulo": "Afeitadora corporal - Philips MG9558/15, 20 Accesorios, 120 min Autonomía, Cara,",
+      "precio": 79.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137852095230?itmmeta=01M5APWXGFRKM610DA6W7GQZWP&hash=item2018a00afe:g:Gx0AAeSwWUhq1k8a",
+      "imagen_url": "https://i.ebayimg.com/images/g/Gx0AAeSwWUhq1k8a/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_afeitadora-corporal-philips-mg955815-15-accesorios-120-min-autonomia-cara-cabeza-y-cuerpo-peine-guia-de-precision-de-alta-calidad-gris-1617713.html",
+      "fecha_visto_primera_vez": "2026-10-19 18:32:02",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
       "titulo": "Smartwatch infantil - Elari KidPhone 4GR, 1.3\", 48 horas, 4G, Bluetooth, IP67, W",
       "precio": 98.0,
       "moneda": "EUR",
@@ -563,19 +576,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Auriculares gaming - Ardistel BLACKFIRE® BFX-W100 PRO, 3 modos de conexión: Blue",
-      "precio": 35.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137852239444?itmmeta=01M58HFSWHBQEPFXED1W6V0EJR&hash=item2018a23e54:g:I9AAAeSwq9Vq080i",
-      "imagen_url": "https://i.ebayimg.com/images/g/I9AAAeSwq9Vq080i/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-gaming-ardistel-blackfirer-bfx-w100-pro-3-modos-de-conexion-bluetooth-wireless-dongle-24g-y-cable-microfono-blanco-1581240.html",
-      "fecha_visto_primera_vez": "2026-10-18 22:19:23",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Secador - Bellissima Diffon Ion Ceramic, Difusor integrado, 700 W, 2 combinacion",
       "precio": 49.41,
       "moneda": "EUR",
@@ -602,19 +602,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Batidora de vaso - nutribullet Flex NBP013GM Portable, Batidora personal, Vaso p",
-      "precio": 67.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137852105278?itmmeta=01M572S9T88YB2XR9SKRB7AC9P&hash=item2018a0323e:g:V5YAAeSwdk9q077N",
-      "imagen_url": "https://i.ebayimg.com/images/g/V5YAAeSwdk9q077N/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_batidora-de-vaso-nutribullet-flex-portable-batidora-personal-vaso-portatil-74-v-590-ml-cable-usb-c-verde-bosque-1607232.html",
-      "fecha_visto_primera_vez": "2026-10-18 08:45:49",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "ROWENTA CL PACK 1582130 SPOT CLEANER IN5011",
       "precio": 125.0,
       "moneda": "EUR",
@@ -624,45 +611,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aspirador-sin-bolsa-rowenta-clean-it-in5011f0-400-w-tapicerias-quitamanchas-deposito-18l-portatil-ergonomico-accesorios-naranja-1582130.html",
       "fecha_visto_primera_vez": "2026-10-18 08:45:06",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Nintendo Switch 2 Sociable Soccer Champions Kit for Switch (Código en la caja)",
-      "precio": 31.49,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137852192789?itmmeta=01M572S5119EZJ99H0TMDGM07P&hash=item2018a18815:g:riYAAeSwR9Rq08n~",
-      "imagen_url": "https://i.ebayimg.com/images/g/riYAAeSwR9Rq08n~/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-sociable-soccer-champions-kit-for-switch-codigo-en-la-caja-1627103.html",
-      "fecha_visto_primera_vez": "2026-10-18 08:43:39",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Plancha de vapor vertical - Philips 5000 serie STH5030/80, 1400W, Salida vapor 2",
-      "precio": 61.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137852106046?itmmeta=01M55Y5MBS8HAV3YM6J8T0EN92&hash=item2018a0353e:g:qHwAAeSw6Zxq077d",
-      "imagen_url": "https://i.ebayimg.com/images/g/qHwAAeSw6Zxq077d/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_plancha-de-vapor-vertical-philips-5000-serie-sth502040-1400w-salida-vapor-24-gmin-180-ml-calentamiento-35s-cabezal-inclinable-anti-bacterias-1595192.html",
-      "fecha_visto_primera_vez": "2026-10-17 22:12:17",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Nintendo Switch Let's Sing 2026 + 2 Micrófonos",
-      "precio": 51.98,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137852209927?itmmeta=01M55Y5MBQA2AB1ZR0KYR7E34M&hash=item2018a1cb07:g:fWMAAeSwzkRq08tB",
-      "imagen_url": "https://i.ebayimg.com/images/g/fWMAAeSwzkRq08tB/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-lets-sing-2026-2-microfonos-1603053.html",
-      "fecha_visto_primera_vez": "2026-10-17 22:10:21",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -793,19 +741,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_disco-duro-ssd-externo-2tb-sandisk-extreme-portable-ssd-25-hasta-1050-mbs-nvme-usb-32-ip65-blanco-1584078.html",
       "fecha_visto_primera_vez": "2026-10-17 18:18:30",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Auriculares inalámbricos - Logitech Zone 300, Bluetooth, Micrófonos (volteable)",
-      "precio": 53.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137852061506?itmmeta=01M55H9WQETRNHFW4ATX6GBG77&hash=item20189f8742:g:YqkAAeSwIUlq07hN",
-      "imagen_url": "https://i.ebayimg.com/images/g/YqkAAeSwIUlq07hN/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-inalambricos-logitech-zone-300-bluetooth-microfonos-volteable-con-cancelacion-de-ruido-hasta-20h-bateria-multidispositivo-negro-1577105.html",
-      "fecha_visto_primera_vez": "2026-10-17 18:17:40",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -1170,19 +1105,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_freidora-de-aire-cosori-turbo-tower-compact-doble-cesta-86-l-2630-w-230-c-revestimiento-ceramico-premium-negro-1619903.html",
       "fecha_visto_primera_vez": "2026-10-17 08:23:27",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Depiladora - Braun Silk·épil 9 Flex 9-030 3D, En seco y en mojado, Cabezal flexi",
-      "precio": 139.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137850824060?itmmeta=01M54F88CHQ2RM69K69TBXH3JY&hash=item20188ca57c:g:I7MAAeSwMjZq0yS7",
-      "imagen_url": "https://i.ebayimg.com/images/g/I7MAAeSwMjZq0yS7/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_depiladora-braun-silkepil-9-flex-0-030-3d-en-seco-y-en-mojado-cabezal-flexible-en-3d-piel-suave-duradera-2-accesorios-adicionales-oro-1622631.html",
-      "fecha_visto_primera_vez": "2026-10-17 08:22:16",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -16861,19 +16783,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_despertador-tar450010-philips-negro-168290023.html",
       "fecha_visto_primera_vez": "2026-09-11 16:09:07",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Altavoz gran potencia - LG XBOOM DXL7T, 250W, Con batería, Autonomía 20h,",
-      "precio": 314.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137724096069?itmmeta=01M28KMDY6NHA6BZJQFPR9DFBG&hash=item2010feee45:g:WY0AAeSwxfNqo8nm",
-      "imagen_url": "https://i.ebayimg.com/images/g/WY0AAeSwxfNqo8nm/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-lg-rnc7-luces-multi-color-efectos-dj-funcion-karaoke-efectos-de-voz-negro-1550233.html",
-      "fecha_visto_primera_vez": "2026-09-11 16:08:36",
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null
     },
@@ -43099,19 +43008,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "exposicion sin caja TV QLED 50\" - Philips Ambilight 50PUS8510/12, UHD 4K,",
-      "precio": 295.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800486563623?itmmeta=01M08T90C9VV4Z7J9ZMWE4SGES&hash=itemba60b79f27:g:JvgAAeSw3BxqeeFV",
-      "imagen_url": "https://i.ebayimg.com/images/g/JvgAAeSw3BxqeeFV/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tv-led-50-philips-50pus700112-uhd-4k-philips-pixel-precise-ultra-hd-smart-tv-dvb-t2-dolby-atmos-y-dtsx-hdr10-negro-1668291.html",
-      "fecha_visto_primera_vez": "2026-08-17 21:33:31",
-      "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Funda tablet - Samsung EF-BX110TLEGWW, Para Galaxy Tab A9, Folio, 8.7\"",
       "precio": 29.99,
       "moneda": "EUR",
@@ -56072,26 +55968,6 @@
           "precio": 39.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/407221071625?itmmeta=01M3MED36Q0GC36EM85PJKS1C4&hash=item5ed0446f09:g:GngAAeSwNPJqqoNq"
-        }
-      ]
-    },
-    {
-      "clave": "nintendo switch 2 sociable soccer champions kit for switch (código en la caja)",
-      "criterio": "titulo",
-      "titulo": "Nintendo Switch 2 Sociable Soccer Champions Kit for Switch (Código en la caja)",
-      "imagen_url": "https://i.ebayimg.com/images/g/CNwAAeSw-CpqxiGp/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktcordoba",
-          "precio": 19.71,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/920017089846?itmmeta=01M4E20DH0PMC2071EPM0DXD6A&hash=itemd6354ab536:g:CNwAAeSw-CpqxiGp"
-        },
-        {
-          "tienda": "mediamarktalcala",
-          "precio": 31.49,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/137852192789?itmmeta=01M572S5119EZJ99H0TMDGM07P&hash=item2018a18815:g:riYAAeSwR9Rq08n~"
         }
       ]
     },
