@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-10-24T18:44:08.937223+00:00",
+  "actualizado": "2026-10-24T22:22:57.263038+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3767,
+  "total_articulos": 3764,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -31,7 +31,7 @@
     {
       "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null,
-      "num_articulos": 54
+      "num_articulos": 52
     },
     {
       "seller_id": "mediamarktcartagena",
@@ -311,7 +311,7 @@
     {
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null,
-      "num_articulos": 20
+      "num_articulos": 21
     },
     {
       "seller_id": "mediamarktfrancescmacia",
@@ -339,11 +339,6 @@
       "num_articulos": 14
     },
     {
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null,
-      "num_articulos": 11
-    },
-    {
       "seller_id": "mediamarktesplugues",
       "nombre_mostrado": null,
       "num_articulos": 11
@@ -357,6 +352,11 @@
       "seller_id": "mediamarktsevillaairesur",
       "nombre_mostrado": null,
       "num_articulos": 10
+    },
+    {
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null,
+      "num_articulos": 9
     },
     {
       "seller_id": "mediamarktcampanar",
@@ -510,6 +510,19 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Mando PS5 Sony DualSense Techno Red, Retroalimentación háptica, Remix Green",
+      "precio": 69.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800833982670?itmmeta=01M5R010XN15R518DA38D27F9G&hash=itemba756cd0ce:g:xdcAAeSwI1Fq3Pxz",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_mando-ps5-sony-dualsense-techno-red-playstation-5-inalambrica-remix-green-1618375.html",
+      "fecha_visto_primera_vez": "2026-10-24 22:20:59",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Auriculares True Wireless - Shokz OpenFit 2+",
       "precio": 169.0,
@@ -1347,7 +1360,7 @@
       "precio": 29.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/800828879908?itmmeta=01M5MTEVZVVZYV28YHXGT3YMWV&hash=itemba751ef424:g:OkQAAeSwfoJq2zxu",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/OkQAAeSwfoJq2zxu/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_afeitadora-philips-head-shaver-pro-5000-series-hs598015-cabezales-flexibles-360o-power-adapt-autonomia-de-60-min-uso-seco-y-humedo-negro-1604342.html",
@@ -1418,19 +1431,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_robot-friegasuelos-cecotec-conga-m100-spin-ai-navegacion-inteligente-ia-programable-negro-1605444.html",
       "fecha_visto_primera_vez": "2026-10-23 16:45:59",
       "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cámara instantánea - Polaroid Now+ Generación 3, Bluetooth, Batería recargable,",
-      "precio": 109.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137867905007?itmmeta=01M5M1DEG72DNN2XDS8MY96158&hash=item20199147ef:g:umEAAeSwP-hq2wq0",
-      "imagen_url": "https://i.ebayimg.com/images/g/umEAAeSwP-hq2wq0/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-instantanea-polaroid-now-generacion-3-bluetooth-bateria-recargable-flash-preciso-coral-1595429.html",
-      "fecha_visto_primera_vez": "2026-10-23 09:29:30",
-      "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
     {
@@ -2158,19 +2158,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pulsera-de-actividad-huawei-band-11-morado-16mm-162-amoled-5atm-14-dias-de-autonomia-monitoreo-completo-de-salud-medicion-estres-1619680.html",
       "fecha_visto_primera_vez": "2026-10-18 08:46:03",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "ROWENTA CL PACK 1582130 SPOT CLEANER IN5011",
-      "precio": 125.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137852155834?itmmeta=01M572S7DCSRDTMYV2R1W3B08P&hash=item2018a0f7ba:g:~j8AAeSwIUlq08Pw",
-      "imagen_url": "https://i.ebayimg.com/images/g/~j8AAeSwIUlq08Pw/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aspirador-sin-bolsa-rowenta-clean-it-in5011f0-400-w-tapicerias-quitamanchas-deposito-18l-portatil-ergonomico-accesorios-naranja-1582130.html",
-      "fecha_visto_primera_vez": "2026-10-18 08:45:06",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
@@ -4099,19 +4086,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "EXPO Pulsera Xiaomi Smart Band 9 Active, 1.47\",(LE FALTA EL GANCHO DE LA CORREA",
-      "precio": 15.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178545468921?itmmeta=01M3XF23KHP705PCET7WSAPRD7&hash=item299223a5f9:g:-OgAAeSwPjJqvn54",
-      "imagen_url": "https://i.ebayimg.com/images/g/-OgAAeSwPjJqvn54/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_-278466-inf-104563985.html",
-      "fecha_visto_primera_vez": "2026-10-02 04:49:11",
-      "seller_id": "mediamarktalmeria",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Funda - ISY ISC 2502, Samsung, Galaxy S24+, Negro",
       "precio": 1.0,
       "moneda": "EUR",
@@ -4420,19 +4394,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-tablet-maillon-technologique-mtfunda9blk-compatible-con-samsung-a9-anti-manchas-multi-posicion-negro-1571090.html",
       "fecha_visto_primera_vez": "2026-10-01 21:13:56",
-      "seller_id": "mediamarktalmeria",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "TV LED 27\" - LG StanbyMe 27LX6TDGA, QHD, Procesador Inteligente ?8 con IA",
-      "precio": 999.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178545469366?itmmeta=01M3WM04154PTYV6JK1PKCPZQB&hash=item299223a7b6:g:lc4AAeSwKRpqvn5V",
-      "imagen_url": "https://i.ebayimg.com/images/g/lc4AAeSwKRpqvn5V/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pantalla-de-senalizacion-digital-lg-50ul5q-m-uhd-4k-negro-180080904.html",
-      "fecha_visto_primera_vez": "2026-10-01 21:12:55",
       "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null
     },
