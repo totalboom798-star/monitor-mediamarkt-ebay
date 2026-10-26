@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-10-26T09:59:28.679719+00:00",
+  "actualizado": "2026-10-26T18:33:32.894507+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3772,
+  "total_articulos": 3767,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -26,7 +26,7 @@
     {
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null,
-      "num_articulos": 67
+      "num_articulos": 59
     },
     {
       "seller_id": "mediamarktalmeria",
@@ -304,14 +304,14 @@
       "num_articulos": 25
     },
     {
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null,
+      "num_articulos": 24
+    },
+    {
       "seller_id": "mediamarktlosbarrios",
       "nombre_mostrado": null,
       "num_articulos": 22
-    },
-    {
-      "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null,
-      "num_articulos": 20
     },
     {
       "seller_id": "mediamarktfrancescmacia",
@@ -371,7 +371,7 @@
     {
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null,
-      "num_articulos": 7
+      "num_articulos": 6
     },
     {
       "seller_id": "mediamarktmarbella",
@@ -510,6 +510,58 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Cámara Nintendo Switch 2 Nintendo Switch 2 USB-C",
+      "precio": 17.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800841275473?itmmeta=01M5WQMNCKX3GC2V3PBC95HMJA&hash=itemba75dc1851:g:K1MAAeSw-UNq34MG",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-nintendo-switch-2-nintendo-switch-2-usb-c-lente-gran-angular-sensor-imagen-alta-sensibilidad-negro-1598269.html",
+      "fecha_visto_primera_vez": "2026-10-26 18:31:22",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Moldeador - Cecotec AirGlisse 8in1 Gyro Champagne, Tecnología iónica,",
+      "precio": 69.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800841359241?itmmeta=01M5WQMNCKQ9RZ238A59FH6G56&hash=itemba75dd5f89:g:iswAAeSwVDtq34mz",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_moldeador-cecotec-ceramiccare-8in1-airglam-gyro-tecnologia-ionica-temperatura-controlada-8-cabezales-champagne-1605450.html",
+      "fecha_visto_primera_vez": "2026-10-26 18:31:08",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "exposicion Moldeador - Cecotec AirGlisse 8in1 Gyro Champagne,",
+      "precio": 69.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800841362709?itmmeta=01M5WQMNCK3R2Y07HH6ZADWDHR&hash=itemba75dd6d15:g:W3YAAeSwpgRq34no",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_moldeador-cecotec-ceramiccare-8in1-airglam-gyro-tecnologia-ionica-temperatura-controlada-8-cabezales-champagne-1605450.html",
+      "fecha_visto_primera_vez": "2026-10-26 18:30:54",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Samsung Galaxy A36 5G, Negro, 256 GB, 8 GB RAM, 6.7\"  FHD+ Super AMOLED",
+      "precio": 288.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800841366681?itmmeta=01M5WQMNCK7GBFWRC4NVG2WKBZ&hash=itemba75dd7c99:g:YbgAAeSwfTBq34o2",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-samsung-galaxy-a17-negro-256-gb-8-gb-ram-67-fhd-super-amoled-mediatek-g99-octa-core-5000-mah-android-15-1604167.html",
+      "fecha_visto_primera_vez": "2026-10-26 18:30:39",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Rowenta Multistyler Infinitos Looks 14 en 1 CF4230, 190 °C, Sistema Smart Switch",
       "precio": 39.0,
@@ -2309,7 +2361,7 @@
       "precio": 109.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/800828939118?itmmeta=01M5MTEVZVYV0KASTD0P685J34&hash=itemba751fdb6e:g:NXgAAeSwbNtq20G8",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/NXgAAeSwbNtq20G8/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_robot-friegasuelos-irobot-roomba-max-776-combo-deposito-260-ml-autonomia-250-min-63-dba-negro-1669327.html",
@@ -2322,7 +2374,7 @@
       "precio": 255.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/800828955133?itmmeta=01M5MTEVZV2DVWDTAS8W5CM1NB&hash=itemba752019fd:g:WFwAAeSwIhZq20NI",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/WFwAAeSwIhZq20NI/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_kaffeevollautomat-ecam-21117b-delonghi-1450-ww-88674075.html",
@@ -2760,19 +2812,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Router gaming ASUS TUF AX3000, WiFi 6, 2402 mbps, Doble banda (2,4 GHz / 5 GHz)",
-      "precio": 29.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137862358391?itmmeta=01M5FP086FJ9TM872WB6MEY3A6&hash=item20193ca577:g:vo0AAeSwxwNq2Ile",
-      "imagen_url": "https://i.ebayimg.com/images/g/vo0AAeSwxwNq2Ile/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_router-gt-ax6000-aimesh-asus-negro-101621480.html",
-      "fecha_visto_primera_vez": "2026-10-21 16:53:04",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Protector pantalla - ISY IPG-5146-2.5D, Para Samsung Galaxy S22 Plus, Vidrio",
       "precio": 1.0,
       "moneda": "EUR",
@@ -2838,19 +2877,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Tijeras - CMP PARIS 74919 Set 3 unidades, Para diestros y zurdos",
-      "precio": 3.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137860223717?itmmeta=01M5DE44VZ40GYZ6HEGPAY0A40&hash=item20191c12e5:g:bPEAAeSwMQdq15UB",
-      "imagen_url": "https://i.ebayimg.com/images/g/bPEAAeSwMQdq15UB/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tijeras-cmp-paris-74919-set-3-unidades-para-diestros-y-zurdos-acero-inoxidable-3-medidas-negro-1554426.html",
-      "fecha_visto_primera_vez": "2026-10-20 20:00:32",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Bolsas de aspirador - Rowenta WB3051 Wonderbag-Mini, 5 unidades, Microfibra",
       "precio": 5.99,
       "moneda": "EUR",
@@ -2865,10 +2891,10 @@
     },
     {
       "titulo": "Aspirador de tapicerías - Rowenta Clean IT IN5021, Limpia tapicerías y manchas,",
-      "precio": 159.0,
+      "precio": 189.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/137860164456?itmmeta=01M5DE44VZFP5C9BS3NSYB7RJJ&hash=item20191b2b68:g:HKEAAeSwvOVq141V",
-      "imagen_url": "https://i.ebayimg.com/images/g/HKEAAeSwvOVq141V/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/yhwAAeSwCYhq3ztR/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aspirador-de-tapicerias-rowenta-clean-it-in5021-limpia-tapicerias-y-manchas-deposito-extraible-23l-hasta-135-kpa-750w-autolimpieza-negro-1605864.html",
@@ -2942,19 +2968,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Accesorio aspirador - Scanpart 1190000105, Cepillo para parqué y gres,",
-      "precio": 10.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137860172009?itmmeta=01M5DE44VXN5C1SZYG230H932E&hash=item20191b48e9:g:mUsAAeSwtgNq143L",
-      "imagen_url": "https://i.ebayimg.com/images/g/mUsAAeSwtgNq143L/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_accesorio-aspirador-scanpart-1190000105-cepillo-para-parqué-y-gres-universal-35-mm-de-diámetro-negro-1314989.html",
-      "fecha_visto_primera_vez": "2026-10-20 19:58:05",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Botella - Schou 72742, 500 ml, Termo, Acero inoxidable, Negro",
       "precio": 5.99,
       "moneda": "EUR",
@@ -2981,19 +2994,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Café en grano - Café de Finca Etiopía Sidamo, Heirloom, Sabor a Manzana y Piña,",
-      "precio": 35.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137860257185?itmmeta=01M5DE44VW2ZKHPMJA7QZJATK0&hash=item20191c95a1:g:gfMAAeSwbM1q15gq",
-      "imagen_url": "https://i.ebayimg.com/images/g/gfMAAeSwbM1q15gq/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafe-en-grano-cafe-de-finca-etiopia-sidamo-heirloom-sabor-a-manzana-y-pina-apto-para-cafeteras-superautomaticas-1-kg-1578881.html",
-      "fecha_visto_primera_vez": "2026-10-20 19:56:58",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Tupper - CMP Paris KAE1477, Vidrio borosilicatado, 1 l, Apto para horno",
       "precio": 4.99,
       "moneda": "EUR",
@@ -3016,32 +3016,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-fregona-electrica-rowenta-x-clean-2-gz2251-wet-and-dry-35-min-autonomia-modos-ecomax-ligera-2-en-1-1674324.html",
       "fecha_visto_primera_vez": "2026-10-20 19:56:24",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Picadora - Tefal 5 Second K1330404, 0.5 L, Cuchillas Acero Inoxidable,",
-      "precio": 9.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137860221262?itmmeta=01M5DE44VTQG8T1KNSC3JM5W8W&hash=item20191c094e:g:nYkAAeSw2VBq15RK",
-      "imagen_url": "https://i.ebayimg.com/images/g/nYkAAeSw2VBq15RK/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-picadora-tefal-5-second-k1330404-05-l-cuchillas-acero-inoxidable-sistema-de-bloqueo-base-antideslizante-1675216.html",
-      "fecha_visto_primera_vez": "2026-10-20 19:55:54",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Afeitadora - Braun Afeitadora eléctrica Series 8 8603s, SensoAdapt,",
-      "precio": 199.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137860231979?itmmeta=01M5DE44VTB4K93KR6X1AEYSSA&hash=item20191c332b:g:WG4AAeSwqkBq15aK",
-      "imagen_url": "https://i.ebayimg.com/images/g/WG4AAeSwqkBq15aK/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_afeitadora-braun-series-8-8603s-sensoadapt-60-min-autonomia-afeitado-en-seco-y-en-mojado-gris-1602378.html",
-      "fecha_visto_primera_vez": "2026-10-20 19:55:38",
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null
     },
@@ -4802,27 +4776,14 @@
     },
     {
       "titulo": "Batidora de vaso - Moulinex Blendforce LM4358, 800 W, 1.75 L, 6 Cuchillas,",
-      "precio": 43.99,
+      "precio": 42.2,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/137821722592?itmmeta=01M4BF5TCG23BTD39WWBJ3CEQW&hash=item2016d097e0:g:xzIAAeSwlxpqxiLu",
-      "imagen_url": "https://i.ebayimg.com/images/g/xzIAAeSwlxpqxiLu/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/WYEAAeSwO-1q3ziF/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_batidora-de-vaso-moulinex-lm435810-1-75l-6-cuchillas-cristal-negro-1427905.html",
       "fecha_visto_primera_vez": "2026-10-07 15:21:52",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Exprimidor - Philips HR2738/00 Potencia 25W, Capacidad de jarra 0.5L",
-      "precio": 19.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137821704824?itmmeta=01M4BF5TCFH2SYRTS917Z2QT04&hash=item2016d05278:g:1VsAAeSwAJ5qxiC9",
-      "imagen_url": "https://i.ebayimg.com/images/g/1VsAAeSwAJ5qxiC9/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_exprimidor-philips-hr2738-00-potencia-25w-capacidad-de-jarra-0-5l-1206285.html",
-      "fecha_visto_primera_vez": "2026-10-07 15:21:37",
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null
     },
@@ -4854,10 +4815,10 @@
     },
     {
       "titulo": "Recambio para afeitadora - Braun 64B, Compatible con afeitadoras Series 6, Negro",
-      "precio": 25.99,
+      "precio": 35.7,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/137821740097?itmmeta=01M4BF5TCDXHK0FQRRTWRWQA76&hash=item2016d0dc41:g:Sv8AAeSwTMVqxiRj",
-      "imagen_url": "https://i.ebayimg.com/images/g/Sv8AAeSwTMVqxiRj/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/PYcAAeSwXQFq3zlS/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_recambio-para-afeitadora-braun-64b-compatible-con-afeitadoras-series-6-negro-1602386.html",
@@ -4867,10 +4828,10 @@
     },
     {
       "titulo": "Heladera - Moulinex Dolci, 9 Programas de postres helados, 3 tarrinas",
-      "precio": 164.99,
+      "precio": 164.7,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/137821725280?itmmeta=01M4BF5TCDVQ3RCYNFB3G4H8V8&hash=item2016d0a260:g:OosAAeSwv1tqxiN9",
-      "imagen_url": "https://i.ebayimg.com/images/g/OosAAeSwv1tqxiN9/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/XhwAAeSwUxdq3zi7/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-heladera-moulinex-dolci-9-programas-de-postres-helados-3-tarrinas-de-tritan-14-l-600w-resultados-cremosos-1666518.html",
@@ -49326,19 +49287,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Figura Funko Pop! - Owen Grady, Jurassic World: Dominion, 9.5 cm, Vinilo, Multi",
-      "precio": 8.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137094563089?itmmeta=01M08T2HK9QY88EH9F5DDTB9AG&hash=item1feb790511:g:ggsAAeSwJtNqdMi1",
-      "imagen_url": "https://i.ebayimg.com/images/g/ggsAAeSwJtNqdMi1/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-17 21:30:04",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Funda - ISY ISC-5009, Para Samsung Galaxy A23 5G, TPU, Transparente",
       "precio": 1.82,
       "moneda": "EUR",
@@ -49461,19 +49409,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/137567722973?itmmeta=01M08T2EZFY44MHJXR0Z0QGVV9&hash=item2007acdddd:g:T0IAAeSwh~xqa4EU",
       "imagen_url": "https://i.ebayimg.com/images/g/OdcAAeSwE6lqo8hu/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-17 21:29:54",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC  2336 , Para Apple iPhone 15 Plus, Silicona,",
-      "precio": 5.4,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137100111515?itmmeta=01M08T2EZFES9XCQDKRV854SCY&hash=item1febcdae9b:g:-R8AAeSwWXtqdMtu",
-      "imagen_url": "https://i.ebayimg.com/images/g/-R8AAeSwWXtqdMtu/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -49713,44 +49648,6 @@
       ]
     },
     {
-      "clave": "exprimidor - philips hr2738/00 potencia 25w, capacidad de jarra 0.5l",
-      "criterio": "titulo",
-      "titulo": "Exprimidor - Philips HR2738/00 Potencia 25W, Capacidad de jarra 0.5L",
-      "imagen_url": "https://i.ebayimg.com/images/g/lkEAAeSwgblqWQYv/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktvigomeixoeiro",
-          "precio": 14.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/146923295778?itmmeta=01M0AXFA0EJV2MEY7F3H5510V9&hash=item22354f9422:g:lkEAAeSwgblqWQYv"
-        },
-        {
-          "tienda": "mediamarktgandia",
-          "precio": 14.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/396660955985?itmmeta=01M0A7NVMPN8E8W96TVQDFZCCD&hash=item5c5ad5db51:g:hIMAAeSwNRxqaJkl"
-        },
-        {
-          "tienda": "mediamarktalfafar",
-          "precio": 15.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/298502271830?itmmeta=01M08T4CCD919Q768SACE6YRNF&hash=item45801f3356:g:56MAAeSwgxZqVSBn"
-        },
-        {
-          "tienda": "mediamarktcastellon",
-          "precio": 17.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/188695571841?itmmeta=01M0A7HQ3D19P57HBJYWD0B4QE&hash=item2bef21ed81:g:gJIAAeSw3QFqZO8~"
-        },
-        {
-          "tienda": "mediamarktalcorcon",
-          "precio": 19.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/137821704824?itmmeta=01M4BF5TCFH2SYRTS917Z2QT04&hash=item2016d05278:g:1VsAAeSwAJ5qxiC9"
-        }
-      ]
-    },
-    {
       "clave": "protector pantalla - samsung, para galaxy a36 5g, transparente",
       "criterio": "titulo",
       "titulo": "Protector pantalla - Samsung, Para Galaxy A36 5G, Transparente",
@@ -49906,19 +49803,19 @@
       "clave": "recambio para afeitadora - braun 64b, compatible con afeitadoras series 6, negro",
       "criterio": "titulo",
       "titulo": "Recambio para afeitadora - Braun 64B, Compatible con afeitadoras Series 6, Negro",
-      "imagen_url": "https://i.ebayimg.com/images/g/Sv8AAeSwTMVqxiRj/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/~rMAAeSw50hqSoNE/s-l300.webp",
       "ofertas": [
-        {
-          "tienda": "mediamarktalcorcon",
-          "precio": 25.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/137821740097?itmmeta=01M4BF5TCDXHK0FQRRTWRWQA76&hash=item2016d0dc41:g:Sv8AAeSwTMVqxiRj"
-        },
         {
           "tienda": "mediamarktalfafar",
           "precio": 29.9,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/298507290673?itmmeta=01M08T46VZCZ685V3D2811Z457&hash=item45806bc831:g:a54AAeSwydZqaw-J"
+        },
+        {
+          "tienda": "mediamarktalcorcon",
+          "precio": 35.7,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/137821740097?itmmeta=01M4BF5TCDXHK0FQRRTWRWQA76&hash=item2016d0dc41:g:Sv8AAeSwTMVqxiRj"
         },
         {
           "tienda": "mediamarktpuertovenecia",
@@ -49963,6 +49860,38 @@
           "precio": 24.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/146878862872?itmmeta=01M08T67XPMSRFXK4X432JYMZ7&hash=item2232a99618:g:MJ4AAeSwyehqT3nt"
+        }
+      ]
+    },
+    {
+      "clave": "exprimidor - philips hr2738/00 potencia 25w, capacidad de jarra 0.5l",
+      "criterio": "titulo",
+      "titulo": "Exprimidor - Philips HR2738/00 Potencia 25W, Capacidad de jarra 0.5L",
+      "imagen_url": "https://i.ebayimg.com/images/g/lkEAAeSwgblqWQYv/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktvigomeixoeiro",
+          "precio": 14.9,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/146923295778?itmmeta=01M0AXFA0EJV2MEY7F3H5510V9&hash=item22354f9422:g:lkEAAeSwgblqWQYv"
+        },
+        {
+          "tienda": "mediamarktgandia",
+          "precio": 14.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/396660955985?itmmeta=01M0A7NVMPN8E8W96TVQDFZCCD&hash=item5c5ad5db51:g:hIMAAeSwNRxqaJkl"
+        },
+        {
+          "tienda": "mediamarktalfafar",
+          "precio": 15.9,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/298502271830?itmmeta=01M08T4CCD919Q768SACE6YRNF&hash=item45801f3356:g:56MAAeSwgxZqVSBn"
+        },
+        {
+          "tienda": "mediamarktcastellon",
+          "precio": 17.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/188695571841?itmmeta=01M0A7HQ3D19P57HBJYWD0B4QE&hash=item2bef21ed81:g:gJIAAeSw3QFqZO8~"
         }
       ]
     },
