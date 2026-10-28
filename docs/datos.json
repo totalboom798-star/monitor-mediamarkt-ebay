@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-10-28T15:03:21.329736+00:00",
+  "actualizado": "2026-10-28T20:59:12.503280+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3803,
+  "total_articulos": 3809,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -26,7 +26,7 @@
     {
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null,
-      "num_articulos": 68
+      "num_articulos": 67
     },
     {
       "seller_id": "mediamarkttarragona",
@@ -294,6 +294,11 @@
       "num_articulos": 30
     },
     {
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null,
+      "num_articulos": 28
+    },
+    {
       "seller_id": "mediamarktvigomeixoeiro",
       "nombre_mostrado": null,
       "num_articulos": 27
@@ -302,11 +307,6 @@
       "seller_id": "mediamarktcordoba",
       "nombre_mostrado": null,
       "num_articulos": 25
-    },
-    {
-      "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null,
-      "num_articulos": 24
     },
     {
       "seller_id": "mediamarktlosbarrios",
@@ -354,6 +354,11 @@
       "num_articulos": 11
     },
     {
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null,
+      "num_articulos": 10
+    },
+    {
       "seller_id": "mediamarktsevillaairesur",
       "nombre_mostrado": null,
       "num_articulos": 10
@@ -372,11 +377,6 @@
       "seller_id": "mediamarktlleida",
       "nombre_mostrado": null,
       "num_articulos": 8
-    },
-    {
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null,
-      "num_articulos": 7
     },
     {
       "seller_id": "mediamarktmarbella",
@@ -511,16 +511,133 @@
   ],
   "articulos_recientes": [
     {
-      "titulo": "vivo V50, Mist Purple, 512 GB, 12 GB RAM, 6.77\" AMOLED, Snapdragon® 7",
+      "titulo": "motorola G86, 256GB, 8 GB RAM, 6.67\", Super HD, + Reloj Watch Fit",
+      "precio": 239.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800848460778?itmmeta=01M624Q5KMACNGY6SFXXETGQPJ&hash=itemba7649bbea:g:VZYAAeSwZmdq4hKN",
+      "imagen_url": "https://i.ebayimg.com/images/g/VZYAAeSwZmdq4hKN/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-motorola-g86-pantone-spellbound-256-gb-8-gb-ram-667-super-hd-mediatek-dimensity-7300-5000-mah-1671438.html",
+      "fecha_visto_primera_vez": "2026-10-28 20:57:43",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "vivo V50, Satin Black, 512 GB, 12 GB RAM, 6.77\" AMOLED, Snapdragon® 7",
       "precio": 459.0,
       "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800844910114?itmmeta=01M61GDVE2G26W1SQ5Z48Z1F5J&hash=itemba76138e22:g:3ycAAeSwFRdq4NDu",
+      "url": "https://www.ebay.es/itm/800848469560?itmmeta=01M624Q5G8GGD3KRJKZE2J5RNB&hash=itemba7649de38:g:WZoAAeSwMFJq4hNn",
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-vivo-bundle-x300-fe-mist-purple-512-gb-12-gb-ram-631-amoled-snapdragonr-8-gen-5-mobile-6500-mah-1627486.html",
-      "fecha_visto_primera_vez": "2026-10-28 15:01:17",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-vivo-v50-satin-black-512-gb-12-gb-ram-677-amoled-snapdragonr-7-gen3-263ghz1-6000-mah-152100485.html",
+      "fecha_visto_primera_vez": "2026-10-28 20:56:48",
       "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "usado Robot friegasuelos - Cecotec Conga M10, 120 m²,",
+      "precio": 39.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800848790592?itmmeta=01M624Q5G7BZ12TRDT25EC6RJ5&hash=itemba764ec440:g:OpsAAeSwWy9q4jCd",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_robot-friegasuelos-08069-cecotec-19-v-120-min-60-dbadba-negro-117004040.html?promotional_offer",
+      "fecha_visto_primera_vez": "2026-10-28 20:56:32",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "usada Plancha de vapor - Rowenta Express Steam",
+      "precio": 24.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800848912272?itmmeta=01M624Q5G7V99QEE69MTTMN3ZK&hash=itemba76509f90:g:eQEAAeSw7GNq4jll",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_plancha-de-vapor-rowenta-express-steam-dw4345d1-2600-w-0-25-l-200-g-min-microsteam-lila-1506322.html",
+      "fecha_visto_primera_vez": "2026-10-28 20:56:17",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "usada TV QLED 32\" - Xiaomi 32 F PRO, HD-Ready, ARM Cortex-A55, Smart TV, Negro",
+      "precio": 69.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800849232604?itmmeta=01M624Q5G7FCQWYK64RHMVY9XK&hash=itemba765582dc:g:eE8AAeSwLo5q4lj2",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tv-qled-32-xiaomi-32-f-pro-hd-ready-arm-cortex-a55-smart-tv-negro-1672517.html",
+      "fecha_visto_primera_vez": "2026-10-28 20:56:01",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "usado Microondas - Samsung MS23K3513AW/EC, 800 W, 6 niveles de potencia, 23 l,",
+      "precio": 34.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800849250924?itmmeta=01M624Q5G6G8ND7ENA0HKGDQ9W&hash=itemba7655ca6c:g:rp4AAeSw~ahq4lo0",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-microondas-samsung-ms23k3513awec-800-w-6-niveles-de-potencia-23-l-blanco-1605336.html",
+      "fecha_visto_primera_vez": "2026-10-28 20:55:45",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "usada TV QLED 43\" - Xiaomi 43 A PRO, QLED 4K,",
+      "precio": 149.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800849272812?itmmeta=01M624Q5G659ZHAKYZ401HVF92&hash=itemba76561fec:g:pFsAAeSwfjFq4lwg",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tv-qled-43-xiaomi-tv-f-pro-43-2026-uhd-4k-quad-core-cortex-a55-smart-tv-dvb-t2-h265-gris-oscuro-1674815.html",
+      "fecha_visto_primera_vez": "2026-10-28 20:55:27",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Pulsera de actividad Huawei Band 11, Morado, 16mm, 1.62\" AMOLED, 5ATM, 14 Días",
+      "precio": 39.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137881841472?itmmeta=01M624GHNYNBD4ZKY14S6RF4RS&hash=item201a65ef40:g:1EAAAeSw26lq4crg",
+      "imagen_url": "https://i.ebayimg.com/images/g/1EAAAeSw26lq4crg/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pulsera-de-actividad-huawei-band-11-morado-16mm-162-amoled-5atm-14-dias-de-autonomia-monitoreo-completo-de-salud-medicion-estres-1619680.html",
+      "fecha_visto_primera_vez": "2026-10-28 20:53:11",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Apple Watch SE 3 (2025),GPS,44mm,Caja aluminio y Correa deportiva Medianoche,M/L",
+      "precio": 249.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137881852822?itmmeta=01M624GE54RMEWJSKAFGZCMB9F&hash=item201a661b96:g:O~AAAeSwIr1q4c1y",
+      "imagen_url": "https://i.ebayimg.com/images/g/O~AAAeSwIr1q4c1y/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-watch-series-12-2026-gps-42mm-caja-de-aluminio-gris-espacial-correa-deportiva-azul-marino-talla-sm-siri-ai-1674484.html",
+      "fecha_visto_primera_vez": "2026-10-28 20:52:54",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Ventilador de pie Shark Turbo Blade 180º,90W,10Vel,Altura Ajustable,Temporizador",
+      "precio": 229.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137882383480?itmmeta=01M624GE540K4W0GEC5K1CP7VZ&hash=item201a6e3478:g:kaIAAeSwBgVq4ito",
+      "imagen_url": "https://i.ebayimg.com/images/g/kaIAAeSwBgVq4ito/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_ventilador-de-agua-shark-fa300eu-36-w-5-velocidades-antracita-155179551.html",
+      "fecha_visto_primera_vez": "2026-10-28 20:52:36",
+      "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
     {
@@ -528,7 +645,7 @@
       "precio": 269.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/800845548083?itmmeta=01M61GDVE2HMTNXB505JEQDF7S&hash=itemba761d4a33:g:5lUAAeSwZe5q4Q2-",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/5lUAAeSwZe5q4Q2-/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_secador-dyson-supersonictm-hd07-accesorios-tecnologia-avanzada-1600-w-secado-rapido-3-temp-azul-de-prusiacobre-1590976.html",
@@ -541,7 +658,7 @@
       "precio": 299.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/800845551129?itmmeta=01M61GDVE2NJXVA9VHZPZACEN4&hash=itemba761d5619:g:qoQAAeSwRD5q4Q3i",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/qoQAAeSwRD5q4Q3i/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_plancha-de-pelo-dyson-airstraittm-alisado-mojado-a-seco-1600w-4-niveles-temperatura-3-niveles-potencia-con-peine-integrado-ceramic-pink-1669286.html",
@@ -1473,19 +1590,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Impresora multifunción tinta - Epson EcoTank ET-2856, Serie 2850,",
-      "precio": 179.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137879131124?itmmeta=01M5YV6A2H9VBXDNKBYQX17HS9&hash=item201a3c93f4:g:WykAAeSwXolq4H1h",
-      "imagen_url": "https://i.ebayimg.com/images/g/WykAAeSwXolq4H1h/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-multifuncion-epson-ecotank-et-2865-inyeccion-de-tinta-10-ppm-en-monocromo-negro-1566508.html",
-      "fecha_visto_primera_vez": "2026-10-27 14:13:31",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Portátil - ASUS Vivobook 16 F1607QA-MB075W Copilot+ PC, 16 \" WUXGA, Snapdragon®",
       "precio": 599.0,
       "moneda": "EUR",
@@ -1590,37 +1694,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Moldeador - Cecotec AirGlisse 8in1 Gyro Champagne, Tecnología iónica,",
-      "precio": 69.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800841359241?itmmeta=01M5WQMNCKQ9RZ238A59FH6G56&hash=itemba75dd5f89:g:iswAAeSwVDtq34mz",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_moldeador-cecotec-ceramiccare-8in1-airglam-gyro-tecnologia-ionica-temperatura-controlada-8-cabezales-champagne-1605450.html",
-      "fecha_visto_primera_vez": "2026-10-26 18:31:08",
-      "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "exposicion Moldeador - Cecotec AirGlisse 8in1 Gyro Champagne,",
-      "precio": 69.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800841362709?itmmeta=01M5WQMNCK3R2Y07HH6ZADWDHR&hash=itemba75dd6d15:g:W3YAAeSwpgRq34no",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_moldeador-cecotec-ceramiccare-8in1-airglam-gyro-tecnologia-ionica-temperatura-controlada-8-cabezales-champagne-1605450.html",
-      "fecha_visto_primera_vez": "2026-10-26 18:30:54",
-      "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Samsung Galaxy A36 5G, Negro, 256 GB, 8 GB RAM, 6.7\"  FHD+ Super AMOLED",
       "precio": 288.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/800841366681?itmmeta=01M5WQMNCK7GBFWRC4NVG2WKBZ&hash=itemba75dd7c99:g:YbgAAeSwfTBq34o2",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/YbgAAeSwfTBq34o2/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-samsung-galaxy-a17-negro-256-gb-8-gb-ram-67-fhd-super-amoled-mediatek-g99-octa-core-5000-mah-android-15-1604167.html",
