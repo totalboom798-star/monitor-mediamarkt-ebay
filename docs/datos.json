@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-10-29T05:02:08.385814+00:00",
+  "actualizado": "2026-10-29T15:08:08.379656+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3806,
+  "total_articulos": 3808,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -296,7 +296,7 @@
     {
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null,
-      "num_articulos": 27
+      "num_articulos": 29
     },
     {
       "seller_id": "mediamarktvigomeixoeiro",
@@ -511,6 +511,45 @@
   ],
   "articulos_recientes": [
     {
+      "titulo": "Monitor gaming - Samsung Odyssey G5 LS27CG552EUXEN, 27\", WQHD, 1 ms, 165 Hz",
+      "precio": 129.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800851109439?itmmeta=01M6432Z50S1HH0J8EM928A6JF&hash=itemba7672263f:g:XjEAAeSwrBhq4wPe",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-gaming-s27cg552eu-samsung-27-wqhd-1-ms-displayport-hdmi-negro-136493391.html",
+      "fecha_visto_primera_vez": "2026-10-29 15:06:06",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "HP CL PACK 1587275 ENVY 6530E",
+      "precio": 39.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800851318880?itmmeta=01M6432Z50X9P5N31XSRJCBZG7&hash=itemba76755860:g:cioAAeSwFUlq4xbp",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cartucho-de-tinta-hp-912xl-azul-cian-1475223.html",
+      "fecha_visto_primera_vez": "2026-10-29 15:05:48",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Impresora multifunción láser - HP LaserJet Pro 3302sdw, Wi-Fi",
+      "precio": 229.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800851561002?itmmeta=01M6432Z5045VGN1N5PD759R0V&hash=itemba76790a2a:g:zV0AAeSwFppq4y-d",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-multifuncion-hp-laserjet-pro-3302sdw-laser-wi-fi-impresion-a-doble-cara-pantalla-tactil-cgd-wolf-pro-security-gris-1574431.html",
+      "fecha_visto_primera_vez": "2026-10-29 15:05:22",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
       "titulo": "motorola G86, 256GB, 8 GB RAM, 6.67\", Super HD, + Reloj Watch Fit",
       "precio": 239.0,
       "moneda": "EUR",
@@ -528,7 +567,7 @@
       "precio": 459.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/800848469560?itmmeta=01M624Q5G8GGD3KRJKZE2J5RNB&hash=itemba7649de38:g:WZoAAeSwMFJq4hNn",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/WZoAAeSwMFJq4hNn/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-vivo-v50-satin-black-512-gb-12-gb-ram-677-amoled-snapdragonr-7-gen3-263ghz1-6000-mah-152100485.html",
@@ -576,19 +615,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "usado Microondas - Samsung MS23K3513AW/EC, 800 W, 6 niveles de potencia, 23 l,",
-      "precio": 34.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800849250924?itmmeta=01M624Q5G6G8ND7ENA0HKGDQ9W&hash=itemba7655ca6c:g:rp4AAeSw~ahq4lo0",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-microondas-samsung-ms23k3513awec-800-w-6-niveles-de-potencia-23-l-blanco-1605336.html",
-      "fecha_visto_primera_vez": "2026-10-28 20:55:45",
-      "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Apple Watch SE 3 (2025),GPS,44mm,Caja aluminio y Correa deportiva Medianoche,M/L",
       "precio": 249.0,
       "moneda": "EUR",
@@ -609,7 +635,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/kaIAAeSwBgVq4ito/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_ventilador-de-agua-shark-fa300eu-36-w-5-velocidades-antracita-155179551.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_ventilador-de-sobremesa-shark-fa150eu-55-w-5-velocidades-gris-160136851.html",
       "fecha_visto_primera_vez": "2026-10-28 20:52:36",
       "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
@@ -53703,6 +53729,26 @@
           "precio": 34.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/358160937316?itmmeta=01M2WDEC3RMHT6BZTGXEFV035Z&hash=item53640e3164:g:Wc8AAeSwrKVqn8UR"
+        }
+      ]
+    },
+    {
+      "clave": "impresora multifunción láser - hp laserjet pro 3302sdw, wi-fi",
+      "criterio": "titulo",
+      "titulo": "Impresora multifunción láser - HP LaserJet Pro 3302sdw, Wi-Fi",
+      "imagen_url": null,
+      "ofertas": [
+        {
+          "tienda": "mediamarktcastellon",
+          "precio": 222.3,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/188760815327?itmmeta=01M0A7HD2RF8BTFHVRTJ46YVZ1&hash=item2bf30576df:g:kQgAAeSwsnZqdvsH"
+        },
+        {
+          "tienda": "mediamarktbadajoz",
+          "precio": 229.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/800851561002?itmmeta=01M6432Z5045VGN1N5PD759R0V&hash=itemba76790a2a:g:zV0AAeSwFppq4y-d"
         }
       ]
     },
