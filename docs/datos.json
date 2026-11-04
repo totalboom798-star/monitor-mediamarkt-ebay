@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-04T00:33:20.990792+00:00",
+  "actualizado": "2026-11-04T12:01:05.569947+00:00",
   "total_tiendas": 101,
   "total_articulos": 3744,
   "tiendas": [
@@ -26,7 +26,7 @@
     {
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null,
-      "num_articulos": 57
+      "num_articulos": 56
     },
     {
       "seller_id": "mediamarkttarragona",
@@ -394,6 +394,11 @@
       "num_articulos": 2
     },
     {
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null,
+      "num_articulos": 1
+    },
+    {
       "seller_id": "mediamarktbarakaldo",
       "nombre_mostrado": null,
       "num_articulos": 1
@@ -420,11 +425,6 @@
     },
     {
       "seller_id": "mediamarktacoruna",
-      "nombre_mostrado": null,
-      "num_articulos": 0
-    },
-    {
-      "seller_id": "mediamarktalcala",
       "nombre_mostrado": null,
       "num_articulos": 0
     },
@@ -510,6 +510,19 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Impresora fotográfica Fujifilm Mini Link 3,800×600 puntos, Impresión en 15 segs,",
+      "precio": 99.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137901450354?itmmeta=01M6K6N7Z4W0PJ7T57SZEPV9MM&hash=item201b912472:g:moMAAeSw~0lq6xbC",
+      "imagen_url": "https://i.ebayimg.com/images/g/moMAAeSw~0lq6xbC/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-fotografica-fujifilm-mini-link-3-exposicion-de-3-colores-con-oled-800-600-puntos-impresion-en-15-segs-clay-white-1580702.html",
+      "fecha_visto_primera_vez": "2026-11-04 11:56:37",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Altavoz inalámbrico - Vieta Pro Easy 2, 20 W, Resistente al agua, Autonomía 12h,",
       "precio": 21.9,
@@ -49032,19 +49045,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/135787097926?itmmeta=01M08T2EZH80S5B2KA0EBJVMH0&hash=item1f9d8aaf46:g:iNcAAeSwMeVqdMZt",
       "imagen_url": "https://i.ebayimg.com/images/g/iNcAAeSwMeVqdMZt/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-17 21:30:03",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Figura Funko Pop! - Aquaman: Atlanna, Vinilo, 10 cm",
-      "precio": 8.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/136409462807?itmmeta=01M08T2HK97ER1PRWJBJDC16DA&hash=item1fc2a33817:g:P6wAAeSwxthqdMDg",
-      "imagen_url": "https://i.ebayimg.com/images/g/P6wAAeSwxthqdMDg/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
