@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-11-07T05:52:52.322293+00:00",
+  "actualizado": "2026-11-07T14:51:20.572069+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3754,
+  "total_articulos": 3753,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -31,7 +31,7 @@
     {
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null,
-      "num_articulos": 52
+      "num_articulos": 51
     },
     {
       "seller_id": "mediamarktcartagena",
@@ -344,14 +344,14 @@
       "num_articulos": 12
     },
     {
-      "seller_id": "mediamarktesplugues",
+      "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null,
       "num_articulos": 11
     },
     {
-      "seller_id": "mediamarktbadajoz",
+      "seller_id": "mediamarktesplugues",
       "nombre_mostrado": null,
-      "num_articulos": 10
+      "num_articulos": 11
     },
     {
       "seller_id": "mediamarktsevillaairesur",
@@ -384,14 +384,14 @@
       "num_articulos": 4
     },
     {
-      "seller_id": "mediamarktalcala",
+      "seller_id": "mediamarktgava",
       "nombre_mostrado": null,
       "num_articulos": 3
     },
     {
-      "seller_id": "mediamarktgava",
+      "seller_id": "mediamarktalcala",
       "nombre_mostrado": null,
-      "num_articulos": 3
+      "num_articulos": 2
     },
     {
       "seller_id": "mediamarktsplau",
@@ -510,6 +510,19 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "EXPOSICON SIN CAJA Exprimidor - Jata EX2600M, 600 W, Sistema antigoteo, 2 Conos",
+      "precio": 39.2,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800888643295?itmmeta=01M6V7R21B6BS9NJ7P3DGBVB2P&hash=itemba78aededf:g:jjkAAeSwSbJq7xDv",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_exprimidor-ex549-jata-60-w-transparente-blanco-98938528.html",
+      "fecha_visto_primera_vez": "2026-11-07 14:49:19",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Bombilla inteligente-Philips SmartLighting Led GU10 2un, Blanco regulable, 4,7W",
       "precio": 20.89,
@@ -1184,19 +1197,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-funko-pop-wall-e-wall-e-wfire-extinguisher-vinilo-950-cm-multicolor-1534814.html",
       "fecha_visto_primera_vez": "2026-11-05 00:54:34",
       "seller_id": "mediamarktparets",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Impresora fotográfica Fujifilm Mini Link 3,800×600 puntos, Impresión en 15 segs,",
-      "precio": 99.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137901450354?itmmeta=01M6K6N7Z4W0PJ7T57SZEPV9MM&hash=item201b912472:g:moMAAeSw~0lq6xbC",
-      "imagen_url": "https://i.ebayimg.com/images/g/moMAAeSw~0lq6xbC/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-fotografica-fujifilm-mini-link-3-exposicion-de-3-colores-con-oled-800-600-puntos-impresion-en-15-segs-clay-white-1580702.html",
-      "fecha_visto_primera_vez": "2026-11-04 11:56:37",
-      "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
     {
@@ -2572,7 +2572,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cartucho-de-tinta-hp-912xl-azul-cian-1475223.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cartucho-de-tinta-advanced-c2p05aetvi-152407437.html",
       "fecha_visto_primera_vez": "2026-10-29 15:05:48",
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null
@@ -5694,19 +5694,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_botella-schou-72742-500-ml-termo-acero-inoxidable-negro-1573662.html",
       "fecha_visto_primera_vez": "2026-10-20 19:57:36",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Pack Tupper - Tefal Clip&Close K3029012, 5 recipientes , 0.15 L-3.7 L,",
-      "precio": 30.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137860199660?itmmeta=01M5DE44VWVB4J5JKFKESSCNMX&hash=item20191bb4ec:g:K24AAeSwjXpq15Ii",
-      "imagen_url": "https://i.ebayimg.com/images/g/K24AAeSwjXpq15Ii/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pack-tupper-tefal-clip-close-5pc-plastico-0-15l-3-7l-1358682.html",
-      "fecha_visto_primera_vez": "2026-10-20 19:57:16",
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null
     },
