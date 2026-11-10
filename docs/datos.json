@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-11-09T05:26:40.929893+00:00",
+  "actualizado": "2026-11-10T12:23:54.578274+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3730,
+  "total_articulos": 3731,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -164,14 +164,14 @@
       "num_articulos": 43
     },
     {
-      "seller_id": "mediamarktparets",
+      "seller_id": "mediamarktalmeria",
       "nombre_mostrado": null,
       "num_articulos": 42
     },
     {
-      "seller_id": "mediamarktalmeria",
+      "seller_id": "mediamarktparets",
       "nombre_mostrado": null,
-      "num_articulos": 41
+      "num_articulos": 42
     },
     {
       "seller_id": "mediamarktburgos",
@@ -339,6 +339,11 @@
       "num_articulos": 14
     },
     {
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null,
+      "num_articulos": 12
+    },
+    {
       "seller_id": "mediamarktplazadelcarmen",
       "nombre_mostrado": null,
       "num_articulos": 12
@@ -347,11 +352,6 @@
       "seller_id": "mediamarktesplugues",
       "nombre_mostrado": null,
       "num_articulos": 11
-    },
-    {
-      "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null,
-      "num_articulos": 10
     },
     {
       "seller_id": "mediamarktsevillaairesur",
@@ -384,11 +384,6 @@
       "num_articulos": 4
     },
     {
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null,
-      "num_articulos": 3
-    },
-    {
       "seller_id": "mediamarktgava",
       "nombre_mostrado": null,
       "num_articulos": 3
@@ -397,6 +392,11 @@
       "seller_id": "mediamarktsplau",
       "nombre_mostrado": null,
       "num_articulos": 2
+    },
+    {
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null,
+      "num_articulos": 1
     },
     {
       "seller_id": "mediamarktbarakaldo",
@@ -510,6 +510,45 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Monitor gaming - Xiaomi G Pro 27i, 27\", QHD, 1 ms, 180 Hz, Mini LED, FreeSync",
+      "precio": 229.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800896051725?itmmeta=01M72PFNQK8WAMJ6R00VPAG4J2&hash=itemba791fea0d:g:OZ8AAeSwIwJqOQB1",
+      "imagen_url": "https://i.ebayimg.com/images/g/OZ8AAeSwIwJqOQB1/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-gaming-xiaomi-g-pro-27qi-2026-27-qhd-mini-led-180-hz-1-ms-ips-altura-ajustable-1667020.html",
+      "fecha_visto_primera_vez": "2026-11-10 12:22:30",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "EXPOSICION Exprimidor - Taurus Easy Press 600, 600W, 0.65 L, Cuerpo",
+      "precio": 35.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800896449016?itmmeta=01M72PFNMX9D3KDPZFN2PVN5NB&hash=itemba7925f9f8:g:AWMAAeSwZmhq8cSY",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_exprimidor-taurus-citrus-compact-doble-sentido-de-rotacion-cono-exprimidor-extragrande-bpa-free-800-ml-30-watt-1-negro-1663297.html",
+      "fecha_visto_primera_vez": "2026-11-10 12:21:36",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Secador -  Rowenta x Karl Lagerfeld CV887LF0 K/Pro Stylist, 2200 W, Motor",
+      "precio": 69.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880098613741?itmmeta=01M72PDRE129Z24HD10S5VQMPR&hash=itemcce9f719ed:g:DDgAAeSwhItq8auE",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_secador-cv888l-rowenta-2200-w-3-niveles-temperatura-2-velocidades-difusor-incluido-negro-107304854.html",
+      "fecha_visto_primera_vez": "2026-11-10 12:20:24",
+      "seller_id": "mediamarktalmeria",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "FUNKO - INUYASHA - POP KAGURA",
       "precio": 5.0,
@@ -1707,19 +1746,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Videoportero - Ezviz DP2C, FHD, 4.3\", Wi-Fi, Visión nocturna, Gris",
-      "precio": 98.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137913971088?itmmeta=01M6YCXFM3YFE29RD6VEFT8CRB&hash=item201c503190:g:Ju8AAOSwBL1i9RtC",
-      "imagen_url": "https://i.ebayimg.com/images/g/Ju8AAOSwBL1i9RtC/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_mirilla-inteligente-ezviz-dp2c-fhd-43-wifi-videoportero-vision-nocturna-gris-1520166.html",
-      "fecha_visto_primera_vez": "2026-11-08 20:17:37",
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Pilas botón - Duracell 2016, 2 unidades, 3V DL2016 / CR2016, Plata",
       "precio": 2.09,
       "moneda": "EUR",
@@ -2757,19 +2783,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-adaptador-de-corriente-usbc-de-140-w-iphone-15-macbook-apple-vision-pro-blanco-1575225.html",
       "fecha_visto_primera_vez": "2026-11-05 20:06:21",
       "seller_id": "mediamarktfanmallorca",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Nintendo Switch 2 MOUSE: P.I. For Hire",
-      "precio": 33.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137904517455?itmmeta=01M6NS7WA6VF3FTKYY2MHQ32RH&hash=item201bbff14f:g:hKYAAeSw3R9q7Gjp",
-      "imagen_url": "https://i.ebayimg.com/images/g/hKYAAeSw3R9q7Gjp/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_juego-nintendo-switch-2-mouse-pi-for-hire-nintendo-switch-accion-173965919.html",
-      "fecha_visto_primera_vez": "2026-11-05 12:00:23",
-      "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
     {
@@ -4197,7 +4210,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pack-teclado-raton-hp-8t6l6aa-inalambrico-negro-150871630.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_protector-pantalla-movilx-hp-envy-x360-15-eu0313nw-hasta-17-flexibleglass-lite-3mk-hp-hp-envy-x360-15-cristal-hibrido-166319957.html",
       "fecha_visto_primera_vez": "2026-10-29 15:05:48",
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null
