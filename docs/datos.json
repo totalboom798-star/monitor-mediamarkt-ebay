@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-11-11T05:25:33.155826+00:00",
+  "actualizado": "2026-11-11T22:40:42.347111+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3731,
+  "total_articulos": 3734,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -29,14 +29,14 @@
       "num_articulos": 53
     },
     {
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null,
-      "num_articulos": 51
-    },
-    {
       "seller_id": "mediamarktcartagena",
       "nombre_mostrado": null,
       "num_articulos": 50
+    },
+    {
+      "seller_id": "mediamarktalcorcon",
+      "nombre_mostrado": null,
+      "num_articulos": 49
     },
     {
       "seller_id": "mediamarktterrassa",
@@ -341,7 +341,7 @@
     {
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null,
-      "num_articulos": 12
+      "num_articulos": 13
     },
     {
       "seller_id": "mediamarktplazadelcarmen",
@@ -374,6 +374,11 @@
       "num_articulos": 8
     },
     {
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null,
+      "num_articulos": 5
+    },
+    {
       "seller_id": "mediamarktmarbella",
       "nombre_mostrado": null,
       "num_articulos": 4
@@ -392,11 +397,6 @@
       "seller_id": "mediamarktsplau",
       "nombre_mostrado": null,
       "num_articulos": 2
-    },
-    {
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null,
-      "num_articulos": 1
     },
     {
       "seller_id": "mediamarktbarakaldo",
@@ -510,6 +510,71 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Monitor gaming - AOC U27G4R, 27\" Dual Frame UHD@160Hz / FHD@320Hz",
+      "precio": 199.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/800904064188?itmmeta=01M76C7NMZHTJJT3EZMACV1K2X&hash=itemba799a2cbc:g:BMUAAeSwGiVqvTJp",
+      "imagen_url": "https://i.ebayimg.com/images/g/BMUAAeSwGiVqvTJp/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-gaming-aoc-u27g4r-27-qhd-1-ms-negro-rojo-155818289.html",
+      "fecha_visto_primera_vez": "2026-11-11 22:40:00",
+      "seller_id": "mediamarktbadajoz",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "TV LED 24\" - LG 24TQ510S-PZ, HD, Smart TV, DVB-T2 (H.265), Negro",
+      "precio": 109.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137921142731?itmmeta=01M76C1ENVRG8ANKN23RQ5H847&hash=item201cbd9fcb:g:5SMAAeSwgSpq9CpV",
+      "imagen_url": "https://i.ebayimg.com/images/g/5SMAAeSwgSpq9CpV/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tv-led-24-lg-24lb70006la-full-hd-a5-ai-processor-4k-gen9-smart-tv-dvb-t2-h265-negro-1668361.html",
+      "fecha_visto_primera_vez": "2026-11-11 22:37:20",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Apple Smart Folio, Funda tablet para el iPad (A16), Poliuretano, Azul celeste",
+      "precio": 64.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137921147825?itmmeta=01M76C1ENNCJJHGK57SSXWHC7X&hash=item201cbdb3b1:g:nt4AAeSwlg5q9CtV",
+      "imagen_url": "https://i.ebayimg.com/images/g/nt4AAeSwlg5q9CtV/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-smart-folio-funda-tablet-para-el-ipad-a16-poliuretano-azul-celeste-1595928.html",
+      "fecha_visto_primera_vez": "2026-11-11 22:36:42",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Apple iMac (2024) 24\" Retina 4.5K, Chip M4, CPU de 8 núcleos, GPU de 8 núcleos,",
+      "precio": 1439.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137921165245?itmmeta=01M76C1ENM8PVH6WH8ACAA76M7&hash=item201cbdf7bd:g:Hk0AAeSweBFq9Cy2",
+      "imagen_url": "https://i.ebayimg.com/images/g/Hk0AAeSweBFq9Cy2/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-imac-2024-24-retina-45k-chip-m4-cpu-de-8-nucleos-gpu-de-8-nucleos-16gb-de-ram-256-gb-de-ssd-plata-1585741.html",
+      "fecha_visto_primera_vez": "2026-11-11 22:36:14",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Nintendo Switch The Disney Afternoon Collection",
+      "precio": 22.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137921129525?itmmeta=01M76C1ENMM743M3SM3Y8VM5SG&hash=item201cbd6c35:g:XxMAAeSwvAdq9Ckh",
+      "imagen_url": "https://i.ebayimg.com/images/g/XxMAAeSwvAdq9Ckh/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-disney-afternoon-collection-1619665.html",
+      "fecha_visto_primera_vez": "2026-11-11 22:36:00",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "EXPOSICION Freidora de aire – Philips Airfryer NA231/00, Con ventana, 6.2 L",
       "precio": 79.0,
@@ -4242,19 +4307,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Impresora tinta - Epson Ecotank ET-18100, Color, WiFi, Formato A3",
-      "precio": 499.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137881797217?itmmeta=01M61GAFCWP0FHA2NRAH804GMX&hash=item201a654261:g:LvgAAeSwV0xq4b6A",
-      "imagen_url": "https://i.ebayimg.com/images/g/LvgAAeSwV0xq4b6A/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-multifuncion-epson-ecotank-et-18100-inyeccion-de-tinta-22-ppm-5760-x-1440-dpi-color-negro-1562772.html",
-      "fecha_visto_primera_vez": "2026-10-28 14:59:16",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "HAMA CL PACK 1344533 095547PC FUNDA PROTECTORA HDD 2,5",
       "precio": 6.49,
       "moneda": "EUR",
@@ -5109,19 +5161,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-xiaomi-a24i-238-full-hd-6-ms-100-hz-negro-142412566.html",
       "fecha_visto_primera_vez": "2026-10-27 14:13:46",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "All in one - Acer Aspire C24-2YE13U5UNL, 24\" Full-HD, Intel® Core™ i5-1334U",
-      "precio": 545.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137879199138?itmmeta=01M5YV6A2GWHAX29CBYGN8H5DF&hash=item201a3d9da2:g:Y0EAAeSwPahq4IW9",
-      "imagen_url": "https://i.ebayimg.com/images/g/Y0EAAeSwPahq4IW9/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/search.html?query=All+in+one+-+Acer+Aspire+C24-2YE13U5UNL,+24\"+Full-HD,+Intel®+Core™+i5-1334U",
-      "fecha_visto_primera_vez": "2026-10-27 14:12:20",
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null
     },
@@ -54632,6 +54671,26 @@
           "precio": 63.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/318890877738?itmmeta=01M3504QQNG7W918ND2DSPH1T6&hash=item4a3f60a32a:g:V94AAeSw~n5qrozy"
+        }
+      ]
+    },
+    {
+      "clave": "apple smart folio, funda tablet para el ipad (a16), poliuretano, azul celeste",
+      "criterio": "titulo",
+      "titulo": "Apple Smart Folio, Funda tablet para el iPad (A16), Poliuretano, Azul celeste",
+      "imagen_url": "https://i.ebayimg.com/images/g/nt4AAeSwlg5q9CtV/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktalcala",
+          "precio": 64.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/137921147825?itmmeta=01M76C1ENNCJJHGK57SSXWHC7X&hash=item201cbdb3b1:g:nt4AAeSwlg5q9CtV"
+        },
+        {
+          "tienda": "mediamarktlorca",
+          "precio": 69.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/318890877783?itmmeta=01M3504QQN0EP8EK44M5Z0C0R4&hash=item4a3f60a357:g:gpwAAeSwAMdqroz8"
         }
       ]
     },
