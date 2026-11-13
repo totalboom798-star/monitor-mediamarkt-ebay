@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-11-12T16:50:35.073273+00:00",
+  "actualizado": "2026-11-13T12:03:23.134132+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3749,
+  "total_articulos": 3746,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -244,11 +244,6 @@
       "num_articulos": 37
     },
     {
-      "seller_id": "mediamarktlugo",
-      "nombre_mostrado": null,
-      "num_articulos": 37
-    },
-    {
       "seller_id": "mediamarktmassalfassar",
       "nombre_mostrado": null,
       "num_articulos": 37
@@ -272,6 +267,11 @@
       "seller_id": "mediamarkthuelva",
       "nombre_mostrado": null,
       "num_articulos": 35
+    },
+    {
+      "seller_id": "mediamarktlugo",
+      "nombre_mostrado": null,
+      "num_articulos": 34
     },
     {
       "seller_id": "mediamarktpuertovenecia",
@@ -510,6 +510,45 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Mando a distancia - One For All URC1211, Universal, 2 pilas AAA, Negro",
+      "precio": 6.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/860050121513?itmmeta=01M7ACJ3BZDWBEKZ6R75H037KY&hash=itemc83efb6329:g:p7QAAeSweCNq0eez",
+      "imagen_url": "https://i.ebayimg.com/images/g/p7QAAeSweCNq0eez/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_mando-a-distancia-one-for-all-urc1211-universal-2-pilas-aaa-negro-1561259.html",
+      "fecha_visto_primera_vez": "2026-11-13 12:02:55",
+      "seller_id": "mediamarktlugo",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Beats Solo Buds, Auriculares inalámbricos, 18 horas de autonomía, Micrófono",
+      "precio": 74.95,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/860044179259?itmmeta=01M7ACJ3BZTWM7QYZP9VBPV9RT&hash=itemc83ea0b73b:g:OgoAAeSw96Nqz2wz",
+      "imagen_url": "https://i.ebayimg.com/images/g/OgoAAeSw96Nqz2wz/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-beats-solo-buds-auriculares-inalambricos-18-horas-de-autonomia-bluetooth-clase-1-apple-android-microfono-integrado-negro-mate-1575966.html",
+      "fecha_visto_primera_vez": "2026-11-13 12:02:41",
+      "seller_id": "mediamarktlugo",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Adaptador DP a VGA - Microsoft EJP-00006, DisplayPort a VGA, Negro",
+      "precio": 4.69,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/318913301359?itmmeta=01M7ACJ3BZCY6GRZX4JVHNHXWS&hash=item4a40b6cb6f:g:mBcAAeSwqchqtVdr",
+      "imagen_url": "https://i.ebayimg.com/images/g/mBcAAeSwqchqtVdr/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_adaptador-microsoft-ejp-00006-de-vga-d-sub-a-displayport-0-15m-para-pc-negro-1475860.html",
+      "fecha_visto_primera_vez": "2026-11-13 12:02:27",
+      "seller_id": "mediamarktlugo",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Mando a distancia - One For All URC 4914, Para televisores Panasonic",
       "precio": 18.89,
@@ -25432,19 +25471,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Deshumidificador - De'Longhi Tasciugo AriaDry DEX210SF, Extracción de 10 l/día",
-      "precio": 199.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/317543544321?itmmeta=01M0TSJW9KTARQVJ5WV6YT3AAM&hash=item49ef11f601:g:xAMAAeSwN8dp3hDO",
-      "imagen_url": "https://i.ebayimg.com/images/g/xAMAAeSwN8dp3hDO/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_deshumidificador-delonghi-tasciugo-ariadry-dex210sf-21-l-45-m-10-ld-funcion-secado-ropa-blanco-1567216.html",
-      "fecha_visto_primera_vez": "2026-08-24 21:08:19",
-      "seller_id": "mediamarktlugo",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Batidora de vaso - ok. OMX-2210, 600 W, 1.5 litros, Cuchilla acero inoxidable",
       "precio": 19.99,
       "moneda": "EUR",
@@ -27395,19 +27421,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Palo Selfie - Insta360 Invisible, Para Insta360, Funcion trípode, Negro",
-      "precio": 14.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/317805958285?itmmeta=01M0GFVTCQZBMDX8TJZG7REDER&hash=item49feb6148d:g:I6sAAeSwseNqgC9r",
-      "imagen_url": "https://i.ebayimg.com/images/g/I6sAAeSwseNqgC9r/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_palo-selfie-insta360-invisible-insta360-go-2-one-x2-x3-x4-one-r-go-one-x-negro-1583390.html",
-      "fecha_visto_primera_vez": "2026-08-20 21:05:08",
-      "seller_id": "mediamarktlugo",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Accesorio cámara deportiva - Insta360 Floating Hand Grip, Resistente al agua",
       "precio": 3.99,
       "moneda": "EUR",
@@ -27506,7 +27519,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/LHUAAeSw0MNpd8A8/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_accesorio-camara-insta360-x4-capuchon-de-lente-silicona-negro-1573020.html",
       "fecha_visto_primera_vez": "2026-08-20 21:05:08",
       "seller_id": "mediamarktlugo",
       "nombre_mostrado": null
@@ -27526,23 +27539,10 @@
     },
     {
       "titulo": "Mando a distancia - One For All URC1312, Para Sony, Hasta 10 m, Negro",
-      "precio": 6.99,
+      "precio": 5.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/318528867101?itmmeta=01M0GFVTCRX8A789QCZC903S6Y&hash=item4a29cccb1d:g:mxAAAeSwzOhqc2nP",
-      "imagen_url": "https://i.ebayimg.com/images/g/mxAAAeSwzOhqc2nP/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-20 21:05:08",
-      "seller_id": "mediamarktlugo",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Centro de planchado - Rowenta Eco Steam Pro DG9621, 2800 W, Vapor 500 g/min",
-      "precio": 199.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/318697960962?itmmeta=01M0GFVTCRA887YNGDQ6G9BQ0E&hash=item4a33e0f602:g:-T0AAeSwbiNqdzsA",
-      "imagen_url": "https://i.ebayimg.com/images/g/-T0AAeSwbiNqdzsA/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/7jMAAeSw4r5q0edu/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -27564,37 +27564,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Cafetera de cápsulas - Krups XN9201NES Vertuo Pop + Travel Mug, Bluetooth, Wi-Fi",
-      "precio": 49.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/318718100457?itmmeta=01M0GFVTCRW6V9BKBET2CH61BA&hash=item4a351443e9:g:FCcAAeSwMjhqfFvo",
-      "imagen_url": "https://i.ebayimg.com/images/g/FCcAAeSwMjhqfFvo/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-20 21:05:08",
-      "seller_id": "mediamarktlugo",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Teclado gaming - Razer Ornata V3, Por Cable, Retroiluminación, Ambidiestro,",
-      "precio": 39.99,
+      "precio": 24.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/318682940658?itmmeta=01M0GFVTCSZWR60V9JCDQADEH1&hash=item4a32fbc4f2:g:IioAAeSwVDJqc30L",
-      "imagen_url": "https://i.ebayimg.com/images/g/IioAAeSwVDJqc30L/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-20 21:05:08",
-      "seller_id": "mediamarktlugo",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "ASUS Chromebook Plus CX15 CX1505CTA-S70119, Intel® Core™ 3 N355, 8GB RAM, 256GB",
-      "precio": 349.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/318691497626?itmmeta=01M0GFVTCS0A8R5DBN2T2B63GC&hash=item4a337e569a:g:mnIAAeSwSLlqdZy3",
-      "imagen_url": "https://i.ebayimg.com/images/g/mnIAAeSwSLlqdZy3/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/5YsAAeSwHmxqtVgk/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -27695,10 +27669,10 @@
     },
     {
       "titulo": "Cámara instantánea - Polaroid Now Generation 3, Flash preciso, Negro",
-      "precio": 109.0,
+      "precio": 89.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/318697900779?itmmeta=01M0GFVTCSB9D6H8PJTDP9HQQC&hash=item4a33e00aeb:g:0zkAAeSw-klqdzXK",
-      "imagen_url": "https://i.ebayimg.com/images/g/0zkAAeSw-klqdzXK/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/qS0AAeSwDPBq0eZ5/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -27740,7 +27714,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/9AkAAeSwxAxqRQW~/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_depiladora-ipl-bri92400-philips-blanco-107158762.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_depiladora-ipl-philips-lumea-s9900-bri95101-luz-pulsada-12-meses-sin-vello-cara-y-cuerpo-250000-pulsos-sensor-smarskin-skin-ai-1579578.html",
       "fecha_visto_primera_vez": "2026-08-20 21:05:08",
       "seller_id": "mediamarktlugo",
       "nombre_mostrado": null
@@ -27751,19 +27725,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/318714536040?itmmeta=01M0GFVTCTG5WN3EZ8P6D3JTDN&hash=item4a34dde068:g:fCIAAeSwtixqe33y",
       "imagen_url": "https://i.ebayimg.com/images/g/U-MAAeSwu7ZqkAAc/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-20 21:05:08",
-      "seller_id": "mediamarktlugo",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Termostato - Tado Inteligente X, Inalámbrico",
-      "precio": 129.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/318209904981?itmmeta=01M0GFVTCT3PC54TDJCE3HJ838&hash=item4a16c9d155:g:Ri0AAeSw7clp7xqV",
-      "imagen_url": "https://i.ebayimg.com/images/g/Ri0AAeSw7clp7xqV/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
