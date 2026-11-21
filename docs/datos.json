@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-11-21T12:47:35.624907+00:00",
+  "actualizado": "2026-11-21T21:53:00.466803+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3881,
+  "total_articulos": 3914,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -84,11 +84,6 @@
       "num_articulos": 48
     },
     {
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null,
-      "num_articulos": 48
-    },
-    {
       "seller_id": "mediamarktplacacatalunya",
       "nombre_mostrado": null,
       "num_articulos": 48
@@ -124,11 +119,6 @@
       "num_articulos": 45
     },
     {
-      "seller_id": "mediamarktoutletpinto",
-      "nombre_mostrado": null,
-      "num_articulos": 45
-    },
-    {
       "seller_id": "mediamarktrivas",
       "nombre_mostrado": null,
       "num_articulos": 45
@@ -144,6 +134,11 @@
       "num_articulos": 45
     },
     {
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null,
+      "num_articulos": 44
+    },
+    {
       "seller_id": "mediamarktpamplona",
       "nombre_mostrado": null,
       "num_articulos": 44
@@ -154,12 +149,22 @@
       "num_articulos": 44
     },
     {
+      "seller_id": "mediamarktoutletpinto",
+      "nombre_mostrado": null,
+      "num_articulos": 42
+    },
+    {
       "seller_id": "mediamarktparets",
       "nombre_mostrado": null,
       "num_articulos": 42
     },
     {
       "seller_id": "mediamarktlloret",
+      "nombre_mostrado": null,
+      "num_articulos": 41
+    },
+    {
+      "seller_id": "mediamarktnuevacondomina",
       "nombre_mostrado": null,
       "num_articulos": 41
     },
@@ -409,11 +414,6 @@
       "num_articulos": 1
     },
     {
-      "seller_id": "mediamarktlagoh",
-      "nombre_mostrado": null,
-      "num_articulos": 1
-    },
-    {
       "seller_id": "mediamarktvinaroz",
       "nombre_mostrado": null,
       "num_articulos": 1
@@ -511,16 +511,796 @@
   ],
   "articulos_recientes": [
     {
-      "titulo": "Lavavajillas - KOENIC KDW 6021-13 C FS, 14 Servicios, refg18448",
-      "precio": 161.85,
+      "titulo": "Proyector - LG PU615U, 3840 x 2160 píxeles, 20.000 h, UHD 4K, Plateado",
+      "precio": 799.0,
       "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/358550906431?itmmeta=01M7Z1R3S50Q6GTR014W50RAH2&hash=item537b4ca63f:g:Ac8AAeSwPjFq~Dmd",
-      "imagen_url": "https://i.ebayimg.com/images/g/Ac8AAeSwPjFq~Dmd/s-l300.webp",
+      "url": "https://www.ebay.es/itm/880078665007?itmmeta=01M8016ZCMFCP3FVDMTDH95Q0Q&hash=itemcce8c6b52f:g:G6YAAeSwpU9q7OK8",
+      "imagen_url": "https://i.ebayimg.com/images/g/G6YAAeSwpU9q7OK8/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-funcional-lavavajillas-koenic-kdw-6021-13-c-in-fs-14-servicios-8-programas-ancho-596-cm-libre-instalacion-inox-1603860.html",
-      "fecha_visto_primera_vez": "2026-11-21 12:46:31",
-      "seller_id": "mediamarktoutletpinto",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_proyector-lg-electronics-pu615u-3840-x-2160-pixeles-20000-h-uhd-4k-plateado-165096789.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:51:55",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Aspirador de tapicerías - Cecotec Conga 6000 Carpet&Spot Clean XXL Advance",
+      "precio": 99.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880078445422?itmmeta=01M8016ZCJK2EY30YQXDF69C9Z&hash=itemcce8c35b6e:g:EKAAAeSwSO1q7OKx",
+      "imagen_url": "https://i.ebayimg.com/images/g/EKAAAeSwSO1q7OKx/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aspirador-de-tapicerias-cecotec-conga-6000-carpetandspot-clean-xl-pro-max-600-w-14-kpa-depositos-de-15-l-y-850-ml-6-accesorios-negro-1672106.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:51:41",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Impresora fotográfica - Fujifilm ?Instax Square Link, Instantánea, Verde Oscuro",
+      "precio": 99.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880086695751?itmmeta=01M8016ZCJ5VEK7GSBVR9EZEMP&hash=itemcce9413f47:g:1r4AAeSwgztq7OL4",
+      "imagen_url": "https://i.ebayimg.com/images/g/1r4AAeSwgztq7OL4/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-fujifilm-instax-square-link-instantanea-verde-oscuro-1544601.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:51:27",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Robot amasador - KitchenAid 5K45SSEOB, Amasador, Batidor, 4.28 L, 275 W, Negro",
+      "precio": 349.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880088782174?itmmeta=01M8016ZCHNVMMY96YNKEYQX5Q&hash=itemcce961155e:g:IzYAAeSwsqtq7bSM",
+      "imagen_url": "https://i.ebayimg.com/images/g/IzYAAeSwsqtq7bSM/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_robot-de-cocina-kitchen-aid-5ksm125eob-negro-1368139.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:51:13",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Auriculares True Wireless - Sony WFC710NB, Cancelación de Ruido, Bluetooth, IA",
+      "precio": 59.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880085482443?itmmeta=01M8016ZCGRZ5G7G07PRDSPJ6Y&hash=itemcce92ebbcb:g:2n0AAeSw0KJq8hag",
+      "imagen_url": "https://i.ebayimg.com/images/g/2n0AAeSw0KJq8hag/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-true-wireless-sony-wfc710nb-cancelacion-de-ruido-noise-cancelling-estuche-carga-rapida-40h-inalambricos-anc-bluetooth-negro-1596262.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:50:48",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Proyector - Philips NeoPix 230, 1920x1080, Full-HD, LED,  Android TV",
+      "precio": 229.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880043536040?itmmeta=01M8016ZCGK43JDQARX0B6R6NJ&hash=itemcce6aeaea8:g:y2wAAeSw~0lq7OKn",
+      "imagen_url": "https://i.ebayimg.com/images/g/y2wAAeSw~0lq7OKn/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_proyector-philips-neopix-230-1920-x-1080-duracion-de-la-lampara-30000-h-full-hd-imagen-hasta-80-led-soporte-giratorio-en-180-blanco-1568930.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:50:21",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Auriculares inalámbricos - Sonos Ace, Supraaurales, Cancelación de ruido",
+      "precio": 229.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880085505236?itmmeta=01M8016ZCGQ07V6ZX67T25PBSR&hash=itemcce92f14d4:g:24YAAeSwFgtq7OLj",
+      "imagen_url": "https://i.ebayimg.com/images/g/24YAAeSwFgtq7OLj/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-inalambricos-sonos-ace-supraaurales-inalambricos-30-horas-de-autonomia-negro-1575742.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:49:56",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Microcadena - Panasonic SC-PM270, 20 W, Bluetooth, FM y CD, USB A, Negro",
+      "precio": 79.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880075085100?itmmeta=01M8016ZCFZD64QYSPPMMQT9R8&hash=itemcce890152c:g:0M4AAeSw-~1q7OKu",
+      "imagen_url": "https://i.ebayimg.com/images/g/0M4AAeSw-~1q7OKu/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_microcadena-sc-pm270eg-s-panasonic-usb-20-bluetooth-negro-136493155.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:49:42",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Impresora fotográfica - Polaroid Hi·Print Generation 2, Impresión térmica, 2x3",
+      "precio": 59.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880078697849?itmmeta=01M8016ZCFBQ3KR06K8HANG949&hash=itemcce8c73579:g:5mgAAeSweiRq7OLL",
+      "imagen_url": "https://i.ebayimg.com/images/g/5mgAAeSweiRq7OLL/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-fotografica-polaroid-hiprint-generation-2-impresion-termica-2x3-negro-1583670.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:49:24",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cafetera superautomática - De'Longhi Magnifica EVO ECAM290.61.B, 1450W, 15bar",
+      "precio": 369.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880086735511?itmmeta=01M8016ZCFW39K7E1H573KKQ8V&hash=itemcce941da97:g:zu0AAeSw0KJq7OMz",
+      "imagen_url": "https://i.ebayimg.com/images/g/zu0AAeSw0KJq7OMz/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-express-ecam29061b-delonghi-15-barbar-1450-w-02-l-2-tazas-negro-106574127.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:49:11",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Altavoz inteligente - Amazon Echo Show 8, Pantalla Táctil HD 8,7\", Cámara de 13M",
+      "precio": 129.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880086709713?itmmeta=01M8016ZCFHS5S7DGWGXNAZ9VT&hash=itemcce94175d1:g:mHYAAeSwYKNq-Cju",
+      "imagen_url": "https://i.ebayimg.com/images/g/mHYAAeSwYKNq-Cju/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-inteligente-amazon-echo-show-8-pantalla-tactil-hd-87-camara-de-13mp-audio-espacial-graphite-1608725.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:48:57",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cámara - Sony Vlog ZV-1F,  Digital, Pantalla multiángulo,4K, Funciones Vlog",
+      "precio": 399.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880078695478?itmmeta=01M8016ZCFMKKY2DJMV5N0EQ6E&hash=itemcce8c72c36:g:0KsAAeSwl15q~uTE",
+      "imagen_url": "https://i.ebayimg.com/images/g/0KsAAeSwl15q~uTE/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-sony-vlog-zv-1f-digital-pantalla-multiangulo-video-4k-camara-lenta-micro-funciones-vlog-wifi-bluetooth-negra-1542700.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:48:43",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Manta eléctrica - Beurer HD1R Cosy, 100 W, 6 potencias, 150 x 130 cm",
+      "precio": 39.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880088785855?itmmeta=01M8016ZA9BJ01QV08X6EWX1YC&hash=itemcce96123bf:g:f5QAAeSwlXRq8uig",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_manta-electrica-beurer-hd1r-cosy-100-w-6-potencias-150-x-130-cm-tacto-suave-gris-1608162.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:48:30",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Plancha de pelo - ghd Duet style, Cerámica, 185 °C, Placas inteligentes",
+      "precio": 249.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880088793936?itmmeta=01M8016ZA9N2QCFS8BC1JCV4GN&hash=itemcce9614350:g:p8QAAeSwMstq7bVR",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_plancha-de-pelo-ghd-duet-style-ceramica-185-c-placas-inteligentes-wetanddry-azul-gelido-1584584.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:48:16",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Rizador - Rowenta Twist Curl CF4620, 3 tamaños en 1",
+      "precio": 54.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880088817782?itmmeta=01M8016ZA9V34CTT2XDRXVGVKH&hash=itemcce961a076:g:WgMAAeSw76dq7bdy",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_rizador-rowenta-twist-curl-cf4620-3-en-1-4-ajustes-de-temperatura-revestimiento-ceramico-negrorosa-1597484.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:47:43",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "REACONDICIONADO Seminuevo Excelente Micrófono - DJI Mic 3 Receptor, Inalámbrico",
+      "precio": 69.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880101937007?itmmeta=01M8016ZA8R5PESMN73HNA9V6Z&hash=itemccea29cf6f:g:XwEAAeSw5adq8vz0",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-accesorio-dron-dji-lito-x1-two-way-charging-hub-carga-3-baterias-vuelo-inteligente-en-87-min-y-3-baterias-vuelo-1675672.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:47:30",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Auriculares conducción de aire - Baseus Eli Sport 2, Cancelación de ruido",
+      "precio": 34.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880101941653?itmmeta=01M8016ZA8M6G9RE42M6P71MHR&hash=itemccea29e195:g:ew4AAeSw6l9q8v1k",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-true-wireless-baseus-eli-sport-2-45-h-de-autonomia-ajuste-seguro-con-gancho-cancelacion-de-ruido-resistente-al-agua-negro-cosmic-1609010.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:47:16",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Marco intercambiable - SAMSUNG VG-SCFH55SGMXC, Arena metalizado",
+      "precio": 89.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/880112035603?itmmeta=01M8016ZA8R5KZ8XZCH64XR2XG&hash=itemcceac3e713:g:jdYAAeSwxl1q9wh0",
+      "imagen_url": null,
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_marco-intercambiable-samsung-vg-scfh55sgmxc-arena-metalizado-1669551.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:46:49",
+      "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Acer Aspire Lite 1 15.6\",Ryzen 3 5400U, 8GB RAM, 256GB SSD,W11, Sin cargador",
+      "precio": 428.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820350934707?itmmeta=01M800HTENPJMM1QPNRCME16BP&hash=itembf00b9deb3:g:IlQAAeSwQqBrAYqg",
+      "imagen_url": "https://i.ebayimg.com/images/g/IlQAAeSwQqBrAYqg/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-acer-aspire-lite-15-al15-46p-r2lz-156-full-hd-amd-ryzentm-3-5400u-8gb-ram-256-gb-ssd-radeontm-onboard-graphics-sin-so-sin-cargador-1624374.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:46:24",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cámara instantánea - Polaroid Go Gen 3, Espejo para Selfies, Autodisparador, Dob",
+      "precio": 79.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380351027?itmmeta=01M800HTEMYQ0P8ZM09YMJSDM5&hash=itembf027aba33:g:FZAAAeSwelVrAYv2",
+      "imagen_url": "https://i.ebayimg.com/images/g/FZAAAeSwelVrAYv2/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-instantanea-polaroid-go-gen-3-bundle-de-pelicula-a-color-8-photos-espejo-para-selfies-autodisparador-doble-exposicion-flash-blanco-1666742.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:46:10",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Altavoz bluetooth - JBL Charge Essential 3 SE, 40 W, Bluetooth, Autonomía 20 h,",
+      "precio": 119.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380356977?itmmeta=01M800HTEMW56KCQXVT12PNX2Z&hash=itembf027ad171:g:JAoAAeSwyFxrAYy6",
+      "imagen_url": "https://i.ebayimg.com/images/g/JAoAAeSwyFxrAYy6/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-bluetooth-jbl-charge-essential-3-se-40-w-bluetooth-autonomia-20-h-auracasttm-gun-metal-black-1666919.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:45:29",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Disco duro externo 5TB - ‎Seagate STKN5000400 Expansion, Portátil, HDD, 5 TB, US",
+      "precio": 189.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380352015?itmmeta=01M800HTEKW8F9TW8HB10TQQG1&hash=itembf027abe0f:g:HWwAAeSw5HhrAYwW",
+      "imagen_url": "https://i.ebayimg.com/images/g/HWwAAeSw5HhrAYwW/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_disco-duro-externo-5tb-seagate-stkn5000400-expansion-portatil-hdd-5000-gb-usb-32-gen-1-negro-1519476.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:45:14",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "ASUS TUF Gaming A16, 16 \" WUXGA, AMD Ryzen 7, 16 GB RAM, 1 TB SSD,RTX 5070, Free",
+      "precio": 1400.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820273439982?itmmeta=01M800HTEKXG7AXTT48M60NY3F&hash=itembefc1b64ee:g:HMAAAeSw1~lrAYqI",
+      "imagen_url": "https://i.ebayimg.com/images/g/HMAAAeSw1~lrAYqI/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-gaming-asus-tuf-gaming-a16-fa608up-qt233-16-wqxga-amd-ryzentm-7-260-32-gb-ram-512-gb-ssd-geforce-rtxtm-5070-sin-sistema-operativo-1669488.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:44:29",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Portátil gaming - Gigabyte AERO X16,Ryzen? 7, 16GB RAM, 512GB SSD,RTX? 5060,W11H",
+      "precio": 1104.13,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820300306124?itmmeta=01M800HTEJVSV73WK5B3DDFZFY&hash=itembefdb556cc:g:G90AAeSweMprAYqi",
+      "imagen_url": "https://i.ebayimg.com/images/g/G90AAeSweMprAYqi/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-gaming-gigabyte-aero-x16-3vhk3esc93ah-16-wqxga-amd-ryzentm-7-260-16gb-ram-512gb-ssd-geforce-rtxtm-5060-windows-11-home-1666429.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:44:15",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Monitor gaming - Xiaomi G34WQi 2026, 34\" WQHD, 180 Hz, 1ms, VA, Curvo, Altura Aj",
+      "precio": 209.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380353224?itmmeta=01M800HTEJZHG3Q9F60QSJH9K3&hash=itembf027ac2c8:g:K~wAAeSwFXVrAYwu",
+      "imagen_url": "https://i.ebayimg.com/images/g/K~wAAeSwFXVrAYwu/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-gaming-xiaomi-g34wqi-2026-34-wqhd-180-hz-1ms-va-curvo-altura-ajustable-freesync-premium-hdr-400-negro-1667018.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:43:35",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Disco duro externo 1 TB - Toshiba Canvio Basics, 2.5\", USB 3.0, HDD, Negro",
+      "precio": 79.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380352139?itmmeta=01M800HTEHFCMH8S5VKQNR28X1&hash=itembf027abe8b:g:NNoAAeSwbtxrAYwW",
+      "imagen_url": "https://i.ebayimg.com/images/g/NNoAAeSwbtxrAYwW/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_disco-duro-externo-1-tb-toshiba-canvio-basics-35-usb-30-hdd-negro-1546307.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:43:21",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Altavoz inalámbrico - Vieta Moon 2, 20 W, Bluetooth, Autonomía 11 h, Negro",
+      "precio": 39.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380363820?itmmeta=01M800HTEHM95WA6YC6WS9YAFJ&hash=itembf027aec2c:g:EbkAAeSw4S9rAY0A",
+      "imagen_url": "https://i.ebayimg.com/images/g/EbkAAeSw4S9rAY0A/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-inalambrico-vieta-moon-2-20-w-bluetooth-autonomia-11-h-negro-1603430.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:43:08",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Altavoz inalámbrico - PEAQ Solaris 2, 15 W, Bluetooth, 8 h de autonomía, Negro",
+      "precio": 29.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380355834?itmmeta=01M800HTEH14H22YB32NJ4GVHA&hash=itembf027accfa:g:JvQAAeSwdVdrAYyo",
+      "imagen_url": "https://i.ebayimg.com/images/g/JvQAAeSwdVdrAYyo/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-inalambrico-peaq-solaris-2-15-w-bluetooth-8-h-de-autonomia-negro-1673236.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:42:55",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Altavoz bluetooth - PEAQ Power Max 2, 60 W, Bluetooth, 8 h de autonomía, Negro",
+      "precio": 49.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380353964?itmmeta=01M800HTEG5WP4ZQT1G3V8ACW7&hash=itembf027ac5ac:g:HU0AAeSwdyBrAYxS",
+      "imagen_url": "https://i.ebayimg.com/images/g/HU0AAeSwdyBrAYxS/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-bluetooth-peaq-power-max-2-60-w-bluetooth-8-h-de-autonomia-negro-1673237.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:42:42",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Altavoz inalámbrico - Vieta Sun 2, 16 W, Bluetooth, Autonomía 13 h, Negro",
+      "precio": 29.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380374021?itmmeta=01M800HTEGT5BCZBN9MYVWWR0K&hash=itembf027b1405:g:NYwAAeSw6OxrAY2r",
+      "imagen_url": "https://i.ebayimg.com/images/g/NYwAAeSw6OxrAY2r/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-inalambrico-vieta-sun-2-16-w-bluetooth-autonomia-13-h-negro-1603429.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:42:28",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Monitor gaming - LG UltraGear™ 24G411A-B, 23.8\" Full-HD, 144 Hz, 1 ms, IPS, HDR1",
+      "precio": 83.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380352729?itmmeta=01M800HTEG68B49B31M6SR0WK1&hash=itembf027ac0d9:g:HdkAAeSweV5rAYwf",
+      "imagen_url": "https://i.ebayimg.com/images/g/HdkAAeSweV5rAYwf/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-gaming-lg-24g411a-b-238-full-hd-144-hz-5-ms-ips-hdr10-morado-grisaceo-1607403.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:42:14",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cámara instantánea - Fujifilm Instax Mini 13, 86 mm x 54 mm, Flash Automático, E",
+      "precio": 89.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380351064?itmmeta=01M800HTEG0WHNV3Z9ESNK633T&hash=itembf027aba58:g:MNkAAeSwN-9rAYwB",
+      "imagen_url": "https://i.ebayimg.com/images/g/MNkAAeSwN-9rAYwB/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-instantanea-fujifilm-instax-mini-13-86-mm-x-54-mm-flash-automatico-espejo-para-selfie-morado-1668147.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:42:00",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Monitor gaming - AOC 24G4ZRE, 24\" Full-HD, 260 Hz, 0.3 ms MPRT, IPS, G-SYNC Comp",
+      "precio": 84.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380352944?itmmeta=01M800HTEFCEZS4491VW1R7GKH&hash=itembf027ac1b0:g:K6YAAeSwBPhrAYwi",
+      "imagen_url": "https://i.ebayimg.com/images/g/K6YAAeSwBPhrAYwi/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-gaming-aoc-24g4zre-24-full-hd-260-hz-03-ms-mprt-ips-g-sync-compatible-sin-marco-de-3-lados-hdr10-negro-1618270.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:41:47",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cámara instantánea - Fujifilm Instax Mini 12, 62× 46 mm, Flash, Lila",
+      "precio": 69.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380350943?itmmeta=01M800HTEFD9KK2K5KB4BGY1RS&hash=itembf027ab9df:g:HGkAAeSwv0drAYvv",
+      "imagen_url": "https://i.ebayimg.com/images/g/HGkAAeSwv0drAYvv/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-instantanea-fujifilm-instax-mini-12-62-46-mm-flash-lila-1549678.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:41:33",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Auriculares gaming - Ardistel BLACKFIRE® Gaming Headset BFX-40, Para PS5™ y PS4™",
+      "precio": 16.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380352031?itmmeta=01M800HTEF32CRZXDWFH3P4D5K&hash=itembf027abe1f:g:DbgAAeSw9FRrAYwW",
+      "imagen_url": "https://i.ebayimg.com/images/g/DbgAAeSw9FRrAYwW/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-gaming-ardistel-blackfirer-gaming-headset-bfx-40-para-ps5tm-y-ps4tm-no-bluetooth-cable-12m-blanco-1540743.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:41:19",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cámara instantánea - Fujifilm Instax Mini 12, 62× 46 mm, Flash, Blanco arcilla",
+      "precio": 62.1,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380350895?itmmeta=01M800HTEEYBRVANTA48FCWNK9&hash=itembf027ab9af:g:NDIAAeSwICtrAYv7",
+      "imagen_url": "https://i.ebayimg.com/images/g/NDIAAeSwICtrAYv7/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-instantanea-fujifilm-instax-mini-12-62-46-mm-flash-blanco-arcilla-1549677.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:41:06",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cámara instantánea - Fujifilm Instax Mini 12, 62× 46 mm, Flash, Azul pastel",
+      "precio": 62.1,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380350829?itmmeta=01M800HTEEXHTB7KEZFWYX2SDH&hash=itembf027ab96d:g:CroAAeSwmX5rAYvr",
+      "imagen_url": "https://i.ebayimg.com/images/g/CroAAeSwmX5rAYvr/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-instantanea-fujifilm-instax-mini-12-62-46-mm-flash-azul-pastel-1549674.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:40:52",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Apple MacBook Pro (2025) 14,2\", Chip M5, 16 GB RAM, 1 TB SSD, Negro, No cargador",
+      "precio": 1699.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820347280270?itmmeta=01M800HTEEHVXS4GF3PWBD0HG0&hash=itembf00821b8e:g:FJIAAeSwhuBrAYqV",
+      "imagen_url": "https://i.ebayimg.com/images/g/FJIAAeSwhuBrAYqV/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-macbook-pro-2025-142-chip-m5-cpu-de-10-nucleos-gpu-de-10-nucleos-16-gb-ram-1-tb-ssd-negro-1608764.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:40:39",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Monitor gaming - AOC CU34G4, 34\" UWQHD, 180 Hz, Curvo, 1 ms GtG, 0.5 ms MPRT, Fa",
+      "precio": 189.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380353067?itmmeta=01M800HTED9HS091A4W8JAJVA0&hash=itembf027ac22b:g:Nc0AAeSwgQJrAYw0",
+      "imagen_url": "https://i.ebayimg.com/images/g/Nc0AAeSwgQJrAYw0/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-gaming-aoc-cu34g4-34-uwqhd-180-hz-curvo-1-ms-gtg-05-ms-mprt-fast-va-adaptive-sync-hdr10-1601422.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:40:25",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Disco duro externo 1TB - ‎Seagate STKN1000400 Expansion, Portátil, 1 TB, USB 3.2",
+      "precio": 89.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380351921?itmmeta=01M800HTED89N97A5EXMC9XV4Y&hash=itembf027abdb1:g:D84AAeSwqcdrAYwQ",
+      "imagen_url": "https://i.ebayimg.com/images/g/D84AAeSwqcdrAYwQ/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_disco-duro-externo-1tb-seagate-stkn1000400-expansion-portatil-1000-gb-usb-32-gen-1-negro-1519474.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:40:10",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Depiladora IPL - Philips Lumea S9900 BRI951/01, Luz Pulsada en Casa, Con SkinIA",
+      "precio": 359.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380349725?itmmeta=01M800HTED3PTJBKYFRG7FP6CT&hash=itembf027ab51d:g:HQoAAeSwwVlrAYvA",
+      "imagen_url": "https://i.ebayimg.com/images/g/HQoAAeSwwVlrAYvA/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_depiladora-ipl-philips-lumea-s9900-bri95101-luz-pulsada-12-meses-sin-vello-cara-y-cuerpo-250000-pulsos-sensor-smarskin-skin-ai-1579578.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:39:56",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Apple iMac (2024) 24\" Retina 4.5K, Chip M4, 16GB de RAM, 256 GB de SSD, Azul",
+      "precio": 1399.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820347275767?itmmeta=01M800HTEDZX3H2TCQ7H8Y2ERW&hash=itembf008209f7:g:HDcAAeSwxxprAYqS",
+      "imagen_url": "https://i.ebayimg.com/images/g/HDcAAeSwxxprAYqS/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-imac-2024-24-retina-45k-chip-m4-cpu-de-8-nucleos-gpu-de-8-nucleos-16gb-de-ram-256-gb-de-ssd-gigabit-ethernet-plata-1596736.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:39:42",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "PS4 EA SPORTS FC™ 27",
+      "precio": 47.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380353750?itmmeta=01M800HTEDH1GEZQ3X5AJ05CFR&hash=itembf027ac4d6:g:KgwAAeSwAjRrAYxJ",
+      "imagen_url": "https://i.ebayimg.com/images/g/KgwAAeSwAjRrAYxJ/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_ps4-ea-sports-fctm-27-1671142.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:39:28",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Monitor gaming - AOC C32G42ZE, 31.5\" Full-HD, 260Hz, 0.3 ms MPRT, VA, Curvatura",
+      "precio": 149.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380353150?itmmeta=01M800HTECHMXYHKT186FSHPPC&hash=itembf027ac27e:g:L2gAAeSw1PlrAYwp",
+      "imagen_url": "https://i.ebayimg.com/images/g/L2gAAeSw1PlrAYwp/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-gaming-aoc-c32g42ze-315-full-hd-260hz-03-ms-mprt-va-curvatura-1500r-g-menu-wled-hdr10-adaptive-sync-negro-1618378.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:39:15",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Freidora de aire - Cosori Twinfry™ Dual Blaze Compact, 8.6 l, 2700 W, 240 °C, 2",
+      "precio": 145.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380349182?itmmeta=01M800HTECP3E0568NWFWWCTW5&hash=itembf027ab2fe:g:LboAAeSwwxZrAYuT",
+      "imagen_url": "https://i.ebayimg.com/images/g/LboAAeSwwxZrAYuT/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_freidora-de-aire-cosori-turbo-blaze-chef-edition-6-l-1725-w-230-c-negro-1672203.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:39:00",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Altavoz bluetooth - JBL Flip 6, 30 W, Autonomía 12 h, IP67, PartyBoost, Negro",
+      "precio": 89.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380361012?itmmeta=01M800HTECM2PQQG8MYVQKQ5MZ&hash=itembf027ae134:g:zxMAAeSws9hrAYzj",
+      "imagen_url": "https://i.ebayimg.com/images/g/zxMAAeSws9hrAYzj/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-bluetooth-jbl-flip-6-30-w-autonomia-12-h-ip67-partyboost-negro-1666918.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:38:46",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Altavoz inalámbrico - JBL Flip 7, 35W Potencia Total, Bluetooth, 16h Autonomía,",
+      "precio": 94.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380375705?itmmeta=01M800HTEC8FJ06ATR4FXBCRQV&hash=itembf027b1a99:g:M8sAAeSwl~FrAY4D",
+      "imagen_url": "https://i.ebayimg.com/images/g/M8sAAeSwl~FrAY4D/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-inalambrico-jbl-flip-7-10w-rms-25w-potencia-total-bluetooth-14h-autonomia-ip68-negro-1596308.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:38:32",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Nintendo Switch 2 EA SPORTS FC™ 27 (Game Key Card)",
+      "precio": 38.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380353688?itmmeta=01M800HTEC5V1HCPDYP0Y4VDG7&hash=itembf027ac498:g:KxwAAeSwCchrAYxI",
+      "imagen_url": "https://i.ebayimg.com/images/g/KxwAAeSwCchrAYxI/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-ea-sports-fctm-27-1671140.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:38:19",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Depiladora IPL - Philips Lumea S8000 BRI945/00, Luz Pulsada en Casa, Con app, Us",
+      "precio": 249.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380349690?itmmeta=01M800HTEBK8MW1PASPJBQGTWM&hash=itembf027ab4fa:g:KVUAAeSwOwVrAYvN",
+      "imagen_url": "https://i.ebayimg.com/images/g/KVUAAeSwOwVrAYvN/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_depiladora-ipl-philips-lumea-s8000-bri94500-luz-pulsada-12-meses-sin-vello-2-cabezales-cara-y-cuerpo-450000-pulsos-sensor-piel-smarskin-1563976.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:38:05",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Depiladora IPL - Braun Luz Pulsada Silk·expert Pro 5 PL5221, Depilación en casa,",
+      "precio": 299.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380349828?itmmeta=01M800HTEBYEDZSA32S16A3A99&hash=itembf027ab584:g:KOkAAeSwS7RrAYvA",
+      "imagen_url": "https://i.ebayimg.com/images/g/KOkAAeSwS7RrAYvA/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_depiladora-ipl-braun-luz-pulsada-silkexpert-pro-5-pl5221-depilacion-en-casa-sensor-smartskinprotect-cabezal-smart-flex-y-de-precision-1620498.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:37:50",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Volante - Hori Racing Wheel Apex, Para PS5, PS4 y PC, 270°, Negro + Pedales",
+      "precio": 104.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380349333?itmmeta=01M800HTEBA6XZ81PKS4CZ5D80&hash=itembf027ab395:g:EhcAAeSwelVrAYuc",
+      "imagen_url": "https://i.ebayimg.com/images/g/EhcAAeSwelVrAYuc/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_volante-hori-racing-wheel-apex-para-ps4-ps5-y-pc-270-negro-pedales-1525738.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:37:36",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "PS5 EA SPORTS FC™ 27",
+      "precio": 47.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380355176?itmmeta=01M800HTEB06FAMGW8ARBTA3PR&hash=itembf027aca68:g:Ig8AAeSweV5rAYyH",
+      "imagen_url": "https://i.ebayimg.com/images/g/Ig8AAeSweV5rAYyH/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:37:22",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Volante - Thrustmaster T98 Ferrari 296 GTB Edition, PS5, PS4 y PC, Sistema Bunge",
+      "precio": 92.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380349436?itmmeta=01M800HTEAQQA6CH9YYKSH8HSK&hash=itembf027ab3fc:g:KHIAAeSwzI5rAYuk",
+      "imagen_url": "https://i.ebayimg.com/images/g/KHIAAeSwzI5rAYuk/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_volante-y-pedales-gaming-thrustmaster-t98-p-ferrari-296-gtb-para-ps5-ps4-y-pc-negro-1605392.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:37:06",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Volante - Logitech G G29 + Auriculares gaming ASTRO A10, PlayStation 5 y 4/PC, M",
+      "precio": 185.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380349379?itmmeta=01M800HTEAD4WFE0ZTX455BFY7&hash=itembf027ab3c3:g:LvcAAeSwhW5rAYug",
+      "imagen_url": "https://i.ebayimg.com/images/g/LvcAAeSwhW5rAYug/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_volante-g29-auriculares-gaming-astro-a10-playstation-5-y-4pc-microfono-force-feedback-negro-1555468.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:36:52",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Nintendo Switch 2 Minecraft (Game Key Card)",
+      "precio": 27.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380353856?itmmeta=01M800HTEA4AX9FWQMG6C8REY2&hash=itembf027ac540:g:OxEAAeSwDQxrAYxM",
+      "imagen_url": "https://i.ebayimg.com/images/g/OxEAAeSwDQxrAYxM/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-minecraft-game-key-card-1672057.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:36:38",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Freidora de aire - Cosori Dual Blaze Twinfry, Con revestimiento cerámico 6 en 1,",
+      "precio": 160.65,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380349663?itmmeta=01M800HTEA0DGM82KQXAH1VMR0&hash=itembf027ab4df:g:K~YAAeSwcmtrAYu4",
+      "imagen_url": "https://i.ebayimg.com/images/g/K~YAAeSwcmtrAYu4/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_freidora-de-aire-cosori-turbo-blaze-chef-edition-6-l-1725-w-230-c-negro-1672203.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:36:24",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+      "precio": 64.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380353915?itmmeta=01M800HTEAZ96Y7ADR652WSHQA&hash=itembf027ac57b:g:MjsAAeSwcmtrAYxP",
+      "imagen_url": "https://i.ebayimg.com/images/g/MjsAAeSwcmtrAYxP/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:36:10",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Consola - Nintendo Switch 2, 7.9” FHD HDR 120Hz, 256GB, Magnetic Joy-Con 2+Juego",
+      "precio": 479.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380349564?itmmeta=01M800HTE936JRKNHNHHJEB0Z1&hash=itembf027ab47c:g:LIEAAeSwLGtrAYux",
+      "imagen_url": "https://i.ebayimg.com/images/g/LIEAAeSwLGtrAYux/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_consola-nintendo-switch-2-79-fhd-hdr-120-hz-256-gb-magnetic-joy-con-2-juego-switch-sports-resort-digital-suscripcion-3-meses-nso-1678541.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:35:56",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Nintendo Switch EA SPORTS FC™ 27",
+      "precio": 33.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380354564?itmmeta=01M800HTE9VGP46KKFC76ZJAAF&hash=itembf027ac804:g:L~kAAeSwSlFrAYxz",
+      "imagen_url": "https://i.ebayimg.com/images/g/L~kAAeSwSlFrAYxz/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-ea-sports-fctm-27-1671143.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:35:43",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Consola - Nintendo Switch 2, 7.9” Full HD HDR 120 Hz, 256 GB, Magnetic Joy-Con 2",
+      "precio": 439.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380349465?itmmeta=01M800HTE9DQDGC8JVPYTQNZDP&hash=itembf027ab419:g:Di8AAeSw~yJrAYun",
+      "imagen_url": "https://i.ebayimg.com/images/g/Di8AAeSw~yJrAYun/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_consola-nintendo-switch-2-79-full-hd-hdr-120-hz-256-gb-magnetic-joy-con-2-con-modo-raton-azul-y-rojo-neon-1671189.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:35:30",
+      "seller_id": "mediamarktlagoh",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Consola - Nintendo Switch 2, Mario Kart World + 3Meses NSO, 256 GB, 7.9” Full HD",
+      "precio": 479.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/820380349497?itmmeta=01M800HTE8DMPEWAEN10JEHP26&hash=itembf027ab439:g:LOEAAeSwI91rAYur",
+      "imagen_url": "https://i.ebayimg.com/images/g/LOEAAeSwI91rAYur/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_consola-nintendo-switch-2-mario-kart-world-3meses-nso-256-gb-79-full-hd-hdr-120-hz-256-gb-magnetic-joy-con-2-con-modo-raton-negro-1675177.html",
+      "fecha_visto_primera_vez": "2026-11-21 21:35:16",
+      "seller_id": "mediamarktlagoh",
       "nombre_mostrado": null
     },
     {
@@ -537,19 +1317,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Lavadora carga frontal - Samsung WW11DB8B95GHU3, 11 kg, refg14427",
-      "precio": 375.05,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/358585782267?itmmeta=01M7Z1R3S5FQTGA1325EXCGQWQ&hash=item537d60cffb:g:RDIAAeSwtJ9q-uQf",
-      "imagen_url": "https://i.ebayimg.com/images/g/RDIAAeSwtJ9q-uQf/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww11db8b95ghu3-11-kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthings-blanco-1572600.html",
-      "fecha_visto_primera_vez": "2026-11-21 12:46:02",
-      "seller_id": "mediamarktoutletpinto",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Portátil gaming - Gigabyte Aero X16 1VH93ESC64DH Copilot PC+, 16\" WQXGA",
       "precio": 1597.15,
       "moneda": "EUR",
@@ -559,19 +1326,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-gaming-gigabyte-a16-cthi3es894sd-16-wuxga-intelr-coretm-i7-13620h-16-gb-ram-1-tb-ssd-geforce-rtxtm-5050-sin-sistema-operativo-1603930.html",
       "fecha_visto_primera_vez": "2026-11-21 12:45:48",
-      "seller_id": "mediamarktoutletpinto",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Frigorífico combi - Candy CNCQ2T518EX, No Frost, 183 cm, 279 l, refg31047",
-      "precio": 224.5,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/820365313675?itmmeta=01M7Z1R3S5T3XV8VNMPZNYY637&hash=itembf0195468b:g:XIAAAeSwkRJq~EPX",
-      "imagen_url": "https://i.ebayimg.com/images/g/XIAAAeSwkRJq~EPX/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-candy-city-fresco-cncq2t518ex-total-no-frost-circle-182-cm-279-l-iluminacion-led-inox-1599842.html",
-      "fecha_visto_primera_vez": "2026-11-21 12:45:34",
       "seller_id": "mediamarktoutletpinto",
       "nombre_mostrado": null
     },
@@ -12341,24 +13095,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Ratón gaming - SteelSeries Rival 3 Gen 2, Por cable, Sensor óptico TrueMove Core",
-      "precio": 22.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178548019801?itmmeta=01M4M24VXE9BDPE8CGC43T7NCR&hash=item29924a9259:g:RY4AAeSwr0hqv5YQ",
-      "imagen_url": "https://i.ebayimg.com/images/g/RY4AAeSwr0hqv5YQ/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_raton-gaming-steelseries-rival-3-gen-2-por-cable-sensor-optico-truemove-core-85k-ppp-6-teclas-negro-1599884.html",
-      "fecha_visto_primera_vez": "2026-10-10 23:32:00",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Router - TP-Link Archer GXE75, 2402 Mbps, MU-MIMO, Tri-Band WiFi 6E",
       "precio": 99.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178545801511?itmmeta=01M4M24VXDYFERMTT1AZXK8JT8&hash=item299228b927:g:sWsAAeSw79ZqvqDM",
-      "imagen_url": "https://i.ebayimg.com/images/g/sWsAAeSw79ZqvqDM/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/7gwAAeSwzOlq7OJx/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_router-tp-link-archer-gxe75-2402-mbps-mu-mimo-tri-band-wifi-6e-4-antenas-iluminacion-led-rgb-negro-1602387.html",
@@ -12371,7 +13112,7 @@
       "precio": 16.9,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178547880007?itmmeta=01M4M24VXCS8TN7YKE7JMYRCY5&hash=item2992487047:g:MEIAAeSwusxqv4a4",
-      "imagen_url": "https://i.ebayimg.com/images/g/MEIAAeSwusxqv4a4/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/3NwAAeSwQRBq7OKH/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-tablet-samsung-ef-bx210tbegww-para-galaxy-tab-a9-plus-folio-11-negro-1566201.html",
@@ -12384,7 +13125,7 @@
       "precio": 18.9,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178544856579?itmmeta=01M4M24VXCM0AZQ1X2Q5KTWES1&hash=item29921a4e03:g:IGoAAeSwLZVqvkol",
-      "imagen_url": "https://i.ebayimg.com/images/g/IGoAAeSwLZVqvkol/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/p10AAeSwl2Jq7OJf/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tracks-winter-wonderland-codigo-de-descarga-dlc-juguetes-1582783.html",
@@ -12393,37 +13134,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Cámara instantánea - Polaroid Now Generation 3 + Paquete película Color i-Type",
-      "precio": 99.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178544798008?itmmeta=01M4M24VXCCFEB7AZZ5MWXWP78&hash=item2992196938:g:-hgAAeSwAGRqvkPg",
-      "imagen_url": "https://i.ebayimg.com/images/g/-hgAAeSwAGRqvkPg/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-instantanea-polaroid-now-generation-3-paquete-de-pelicula-color-i-type-flash-preciso-negro-1595418.html",
-      "fecha_visto_primera_vez": "2026-10-10 23:31:01",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Apple iPhone Air, Blanco nube, 256 GB, 5G, 6.5 \" OLED Super Retina XDR",
-      "precio": 999.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178548499731?itmmeta=01M4M24VXCQ3VH6NPDYN4VAC44&hash=item299251e513:g:OcwAAeSwH99qv8qR",
-      "imagen_url": "https://i.ebayimg.com/images/g/OcwAAeSwH99qv8qR/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-iphone-air-blanco-nube-256-gb-5g-65-oled-super-retina-xdr-chip-a19-pro-ios-1606157.html",
-      "fecha_visto_primera_vez": "2026-10-10 23:30:45",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Auriculares inalámbricos - Beats Studio Pro, Cancelación Activa de Ruido",
       "precio": 179.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178544857782?itmmeta=01M4M24VXC3YW1VN6ME2GAE5GG&hash=item29921a52b6:g:iaEAAeSwUMdqvkrU",
-      "imagen_url": "https://i.ebayimg.com/images/g/iaEAAeSwUMdqvkrU/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/0RIAAeSwn-Rq7OJi/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-inalambricos-beats-studio-pro-cancelacion-activa-de-ruido-diadema-hasta-40h-negro-1557372.html",
@@ -12436,7 +13151,7 @@
       "precio": 79.9,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178548034739?itmmeta=01M4M24VXBWASQZX6PTM01RZCH&hash=item29924accb3:g:~IcAAeSweHNqv5fh",
-      "imagen_url": "https://i.ebayimg.com/images/g/~IcAAeSweHNqv5fh/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/JvcAAeSw2qZq7OKD/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_microfono-logitech-g-yeti-gx-para-gaming-usb-rgb-lightsync-bloqueo-de-ruido-ambiental-supercardioide-personalizable-pc-mac-negro-1563025.html",
@@ -12445,24 +13160,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Apple Magic Keyboard, Funda con teclado para el iPad Air de 13 pulgadas M3",
-      "precio": 219.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178545779940?itmmeta=01M4M24VXBRGTFVV5EKKXQA9G8&hash=item29922864e4:g:7-8AAeSwoKtqvp1T",
-      "imagen_url": "https://i.ebayimg.com/images/g/7-8AAeSwoKtqvp1T/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-magic-keyboard-funda-con-teclado-para-el-ipad-pro-m4-11-espanol-blanco-1575323.html",
-      "fecha_visto_primera_vez": "2026-10-10 23:30:03",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Auriculares gaming - Logitech G Pro X, Inalámbrico, Lightspeed, Negro",
       "precio": 139.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178545800112?itmmeta=01M4M24VXBJ1THE81YG7ZADN2F&hash=item299228b3b0:g:YaoAAeSw5ahqvp8e",
-      "imagen_url": "https://i.ebayimg.com/images/g/YaoAAeSw5ahqvp8e/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/y14AAeSwCTtq7OJr/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-gaming-logitech-g-pro-x-2-lightspeed-hs-stand-inalambrico-bluetooth-microfono-71-dts-pcplaystationnintendo-negro-1581356.html",
@@ -12475,7 +13177,7 @@
       "precio": 129.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178545580329?itmmeta=01M4M24VXBMKN9Y3KC236D0ZF6&hash=item2992255929:g:-AwAAeSw1tRqvotF",
-      "imagen_url": "https://i.ebayimg.com/images/g/-AwAAeSw1tRqvotF/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/UrQAAeSw74Jq7OJm/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-gaming-msi-mag-255xf-245-full-hd-05-ms-negro-155727447.html",
@@ -12484,24 +13186,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Adaptador PLC - TP-Link TL-WPA4220 TKIT, Pack de 3, WiFi 300 mbps",
-      "precio": 59.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178547821232?itmmeta=01M4M24VXATW2VVS7E70Z9MPK5&hash=item2992478ab0:g:-3gAAeSw10VqyKgj",
-      "imagen_url": "https://i.ebayimg.com/images/g/-3gAAeSw10VqyKgj/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_extensor-de-conexión-de-internet-por-cable-con-2-adaptadores-wifi-tp-link-tl-wpa4220t-kit-1232257.html",
-      "fecha_visto_primera_vez": "2026-10-10 23:29:07",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Altavoz inalámbrico - LG Grab X BOOM, 30 W, Bluetooth, 20h, Negro",
       "precio": 71.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178544859338?itmmeta=01M4M24VXABCSYDNN1G0RKC4ZE&hash=item29921a58ca:g:NQgAAeSwHuJqvktw",
-      "imagen_url": "https://i.ebayimg.com/images/g/NQgAAeSwHuJqvktw/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/1owAAeSw5Gxq7OJl/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-inalambrico-lg-grab-x-boom-30-w-bluetooth-20h-negro-1597787.html",
@@ -12527,7 +13216,7 @@
       "precio": 69.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178556965336?itmmeta=01M4M24VXANRGH60REQQKVRKXH&hash=item2992d311d8:g:~EoAAeSwnBlqw4O~",
-      "imagen_url": "https://i.ebayimg.com/images/g/~EoAAeSwnBlqw4O~/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/wHEAAeSwzKtq7OKK/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reproductor-multimedia-youin-you-box-en1040k-android-tv-10-4k-uhd-8gb-rom-negro-1506758.html",
@@ -12536,63 +13225,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Apple Magic Keyboard, Funda con teclado para el iPad 10ªGen y 11ª Gen",
-      "precio": 199.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178547802379?itmmeta=01M4M24VX9N8TJ4P4QF915TD55&hash=item299247410b:g:4JMAAeSwf-1qv33R",
-      "imagen_url": "https://i.ebayimg.com/images/g/4JMAAeSwf-1qv33R/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-magic-keyboard-funda-con-teclado-para-el-ipad-10a-generacion-espanol-blanco-1543414.html",
-      "fecha_visto_primera_vez": "2026-10-10 23:28:00",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Apple Magic Keyboard, Funda con teclado para el iPad Pro, M4, 11\", Español",
-      "precio": 219.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178545767213?itmmeta=01M4M24VX9G5GKN81YG6QHBDHM&hash=item299228332d:g:7BEAAeSwEhdqxgxG",
-      "imagen_url": "https://i.ebayimg.com/images/g/7BEAAeSwEhdqxgxG/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-magic-keyboard-funda-con-teclado-para-el-ipad-pro-m4-11-espanol-negro-1575328.html",
-      "fecha_visto_primera_vez": "2026-10-10 23:27:44",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Ratón inalámbrico - Logitech MX Anywhere 3S, Bluetooth, 8000 ppp, USB-C",
-      "precio": 54.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178548011238?itmmeta=01M4M24VX90DE6CVEBQPQMVWTV&hash=item29924a70e6:g:KCMAAeSwU9tqxLU9",
-      "imagen_url": "https://i.ebayimg.com/images/g/KCMAAeSwU9tqxLU9/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_raton-inalambrico-logitech-mx-anywhere-3s-bluetooth-8000-ppp-multiplataforma-botones-personalizables-carga-rapida-usb-c-multisistema-negro-1554216.html",
-      "fecha_visto_primera_vez": "2026-10-10 23:27:16",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Impresora multifunción tinta - Brother MFC-J4350DW, Impresión doble cara",
-      "precio": 119.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178544825736?itmmeta=01M4M24VX9EVSDP5T2X4HB3VFE&hash=item299219d588:g:YVMAAeSweydqvkoe",
-      "imagen_url": "https://i.ebayimg.com/images/g/YVMAAeSweydqvkoe/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-multifuncion-tinta-brother-mfc-j4350dw-impresion-doble-cara-impresion-a-color-wi-fi-5-ghz-o-usb-20-ppm-negro-1602981.html",
-      "fecha_visto_primera_vez": "2026-10-10 23:27:00",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Powerbank - Xtorm Fuel Series 5, 27000 mAh, 67 W, 3 puertos",
       "precio": 49.9,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178547882364?itmmeta=01M4M24VX9QD2GW06GHHBN77GZ&hash=item299248797c:g:OsEAAeSwSaZqv4ct",
-      "imagen_url": "https://i.ebayimg.com/images/g/OsEAAeSwSaZqv4ct/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/3~UAAeSwndRq7OJ3/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_powerbank-xtorm-fuel-series-5-27000-mah-67-w-3-puertos-compatible-con-portatiles-negro-1567880.html",
@@ -12601,24 +13238,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Ratón inalámbrico - Logitech MX Master 4, 8000ppp, Bluetooth-USB, PC-Mac",
-      "precio": 89.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178547833249?itmmeta=01M4M24VX89J3K9H67NX6AWDJH&hash=item299247b9a1:g:ouMAAeSwwBFqyKjl",
-      "imagen_url": "https://i.ebayimg.com/images/g/ouMAAeSwwBFqyKjl/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_raton-inalambrico-logitech-mx-master-4-8000ppp-carga-rapida-clics-silenciosos-bluetooth-usb-pc-mac-multidispositivo-personalizable-negro-1604903.html",
-      "fecha_visto_primera_vez": "2026-10-10 23:26:33",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Consola retro - Atari 7800+, Gamepad inalámbrico CX78+, Juego",
       "precio": 86.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178556969221?itmmeta=01M4M24VV37BDW8NPZ5DSBMX96&hash=item2992d32105:g:6NQAAeSwkXNqw4Q5",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/zssAAeSwCvVq7OKM/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_consola-retro-atari-7800-gamepad-inalambrico-cx78-juego-bentley-bear-bentley-bears-crystal-quest-hdmi-usb-c-negro-1583588.html",
@@ -12627,24 +13251,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Plancha de vapor vertical - Rowenta Access Steam Care DR9100, De mano",
-      "precio": 69.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178557013650?itmmeta=01M4M24VV2YM15C8MTZ3ZFZBXA&hash=item2992d3ce92:g:Q7UAAeSw7plqw4hG",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-b-plancha-de-vapor-vertical-rowenta-access-steam-care-dr9100-de-mano-30grmin-02-l-negro-1560183.html",
-      "fecha_visto_primera_vez": "2026-10-10 23:26:06",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Teclado gaming - ISY IGK 5000-BK-ES, Cable 1.8 m, Mini, Retroiluminación, Negro",
       "precio": 36.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178557017394?itmmeta=01M4M24VV28JJRS94VW1QCYJD4&hash=item2992d3dd32:g:k58AAeSw7Z5qw4mD",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/EGEAAeSw9gtq7OKO/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_teclado-gaming-isy-igk-5000-bk-es-cable-18-m-mini-retroiluminacion-negro-1557634.html",
@@ -12657,37 +13268,11 @@
       "precio": 32.9,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178557043318?itmmeta=01M4M24VV2Y3GHG9MZ9E3VNG8Q&hash=item2992d44276:g:5ukAAeSwTMVqw4xV",
-      "imagen_url": null,
+      "imagen_url": "https://i.ebayimg.com/images/g/-3oAAeSwxeZq7OKT/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_estacion-de-carga-sony-vr2-sense-controller-para-playstation-5-240-v-60-hz-blanco-1544635.html",
       "fecha_visto_primera_vez": "2026-10-10 23:25:39",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Ratón gaming - Corsair Ironclaw RGB, Inalámbrico, 18000 dpi, 10 botones prog",
-      "precio": 45.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178557081360?itmmeta=01M4M24VV29XJQR13ZYZNC419W&hash=item2992d4d710:g:2WAAAeSwPNhqw5Bi",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_raton-gaming-corsair-katar-elite-wireless-rf-wireless-bluetooth-usb-type-a-26000-ppp-negro-142282292.html",
-      "fecha_visto_primera_vez": "2026-10-10 23:25:25",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Barra de sonido - LG SC9S, Bluetooth, Subwoofer Inalámbrico, 400 W, Negro",
-      "precio": 449.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178563894686?itmmeta=01M4M24VV2GV4YGFTQ1FBXKX33&hash=item29933ccd9e:g:DgAAAeSwtIlqxgyR",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_barra-de-sonido-lg-sc9s-bluetooth-inalambrico-400-w-negro-1547531.html",
-      "fecha_visto_primera_vez": "2026-10-10 23:25:11",
       "seller_id": "mediamarktnuevacondomina",
       "nombre_mostrado": null
     },
@@ -16622,37 +17207,11 @@
       "precio": 16.9,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/177101250933?itmmeta=01M387KKYQPX33PP678MM5SMBK&hash=item293c0ea175:g:vnEAAeSwzbZqmpSA",
-      "imagen_url": "https://i.ebayimg.com/images/g/yHsAAeSwXUBqvp2u/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/tRgAAeSw~e9q7OJr/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-targus-versavu-32-8-cm-12-9-para-pad-pro-12-9-inch-4th-gen-2020-negro-1479581.html",
       "fecha_visto_primera_vez": "2026-09-23 23:00:29",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cámara instantánea - Polaroid Now Generation 3, Temporizador automático,Flash",
-      "precio": 79.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178396749924?itmmeta=01M387KKYNHJE2TQFTK40VSJT7&hash=item2989466064:g:74sAAeSw-JRqmpTj",
-      "imagen_url": "https://i.ebayimg.com/images/g/5ncAAeSw8~lqvkLu/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-instantanea-polaroid-now-generation-3-temporizador-automatico-flash-preciso-guijarro-blanco-1595423.html",
-      "fecha_visto_primera_vez": "2026-09-23 22:55:32",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Aspirador de tapicerías - Cecotec Conga 6000 Carpet&Spot Clean XXL Advance",
-      "precio": 99.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178050846209?itmmeta=01M387KKYNKXCDWCP40VHEV9HG&hash=item2974a84e01:g:5EAAAeSw5AlqmpRG",
-      "imagen_url": "https://i.ebayimg.com/images/g/XEsAAeSw60pqxLT4/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aspirador-de-tapicerias-cecotec-conga-6000-carpetandspot-clean-xxl-advance-600-w-15-kpa-grisnegro-1605441.html",
-      "fecha_visto_primera_vez": "2026-09-23 22:54:36",
       "seller_id": "mediamarktnuevacondomina",
       "nombre_mostrado": null
     },
@@ -16765,7 +17324,7 @@
       "precio": 12.9,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178055730445?itmmeta=01M37HPAV6VPX424WWEKK89NQE&hash=item2974f2d50d:g:WfQAAeSwN~tqsjpE",
-      "imagen_url": "https://i.ebayimg.com/images/g/cWcAAeSw2t1qvkEe/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/ZpkAAeSwdxlq7OH2/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_termómetro-medisana-tm-a79-infrarrojos-pantalla-lcd-blanco-1486745.html",
@@ -16778,24 +17337,11 @@
       "precio": 119.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178382597592?itmmeta=01M37HPAV5WCGXJKCACKSXV6HJ&hash=item29886e6dd8:g:NacAAeSwgqhqmpS1",
-      "imagen_url": "https://i.ebayimg.com/images/g/gXgAAeSwGgtqvkFz/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/2uMAAeSwmwRq7OIr/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_smartwatch-xiaomi-watch-s4-amoled-bluetooth-hasta-15-dias-hyperos-silver-1593646.html",
       "fecha_visto_primera_vez": "2026-09-23 16:32:38",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "REI ASUS ROG Swift OLED PG32UCDM, 31.5\", UHD 4K, 0.03 ms GtG, 240 Hz",
-      "precio": 999.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178504859021?itmmeta=01M37HPAQRKD1C2Q35YVNSX2BF&hash=item298fb7fd8d:g:P08AAeSwfmBqq9jk",
-      "imagen_url": "https://i.ebayimg.com/images/g/mYAAAeSw~C5qvkF6/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-monitor-asus-rog-swift-oled-pg32ucdm-315-uhd-4k-003-ms-gtg-240-hz-adaptive-sync-hdr-negro-1594266.html",
-      "fecha_visto_primera_vez": "2026-09-23 16:31:30",
       "seller_id": "mediamarktnuevacondomina",
       "nombre_mostrado": null
     },
@@ -23274,89 +23820,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Auriculares inalámbricos - Beats Studio Pro, Cancelación Activa de Ruido",
-      "precio": 179.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178037540522?itmmeta=01M1QF9WV5EMZJ1MA6H7AK3G6F&hash=item2973dd46aa:g:nJwAAeSwsx9qmpQs",
-      "imagen_url": "https://i.ebayimg.com/images/g/nJwAAeSwsx9qmpQs/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-inalambricos-beats-studio-pro-cancelacion-activa-de-ruido-diadema-hasta-40h-negro-1557372.html",
-      "fecha_visto_primera_vez": "2026-09-05 00:25:44",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Aspirador de tapicerías - Cecotec Conga 6000 Carpet&Spot Clean XXL Advance",
-      "precio": 99.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178396749471?itmmeta=01M1QF9WV5TG5PS8YBA75YH7F7&hash=item2989465e9f:g:nSoAAeSwU~lqmpSa",
-      "imagen_url": "https://i.ebayimg.com/images/g/ZSgAAeSwVABqvkGU/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-05 00:25:44",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Barra de sonido - Sony HTS40R.CEL, Surround 5.1, Altavoces traseros inalámbricos",
-      "precio": 229.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178379176764?itmmeta=01M1QF9WV5CNW0J1TV0Y5R1NYZ&hash=item29883a3b3c:g:9wEAAeSwhVlqmpT8",
-      "imagen_url": "https://i.ebayimg.com/images/g/XegAAeSwPolqvkEg/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-05 00:25:44",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "PRO-TEK CLEAR CASE FOR IPAD PRO 11-INCH (M4)",
-      "precio": 16.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/177101195299?itmmeta=01M1QF9WV50HCYQTX554STRQMS&hash=item293c0dc823:g:j~cAAeSwA-tqmpR~",
-      "imagen_url": "https://i.ebayimg.com/images/g/Y7EAAeSwimhqvkFX/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-05 00:25:44",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Impresora fotográfica - Fujifilm Mini Link 3, Exposición de 3 colores con OLED",
-      "precio": 89.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178379726079?itmmeta=01M1QF9WV6R3VB9H1FYGHQT5BP&hash=item2988429cff:g:pnQAAeSw7BNqmpUh",
-      "imagen_url": "https://i.ebayimg.com/images/g/vPQAAeSwPGRqvkFh/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-05 00:25:44",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "REACONDICIONADO Seminuevo Muy bueno Reloj deportivo - Polar Pacer, CremA",
-      "precio": 119.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178382592948?itmmeta=01M1QF9WV6SAMDKY8BHBSZJQAG&hash=item29886e5bb4:g:4N4AAeSwR7pqmpQs",
-      "imagen_url": "https://i.ebayimg.com/images/g/dEIAAeSw2Dxqsjno/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-05 00:25:44",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Cámara instantánea - Polaroid Now Generation 3, Temporizador automático, Flash",
       "precio": 79.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178379729732?itmmeta=01M1QF9WV6ZA1PN33733CQ7SDB&hash=item298842ab44:g:014AAeSwkBNqmpUK",
-      "imagen_url": "https://i.ebayimg.com/images/g/bnoAAeSwhlNqvkF3/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/wNUAAeSwvv5q7OIu/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -23369,20 +23837,7 @@
       "precio": 99.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178379705365?itmmeta=01M1QF9WV6969QZ6636KX3GEHX&hash=item2988424c15:g:r9YAAeSwJfhqmpUY",
-      "imagen_url": "https://i.ebayimg.com/images/g/72IAAeSw13pqvkNJ/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-05 00:25:44",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 6100, Apple, iPhone 15, Resistente a Golpes, Soporte",
-      "precio": 4.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178396748907?itmmeta=01M1QF9WV6RTKD7F969AMVS7PT&hash=item2989465c6b:g:yBUAAeSw7dJqmpSy",
-      "imagen_url": "https://i.ebayimg.com/images/g/wdoAAeSw28NqvkFe/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/1U8AAeSwo1hq7OJZ/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -23395,23 +23850,10 @@
       "precio": 249.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178382526503?itmmeta=01M1QF9WV61QW0GZQM42HD9WV9&hash=item29886d5827:g:46oAAeSwzadqmpTM",
-      "imagen_url": "https://i.ebayimg.com/images/g/7p8AAeSwKRpqvkGo/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/6B8AAeSw-rZq7OI5/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-05 00:25:44",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Bombilla Inteligente - Hue Essentials Bombilla LED E27 8W, 806 Lúmenes, RGB",
-      "precio": 14.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/178396751295?itmmeta=01M1QF9WV7DYK34GNGDVQB4NDK&hash=item29894665bf:g:HmwAAeSwdy9qmpUr",
-      "imagen_url": "https://i.ebayimg.com/images/g/m24AAeSw~C5qvkGW/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_smartwatch-huawei-watch-gt-runner-2-reloj-inteligente-con-gps-ultrapreciso-en-runnning-14-dias-autonomia-maraton-mode-5atm-ecg-pago-nfc-negro-1619796.html",
       "fecha_visto_primera_vez": "2026-09-05 00:25:44",
       "seller_id": "mediamarktnuevacondomina",
       "nombre_mostrado": null
@@ -23421,20 +23863,7 @@
       "precio": 99.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178379694047?itmmeta=01M1QF9WV725916H6WGD2J4Y7Q&hash=item2988421fdf:g:j78AAeSwy-ZqmpU8",
-      "imagen_url": "https://i.ebayimg.com/images/g/Y5kAAeSwX9NqvkE4/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-05 00:25:44",
-      "seller_id": "mediamarktnuevacondomina",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Barra de sonido - LG SG10TY, Bluetooth, Inalámbrico, 420W, Negro",
-      "precio": 349.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/177679261849?itmmeta=01M1QF9WV79K84K9DHFQFK65F8&hash=item295e826099:g:hGQAAeSwFLNqmpS5",
-      "imagen_url": "https://i.ebayimg.com/images/g/0bAAAeSwmL1qvkFN/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/qpUAAeSwYKZq7OIA/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -23447,7 +23876,7 @@
       "precio": 99.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178379743370?itmmeta=01M1QF9WV7D49TY1GW2X6E8XXX&hash=item298842e08a:g:lM4AAeSw2ZtqmpTL",
-      "imagen_url": "https://i.ebayimg.com/images/g/otEAAeSwFr5qvkF~/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/aiUAAeSwT9xq7OIx/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -23460,7 +23889,7 @@
       "precio": 119.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/178396750889?itmmeta=01M1QF9WV7R0R89PKKKXFGVF4B&hash=item2989466429:g:pw0AAeSwRqBqmpTq",
-      "imagen_url": "https://i.ebayimg.com/images/g/jYIAAeSwtupqvkGW/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/93kAAeSwq6Jq7OJN/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -30974,7 +31403,7 @@
       "precio": 31.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/358187719939?itmmeta=01M0A7VV6DX4EVSHSQBYAAKF1M&hash=item5365a6dd03:g:KloAAeSwfjZqgJ7v",
-      "imagen_url": "https://i.ebayimg.com/images/g/KloAAeSwfjZqgJ7v/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/JC0AAeSwjAFrAYqs/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/search.html?query=Barbero+-+Philips+OneBlade+Pro+QP6506/15,+Peine-guía+ajustable+5+en+1,+Uso+seco/",
@@ -33239,7 +33668,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/8O0AAOSwG5Jk40a-/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-iphone-16-negro-128-gb-5g-61-oled-super-retina-xdr-chip-a18-bionic-ios-1582150.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-excelente-apple-iphone-14-product-red-128-gb-5g-61-oled-super-retina-xdr-chip-a15-bionic-ios-1671292.html",
       "fecha_visto_primera_vez": "2026-08-18 10:46:50",
       "seller_id": "mediamarktgava",
       "nombre_mostrado": null
@@ -51985,7 +52414,7 @@
       "clave": "altavoz inalámbrico - lg grab x boom, 30 w, bluetooth, 20h, negro",
       "criterio": "titulo",
       "titulo": "Altavoz inalámbrico - LG Grab X BOOM, 30 W, Bluetooth, 20h, Negro",
-      "imagen_url": "https://i.ebayimg.com/images/g/NQgAAeSwHuJqvktw/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/1owAAeSw5Gxq7OJl/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktcastellon",
@@ -52011,7 +52440,7 @@
       "clave": "powerbank - xtorm fuel series 5, 27000 mah, 67 w, 3 puertos",
       "criterio": "titulo",
       "titulo": "Powerbank - Xtorm Fuel Series 5, 27000 mAh, 67 W, 3 puertos",
-      "imagen_url": "https://i.ebayimg.com/images/g/OsEAAeSwSaZqv4ct/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/3~UAAeSwndRq7OJ3/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktnuevacondomina",
@@ -52216,32 +52645,6 @@
       ]
     },
     {
-      "clave": "barra de sonido - lg sg10ty, bluetooth, inalámbrico, 420w, negro",
-      "criterio": "titulo",
-      "titulo": "Barra de sonido - LG SG10TY, Bluetooth, Inalámbrico, 420W, Negro",
-      "imagen_url": "https://i.ebayimg.com/images/g/0bAAAeSwmL1qvkFN/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktnuevacondomina",
-          "precio": 349.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/177679261849?itmmeta=01M1QF9WV79K84K9DHFQFK65F8&hash=item295e826099:g:hGQAAeSwFLNqmpS5"
-        },
-        {
-          "tienda": "mediamarktcastellon",
-          "precio": 379.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/188660237393?itmmeta=01M0A7HMM7TGGFERR570JYGZ7G&hash=item2bed06c451:g:AUYAAeSw1KlqW4fU"
-        },
-        {
-          "tienda": "mediamarktbarcelona",
-          "precio": 494.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/406315068931?itmmeta=01M08TD4TR5DB6NFVRQY6ZB4FD&hash=item5e9a43ee03:g:3OQAAeSwpHRqB18K"
-        }
-      ]
-    },
-    {
       "clave": "ps4 lego star wars: la saga skywalker",
       "criterio": "titulo",
       "titulo": "PS4 Lego Star Wars: La Saga Skywalker",
@@ -52372,6 +52775,32 @@
       ]
     },
     {
+      "clave": "cámara instantánea - fujifilm instax mini 12, 62× 46 mm, flash, blanco arcilla",
+      "criterio": "titulo",
+      "titulo": "Cámara instantánea - Fujifilm Instax Mini 12, 62× 46 mm, Flash, Blanco arcilla",
+      "imagen_url": "https://i.ebayimg.com/images/g/NDIAAeSwICtrAYv7/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktcastellon",
+          "precio": 59.49,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/188760805547?itmmeta=01M0A7HD2RZ85431HDR1X3JAGF&hash=item2bf30550ab:g:QGMAAeSwv-JqdvgM"
+        },
+        {
+          "tienda": "mediamarktlagoh",
+          "precio": 62.1,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/820380350895?itmmeta=01M800HTEEYBRVANTA48FCWNK9&hash=itembf027ab9af:g:NDIAAeSwICtrAYv7"
+        },
+        {
+          "tienda": "mediamarktlloret",
+          "precio": 69.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/820338936280?itmmeta=01M7GG0ENQDNNMXD7853VXWAJ6&hash=itembf0002c9d8:g:oukAAeSwX-1q8z2k"
+        }
+      ]
+    },
+    {
       "clave": "centro de planchado - rowenta eco steam pro dg9621, 2800 w, 7.8 bar, 140 g/min,",
       "criterio": "titulo",
       "titulo": "Centro de planchado - Rowenta Eco Steam Pro DG9621, 2800 W, 7.8 bar, 140 g/min,",
@@ -52394,32 +52823,6 @@
           "precio": 220.15,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/318843062536?itmmeta=01M20FF7N0EFND9ERH677VRR4H&hash=item4a3c870908:g:dyMAAeSwjadqn~A8"
-        }
-      ]
-    },
-    {
-      "clave": "auriculares inalámbricos - beats studio pro, cancelación activa de ruido",
-      "criterio": "titulo",
-      "titulo": "Auriculares inalámbricos - Beats Studio Pro, Cancelación Activa de Ruido",
-      "imagen_url": "https://i.ebayimg.com/images/g/nJwAAeSwsx9qmpQs/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktcastellon",
-          "precio": 179.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/188443836528?itmmeta=01M0A7HQ3C2A2ERNHYXJAWE25F&hash=item2be020c070:g:SBsAAeSw0Q9qPosr"
-        },
-        {
-          "tienda": "mediamarktnuevacondomina",
-          "precio": 179.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/178037540522?itmmeta=01M1QF9WV5EMZJ1MA6H7AK3G6F&hash=item2973dd46aa:g:nJwAAeSwsx9qmpQs"
-        },
-        {
-          "tienda": "mediamarktnuevacondomina",
-          "precio": 179.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/178544857782?itmmeta=01M4M24VXC3YW1VN6ME2GAE5GG&hash=item29921a52b6:g:iaEAAeSwUMdqvkrU"
         }
       ]
     },
@@ -52628,6 +53031,32 @@
           "precio": 16.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/920017835827?itmmeta=01M7VT1DYK5B0PGW0T8C4CB72A&hash=itemd635561733:g:5NUAAeSwRy1qymbh"
+        }
+      ]
+    },
+    {
+      "clave": "volante - logitech g g29 + auriculares gaming astro a10, playstation 5 y 4/pc, m",
+      "criterio": "titulo",
+      "titulo": "Volante - Logitech G G29 + Auriculares gaming ASTRO A10, PlayStation 5 y 4/PC, M",
+      "imagen_url": "https://i.ebayimg.com/images/g/LvcAAeSwhW5rAYug/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktlagoh",
+          "precio": 185.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/820380349379?itmmeta=01M800HTEAD4WFE0ZTX455BFY7&hash=itembf027ab3c3:g:LvcAAeSwhW5rAYug"
+        },
+        {
+          "tienda": "mediamarktbahiadecadiz",
+          "precio": 197.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/318843062858?itmmeta=01M20FF7N0AM8DZWR10VW3A0AK&hash=item4a3c870a4a:g:fEAAAeSwNOpqn~BA"
+        },
+        {
+          "tienda": "mediamarktfanmallorca",
+          "precio": 219.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/960157570045?itmmeta=01M6PN3H06BKRB3G3A1Y2EN8DP&hash=itemdf8dd9d3fd:g:DC0AAeSwqn9q7HTh"
         }
       ]
     },
@@ -54024,6 +54453,26 @@
       ]
     },
     {
+      "clave": "barra de sonido - lg sg10ty, bluetooth, inalámbrico, 420w, negro",
+      "criterio": "titulo",
+      "titulo": "Barra de sonido - LG SG10TY, Bluetooth, Inalámbrico, 420W, Negro",
+      "imagen_url": null,
+      "ofertas": [
+        {
+          "tienda": "mediamarktcastellon",
+          "precio": 379.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/188660237393?itmmeta=01M0A7HMM7TGGFERR570JYGZ7G&hash=item2bed06c451:g:AUYAAeSw1KlqW4fU"
+        },
+        {
+          "tienda": "mediamarktbarcelona",
+          "precio": 494.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/406315068931?itmmeta=01M08TD4TR5DB6NFVRQY6ZB4FD&hash=item5e9a43ee03:g:3OQAAeSwpHRqB18K"
+        }
+      ]
+    },
+    {
       "clave": "funda móvil - samsung, galaxy a15 5g, trasera, bolsillo para tarjeta, negro/azul",
       "criterio": "titulo",
       "titulo": "Funda móvil - Samsung, Galaxy A15 5G, Trasera, Bolsillo para tarjeta, Negro/Azul",
@@ -54444,26 +54893,6 @@
       ]
     },
     {
-      "clave": "cámara instantánea - fujifilm instax mini 12, 62× 46 mm, flash, blanco arcilla",
-      "criterio": "titulo",
-      "titulo": "Cámara instantánea - Fujifilm Instax Mini 12, 62× 46 mm, Flash, Blanco arcilla",
-      "imagen_url": null,
-      "ofertas": [
-        {
-          "tienda": "mediamarktcastellon",
-          "precio": 59.49,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/188760805547?itmmeta=01M0A7HD2RZ85431HDR1X3JAGF&hash=item2bf30550ab:g:QGMAAeSwv-JqdvgM"
-        },
-        {
-          "tienda": "mediamarktlloret",
-          "precio": 69.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/820338936280?itmmeta=01M7GG0ENQDNNMXD7853VXWAJ6&hash=itembf0002c9d8:g:oukAAeSwX-1q8z2k"
-        }
-      ]
-    },
-    {
       "clave": "fondue - russell hobbs fiesta, 2 l, con 6 tenedores, indicadores encendido, inox",
       "criterio": "titulo",
       "titulo": "Fondue - Russell Hobbs Fiesta, 2 L, Con 6 tenedores, Indicadores encendido, Inox",
@@ -54520,6 +54949,26 @@
           "precio": 15.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/188695445908?itmmeta=01M0A7HFHA6HV5VY1Z28J5ZGDS&hash=item2bef200194:g:xd0AAeSwmkxqZNmp"
+        }
+      ]
+    },
+    {
+      "clave": "cámara instantánea - fujifilm instax mini 12, 62× 46 mm, flash, lila",
+      "criterio": "titulo",
+      "titulo": "Cámara instantánea - Fujifilm Instax Mini 12, 62× 46 mm, Flash, Lila",
+      "imagen_url": "https://i.ebayimg.com/images/g/HGkAAeSwv0drAYvv/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktlagoh",
+          "precio": 69.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/820380350943?itmmeta=01M800HTEFD9KK2K5KB4BGY1RS&hash=itembf027ab9df:g:HGkAAeSwv0drAYvv"
+        },
+        {
+          "tienda": "mediamarktcastellon",
+          "precio": 79.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/188761752886?itmmeta=01M0A7HFHAJHQZBEHRQCWQVF4V&hash=item2bf313c536:g:T-UAAeSwk-9qdzZT"
         }
       ]
     },
@@ -54680,6 +55129,26 @@
           "precio": 25.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/188661053355?itmmeta=01M0A7HJ53RHPX0DX1GGRBFEZ0&hash=item2bed1337ab:g:no0AAeSwSFFqW7yu"
+        }
+      ]
+    },
+    {
+      "clave": "cámara instantánea - fujifilm instax mini 12, 62× 46 mm, flash, azul pastel",
+      "criterio": "titulo",
+      "titulo": "Cámara instantánea - Fujifilm Instax Mini 12, 62× 46 mm, Flash, Azul pastel",
+      "imagen_url": "https://i.ebayimg.com/images/g/CroAAeSwmX5rAYvr/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktlagoh",
+          "precio": 62.1,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/820380350829?itmmeta=01M800HTEEXHTB7KEZFWYX2SDH&hash=itembf027ab96d:g:CroAAeSwmX5rAYvr"
+        },
+        {
+          "tienda": "mediamarktcastellon",
+          "precio": 79.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/188761758472?itmmeta=01M0A7HJ53X7BX464DHE5APSAW&hash=item2bf313db08:g:r9EAAeSwYtBqdzd0"
         }
       ]
     },
@@ -54880,6 +55349,26 @@
           "precio": 359.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/188567375495?itmmeta=01M0A7HQ3C78ABHE6FC9SCBSR3&hash=item2be77dce87:g:I7gAAeSww81qP83U"
+        }
+      ]
+    },
+    {
+      "clave": "auriculares inalámbricos - beats studio pro, cancelación activa de ruido",
+      "criterio": "titulo",
+      "titulo": "Auriculares inalámbricos - Beats Studio Pro, Cancelación Activa de Ruido",
+      "imagen_url": "https://i.ebayimg.com/images/g/0RIAAeSwn-Rq7OJi/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktcastellon",
+          "precio": 179.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/188443836528?itmmeta=01M0A7HQ3C2A2ERNHYXJAWE25F&hash=item2be020c070:g:SBsAAeSw0Q9qPosr"
+        },
+        {
+          "tienda": "mediamarktnuevacondomina",
+          "precio": 179.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/178544857782?itmmeta=01M4M24VXC3YW1VN6ME2GAE5GG&hash=item29921a52b6:g:iaEAAeSwUMdqvkrU"
         }
       ]
     },
@@ -56144,26 +56633,6 @@
       ]
     },
     {
-      "clave": "volante - logitech g g29 + auriculares gaming astro a10, playstation 5 y 4/pc, m",
-      "criterio": "titulo",
-      "titulo": "Volante - Logitech G G29 + Auriculares gaming ASTRO A10, PlayStation 5 y 4/PC, M",
-      "imagen_url": "https://i.ebayimg.com/images/g/fEAAAeSwNOpqn~BA/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktbahiadecadiz",
-          "precio": 197.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/318843062858?itmmeta=01M20FF7N0AM8DZWR10VW3A0AK&hash=item4a3c870a4a:g:fEAAAeSwNOpqn~BA"
-        },
-        {
-          "tienda": "mediamarktfanmallorca",
-          "precio": 219.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/960157570045?itmmeta=01M6PN3H06BKRB3G3A1Y2EN8DP&hash=itemdf8dd9d3fd:g:DC0AAeSwqn9q7HTh"
-        }
-      ]
-    },
-    {
       "clave": "palomitero - cecotec fun&taste p'corn lotus, 1200 w, listas en 2 minutos, 4 reci",
       "criterio": "titulo",
       "titulo": "Palomitero - Cecotec Fun&Taste P'Corn Lotus, 1200 W, Listas en 2 minutos, 4 reci",
@@ -56220,6 +56689,26 @@
           "precio": 314.1,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/318843061567?itmmeta=01M2BDD3VBR4Y1CK2Z6YTSVRNR&hash=item4a3c87053f:g:jRIAAeSwpPFqn-~y"
+        }
+      ]
+    },
+    {
+      "clave": "disco duro externo 5tb - ‎seagate stkn5000400 expansion, portátil, hdd, 5 tb, us",
+      "criterio": "titulo",
+      "titulo": "Disco duro externo 5TB - ‎Seagate STKN5000400 Expansion, Portátil, HDD, 5 TB, US",
+      "imagen_url": "https://i.ebayimg.com/images/g/jVUAAeSwNRdqn~Dr/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktbahiadecadiz",
+          "precio": 188.1,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/318843063088?itmmeta=01M2BDD3VBGWTDJ6VRDHV5JSPF&hash=item4a3c870b30:g:jVUAAeSwNRdqn~Dr"
+        },
+        {
+          "tienda": "mediamarktlagoh",
+          "precio": 189.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/820380352015?itmmeta=01M800HTEKW8F9TW8HB10TQQG1&hash=itembf027abe0f:g:HWwAAeSw5HhrAYwW"
         }
       ]
     },
@@ -56324,26 +56813,6 @@
       ]
     },
     {
-      "clave": "impresora multifunción tinta - brother mfc-j4350dw, impresión doble cara",
-      "criterio": "titulo",
-      "titulo": "Impresora multifunción tinta - Brother MFC-J4350DW, Impresión doble cara",
-      "imagen_url": "https://i.ebayimg.com/images/g/YVMAAeSweydqvkoe/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktnuevacondomina",
-          "precio": 119.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/178544825736?itmmeta=01M4M24VX9EVSDP5T2X4HB3VFE&hash=item299219d588:g:YVMAAeSweydqvkoe"
-        },
-        {
-          "tienda": "mediamarktjerez",
-          "precio": 159.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/147557131558?itmmeta=01M2NGZNXQ5AFRXZEVZJYV9X8A&hash=item225b172526:g:lOEAAeSwNTRqntXq"
-        }
-      ]
-    },
-    {
       "clave": "ps5 ball x pit",
       "criterio": "titulo",
       "titulo": "PS5 BALL x PIT",
@@ -56407,7 +56876,7 @@
       "clave": "teclado gaming - isy igk 5000-bk-es, cable 1.8 m, mini, retroiluminación, negro",
       "criterio": "titulo",
       "titulo": "Teclado gaming - ISY IGK 5000-BK-ES, Cable 1.8 m, Mini, Retroiluminación, Negro",
-      "imagen_url": "https://i.ebayimg.com/images/g/znIAAeSwmh9oOYFS/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/EGEAAeSw9gtq7OKO/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktnuevacondomina",
@@ -56544,6 +57013,46 @@
       ]
     },
     {
+      "clave": "monitor gaming - aoc c32g42ze, 31.5\" full-hd, 260hz, 0.3 ms mprt, va, curvatura",
+      "criterio": "titulo",
+      "titulo": "Monitor gaming - AOC C32G42ZE, 31.5\" Full-HD, 260Hz, 0.3 ms MPRT, VA, Curvatura",
+      "imagen_url": "https://i.ebayimg.com/images/g/L2gAAeSw1PlrAYwp/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktlagoh",
+          "precio": 149.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/820380353150?itmmeta=01M800HTECHMXYHKT186FSHPPC&hash=itembf027ac27e:g:L2gAAeSw1PlrAYwp"
+        },
+        {
+          "tienda": "mediamarkttoledo",
+          "precio": 159.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/800400800929?itmmeta=01M3882EQSPWHVXF2X30AAH00X&hash=itemba5b9afca1:g:3-MAAeSwydZqY3qw"
+        }
+      ]
+    },
+    {
+      "clave": "robot amasador - kitchenaid 5k45sseob, amasador, batidor, 4.28 l, 275 w, negro",
+      "criterio": "titulo",
+      "titulo": "Robot amasador - KitchenAid 5K45SSEOB, Amasador, Batidor, 4.28 L, 275 W, Negro",
+      "imagen_url": "https://i.ebayimg.com/images/g/IzYAAeSwsqtq7bSM/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktnuevacondomina",
+          "precio": 349.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/880088782174?itmmeta=01M8016ZCHNVMMY96YNKEYQX5Q&hash=itemcce961155e:g:IzYAAeSwsqtq7bSM"
+        },
+        {
+          "tienda": "mediamarktgetafe",
+          "precio": 459.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/227477258398?itmmeta=01M38RW8N4KRQ2330YNNDF17NS&hash=item34f6b3809e:g:LbkAAeSw6p5qtBms"
+        }
+      ]
+    },
+    {
       "clave": "apple cable de usb-c de 60w, iphone, ipad, mac, airpods, 1 metros, blanco",
       "criterio": "titulo",
       "titulo": "Apple Cable de USB-C DE 60W, iPhone, iPad, Mac, AirPods, 1 metros, Blanco",
@@ -56640,6 +57149,26 @@
           "precio": 12.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/317879563712?itmmeta=01M3N8PERHT33H4EWSNF4NG93Z&hash=item4a031935c0:g:glcAAeSwe1BquqP9"
+        }
+      ]
+    },
+    {
+      "clave": "disco duro externo 1 tb - toshiba canvio basics, 2.5\", usb 3.0, hdd, negro",
+      "criterio": "titulo",
+      "titulo": "Disco duro externo 1 TB - Toshiba Canvio Basics, 2.5\", USB 3.0, HDD, Negro",
+      "imagen_url": "https://i.ebayimg.com/images/g/NNoAAeSwbtxrAYwW/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktlagoh",
+          "precio": 79.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/820380352139?itmmeta=01M800HTEHFCMH8S5VKQNR28X1&hash=itembf027abe8b:g:NNoAAeSwbtxrAYwW"
+        },
+        {
+          "tienda": "mediamarktalmeria",
+          "precio": 85.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/178545467711?itmmeta=01M3WM0415K8P0BQ3F649NEDWV&hash=item299223a13f:g:PyoAAeSwu9pqvn4g"
         }
       ]
     },
@@ -56864,6 +57393,26 @@
       ]
     },
     {
+      "clave": "depiladora ipl - braun luz pulsada silk·expert pro 5 pl5221, depilación en casa,",
+      "criterio": "titulo",
+      "titulo": "Depiladora IPL - Braun Luz Pulsada Silk·expert Pro 5 PL5221, Depilación en casa,",
+      "imagen_url": "https://i.ebayimg.com/images/g/KOkAAeSwS7RrAYvA/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktlagoh",
+          "precio": 299.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/820380349828?itmmeta=01M800HTEBYEDZSA32S16A3A99&hash=itembf027ab584:g:KOkAAeSwS7RrAYvA"
+        },
+        {
+          "tienda": "mediamarktfanmallorca",
+          "precio": 349.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/960157387759?itmmeta=01M6PN3H06Z2DP4SAK62BMTPDT&hash=itemdf8dd70bef:g:b4EAAeSw2U5q7GeT"
+        }
+      ]
+    },
+    {
       "clave": "cafetera superautomática - de'longhi magnifica start ecam220.21.bg",
       "criterio": "titulo",
       "titulo": "Cafetera superautomática - De'Longhi Magnifica Start ECAM220.21.BG",
@@ -56920,6 +57469,26 @@
           "precio": 102.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/318890878332?itmmeta=01M7Z0YSRKART9H886WFPQSG16&hash=item4a3f60a57c:g:hvkAAeSwEutqro0Z"
+        }
+      ]
+    },
+    {
+      "clave": "disco duro externo 1tb - ‎seagate stkn1000400 expansion, portátil, 1 tb, usb 3.2",
+      "criterio": "titulo",
+      "titulo": "Disco duro externo 1TB - ‎Seagate STKN1000400 Expansion, Portátil, 1 TB, USB 3.2",
+      "imagen_url": "https://i.ebayimg.com/images/g/P4sAAeSwZBRqro0M/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktlorca",
+          "precio": 89.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/318890877967?itmmeta=01M7Z0YSRKN7CCG6TX2W5NRRRJ&hash=item4a3f60a40f:g:P4sAAeSwZBRqro0M"
+        },
+        {
+          "tienda": "mediamarktlagoh",
+          "precio": 89.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/820380351921?itmmeta=01M800HTED89N97A5EXMC9XV4Y&hash=itembf027abdb1:g:D84AAeSwqcdrAYwQ"
         }
       ]
     }
