@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-11-21T21:53:00.466803+00:00",
+  "actualizado": "2026-11-22T05:54:48.440788+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3914,
+  "total_articulos": 3908,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -314,11 +314,6 @@
       "num_articulos": 26
     },
     {
-      "seller_id": "mediamarkttalavera",
-      "nombre_mostrado": null,
-      "num_articulos": 22
-    },
-    {
       "seller_id": "mediamarktcalafell",
       "nombre_mostrado": null,
       "num_articulos": 21
@@ -340,6 +335,11 @@
     },
     {
       "seller_id": "mediamarktsantboi",
+      "nombre_mostrado": null,
+      "num_articulos": 16
+    },
+    {
+      "seller_id": "mediamarkttalavera",
       "nombre_mostrado": null,
       "num_articulos": 16
     },
@@ -510,6 +510,32 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Portátil gaming - HP Victus 15-fa2706ns, 15.6\" FHD, Intel® Core™ i5-13420H, 16",
+      "precio": 934.15,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/358890966432?itmmeta=01M80X09P00C4WPNE14W1M5ZXC&hash=item538f918da0:g:9uEAAeSwYKZq8uBI",
+      "imagen_url": "https://i.ebayimg.com/images/g/9uEAAeSwYKZq8uBI/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-gaming-hp-hyperx-omen-15-inch-gaming-pc-15-gb0007nf-153-wuxga-amd-ryzentm-7-260-16-gb-ram-512-gb-ssd-geforce-rtxtm-5060-freedos-sin-sistema-operativo-idioma-del-teclado-fr-negro-185713332.html",
+      "fecha_visto_primera_vez": "2026-11-22 05:53:42",
+      "seller_id": "mediamarktoutletpinto",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Termostato - Muvit IO Termostato Inteligente cableado y hub para internet",
+      "precio": 74.5,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/358661743504?itmmeta=01M80X09P0XZBHS9A8F82TZ2YZ&hash=item5381e7e390:g:lcEAAeSwiA9qKT0W",
+      "imagen_url": "https://i.ebayimg.com/images/g/lcEAAeSwiA9qKT0W/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_termostato-muvit-io-termostato-inteligente-cableado-y-hub-para-internet-muvit-io-home-negro-1544605.html",
+      "fecha_visto_primera_vez": "2026-11-22 05:53:29",
+      "seller_id": "mediamarktoutletpinto",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Proyector - LG PU615U, 3840 x 2160 píxeles, 20.000 h, UHD 4K, Plateado",
       "precio": 799.0,
@@ -1304,19 +1330,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Portátil - Acer Aspire Go 15 AG15-42P-R1KP, 15.6\" Full-HD, AMD Ryzen™  5 7430U",
-      "precio": 449.65,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/820314333323?itmmeta=01M7Z1R3S5D0HKVXRCSRWWVABM&hash=itembefe8b608b:g:WIIAAeSwqd1q6wlI",
-      "imagen_url": "https://i.ebayimg.com/images/g/WIIAAeSwqd1q6wlI/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-acer-nxj7web01r-156-amd-ryzen-5-5625u-8-gb-ram-512-gb-ssd-radeontm-onboard-graphics-windows-11-home-negro-176087823.html",
-      "fecha_visto_primera_vez": "2026-11-21 12:46:17",
-      "seller_id": "mediamarktoutletpinto",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Portátil gaming - Gigabyte Aero X16 1VH93ESC64DH Copilot PC+, 16\" WQXGA",
       "precio": 1597.15,
       "moneda": "EUR",
@@ -1339,19 +1352,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-smart-rb38c605ds9ef-no-frost-2m-390l-wifi-inox-1555019.html",
       "fecha_visto_primera_vez": "2026-11-21 12:45:19",
-      "seller_id": "mediamarktoutletpinto",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Impresora fotográfica - Polaroid Hi Print 4x6, Bluetooth, Tamaño postal",
-      "precio": 96.85,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/358550847955?itmmeta=01M7Z1R3S4BPDXAHF9Z14NKNWT&hash=item537b4bc1d3:g:E5AAAeSw-PRqBDq5",
-      "imagen_url": "https://i.ebayimg.com/images/g/E5AAAeSw-PRqBDq5/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-fotografica-polaroid-9165-bluetooth-impresion-termica-a3-blanco-y-rojo-159020677.html",
-      "fecha_visto_primera_vez": "2026-11-21 12:45:06",
       "seller_id": "mediamarktoutletpinto",
       "nombre_mostrado": null
     },
@@ -21389,32 +21389,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Bolsas de aspirador - Miele HyClean Pure TU, 3.5L, Para Guard L1 y Guard S1, Mie",
-      "precio": 18.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/377490424825?itmmeta=01M2JKT8WYF7761H2RAEBQBTQV&hash=item57e42ec3f9:g:V2EAAeSwTctqpTjw",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_bolsas-de-aspirador-miele-hyclean-pure-tu-35l-para-guard-l1-y-guard-s1-miele-1595785.html",
-      "fecha_visto_primera_vez": "2026-09-15 13:24:04",
-      "seller_id": "mediamarkttalavera",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Humificador - Cecotec Pure Aroma 300 Yang",
-      "precio": 22.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/377490424762?itmmeta=01M2JKT8WYWANQKXPFCTZD33MN&hash=item57e42ec3ba:g:SB4AAeSwfmpqpTjr",
-      "imagen_url": null,
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-15 13:24:04",
-      "seller_id": "mediamarkttalavera",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Pack Tupper - Tefal Clip&Close K3029012, 5 recipientes , 0.15 L-3.7 L,  Plástico",
       "precio": 24.0,
       "moneda": "EUR",
@@ -21422,7 +21396,7 @@
       "imagen_url": null,
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pack-tupper-tefal-clip-close-5pc-plastico-0-15l-3-7l-1358682.html",
       "fecha_visto_primera_vez": "2026-09-15 13:24:04",
       "seller_id": "mediamarkttalavera",
       "nombre_mostrado": null
@@ -21433,19 +21407,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/377488461093?itmmeta=01M2JKT8X2BH355Z7SWPDTZA49&hash=item57e410cd25:g:engAAeSwErFqpTuP",
       "imagen_url": "https://i.ebayimg.com/images/g/engAAeSwErFqpTuP/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-15 13:24:04",
-      "seller_id": "mediamarkttalavera",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Altavoz de gran potencia - JBL PartyBox Ultimate, 1100W, Espectáculo luces, Blue",
-      "precio": 994.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/377488497443?itmmeta=01M2JKT8X23R6NPXRHZKY6XE07&hash=item57e4115b23:g:jPsAAeSwRb9qo~eO",
-      "imagen_url": "https://i.ebayimg.com/images/g/jPsAAeSwRb9qo~eO/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -21485,32 +21446,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/377488524756?itmmeta=01M2JKT8X2DCZ5TJNZG3W8HGRP&hash=item57e411c5d4:g:yyIAAeSw3oxqo~xC",
       "imagen_url": "https://i.ebayimg.com/images/g/yyIAAeSw3oxqo~xC/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-15 13:24:04",
-      "seller_id": "mediamarkttalavera",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cepillo eléctrico - Oral-B iO 2, Pack dúo, 2 recambios, 3 modos, Temporizador, S",
-      "precio": 64.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/377488461541?itmmeta=01M2JKT8X2KWENSYX202MFSAZP&hash=item57e410cee5:g:qBgAAeSwYHRqo~Gd",
-      "imagen_url": "https://i.ebayimg.com/images/g/qBgAAeSwYHRqo~Gd/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-15 13:24:04",
-      "seller_id": "mediamarkttalavera",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Báscula de baño - Medisana BS444 Connect, Peso máximo 180 Kg, Análisis corporal,",
-      "precio": 13.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/377488461426?itmmeta=01M2JKT8X29Z6J9HFR2JJR3F1E&hash=item57e410ce72:g:RHwAAeSwIC9qo~Gf",
-      "imagen_url": "https://i.ebayimg.com/images/g/RHwAAeSwIC9qo~Gf/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -21602,19 +21537,6 @@
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/377488522135?itmmeta=01M2JKT8X3S75CF5W3N5EX69K2&hash=item57e411bb97:g:BmQAAeSwWXNqo~vO",
       "imagen_url": "https://i.ebayimg.com/images/g/BmQAAeSwWXNqo~vO/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-09-15 13:24:04",
-      "seller_id": "mediamarkttalavera",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Gamepad - Vieta Pro Proton, Bluetooth, Inalámbrico, Ajustable hasta 18 cm, Funci",
-      "precio": 42.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/377488461985?itmmeta=01M2JKT8X3HWVMY67KWW11BJC1&hash=item57e410d0a1:g:RGsAAeSwKK1qpTlZ",
-      "imagen_url": "https://i.ebayimg.com/images/g/RGsAAeSwKK1qpTlZ/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -53413,26 +53335,6 @@
       ]
     },
     {
-      "clave": "báscula de baño - medisana bs444 connect, peso máximo 180 kg, análisis corporal,",
-      "criterio": "titulo",
-      "titulo": "Báscula de baño - Medisana BS444 Connect, Peso máximo 180 Kg, Análisis corporal,",
-      "imagen_url": "https://i.ebayimg.com/images/g/RHwAAeSwIC9qo~Gf/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarkttalavera",
-          "precio": 13.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/377488461426?itmmeta=01M2JKT8X29Z6J9HFR2JJR3F1E&hash=item57e410ce72:g:RHwAAeSwIC9qo~Gf"
-        },
-        {
-          "tienda": "mediamarktalfafar",
-          "precio": 13.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/298544620434?itmmeta=01M08T49KMSWTA6MQDKGQPY69Q&hash=item4582a56392:g:UeoAAeSw03hqazA1"
-        }
-      ]
-    },
-    {
       "clave": "teclado gaming - isy igk 3500-es, cable 1.7 m usb, mini, retroiluminación, negro",
       "criterio": "titulo",
       "titulo": "Teclado gaming - ISY IGK 3500-ES, Cable 1.7 m USB, Mini, Retroiluminación, Negro",
@@ -56649,26 +56551,6 @@
           "precio": 32.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/318890876634?itmmeta=01M7Z0YSRF696EB1295ZGFKAZ0&hash=item4a3f609eda:g:eFgAAeSwFXdqroxl"
-        }
-      ]
-    },
-    {
-      "clave": "gamepad - vieta pro proton, bluetooth, inalámbrico, ajustable hasta 18 cm, funci",
-      "criterio": "titulo",
-      "titulo": "Gamepad - Vieta Pro Proton, Bluetooth, Inalámbrico, Ajustable hasta 18 cm, Funci",
-      "imagen_url": "https://i.ebayimg.com/images/g/RGsAAeSwKK1qpTlZ/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarkttalavera",
-          "precio": 42.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/377488461985?itmmeta=01M2JKT8X3HWVMY67KWW11BJC1&hash=item57e410d0a1:g:RGsAAeSwKK1qpTlZ"
-        },
-        {
-          "tienda": "mediamarktbahiadecadiz",
-          "precio": 44.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/318843076407?itmmeta=01M2BDD3VAP5HSZ2NP293D6P6Z&hash=item4a3c873f37:g:pHkAAeSw1Klqn~F-"
         }
       ]
     },
