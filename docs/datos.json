@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-11-24T02:52:59.951306+00:00",
+  "actualizado": "2026-11-24T14:47:49.286921+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3789,
+  "total_articulos": 3772,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -31,7 +31,7 @@
     {
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null,
-      "num_articulos": 60
+      "num_articulos": 59
     },
     {
       "seller_id": "mediamarkttarragona",
@@ -139,17 +139,17 @@
       "num_articulos": 42
     },
     {
-      "seller_id": "mediamarktparets",
-      "nombre_mostrado": null,
-      "num_articulos": 42
-    },
-    {
       "seller_id": "mediamarktlloret",
       "nombre_mostrado": null,
       "num_articulos": 41
     },
     {
       "seller_id": "mediamarktnuevacondomina",
+      "nombre_mostrado": null,
+      "num_articulos": 41
+    },
+    {
+      "seller_id": "mediamarktparets",
       "nombre_mostrado": null,
       "num_articulos": 41
     },
@@ -185,11 +185,6 @@
     },
     {
       "seller_id": "mediamarktalmeria",
-      "nombre_mostrado": null,
-      "num_articulos": 39
-    },
-    {
-      "seller_id": "mediamarktdiagonalmar",
       "nombre_mostrado": null,
       "num_articulos": 39
     },
@@ -299,7 +294,7 @@
       "num_articulos": 28
     },
     {
-      "seller_id": "mediamarkthuelva",
+      "seller_id": "mediamarktdiagonalmar",
       "nombre_mostrado": null,
       "num_articulos": 27
     },
@@ -312,6 +307,11 @@
       "seller_id": "mediamarktlosbarrios",
       "nombre_mostrado": null,
       "num_articulos": 26
+    },
+    {
+      "seller_id": "mediamarkthuelva",
+      "nombre_mostrado": null,
+      "num_articulos": 24
     },
     {
       "seller_id": "mediamarktbadajoz",
@@ -510,6 +510,110 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Accesorio encimera - Scanpart 4200000032, Tabla de cortar, Bambú, 1 unidad, 50x2",
+      "precio": 15.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/317475597488?itmmeta=01M870AGGE7SDD2G25G7P7ETQZ&hash=item49eb052cb0:g:sZ0AAeSwmzJq~bKY",
+      "imagen_url": "https://i.ebayimg.com/images/g/sZ0AAeSwmzJq~bKY/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tabla-de-cortar-dam-6157-152087499.html",
+      "fecha_visto_primera_vez": "2026-11-24 14:47:25",
+      "seller_id": "mediamarktparets",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Taza térmica - Tefal N2160210, 0.3 l, Funda de silicona, Acero inoxidable, Azul",
+      "precio": 18.74,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/317475596111?itmmeta=01M870AGGENJQEVEFD7A03HDDH&hash=item49eb05274f:g:9ZcAAeSwwNVq~bLJ",
+      "imagen_url": "https://i.ebayimg.com/images/g/9ZcAAeSwwNVq~bLJ/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_taza-termica-tefal-n2160210-03-l-funda-de-silicona-acero-onoxidable-azul-1579552.html",
+      "fecha_visto_primera_vez": "2026-11-24 14:47:09",
+      "seller_id": "mediamarktparets",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Figura - Magicbox Fortress Piratix Golden Treasure, Figura aleatoria",
+      "precio": 2.31,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/317370333365?itmmeta=01M870AGGAXS4WW6HJHTMXWPY1&hash=item49e4bef8b5:g:tcoAAeSwVS1q~bMX",
+      "imagen_url": "https://i.ebayimg.com/images/g/tcoAAeSwVS1q~bMX/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-magicbox-fortress-piratix-golden-treasure-figura-aleatoria-1575012.html",
+      "fecha_visto_primera_vez": "2026-11-24 14:46:53",
+      "seller_id": "mediamarktparets",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Figura - Funko Pop! Izzy Hawthorne, Lightyear, 9.5 cm, Vinilo, Multicolor",
+      "precio": 9.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/316149509899?itmmeta=01M870AGG61E85KBV3TGH5XP96&hash=item499bfaaf0b:g:hWkAAeSwtTdq~bJz",
+      "imagen_url": "https://i.ebayimg.com/images/g/hWkAAeSwtTdq~bJz/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-funko-pop-izzy-hawthorne-lightyear-95-cm-vinilo-multicolor-1535139.html",
+      "fecha_visto_primera_vez": "2026-11-24 14:46:10",
+      "seller_id": "mediamarktparets",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Enchufe inteligente - ‎TP-Link Tapo P100 Mini, Wi-Fi, Bluetooth 4.2, Alexa, Goog",
+      "precio": 7.19,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/377500911699?itmmeta=01M8707ZBZ3QJVTV2D2QRWPG39&hash=item57e4cec853:g:wPgAAeSwNahq~bqz",
+      "imagen_url": "https://i.ebayimg.com/images/g/wPgAAeSwNahq~bqz/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_enchufe-inteligente-tp-link-tapo-p100-wifi-bluetooth-control-remoto-fácil-instalación-blanco-1470965.html",
+      "fecha_visto_primera_vez": "2026-11-24 14:45:33",
+      "seller_id": "mediamarkthuelva",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "SAI - Woxter UPS 800 VA, Microprocesador, Display LED, Alarma acústica, Autonomí",
+      "precio": 58.49,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/377617804683?itmmeta=01M8707ZBSFJG4CYAQMFV6EJPC&hash=item57ebc66d8b:g:a9MAAeSwJQRq6dc6",
+      "imagen_url": "https://i.ebayimg.com/images/g/a9MAAeSwJQRq6dc6/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_sai-woxter-ups-800-va-microprocesador-display-led-alarma-acústica-autonomía-8-15-minutos-negro-1156287.html",
+      "fecha_visto_primera_vez": "2026-11-24 14:45:14",
+      "seller_id": "mediamarkthuelva",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Mochila - Iniciales de Kanto, Pokémon",
+      "precio": 19.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/206594772249?itmmeta=01M8705PGRDB777EDGD4K5V21Q&hash=item301a020d19:g:efYAAeSwxn9qvkAs",
+      "imagen_url": "https://i.ebayimg.com/images/g/efYAAeSwxn9qvkAs/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_mochila-iniciales-de-kanto-pokemon-1599606.html",
+      "fecha_visto_primera_vez": "2026-11-24 14:44:13",
+      "seller_id": "mediamarktdiagonalmar",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Póster - Pyramid International Harry Potter. Escudos y Hogwarts, 2 Pósters",
+      "precio": 1.9,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/206587997967?itmmeta=01M8705PGQQA5Y6P4DYSY46EKQ&hash=item30199aaf0f:g:yr0AAeSwIFpqumwv",
+      "imagen_url": "https://i.ebayimg.com/images/g/yr0AAeSwIFpqumwv/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_poster-pyramid-internationalharry-potter-escudos-y-hogwarts-2-posters-52-x-38-cm-1593332.html",
+      "fecha_visto_primera_vez": "2026-11-24 14:43:58",
+      "seller_id": "mediamarktdiagonalmar",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Auriculares inalámbricos - Vieta Pro Way 5, Circumaurales SIN CAJA",
       "precio": 25.0,
@@ -953,19 +1057,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Mini ventilador - NK HO340087, 5.5W, 3 Velocidades, 8h Autonomía, Azul",
-      "precio": 8.09,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/377617832218?itmmeta=01M84CE1AG7RENNG3QNP7DHQS4&hash=item57ebc6d91a:g:pX0AAeSwmANq6dnS",
-      "imagen_url": "https://i.ebayimg.com/images/g/pX0AAeSwmANq6dnS/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_mini-ventilador-nk-ho340087-55w-3-velocidades-8h-autonomia-azul-1603200.html",
-      "fecha_visto_primera_vez": "2026-11-23 14:25:47",
-      "seller_id": "mediamarkthuelva",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Trípode - Hama Star 61, 153 cm, Aluminio, Champán",
       "precio": 29.69,
       "moneda": "EUR",
@@ -975,19 +1066,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_trípode-hama-star-61-2250071.html",
       "fecha_visto_primera_vez": "2026-11-23 14:25:32",
-      "seller_id": "mediamarkthuelva",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cepillo eléctrico - Oral-B iO 2, Pack dúo, 2 recambios, 3 modos, Temporizador, S",
-      "precio": 64.76,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/377617795105?itmmeta=01M84CE1AG78GPCHDEMSDPAV31&hash=item57ebc64821:g:8GgAAeSwYnhq~bnW",
-      "imagen_url": "https://i.ebayimg.com/images/g/8GgAAeSwYnhq~bnW/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cepillo-electrico-io-2-pack-duo-2-recambios-3-modos-temporizador-sensor-de-presion-estuche-de-viaje-negro-y-verde-bosque-1620510.html",
-      "fecha_visto_primera_vez": "2026-11-23 14:25:17",
       "seller_id": "mediamarkthuelva",
       "nombre_mostrado": null
     },
@@ -1044,19 +1122,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Apple Magic Mouse, Ratón inalámbrico y recargable, Superficie Multi-Touch, Cable",
-      "precio": 62.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/377617825660?itmmeta=01M84CE1AFCJ5ZBKVSBGFYRJHT&hash=item57ebc6bf7c:g:Y90AAeSw97Vq6dkG",
-      "imagen_url": "https://i.ebayimg.com/images/g/Y90AAeSw97Vq6dkG/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_apple-magic-mouse-raton-inalambrico-y-recargable-superficie-multi-touch-cable-usb-c-blanco-1585757.html",
-      "fecha_visto_primera_vez": "2026-11-23 14:24:02",
-      "seller_id": "mediamarkthuelva",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Recambio para afeitadora - Braun 96M, Compatible con afeitadoras Series 9 PRO+,",
       "precio": 40.05,
       "moneda": "EUR",
@@ -1079,19 +1144,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-nintendo-switch-2-ardistel-blackfire-protection-pack-5in1-para-nintendo-switch-2-negro-1598716.html",
       "fecha_visto_primera_vez": "2026-11-23 14:23:32",
-      "seller_id": "mediamarkthuelva",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cámara de vigilancia IP - Ezviz HB8 Lite + Panel Solar, Wifi 6, AOV, detección d",
-      "precio": 62.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/377617828536?itmmeta=01M84CE1AE7ST3NAAH2DZ2FBX5&hash=item57ebc6cab8:g:1hkAAeSwqiNq~byF",
-      "imagen_url": "https://i.ebayimg.com/images/g/1hkAAeSwqiNq~byF/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-de-vigilancia-ip-ezviz-hb8-lite-panel-solar-2560-1440-funcion-de-vision-nocturna-ip65-seguimiento-automatico-inteligente-blanco-1595540.html",
-      "fecha_visto_primera_vez": "2026-11-23 14:23:17",
       "seller_id": "mediamarkthuelva",
       "nombre_mostrado": null
     },
@@ -6140,19 +6192,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Altavoz inalámbrico - Harman Kardon Luna, 55 W, Bluetooth, Autonomía 12h,",
-      "precio": 89.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137939695452?itmmeta=01M7NX93XV0Q0NQ1E5DWKZT918&hash=item201dd8b75c:g:-zEAAeSwGEVq~IhW",
-      "imagen_url": "https://i.ebayimg.com/images/g/-zEAAeSwGEVq~IhW/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-inalambrico-harman-kardon-luna-55-w-bluetooth-autonomia-12h-usb-c-negro-1564491.html",
-      "fecha_visto_primera_vez": "2026-11-17 23:25:51",
-      "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Plancha secador - Dyson Airstrait™, Alisado Mojado a Seco, 1600W, 4 Niveles temp",
       "precio": 379.0,
       "moneda": "EUR",
@@ -7609,19 +7648,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Protector pantalla - ISY IPG 5174-2.5D, Para Samsung Galaxy A34 5G",
-      "precio": 1.09,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206675598189?itmmeta=01M6YD5YJC6H5ENQSWR6GBVN7T&hash=item301ed35b6d:g:3iEAAeSwndNq62Rj",
-      "imagen_url": "https://i.ebayimg.com/images/g/3iEAAeSwndNq62Rj/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_protector-pantalla-isy-ipg-5174-25d-para-samsung-galaxy-a34-5g-cristal-templado-1559148.html",
-      "fecha_visto_primera_vez": "2026-11-08 20:29:02",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Funda tablet - Lenovo Folio Case para Tab M10 3.ª Gen Film, 10.1\", Gris",
       "precio": 2.99,
       "moneda": "EUR",
@@ -7661,19 +7687,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Impresora de etiquetas - Epson Labelworks LW-C410, Portátil [EXPO]",
-      "precio": 29.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206675434959?itmmeta=01M6YD5YJBA1NHFXFPPPK5GQ52&hash=item301ed0ddcf:g:7NAAAeSwOIxq60w-",
-      "imagen_url": "https://i.ebayimg.com/images/g/7NAAAeSwOIxq60w-/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_impresora-de-etiquetas-tm-t20iii-012a0-epson-negro-134681318.html",
-      "fecha_visto_primera_vez": "2026-11-08 20:28:06",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Alfombrilla ratón - Logitech  Mouse Pad Studio Series, Nylon/ PoliésterCaucho",
       "precio": 5.99,
       "moneda": "EUR",
@@ -7683,32 +7696,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_alfombrilla-raton-logitech-mouse-pad-studio-series-nylon-poliester-caucho-rosa-1526724.html",
       "fecha_visto_primera_vez": "2026-11-08 20:27:52",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Protector pantalla - ISY IPG 5149-2.5D, Samsung Galaxy A33 5G, dureza 9H",
-      "precio": 1.09,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206675594352?itmmeta=01M6YD5YJADQKDHCM1KYM21WRS&hash=item301ed34c70:g:xKcAAeSwvr1q62MT",
-      "imagen_url": "https://i.ebayimg.com/images/g/xKcAAeSwvr1q62MT/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_protector-pantalla-isy-ipg-5149-25d-para-samsung-galaxy-a33-5g-grado-de-dureza-9h-vidrio-transparente-1535469.html",
-      "fecha_visto_primera_vez": "2026-11-08 20:27:36",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Monitor - LG Smart Monitor Swing 32U721SAW-W, 32\" UHD 4K, Altavoces integrados",
-      "precio": 399.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206614302521?itmmeta=01M6YD5YJAC4Q20HZV89JQK6FN&hash=item301b2c0f39:g:J~AAAeSwCTtq62yM",
-      "imagen_url": "https://i.ebayimg.com/images/g/J~AAAeSwCTtq62yM/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-lg-smart-monitor-swing-32u721saw-w-32-uhd-4k-60-hz-5ms-va-altavoces-incorporados-blanco-1603681.html",
-      "fecha_visto_primera_vez": "2026-11-08 20:27:22",
       "seller_id": "mediamarktdiagonalmar",
       "nombre_mostrado": null
     },
@@ -7765,19 +7752,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Funda tablet - Samsung EF-BX210TBEGWW, Para Galaxy Tab A9 Plus, Folio, 11\"",
-      "precio": 14.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206674948096?itmmeta=01M6YD5YJ9BPEA670EX97P01XV&hash=item301ec97000:g:bJQAAeSwOIRq6yS4",
-      "imagen_url": "https://i.ebayimg.com/images/g/bJQAAeSwOIRq6yS4/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-b-funda-tablet-samsung-ef-bx210tbegww-para-galaxy-tab-a9-plus-folio-11-negro-1572897.html",
-      "fecha_visto_primera_vez": "2026-11-08 20:26:12",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Base de carga - Nacon Quadcharging Station RGB, Carga hasta 4 Joy-Con 2, RGB",
       "precio": 7.99,
       "moneda": "EUR",
@@ -7800,45 +7774,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-isy-isc-2348-apple-iphone-16-pro-resistente-a-golpes-negro-1579635.html",
       "fecha_visto_primera_vez": "2026-11-08 20:25:45",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Cafetera superautomática - Philips EP4441/50, LatteGo [EXPO]",
-      "precio": 449.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206675370573?itmmeta=01M6YD5YJ8P9Y9EM9Y01Y389N9&hash=item301ecfe24d:g:JHUAAeSwyHhq60bl",
-      "imagen_url": "https://i.ebayimg.com/images/g/JHUAAeSwyHhq60bl/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-superautomatica-philips-ep444150-lattego-pantalla-tactil-12-ajustes-funcion-quickstart-15-bar-230-w-filtro-aquaclean-18-l-negro-1570020.html",
-      "fecha_visto_primera_vez": "2026-11-08 20:25:31",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Funda móvil - ISY ISC 1047, Compatible con iPhone 16 Pro Max, Transparente",
-      "precio": 1.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206675486261?itmmeta=01M6YD5YJ7728C5YRS6NECFZAV&hash=item301ed1a635:g:~ygAAeSwQrZq61Os",
-      "imagen_url": "https://i.ebayimg.com/images/g/~ygAAeSwQrZq61Os/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-isy-isc-1047-compatible-con-iphone-16-pro-max-resistente-a-golpes-transparente-1579619.html",
-      "fecha_visto_primera_vez": "2026-11-08 20:25:16",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Ventilador de techo con luz - Philips Bliss, 6 Velocidades, Aspas retráctiles",
-      "precio": 99.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206675627953?itmmeta=01M6YD5YJ60HZ9SEATRJPWJBS8&hash=item301ed3cfb1:g:lRsAAeSw~epq62o0",
-      "imagen_url": "https://i.ebayimg.com/images/g/lRsAAeSw~epq62o0/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_ventilador-de-techo-philips-by-signify-bliss-28-w-6-velocidades-106-cm-4500-lumenes-regulables-mando-a-distancia-blanco-1621585.html",
-      "fecha_visto_primera_vez": "2026-11-08 20:24:50",
       "seller_id": "mediamarktdiagonalmar",
       "nombre_mostrado": null
     },
@@ -7917,71 +7852,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_protector-pantalla-isy-ipg-5200-25d-compatible-con-iphone-16-pro-max-cristal-templado-transparente-1579613.html",
       "fecha_visto_primera_vez": "2026-11-08 20:23:12",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Olla express - Magefesa DB6, 6L, 5 Sistemas de seguridad, Súper rápida [EXPO]",
-      "precio": 39.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206675443457?itmmeta=01M6YD5YJ5QG3698YGDG6XJ50T&hash=item301ed0ff01:g:2jcAAeSwsdVq60zY",
-      "imagen_url": "https://i.ebayimg.com/images/g/2jcAAeSwsdVq60zY/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_accesorio-olla-magefesa-09remecopp8-103129943.html",
-      "fecha_visto_primera_vez": "2026-11-08 20:22:44",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Nintendo Switch 2 Monster Hunter Stories 3 Twisted Reflection (Game Key Card)",
-      "precio": 39.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206675656637?itmmeta=01M6YD5YJ5WM467RM28HRSR9RH&hash=item301ed43fbd:g:S0YAAeSwSbJq6250",
-      "imagen_url": "https://i.ebayimg.com/images/g/S0YAAeSwSbJq6250/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-monster-hunter-stories-3-twisted-reflection-game-key-card-1611156.html",
-      "fecha_visto_primera_vez": "2026-11-08 20:22:30",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Ventilador de pie - Dreame MF10, 55 W, 10 Velocidades, Sin aspas, Beige",
-      "precio": 199.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206675626398?itmmeta=01M6YD5YJ5RJDPQQ1T3TM3NH9V&hash=item301ed3c99e:g:mR0AAeSwzylq62nR",
-      "imagen_url": "https://i.ebayimg.com/images/g/mR0AAeSwzylq62nR/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-ventilador-de-pie-dreame-mf10-55-w-10-velocidades-sin-aspas-control-inteligente-desde-el-movil-beige-1676322.html",
-      "fecha_visto_primera_vez": "2026-11-08 20:22:16",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Consola retro - My Arcade SNK Neo Geo Mini, 40 juegos incluidos, Pantalla 3.5",
-      "precio": 55.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206674966183?itmmeta=01M6YD5YJ45D6YSBCP16AYHPMW&hash=item301ec9b6a7:g:2fYAAeSwFClq6yXr",
-      "imagen_url": "https://i.ebayimg.com/images/g/2fYAAeSwFClq6yXr/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_consola-retro-my-arcade-snk-neo-geo-mini-0-gb-azul-y-blanco-147342232.html",
-      "fecha_visto_primera_vez": "2026-11-08 20:22:02",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Figura Funko Pop! - Funko Pop! Dragon Ball GT: Vegeta [Caja mal estado]",
-      "precio": 3.99,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206675379262?itmmeta=01M6YD5YJ4DSS896ZJRZBXQZAY&hash=item301ed0043e:g:nM8AAeSwajVq60ep",
-      "imagen_url": "https://i.ebayimg.com/images/g/nM8AAeSwajVq60ep/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-funko-pop-funko-pop-dragon-ball-gt-vegeta-143440162.html",
-      "fecha_visto_primera_vez": "2026-11-08 20:21:47",
       "seller_id": "mediamarktdiagonalmar",
       "nombre_mostrado": null
     },
@@ -8419,7 +8289,7 @@
       "precio": 3.14,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317475593965?itmmeta=01M6MK3V1Y7WCY73MS1J6ANFPV&hash=item49eb051eed:g:Q9YAAeSwZElq6dds",
-      "imagen_url": "https://i.ebayimg.com/images/g/Q9YAAeSwZElq6dds/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/8qMAAeSwg2hq~bMP/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_utensilio-bergner-bg-38873-rd-mars-batidor-306-cm-nylon-negrorojo-1534440.html",
@@ -8432,7 +8302,7 @@
       "precio": 14.24,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370348562?itmmeta=01M6MK3V1YB4F2HADWYYBZ75MM&hash=item49e4bf3412:g:bUoAAeSwyvVq6ddJ",
-      "imagen_url": "https://i.ebayimg.com/images/g/bUoAAeSwyvVq6ddJ/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/vn4AAeSwr5Vq~bLt/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-funko-pop-house-of-the-dragon-baela-targaryen-vinilo-10-cm-1586187.html",
@@ -8445,7 +8315,7 @@
       "precio": 31.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370369490?itmmeta=01M6MK3V1XQ1SMDXM90SX0ZHB6&hash=item49e4bf85d2:g:kmcAAeSwkjhq6dd1",
-      "imagen_url": "https://i.ebayimg.com/images/g/kmcAAeSwkjhq6dd1/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/9D8AAeSwQnFq~bMa/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-funko-pop-wall-e-wall-e-wfire-extinguisher-vinilo-950-cm-multicolor-1534814.html",
@@ -12286,19 +12156,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-fregona-electrica-rowenta-x-clean-2-gz2251-wet-and-dry-35-min-autonomia-modos-ecomax-ligera-2-en-1-1674324.html",
       "fecha_visto_primera_vez": "2026-10-20 19:56:24",
       "seller_id": "mediamarktalcorcon",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Nintendo Switch 2 Resident Evil: Requiem",
-      "precio": 71.01,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/377541053933?itmmeta=01M5574JEWH2PXKJX0947X3VPM&hash=item57e7334ded:g:qn8AAeSwoW5qwQVh",
-      "imagen_url": "https://i.ebayimg.com/images/g/qn8AAeSwoW5qwQVh/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-resident-evil-requiem-1606683.html",
-      "fecha_visto_primera_vez": "2026-10-17 15:24:48",
-      "seller_id": "mediamarkthuelva",
       "nombre_mostrado": null
     },
     {
@@ -18650,7 +18507,7 @@
       "precio": 14.24,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370367989?itmmeta=01M2TMKB3MCHRFNH4N4XQS8V15&hash=item49e4bf7ff5:g:1XYAAeSwquFqqQo-",
-      "imagen_url": "https://i.ebayimg.com/images/g/UYIAAeSw-Ihq6ddL/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/uA8AAeSwFthq~bLx/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-funko-pop-funko-world-of-warcraft-alleria-windtunner-149785088.html",
@@ -18663,7 +18520,7 @@
       "precio": 8.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370366898?itmmeta=01M2TMKB3MGA4K76FHH4KZKYTT&hash=item49e4bf7bb2:g:FpgAAeSwHYBqqQpf",
-      "imagen_url": "https://i.ebayimg.com/images/g/mMcAAeSwxF9q6dde/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/h5QAAeSw8fxq~bL-/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_poster-3d-pyramid-international-the-mandalorian-wanted-the-child-1591693.html",
@@ -18676,7 +18533,7 @@
       "precio": 14.24,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370366451?itmmeta=01M2TMKB3MJQY38KGPCDAX5FHZ&hash=item49e4bf79f3:g:fmYAAeSwMaJqqQpH",
-      "imagen_url": "https://i.ebayimg.com/images/g/QqAAAeSwZElq6ddP/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/uSsAAeSwo~Fq~bLy/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-funko-pop-chainsaw-man-chainsaw-man-variante-chase-sangriento-vinilo-10-cm-1589018.html",
@@ -18689,7 +18546,7 @@
       "precio": 14.24,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370365768?itmmeta=01M2TMKB3MMVC1WJJTE083Y8Z5&hash=item49e4bf7748:g:7jMAAeSwj0lqqQpc",
-      "imagen_url": "https://i.ebayimg.com/images/g/RPoAAeSwuVdq6dda/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/tdwAAeSw7PFq~bL8/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-funko-pop-animation-tokyo-ghoul-re-nimura-furuta-vinilo-9-cm-1567706.html",
@@ -18702,7 +18559,7 @@
       "precio": 7.49,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370340634?itmmeta=01M2TMKB3MEX6YVCN85ENJWVDX&hash=item49e4bf151a:g:WWEAAeSwfEhqqQo-",
-      "imagen_url": "https://i.ebayimg.com/images/g/lzwAAeSwr~xq6dc7/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/7uoAAeSwc5hq~bLh/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pack-merchandising-magicbox-funko-star-wars-rivals-s1-dark-side-character-pack-1584795.html",
@@ -18715,7 +18572,7 @@
       "precio": 31.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370363748?itmmeta=01M2TMKB3M0YQ7QDVCAR77AZNR&hash=item49e4bf6f64:g:Q~4AAeSwbbpqqQqA",
-      "imagen_url": "https://i.ebayimg.com/images/g/ePQAAeSwy2xq6dd6/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/8IEAAeSw769q~bMi/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-sherwood-one-piece-the-grandline-series-shanks-150877836.html",
@@ -18728,7 +18585,7 @@
       "precio": 14.24,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370350396?itmmeta=01M2TMKB3M7F0CQ42Y5KDB9QRN&hash=item49e4bf3b3c:g:SdwAAeSwq8RqqQnT",
-      "imagen_url": "https://i.ebayimg.com/images/g/i0UAAeSw8Ltq6dcf/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/6uwAAeSwg2Zq~bK8/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-funko-pop-demon-slayer-kimetsu-no-yaiba-s3-susamaru-vinilo-95-cm-1562308.html",
@@ -18741,7 +18598,7 @@
       "precio": 29.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370349084?itmmeta=01M2TMKB3KRXQK7WAHVXQ0EK3Y&hash=item49e4bf361c:g:CmMAAeSwEutqqQoI",
-      "imagen_url": "https://i.ebayimg.com/images/g/f0sAAeSwOvNq6dcL/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/WFEAAeSwui5q~bKs/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-sherwood-one-piece-grandline-series-s-hawk-12-cm-pvc-1590680.html",
@@ -18754,7 +18611,7 @@
       "precio": 26.24,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370348800?itmmeta=01M2TMKB3KTPP0NJCP6DMDZE8T&hash=item49e4bf3500:g:~1sAAeSwoXNqqQou",
-      "imagen_url": "https://i.ebayimg.com/images/g/fKQAAeSwI3Bq6dcf/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/X0YAAeSw1mdq~bLF/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-sherwood-kimetsu-no-yaiba-demon-slayer-sabito-1569689.html",
@@ -18767,7 +18624,7 @@
       "precio": 29.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370347028?itmmeta=01M2TMKB3KSN1STQSC26EF1QGQ&hash=item49e4bf2e14:g:94wAAeSw8SBqqQoJ",
-      "imagen_url": "https://i.ebayimg.com/images/g/REsAAeSwKZ9q6dcT/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/u-kAAeSwE8tq~bK4/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-one-piece-egghead-sanji-16-cm-1584095.html",
@@ -18780,7 +18637,7 @@
       "precio": 7.49,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370341759?itmmeta=01M2TMKB3KCXARCCMR4TVG5DD5&hash=item49e4bf197f:g:dTEAAeSw7-FqqQpF",
-      "imagen_url": "https://i.ebayimg.com/images/g/lDUAAeSwSkJq6dc7/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/vJwAAeSwE5Vq~bLb/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pack-merchandising-magicbox-funko-star-wars-rivals-s1-light-side-character-pack-1584796.html",
@@ -18793,7 +18650,7 @@
       "precio": 29.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370339540?itmmeta=01M2TMKB3KYMMJ7G352KRH2ZA8&hash=item49e4bf10d4:g:HE4AAeSwDW5qqQng",
-      "imagen_url": "https://i.ebayimg.com/images/g/maIAAeSwdWBq6ddA/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/ttEAAeSwxB9q~bLj/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-one-piece-egghead-monkey-d-luffy-16-cm-1584094.html",
@@ -18806,7 +18663,7 @@
       "precio": 14.24,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370330213?itmmeta=01M2TMKB3K3BE8JRX0WZQZB25A&hash=item49e4beec65:g:pbUAAeSwt3xqqQpP",
-      "imagen_url": "https://i.ebayimg.com/images/g/i7IAAeSwVTdq6ddK/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/7esAAeSwb~hq~bLr/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-funko-pop-animation-tokyo-ghoul-re-nimura-furuta-vinilo-9-cm-1567706.html",
@@ -18819,7 +18676,7 @@
       "precio": 14.24,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370317992?itmmeta=01M2TMKB3KJ6HQYNYBTP5GAT9X&hash=item49e4bebca8:g:HCwAAeSw7ydqqQo-",
-      "imagen_url": "https://i.ebayimg.com/images/g/d7kAAeSwiGFq6ddE/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/8FUAAeSwC9xq~bLn/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-funko-286143-99066015.html",
@@ -18832,7 +18689,7 @@
       "precio": 14.24,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370317086?itmmeta=01M2TMKB3KQEJ77XGZ9EVAPESK&hash=item49e4beb91e:g:ymgAAeSwbUdqqQoP",
-      "imagen_url": "https://i.ebayimg.com/images/g/kyUAAeSwwo9q6dcc/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/t0MAAeSw6hdq~bLD/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-funko-pop-fc-barcelona-lamine-yamal-10-cm-vinilo-1673229.html",
@@ -18845,7 +18702,7 @@
       "precio": 764.1,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317087802477?itmmeta=01M2TMKB3KBF97G5AHRZJYQTJN&hash=item49d3e7e46d:g:QeIAAeSwfuZqqQm9",
-      "imagen_url": "https://i.ebayimg.com/images/g/QiUAAeSw4BFq6dbW/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/6LgAAeSwRIJq~bJ7/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_all-in-one-hp-24-cr2000ns-238-full-hd-intelr-coretm-ultra-5-225u-16-gb-ram-512-gb-ssd-intelr-uhd-graphics-sin-sistema-operativo-blanco-1601979.html",
@@ -18858,7 +18715,7 @@
       "precio": 5.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317009206797?itmmeta=01M2TMKB3KF4YAJS2SZ7HNB9JP&hash=item49cf389e0d:g:xXEAAeSwn35qqQpr",
-      "imagen_url": "https://i.ebayimg.com/images/g/jzcAAeSwj1lq6ddl/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/8ecAAeSwCyhq~bMN/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_estuche-pyramid-pokemon-1578784.html",
@@ -18871,7 +18728,7 @@
       "precio": 25.49,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317009206640?itmmeta=01M2TMKB3J7BK9SNSNP8G6VHA1&hash=item49cf389d70:g:Ii0AAeSwIIxqqQol",
-      "imagen_url": "https://i.ebayimg.com/images/g/htAAAeSwDh5q6dcq/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/iQMAAeSwtTdq~bLS/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-sherwood-vibration-stars-naruto-uzumaki-ii-pvc-14-cm-1569675.html",
@@ -18884,7 +18741,7 @@
       "precio": 25.49,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317009206494?itmmeta=01M2TMKB3JJ34SBAGRTHM8QENC&hash=item49cf389cde:g:pwcAAeSwTbZqqQoc",
-      "imagen_url": "https://i.ebayimg.com/images/g/QdgAAeSwAldq6dcj/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/7KcAAeSwFJpq~bLE/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-sherwood-naruto-effectreme-uzumaki-pvc-12-cm-1569673.html",
@@ -18897,7 +18754,7 @@
       "precio": 26.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317009206369?itmmeta=01M2TMKB3JE7EE2PT8JVWRZN7H&hash=item49cf389c61:g:~HQAAeSwax1qqQnj",
-      "imagen_url": "https://i.ebayimg.com/images/g/cikAAeSwyhJq6db2/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/77UAAeSw~6tq~bKX/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-sherwood-chainsaw-man-vibration-stars-denji-149886933.html",
@@ -18906,24 +18763,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Funda tablet - Samsung EF-BX810PBEGWW. Para Galaxy Tab S9+. Enganche magnético.",
-      "precio": 44.17,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/316709899301?itmmeta=01M2TMKB3JAKW3N14T4SWP3WJC&hash=item49bd618c25:g:dGsAAeSwo-lqqQne",
-      "imagen_url": "https://i.ebayimg.com/images/g/VOMAAeSwvQtq6dbs/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-b-funda-tablet-samsung-ef-bx810pbegww-para-galaxy-tab-s9-enganche-magnetico-modo-reposo-negro-1574033.html",
-      "fecha_visto_primera_vez": "2026-09-18 16:13:04",
-      "seller_id": "mediamarktparets",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Teclado gaming - Razer Huntsman V2 Tenkeyless (Purple Switch). USB-C. Retroilumi",
       "precio": 123.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/316709892960?itmmeta=01M2TMKB3JS3VK2NWAKK7SRDPR&hash=item49bd617360:g:E2QAAeSwXf5qqQnX",
-      "imagen_url": "https://i.ebayimg.com/images/g/W4IAAeSwe81q6dbj/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/iN8AAeSwbvpq~bKD/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_teclado-gaming-razer-blackwidow-v3-tenkeyless-usb-retroiluminacion-chroma-rgb-mecanico-negro-1509406.html",
@@ -18936,7 +18780,7 @@
       "precio": 38.17,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/316149504965?itmmeta=01M2TMK7XYT48PHM77TDR03BKM&hash=item499bfa9bc5:g:tfIAAeSwuvJqqQny",
-      "imagen_url": "https://i.ebayimg.com/images/g/XfgAAeSway9q6dcD/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/s60AAeSw9FFq~bKg/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_picadora-moulinex-dj5201-300-w-4-cuchillas-de-acero-inoxidable-blanco-1485861.html",
@@ -20197,7 +20041,7 @@
       "precio": 27.74,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370347237?itmmeta=01M2M678WKVQJQWZ3G6E56R53F&hash=item49e4bf2ee5:g:q04AAeSwj~ZqqQne",
-      "imagen_url": "https://i.ebayimg.com/images/g/YaEAAeSwFAJq6dbw/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/6UQAAeSwE3Jq~bKR/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-one-piece-egghead-tony-tony-8-cm-1584096.html",
@@ -20691,7 +20535,7 @@
       "precio": 3.74,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370334360?itmmeta=01M2D27HY4M5038VKFWW8BQHFT&hash=item49e4befc98:g:-f8AAeSw6xpqlt0i",
-      "imagen_url": "https://i.ebayimg.com/images/g/am4AAeSwliBq6dd1/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/vXQAAeSwHl5q~bMU/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pack-papeleria-pyramid-tubo-de-lapices-star-wars-episode-9-143441642.html",
@@ -20704,7 +20548,7 @@
       "precio": 3.74,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317009207491?itmmeta=01M2D27HY4YB04RYSNW9SQFQN8&hash=item49cf38a0c3:g:hWIAAeSw0Hxqltyp",
-      "imagen_url": "https://i.ebayimg.com/images/g/UnEAAeSw1Tpq6ddn/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/j3EAAeSwywtq~bMQ/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_juego-magicbox-530ppx2b412in00-piratix-pack-de-4-figuras-sorpresas-1584802.html",
@@ -20717,7 +20561,7 @@
       "precio": 26.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317009206456?itmmeta=01M2D27HY43NK94JBATK2HWET4&hash=item49cf389cb8:g:Tj8AAeSwD~1qltyC",
-      "imagen_url": "https://i.ebayimg.com/images/g/Hh0AAeSwv05q6dcY/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/uCAAAeSwhQJq~bK5/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_figura-bandai-mnipsb-615789-99386953.html",
@@ -25978,24 +25822,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Ratón inalámbrico - Trust Bayo Eco. Wireless. 2400 ppp. Negro",
-      "precio": 21.67,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/316709893865?itmmeta=01M15VKTW9HF3DB6KV3N4QBTKJ&hash=item49bd6176e9:g:iroAAeSw7OJqdxBl",
-      "imagen_url": "https://i.ebayimg.com/images/g/UJoAAeSwop9q6dcc/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_raton-inalambrico-trust-bayo-ii-inalambrico-2400-ppp-ergonomico-negro-1572642.html",
-      "fecha_visto_primera_vez": "2026-08-29 04:16:29",
-      "seller_id": "mediamarktparets",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Tableta gráfica - Wacom CTL-6100WLK-S Intuos Medium, Bluetooth, Negro",
       "precio": 149.25,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317087357378?itmmeta=01M15VKTW9HWN5ET742V7VTKCC&hash=item49d3e119c2:g:IWkAAeSwNz9qdxAK",
-      "imagen_url": "https://i.ebayimg.com/images/g/QpoAAeSwabtq6dbl/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/i~0AAeSw1Alq~bKI/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tableta-grafica-wacom-wacom-intuos-pro-medium-2025-lapiz-digital-negro-159090072.html",
@@ -27603,24 +27434,11 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Nintendo Switch Naruto Shippuden Ultimate Ninja Storm 4: Road To Boruto (Código",
-      "precio": 8.92,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/317192835292?itmmeta=01M0K25HHP4AJXWSF7NV8QGD8D&hash=item49da2a90dc:g:h5YAAeSwtAZqdxBc",
-      "imagen_url": "https://i.ebayimg.com/images/g/6WkAAeSwmV9q6deQ/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_nintendo-switch-naruto-shippuden-ultimate-ninja-storm-4-road-to-boruto-142442558.html",
-      "fecha_visto_primera_vez": "2026-08-21 21:03:30",
-      "seller_id": "mediamarktparets",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "PC sobremesa - HP M01-F2024ns, AMD Ryzen?3 4300G, 8GB RAM, 512GB SSD, AMD Radeon",
       "precio": 434.0,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317353254113?itmmeta=01M0K25HHPPK40B2AMA6K5KSB2&hash=item49e3ba5ce1:g:hUEAAeSwYVRqdxCF",
-      "imagen_url": "https://i.ebayimg.com/images/g/aWcAAeSwYB9q6dba/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/Gv0AAeSw5Yhq~bJ-/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -27633,23 +27451,10 @@
       "precio": 147.6,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/316149512092?itmmeta=01M0K25HHPS39K68VCZVEG2Q4Q&hash=item499bfab79c:g:c1wAAeSwm6tqdxD~",
-      "imagen_url": "https://i.ebayimg.com/images/g/llIAAeSwDypq6deS/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/9jgAAeSwBzBq~bMg/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/search.html?query=Aspirador+escoba+-+Cecotec+Conga+Rockstar+2500+Vital+ErgoWet",
-      "fecha_visto_primera_vez": "2026-08-21 21:03:30",
-      "seller_id": "mediamarktparets",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Apple Magic Keyboard. Funda con teclado para el iPad Pro. M4. 11\". Español. Blan",
-      "precio": 246.75,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/316709894331?itmmeta=01M0K25HHP8F2WPS3E8YANRT1J&hash=item49bd6178bb:g:JSUAAeSwA6tqdw-j",
-      "imagen_url": "https://i.ebayimg.com/images/g/eF4AAeSw-2pq6dbe/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aspirador-vertical-conga-rockstar-2500-x-treme-ergoflex-cecotec-500-ww-gris-96701359.html",
       "fecha_visto_primera_vez": "2026-08-21 21:03:30",
       "seller_id": "mediamarktparets",
       "nombre_mostrado": null
@@ -27659,7 +27464,7 @@
       "precio": 1.56,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317352448286?itmmeta=01M0K25HHP1DN181ZWYRFBSBEN&hash=item49e3ae111e:g:h-UAAeSwocpqdxBI",
-      "imagen_url": "https://i.ebayimg.com/images/g/kSEAAeSwnEJq6dcI/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/H-UAAeSw0UVq~bKz/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -27672,7 +27477,7 @@
       "precio": 18.74,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370327687?itmmeta=01M0K25HHPVERB051X8PNYDQHV&hash=item49e4bee287:g:K8UAAeSwU79qdxCq",
-      "imagen_url": "https://i.ebayimg.com/images/g/QtkAAeSw1Y9q6dct/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/uN4AAeSwepBq~bLV/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -27685,7 +27490,7 @@
       "precio": 19.42,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/316709893232?itmmeta=01M0K25HHPDRVS24RZHE6VYBXR&hash=item49bd617470:g:N2MAAeSwBCJqdxA5",
-      "imagen_url": "https://i.ebayimg.com/images/g/ZXgAAeSw-hpq6dcI/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/iNgAAeSwJrlq~bKs/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -27698,23 +27503,10 @@
       "precio": 8.99,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317370364314?itmmeta=01M0K25HHQT7VTR1T3D53PZ39N&hash=item49e4bf719a:g:k8sAAeSwDO5qdxBX",
-      "imagen_url": "https://i.ebayimg.com/images/g/dnMAAeSwwjlq6ddg/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/-VsAAeSwb75q~bL~/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
-      "fecha_visto_primera_vez": "2026-08-21 21:03:30",
-      "seller_id": "mediamarktparets",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Aspirador escoba - Cecotec Rockstar 1300 X-Treme ErgoFlex sin cable. 420 W",
-      "precio": 111.75,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/316149512403?itmmeta=01M0K25HHQ5YH579WWYJ15QX1D&hash=item499bfab8d3:g:cZAAAeSwRpxqdw-U",
-      "imagen_url": "https://i.ebayimg.com/images/g/h1sAAeSwKlJq6dbg/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_aspirador-escoba-cecotec-cecotec-conga-rockstar-2500-thunder-pet-flex-400-w-potencia-de-succion-120-airwatt-deposito-06-l-autonomia-65-min-black-158643998.html",
       "fecha_visto_primera_vez": "2026-08-21 21:03:30",
       "seller_id": "mediamarktparets",
       "nombre_mostrado": null
@@ -27724,7 +27516,7 @@
       "precio": 1.01,
       "moneda": "EUR",
       "url": "https://www.ebay.es/itm/317009207310?itmmeta=01M0K25HHQ395EF2SFTBYN5DX9&hash=item49cf38a00e:g:jK4AAeSwOT5qdxDT",
-      "imagen_url": "https://i.ebayimg.com/images/g/mBAAAeSwdapq6dex/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/~KEAAeSwXipq~bNS/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
       "mediamarkt_url": null,
@@ -33388,19 +33180,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Afeitadora - Braun Series 6 61-R1200S, 3 Cuchillas, [EXPO]",
-      "precio": 49.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/206414099232?itmmeta=01M0A7JV5SH4GCK0QMMZHA4WEZ&hash=item300f3d3320:g:vpYAAeSw87xqVhUE",
-      "imagen_url": "https://i.ebayimg.com/images/g/UnUAAeSwCJJq63Bf/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_afeitadora-exact-series-en-10-braun-60-min-tapon-de-proteccion-negro-128161005.html",
-      "fecha_visto_primera_vez": "2026-08-18 10:45:08",
-      "seller_id": "mediamarktdiagonalmar",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Cámara Nintendo Switch 2 - Nintendo Switch 2, USB-C, Sensor alta sensibilidad",
       "precio": 20.9,
       "moneda": "EUR",
@@ -33421,7 +33200,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/ljAAAeSw1f5q6itk/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tarjetero-para-movil-friendly-license-frtar003-universal-adhesivo-3m-verde-perenne-1577413.html",
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tarjetero-para-movil-friendly-license-frtar012-tpu-y-adhesivo-3m-soporte-azul-ultramar-1583790.html",
       "fecha_visto_primera_vez": "2026-08-18 10:45:08",
       "seller_id": "mediamarktdiagonalmar",
       "nombre_mostrado": null
@@ -50416,6 +50195,32 @@
       ]
     },
     {
+      "clave": "taza térmica - tefal n2160210, 0.3 l, funda de silicona, acero inoxidable, azul",
+      "criterio": "titulo",
+      "titulo": "Taza térmica - Tefal N2160210, 0.3 l, Funda de silicona, Acero inoxidable, Azul",
+      "imagen_url": "https://i.ebayimg.com/images/g/DYQAAeSw-lpqSoMh/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktalfafar",
+          "precio": 7.9,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/297459045129?itmmeta=01M08T46VYH32S1KRDTMHXZKCM&hash=item4541f0d309:g:DKkAAeSwRXVqcvRy"
+        },
+        {
+          "tienda": "mediamarkttoledo",
+          "precio": 9.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/800544797445?itmmeta=01M0JAKYGYXR4SFBAXMZ1DVTF7&hash=itemba64303305:g:OMkAAeSwRUZqiC0F"
+        },
+        {
+          "tienda": "mediamarktparets",
+          "precio": 18.74,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/317475596111?itmmeta=01M870AGGENJQEVEFD7A03HDDH&hash=item49eb05274f:g:9ZcAAeSwwNVq~bLJ"
+        }
+      ]
+    },
+    {
       "clave": "toalla - koenic microfibra, 80x40cm, poliéster y nylon, súper absorción, azul",
       "criterio": "titulo",
       "titulo": "Toalla - KOENIC Microfibra, 80x40cm, Poliéster y nylon, Súper absorción, Azul",
@@ -50809,7 +50614,7 @@
       "clave": "pack papelería - pyramid tubo de lápices star wars episode ix",
       "criterio": "titulo",
       "titulo": "Pack papelería - Pyramid Tubo de lápices Star Wars Episode IX",
-      "imagen_url": "https://i.ebayimg.com/images/g/am4AAeSwliBq6dd1/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/vXQAAeSwHl5q~bMU/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktbarcelona",
@@ -50861,7 +50666,7 @@
       "clave": "estuche - pyramid pokémon",
       "criterio": "titulo",
       "titulo": "Estuche - Pyramid Pokémon",
-      "imagen_url": "https://i.ebayimg.com/images/g/jzcAAeSwj1lq6ddl/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/8ecAAeSwCyhq~bMN/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktbarcelona",
@@ -50884,10 +50689,36 @@
       ]
     },
     {
+      "clave": "mochila - iniciales de kanto, pokémon",
+      "criterio": "titulo",
+      "titulo": "Mochila - Iniciales de Kanto, Pokémon",
+      "imagen_url": "https://i.ebayimg.com/images/g/efYAAeSwxn9qvkAs/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktdiagonalmar",
+          "precio": 19.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/206594772249?itmmeta=01M8705PGRDB777EDGD4K5V21Q&hash=item301a020d19:g:efYAAeSwxn9qvkAs"
+        },
+        {
+          "tienda": "mediamarktcastellon",
+          "precio": 36.79,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/188708569569?itmmeta=01M0A7HQ3C7PX63QJTDVS3KEVA&hash=item2befe841e1:g:XVMAAeSwVDJqaPis"
+        },
+        {
+          "tienda": "mediamarktbarcelona",
+          "precio": 39.05,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/406937252297?itmmeta=01M08TCWZYPDQC7G0XR63GGGDH&hash=item5ebf59b1c9:g:J-8AAeSwl5xqDJdR"
+        }
+      ]
+    },
+    {
       "clave": "pack merchandising - pyramid international gp85463, the mandalorian, star wars,",
       "criterio": "titulo",
       "titulo": "Pack Merchandising - Pyramid International GP85463, The Mandalorian, Star Wars,",
-      "imagen_url": "https://i.ebayimg.com/images/g/dnMAAeSwwjlq6ddg/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/-VsAAeSwb75q~bL~/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktcampanar",
@@ -51580,26 +51411,6 @@
           "precio": 17.9,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/318890872620?itmmeta=01M3504QQMADJ0A5SK0K4HRGSQ&hash=item4a3f608f2c:g:WeoAAeSwnnJqrowG"
-        }
-      ]
-    },
-    {
-      "clave": "taza térmica - tefal n2160210, 0.3 l, funda de silicona, acero inoxidable, azul",
-      "criterio": "titulo",
-      "titulo": "Taza térmica - Tefal N2160210, 0.3 l, Funda de silicona, Acero inoxidable, Azul",
-      "imagen_url": "https://i.ebayimg.com/images/g/DYQAAeSw-lpqSoMh/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktalfafar",
-          "precio": 7.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/297459045129?itmmeta=01M08T46VYH32S1KRDTMHXZKCM&hash=item4541f0d309:g:DKkAAeSwRXVqcvRy"
-        },
-        {
-          "tienda": "mediamarkttoledo",
-          "precio": 9.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/800544797445?itmmeta=01M0JAKYGYXR4SFBAXMZ1DVTF7&hash=itemba64303305:g:OMkAAeSwRUZqiC0F"
         }
       ]
     },
@@ -52447,7 +52258,7 @@
       "clave": "pack merchandising - magicbox funko star wars rivals s1 dark side character pack",
       "criterio": "titulo",
       "titulo": "Pack Merchandising - Magicbox Funko Star Wars Rivals S1 Dark Side Character Pack",
-      "imagen_url": "https://i.ebayimg.com/images/g/lzwAAeSwr~xq6dc7/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/7uoAAeSwc5hq~bLh/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktbarcelona",
@@ -52480,26 +52291,6 @@
           "precio": 5.05,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/406937253944?itmmeta=01M08TCWZYBYKX3BFJDBYDGF5V&hash=item5ebf59b838:g:vCEAAeSwI6lqDJiD"
-        }
-      ]
-    },
-    {
-      "clave": "mochila - iniciales de kanto, pokémon",
-      "criterio": "titulo",
-      "titulo": "Mochila - Iniciales de Kanto, Pokémon",
-      "imagen_url": null,
-      "ofertas": [
-        {
-          "tienda": "mediamarktcastellon",
-          "precio": 36.79,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/188708569569?itmmeta=01M0A7HQ3C7PX63QJTDVS3KEVA&hash=item2befe841e1:g:XVMAAeSwVDJqaPis"
-        },
-        {
-          "tienda": "mediamarktbarcelona",
-          "precio": 39.05,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/406937252297?itmmeta=01M08TCWZYPDQC7G0XR63GGGDH&hash=item5ebf59b1c9:g:J-8AAeSwl5xqDJdR"
         }
       ]
     },
@@ -52687,7 +52478,7 @@
       "clave": "pack merchandising - magicbox funko star wars rivals s1 light side character pac",
       "criterio": "titulo",
       "titulo": "Pack Merchandising - Magicbox Funko Star Wars Rivals S1 Light Side Character Pac",
-      "imagen_url": "https://i.ebayimg.com/images/g/lDUAAeSwSkJq6dc7/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/vJwAAeSwE5Vq~bLb/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktbarcelona",
@@ -54024,26 +53815,6 @@
       ]
     },
     {
-      "clave": "funda móvil - isy isc 1047, compatible con iphone 16 pro max, transparente",
-      "criterio": "titulo",
-      "titulo": "Funda móvil - ISY ISC 1047, Compatible con iPhone 16 Pro Max, Transparente",
-      "imagen_url": "https://i.ebayimg.com/images/g/~ygAAeSwQrZq61Os/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktdiagonalmar",
-          "precio": 1.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/206675486261?itmmeta=01M6YD5YJ7728C5YRS6NECFZAV&hash=item301ed1a635:g:~ygAAeSwQrZq61Os"
-        },
-        {
-          "tienda": "mediamarktislazul",
-          "precio": 5.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/307130177434?itmmeta=01M0A7SNZS77HBHAMEGJZHN0DG&hash=item478262979a:g:pFYAAeSww5Nqggk5"
-        }
-      ]
-    },
-    {
       "clave": "funda móvil - isy isc 3144, compatible con iphone 16, resistente a golpes, negro",
       "criterio": "titulo",
       "titulo": "Funda móvil - ISY ISC 3144, Compatible con iPhone 16, Resistente a golpes, Negro",
@@ -54304,26 +54075,6 @@
       ]
     },
     {
-      "clave": "nintendo switch naruto shippuden ultimate ninja storm 4: road to boruto (código",
-      "criterio": "titulo",
-      "titulo": "Nintendo Switch Naruto Shippuden Ultimate Ninja Storm 4: Road To Boruto (Código",
-      "imagen_url": "https://i.ebayimg.com/images/g/6WkAAeSwmV9q6deQ/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktparets",
-          "precio": 8.92,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/317192835292?itmmeta=01M0K25HHP4AJXWSF7NV8QGD8D&hash=item49da2a90dc:g:h5YAAeSwtAZqdxBc"
-        },
-        {
-          "tienda": "mediamarktsalamanca",
-          "precio": 19.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/396362294491?itmmeta=01M350W7QNWJNZMWYE89MPE06Q&hash=item5c4908a4db:g:nGgAAeSw0DBn4wXu"
-        }
-      ]
-    },
-    {
       "clave": "correas - meta active straps, para controladores touch plus de meta quest 3",
       "criterio": "titulo",
       "titulo": "Correas - Meta Active Straps, Para controladores Touch Plus de Meta Quest 3",
@@ -54427,7 +54178,7 @@
       "clave": "tableta gráfica - wacom ctl-6100wlk-s intuos medium, bluetooth, negro",
       "criterio": "titulo",
       "titulo": "Tableta gráfica - Wacom CTL-6100WLK-S Intuos Medium, Bluetooth, Negro",
-      "imagen_url": "https://i.ebayimg.com/images/g/QpoAAeSwabtq6dbl/s-l300.webp",
+      "imagen_url": "https://i.ebayimg.com/images/g/i~0AAeSw1Alq~bKI/s-l300.webp",
       "ofertas": [
         {
           "tienda": "mediamarktterrassa",
@@ -54824,26 +54575,6 @@
       ]
     },
     {
-      "clave": "apple magic mouse, ratón inalámbrico y recargable, superficie multi-touch, cable",
-      "criterio": "titulo",
-      "titulo": "Apple Magic Mouse, Ratón inalámbrico y recargable, Superficie Multi-Touch, Cable",
-      "imagen_url": "https://i.ebayimg.com/images/g/Y90AAeSw97Vq6dkG/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarkthuelva",
-          "precio": 62.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/377617825660?itmmeta=01M84CE1AFCJ5ZBKVSBGFYRJHT&hash=item57ebc6bf7c:g:Y90AAeSw97Vq6dkG"
-        },
-        {
-          "tienda": "mediamarkttalavera",
-          "precio": 95.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/377490453971?itmmeta=01M2JKT8WX5JVXTVRF5KMWPXHG&hash=item57e42f35d3:g:TVQAAeSwYWxqpT9P"
-        }
-      ]
-    },
-    {
       "clave": "pack tupper - tefal clip&close k3029012, 5 recipientes , 0.15 l-3.7 l,  plástico",
       "criterio": "titulo",
       "titulo": "Pack Tupper - Tefal Clip&Close K3029012, 5 recipientes , 0.15 L-3.7 L,  Plástico",
@@ -54900,26 +54631,6 @@
           "precio": 17.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/396692500902?itmmeta=01M5YVHQVBE06JGYK36ZZK3S62&hash=item5c5cb731a6:g:cw8AAeSwjKBqS4hD"
-        }
-      ]
-    },
-    {
-      "clave": "mini ventilador - nk ho340087, 5.5w, 3 velocidades, 8h autonomía, azul",
-      "criterio": "titulo",
-      "titulo": "Mini ventilador - NK HO340087, 5.5W, 3 Velocidades, 8h Autonomía, Azul",
-      "imagen_url": "https://i.ebayimg.com/images/g/q~AAAeSw8M1q5feo/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktlloret",
-          "precio": 4.98,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/820142422782?itmmeta=01M2WDEC1AFW142BJTR74GP2W2&hash=itembef44c3afe:g:SxEAAeSwQIRqrUGm"
-        },
-        {
-          "tienda": "mediamarkthuelva",
-          "precio": 8.09,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/377617832218?itmmeta=01M84CE1AG7RENNG3QNP7DHQS4&hash=item57ebc6d91a:g:pX0AAeSwmANq6dnS"
         }
       ]
     },
@@ -55160,26 +54871,6 @@
           "precio": 85.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/178545467711?itmmeta=01M3WM0415K8P0BQ3F649NEDWV&hash=item299223a13f:g:PyoAAeSwu9pqvn4g"
-        }
-      ]
-    },
-    {
-      "clave": "funda tablet - samsung ef-bx210tbegww, para galaxy tab a9 plus, folio, 11\"",
-      "criterio": "titulo",
-      "titulo": "Funda tablet - Samsung EF-BX210TBEGWW, Para Galaxy Tab A9 Plus, Folio, 11\"",
-      "imagen_url": "https://i.ebayimg.com/images/g/bJQAAeSwOIRq6yS4/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktdiagonalmar",
-          "precio": 14.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/206674948096?itmmeta=01M6YD5YJ9BPEA670EX97P01XV&hash=item301ec97000:g:bJQAAeSwOIRq6yS4"
-        },
-        {
-          "tienda": "mediamarktnuevacondomina",
-          "precio": 16.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/178547880007?itmmeta=01M4M24VXCS8TN7YKE7JMYRCY5&hash=item2992487047:g:MEIAAeSwusxqv4a4"
         }
       ]
     },
