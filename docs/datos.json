@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-11-24T14:47:49.286921+00:00",
+  "actualizado": "2026-11-25T00:32:33.628371+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3772,
+  "total_articulos": 3769,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -149,11 +149,6 @@
       "num_articulos": 41
     },
     {
-      "seller_id": "mediamarktparets",
-      "nombre_mostrado": null,
-      "num_articulos": 41
-    },
-    {
       "seller_id": "mediamarktburgos",
       "nombre_mostrado": null,
       "num_articulos": 40
@@ -195,6 +190,11 @@
     },
     {
       "seller_id": "mediamarktjaen",
+      "nombre_mostrado": null,
+      "num_articulos": 39
+    },
+    {
+      "seller_id": "mediamarktparets",
       "nombre_mostrado": null,
       "num_articulos": 39
     },
@@ -384,14 +384,14 @@
       "num_articulos": 8
     },
     {
-      "seller_id": "mediamarktalcala",
+      "seller_id": "mediamarktsantander",
       "nombre_mostrado": null,
       "num_articulos": 4
     },
     {
-      "seller_id": "mediamarktsantander",
+      "seller_id": "mediamarktalcala",
       "nombre_mostrado": null,
-      "num_articulos": 4
+      "num_articulos": 3
     },
     {
       "seller_id": "mediamarktgava",
@@ -510,32 +510,6 @@
     }
   ],
   "articulos_recientes": [
-    {
-      "titulo": "Accesorio encimera - Scanpart 4200000032, Tabla de cortar, Bambú, 1 unidad, 50x2",
-      "precio": 15.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/317475597488?itmmeta=01M870AGGE7SDD2G25G7P7ETQZ&hash=item49eb052cb0:g:sZ0AAeSwmzJq~bKY",
-      "imagen_url": "https://i.ebayimg.com/images/g/sZ0AAeSwmzJq~bKY/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tabla-de-cortar-dam-6157-152087499.html",
-      "fecha_visto_primera_vez": "2026-11-24 14:47:25",
-      "seller_id": "mediamarktparets",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Taza térmica - Tefal N2160210, 0.3 l, Funda de silicona, Acero inoxidable, Azul",
-      "precio": 18.74,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/317475596111?itmmeta=01M870AGGENJQEVEFD7A03HDDH&hash=item49eb05274f:g:9ZcAAeSwwNVq~bLJ",
-      "imagen_url": "https://i.ebayimg.com/images/g/9ZcAAeSwwNVq~bLJ/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_taza-termica-tefal-n2160210-03-l-funda-de-silicona-acero-onoxidable-azul-1579552.html",
-      "fecha_visto_primera_vez": "2026-11-24 14:47:09",
-      "seller_id": "mediamarktparets",
-      "nombre_mostrado": null
-    },
     {
       "titulo": "Figura - Magicbox Fortress Piratix Golden Treasure, Figura aleatoria",
       "precio": 2.31,
@@ -6046,19 +6020,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-aspirador-escoba-cecotec-rx70-aquapet-flex-780w-100min-autonomia-cepillo-hairless-xl-sin-bolsa-negrodorado-1609527.html",
       "fecha_visto_primera_vez": "2026-11-19 12:40:55",
       "seller_id": "mediamarktbadajoz",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Tablet - Xiaomi Redmi Pad 2, WI-FI, 11\" WQHD, 4GB RAM, 128GB,MediaTek G100-Ultra",
-      "precio": 139.0,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/137941406866?itmmeta=01M7QSQ5CP6PCQNPMP09Q1SM0F&hash=item201df2d492:g:2-EAAeSw4Klq~Xoq",
-      "imagen_url": "https://i.ebayimg.com/images/g/2-EAAeSw4Klq~Xoq/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tablet-xiaomi-redmi-pad-2-wi-fi-11-wqhd-4-gb-ram-128-gb-mediatek-g100-ultra-verde-menta-1599559.html",
-      "fecha_visto_primera_vez": "2026-11-18 17:03:11",
-      "seller_id": "mediamarktalcala",
       "nombre_mostrado": null
     },
     {
@@ -50195,32 +50156,6 @@
       ]
     },
     {
-      "clave": "taza térmica - tefal n2160210, 0.3 l, funda de silicona, acero inoxidable, azul",
-      "criterio": "titulo",
-      "titulo": "Taza térmica - Tefal N2160210, 0.3 l, Funda de silicona, Acero inoxidable, Azul",
-      "imagen_url": "https://i.ebayimg.com/images/g/DYQAAeSw-lpqSoMh/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktalfafar",
-          "precio": 7.9,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/297459045129?itmmeta=01M08T46VYH32S1KRDTMHXZKCM&hash=item4541f0d309:g:DKkAAeSwRXVqcvRy"
-        },
-        {
-          "tienda": "mediamarkttoledo",
-          "precio": 9.99,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/800544797445?itmmeta=01M0JAKYGYXR4SFBAXMZ1DVTF7&hash=itemba64303305:g:OMkAAeSwRUZqiC0F"
-        },
-        {
-          "tienda": "mediamarktparets",
-          "precio": 18.74,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/317475596111?itmmeta=01M870AGGENJQEVEFD7A03HDDH&hash=item49eb05274f:g:9ZcAAeSwwNVq~bLJ"
-        }
-      ]
-    },
-    {
       "clave": "toalla - koenic microfibra, 80x40cm, poliéster y nylon, súper absorción, azul",
       "criterio": "titulo",
       "titulo": "Toalla - KOENIC Microfibra, 80x40cm, Poliéster y nylon, Súper absorción, Azul",
@@ -51411,6 +51346,26 @@
           "precio": 17.9,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/318890872620?itmmeta=01M3504QQMADJ0A5SK0K4HRGSQ&hash=item4a3f608f2c:g:WeoAAeSwnnJqrowG"
+        }
+      ]
+    },
+    {
+      "clave": "taza térmica - tefal n2160210, 0.3 l, funda de silicona, acero inoxidable, azul",
+      "criterio": "titulo",
+      "titulo": "Taza térmica - Tefal N2160210, 0.3 l, Funda de silicona, Acero inoxidable, Azul",
+      "imagen_url": "https://i.ebayimg.com/images/g/DYQAAeSw-lpqSoMh/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktalfafar",
+          "precio": 7.9,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/297459045129?itmmeta=01M08T46VYH32S1KRDTMHXZKCM&hash=item4541f0d309:g:DKkAAeSwRXVqcvRy"
+        },
+        {
+          "tienda": "mediamarkttoledo",
+          "precio": 9.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/800544797445?itmmeta=01M0JAKYGYXR4SFBAXMZ1DVTF7&hash=itemba64303305:g:OMkAAeSwRUZqiC0F"
         }
       ]
     },
