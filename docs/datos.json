@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-11-27T00:33:47.569729+00:00",
+  "actualizado": "2026-11-27T13:47:27.434893+00:00",
   "total_tiendas": 101,
-  "total_articulos": 3737,
+  "total_articulos": 3760,
   "tiendas": [
     {
       "seller_id": "mediamarktbarcelona",
@@ -159,11 +159,6 @@
       "num_articulos": 40
     },
     {
-      "seller_id": "mediamarktmalagaplazamayor",
-      "nombre_mostrado": null,
-      "num_articulos": 40
-    },
-    {
       "seller_id": "mediamarktsevillasantajusta",
       "nombre_mostrado": null,
       "num_articulos": 40
@@ -204,6 +199,11 @@
       "num_articulos": 38
     },
     {
+      "seller_id": "mediamarktmalagaplazamayor",
+      "nombre_mostrado": null,
+      "num_articulos": 38
+    },
+    {
       "seller_id": "mediamarktmurciarondasur",
       "nombre_mostrado": null,
       "num_articulos": 38
@@ -237,6 +237,11 @@
       "seller_id": "mediamarktvalenciaaqua",
       "nombre_mostrado": null,
       "num_articulos": 37
+    },
+    {
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null,
+      "num_articulos": 36
     },
     {
       "seller_id": "mediamarktroquetas",
@@ -316,7 +321,7 @@
     {
       "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null,
-      "num_articulos": 21
+      "num_articulos": 20
     },
     {
       "seller_id": "mediamarktfrancescmacia",
@@ -362,11 +367,6 @@
       "seller_id": "mediamarktesplugues",
       "nombre_mostrado": null,
       "num_articulos": 11
-    },
-    {
-      "seller_id": "mediamarktalcala",
-      "nombre_mostrado": null,
-      "num_articulos": 10
     },
     {
       "seller_id": "mediamarktsevillaairesur",
@@ -510,6 +510,344 @@
     }
   ],
   "articulos_recientes": [
+    {
+      "titulo": "Tablet - Honor Pad X9b Max, 13\" 2K UltraWide QHD, 4GB RAM, 128GB, Incluye teclad",
+      "precio": 239.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967086987?itmmeta=01M8EKFHV55N02CW12KV4VN1F8&hash=item201f7aad8b:g:dokAAeSwP39rCVYx",
+      "imagen_url": "https://i.ebayimg.com/images/g/dokAAeSwP39rCVYx/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tablet-honor-pad-x9b-max-13-2k-ultrawide-qhd-4gb-ram-128gb-incluye-teclado-qualcomm-snapdragonr-6s-gen2-magicos-10-y-android-16-space-gray-1670296.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:42:55",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "All in one - Acer Aspire C27-2G, 27\" Full-HD, AMD Ryzen™ 7 5825U, 16GB RAM, 512",
+      "precio": 669.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967089715?itmmeta=01M8EKFHV1W6DFD0XA8FXSMAY7&hash=item201f7ab833:g:LfcAAeSw3YRrCVau",
+      "imagen_url": "https://i.ebayimg.com/images/g/LfcAAeSw3YRrCVau/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_all-in-one-acer-aspire-c27-2g-27-full-hd-amd-ryzentm-7-5825u-16gb-ram-512-gb-ssd-radeontm-onboard-graphics-windows-11-home-negro-1624388.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:42:39",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cámara - Engel EC 2400 B, 8 MP (hasta 44MP interpolados), FHD, Digital, Compacta",
+      "precio": 49.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967049704?itmmeta=01M8EKFHV08RF5030BR8SCM2M0&hash=item201f7a1be8:g:A3cAAeSwAeJrCVFB",
+      "imagen_url": "https://i.ebayimg.com/images/g/A3cAAeSwAeJrCVFB/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-engel-ec-2400-b-8-mp-hasta-44mp-interpolados-fhd-digital-compacta-apertura-de-f22-16x-zoom-pantalla-24-negro-1666606.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:42:25",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Altavoz inalámbrico - JBL Boombox 3, 80 W, Bluetooth, Autonomía 24 horas, Black",
+      "precio": 249.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137966900030?itmmeta=01M8EKFHV0P84JBJXXXNR5510R&hash=item201f77d33e:g:P6gAAeSwA~trCUOI",
+      "imagen_url": "https://i.ebayimg.com/images/g/P6gAAeSwA~trCUOI/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-inalambrico-jbl-boombox-3-80-w-bluetooth-autonomia-24-horas-black-1537667.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:42:10",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Tablet - PEAQ MIA Tab, WiFi 6, 11\" WXGA, 6GB RAM, 256GB, Allwinner A537, Android",
+      "precio": 199.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967102736?itmmeta=01M8EKFHTYRDZ68SD2VAYM8M3P&hash=item201f7aeb10:g:NaQAAeSwriFrCVmk",
+      "imagen_url": "https://i.ebayimg.com/images/g/NaQAAeSwriFrCVmk/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tablet-peaq-mia-tab-wifi-6-11-wxga-6gb-ram-256gb-allwinner-a537-android-ips-incluye-teclado-gris-1669868.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:41:55",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Monitor - PEAQ PMO S225-VFC, 22\" Full-HD, 75 Hz, 6 ms, VA (Alineación Vertical),",
+      "precio": 47.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967088519?itmmeta=01M8EKFHTXBYYAKRHAR8YW1FNZ&hash=item201f7ab387:g:n8MAAeSwUJJrCVZ0",
+      "imagen_url": "https://i.ebayimg.com/images/g/n8MAAeSwUJJrCVZ0/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_monitor-peaq-pmo-s225-vfc-22-full-hd-75-hz-6-ms-va-alineacion-vertical-negro-1602476.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:41:41",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Portátil - Acer Chromebook Plus 514 CB514-3HR5JQ, 14\" WUXGA, Ryzen™ 5 7520C, 8GB",
+      "precio": 399.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967060865?itmmeta=01M8EKFFEK2VQ59SB6RRDD0RFF&hash=item201f7a4781:g:Qq4AAeSwuANrCVSG",
+      "imagen_url": "https://i.ebayimg.com/images/g/Qq4AAeSwuANrCVSG/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-acer-chromebook-plus-514-cb514-3hr5jq-14-wuxga-ryzentm-5-7520c-8gb-ram-256-gb-ssd-radeontm-onboard-graphics-chromeos-sin-cargador-1624386.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:41:27",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Tablet - Samsung Galaxy Tab A11+ 11\" WUXGA, 6 GB RAM, 128 GB, Plata",
+      "precio": 199.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967099481?itmmeta=01M8EKFFEKEGNF7ZJ0TSK2MT02&hash=item201f7ade59:g:S5sAAeSwz4FrCVkn",
+      "imagen_url": "https://i.ebayimg.com/images/g/S5sAAeSwz4FrCVkn/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tablet-samsung-galaxy-tab-a11-11-wuxga-6-gb-ram-128-gb-plata-1610711.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:41:11",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cámara deportiva - SK8 Cam 6K Elite Plus, 6K, 70 min Autonomía, WiFi, sensor SON",
+      "precio": 70.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967033278?itmmeta=01M8EKFFEJWTHAA8Z294CT5EKQ&hash=item201f79dbbe:g:zo4AAeSwC1hrCU-j",
+      "imagen_url": "https://i.ebayimg.com/images/g/zo4AAeSwC1hrCU-j/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-deportiva-sk8-cam-6k-elite-plus-6k-70-min-autonomia-wifi-sensor-sony-576-hasta-40m-de-profundidad-foto-de-12-mp-negro-1604392.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:40:57",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Auriculares inalámbricos Marshall Major IV, Supraaurales, 80h batería, Plegable",
+      "precio": 59.99,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137966916350?itmmeta=01M8EKFFEJP672CBCQ5128TR0Z&hash=item201f7812fe:g:kLQAAeSwpBlrCUWX",
+      "imagen_url": "https://i.ebayimg.com/images/g/kLQAAeSwpBlrCUWX/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_auriculares-marshall-major-iv-supraaurales-bluetooth-80-h-bateria-tactil-plegable-negro-1541060.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:40:41",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cámara instantánea - Fujifilm Instax Mini 12, 62× 46 mm, Flash, Lila",
+      "precio": 58.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967034422?itmmeta=01M8EKFFEJ5BGFFAD78BWGBQ23&hash=item201f79e036:g:hRIAAeSwuY5rCU-v",
+      "imagen_url": "https://i.ebayimg.com/images/g/hRIAAeSwuY5rCU-v/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-instantanea-fujifilm-instax-mini-12-62-46-mm-flash-lila-1549678.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:40:27",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cámara de vigilancia IP TP-Link Tapo TC82 Kit,2K con Panel Solar,Visión Nocturna",
+      "precio": 44.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967052334?itmmeta=01M8EKFFEJZAMDM1G7Z4JPTEDV&hash=item201f7a262e:g:NZUAAeSwYAdrCVJO",
+      "imagen_url": "https://i.ebayimg.com/images/g/NZUAAeSwYAdrCVJO/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-de-vigilancia-ip-tp-link-tc82-kit-2304-x-1296-pixeles-funcion-de-vision-nocturna-blanco-1583701.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:40:12",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Portátil - Lenovo IdeaPad Slim 3 15IWC11, 15.3\" WUXGA, Intel® Core™ 7 350, 16 GB",
+      "precio": 709.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967100864?itmmeta=01M8EKFFEHB9SD2XE2BHFYXNC2&hash=item201f7ae3c0:g:UjoAAeSwdwtrCVlY",
+      "imagen_url": "https://i.ebayimg.com/images/g/UjoAAeSwdwtrCVlY/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_portatil-lenovo-ideapad-slim-3-15iwc11-153-wuxga-intelr-coretm-7-350-16-gb-512-gb-ssd-uhd-graphics-windows-11-home-1667315.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:39:57",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cámara deportiva - SK8 CAMAV014, Negro, MP4, 4k, 1080",
+      "precio": 44.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967032829?itmmeta=01M8EKFFEHRPW6EZKCE1EC620Y&hash=item201f79d9fd:g:3d8AAeSwwQBrCU-e",
+      "imagen_url": "https://i.ebayimg.com/images/g/3d8AAeSwwQBrCU-e/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-deportiva-sk8-camav014-negro-mp4-4k-1080-1538793.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:39:42",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cámara instantánea - Fujifilm Instax Mini 13, 86 mm x 54 mm, Flash Automático, E",
+      "precio": 79.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967034868?itmmeta=01M8EKFFEGCDKTHE3DDX8C2JEX&hash=item201f79e1f4:g:1z0AAeSwKl9rCU-1",
+      "imagen_url": "https://i.ebayimg.com/images/g/1z0AAeSwKl9rCU-1/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-instantanea-fujifilm-instax-mini-13-86-mm-x-54-mm-flash-automatico-espejo-para-selfie-morado-1668147.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:39:29",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cámara instantánea - Fujifilm Instax Mini 13, 86 mm x 54 mm, Flash Automático, E",
+      "precio": 79.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967032945?itmmeta=01M8EKFFEGQ5AKZF10EWRMWAJY&hash=item201f79da71:g:1YwAAeSwRYlrCU-g",
+      "imagen_url": "https://i.ebayimg.com/images/g/1YwAAeSwRYlrCU-g/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-instantanea-fujifilm-instax-mini-13-86-mm-x-54-mm-flash-automatico-espejo-para-selfie-morado-1668147.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:39:16",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "FUJIFILM CL PACK 1668147 CAMARA INSTANTANEA INSTAX MINI 13",
+      "precio": 79.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967046889?itmmeta=01M8EKFFEGJ4EP8W4X10PH93A6&hash=item201f7a10e9:g:GFIAAeSwsmZrCVEt",
+      "imagen_url": "https://i.ebayimg.com/images/g/GFIAAeSwsmZrCVEt/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-instantanea-fujifilm-instax-mini-13-86-mm-x-54-mm-flash-automatico-espejo-para-selfie-morado-1668147.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:39:01",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Mirilla inteligente Ezviz HP2, Pantalla a Color de 4,3\",Mirilla de 32mm Diámetro",
+      "precio": 53.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967053777?itmmeta=01M8EKFFEF3WT3PRAFX7W623PZ&hash=item201f7a2bd1:g:oLQAAeSwyndrCVLQ",
+      "imagen_url": "https://i.ebayimg.com/images/g/oLQAAeSwyndrCVLQ/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_hp2-mirilla-gris-1595542.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:38:47",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "PC gaming - HP OMEN 35L GT16-0144ns , Intel® Core™ Ultra 5 225F, 16 GB RAM, 512",
+      "precio": 1449.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967062167?itmmeta=01M8EKFFEFTE8QB77MRW7Q5WZH&hash=item201f7a4c97:g:hK8AAeSwkjlrCVSR",
+      "imagen_url": "https://i.ebayimg.com/images/g/hK8AAeSwkjlrCVSR/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pc-gaming-hp-omen-35l-gt16-0144ns-intelr-coretm-ultra-5-225f-16-gb-ram-512-gb-ssd-geforce-rtxtm-5060-windows-11-home-metal-negro-sombra-1669617.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:38:30",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "PC gaming - MSI MAG Infinite S3 14NVM5, Intel® Core™ i5-14400F, 16GB RAM, 512GB",
+      "precio": 1069.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967063865?itmmeta=01M8EKFFEFCP6R10VRE5RGM6DN&hash=item201f7a5339:g:iJoAAeSwRBRrCVSc",
+      "imagen_url": "https://i.ebayimg.com/images/g/iJoAAeSwRBRrCVSc/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pc-gaming-msi-mag-infinite-s3-14nvm5-intelr-coretm-i5-14400f-16gb-ram-512gb-ssd-geforce-rtxtm-5060-ti-windows-11-home-negro-1665825.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:38:14",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "All in one - HP OmniStudio 24-cv0002ns, 23.8 \" Full-HD, AMD Ryzen™ 5 40, 8 GB RA",
+      "precio": 599.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967096118?itmmeta=01M8EKFFEF5KC9NGG4Y1Z74ATA&hash=item201f7ad136:g:T8EAAeSwXm9rCVhX",
+      "imagen_url": "https://i.ebayimg.com/images/g/T8EAAeSwXm9rCVhX/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_all-in-one-hp-omnistudio-24-cv0002ns-238-full-hd-amd-ryzentm-5-40-8-gb-ram-512-gb-ssd-windows-11-home-algodon-blanco-1668346.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:37:59",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Cámara instantánea - Fujifilm Instax Mini 13, 86 mm x 54 mm, Flash Automático, E",
+      "precio": 79.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967034084?itmmeta=01M8EKFFEE8DRPBVA1TXPMM8BM&hash=item201f79dee4:g:4CEAAeSw1y5rCU-p",
+      "imagen_url": "https://i.ebayimg.com/images/g/4CEAAeSw1y5rCU-p/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-instantanea-fujifilm-instax-mini-13-86-mm-x-54-mm-flash-automatico-espejo-para-selfie-morado-1668147.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:37:44",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "All in one - HP OmniStudio 27-cv0001ns, 27\" Full-HD, AMD Ryzen™ 5 40, 16 GB RAM,",
+      "precio": 630.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967097919?itmmeta=01M8EKFFEE55715JFGXXMC0YHT&hash=item201f7ad83f:g:usEAAeSwUJJrCVis",
+      "imagen_url": "https://i.ebayimg.com/images/g/usEAAeSwUJJrCVis/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_all-in-one-hp-omnistudio-27-cv0001ns-27-full-hd-amd-ryzentm-5-40-16-gb-ram-512-gb-ssd-windows-11-home-blanco-1668348.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:36:41",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Altavoz de gran potencia JBL PartyBox Club 120, 160W, Con batería,12h, Portátil",
+      "precio": 269.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137966912016?itmmeta=01M8EKFFEDDVVJA1EMRBF35ADD&hash=item201f780210:g:aRIAAeSwjfRrCUT6",
+      "imagen_url": "https://i.ebayimg.com/images/g/aRIAAeSwjfRrCUT6/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-de-suelo-jbl-partybox-club-120-hasta-12h-autonomia-160-w-negro-1571231.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:36:27",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Altavoz de gran potencia JBL PartyBox Stage 320,240W, 18h,Portátil , Ruedas",
+      "precio": 399.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137966906852?itmmeta=01M8EKFFED7VRNQVXASW65T1MA&hash=item201f77ede4:g:Xb4AAeSw3YRrCURJ",
+      "imagen_url": "https://i.ebayimg.com/images/g/Xb4AAeSw3YRrCURJ/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_altavoz-de-suelo-jbl-partybox-stage-320-hasta-18h-de-autonomia-con-luces-negro-1571232.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:36:12",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
+    {
+      "titulo": "Pantalla inteligente c/Alexa Amazon EchoShow5(3ªgeneración),Pantalla táctil 5.5“",
+      "precio": 58.0,
+      "moneda": "EUR",
+      "url": "https://www.ebay.es/itm/137967055129?itmmeta=01M8EKFFEDM12K71QG4KWZ4PJY&hash=item201f7a3119:g:pqQAAeSwvkprCVOK",
+      "imagen_url": "https://i.ebayimg.com/images/g/pqQAAeSwvkprCVOK/s-l300.webp",
+      "ean": null,
+      "precio_mediamarkt": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_pantalla-inteligente-con-alexa-amazon-echo-show-5-3a-generacion-pantalla-tactil-de-55-alexa-antracita-1554283.html",
+      "fecha_visto_primera_vez": "2026-11-27 13:35:59",
+      "seller_id": "mediamarktalcala",
+      "nombre_mostrado": null
+    },
     {
       "titulo": "Apple Batería MagSafe, Para iPhone Air, Carga rápida, Blanco",
       "precio": 89.0,
@@ -1330,19 +1668,6 @@
       "nombre_mostrado": null
     },
     {
-      "titulo": "Cafetera superautomática - Philips 3300 Series EP3321/40, Tecnología AquaClean,",
-      "precio": 373.15,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/318664558301?itmmeta=01M8AJW9GNK8G430KK9VD3AAF3&hash=item4a31e346dd:g:tTMAAeSw~y1q2l6p",
-      "imagen_url": "https://i.ebayimg.com/images/g/tTMAAeSw~y1q2l6p/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_cafetera-superautomatica-philips-3300-series-ep332140-tecnologia-aquaclean-2-tazas-presion-max-15-bar-deposito-de-agua-18-l-1500-w-negro-1601211.html",
-      "fecha_visto_primera_vez": "2026-11-26 00:15:32",
-      "seller_id": "mediamarktmalagaplazamayor",
-      "nombre_mostrado": null
-    },
-    {
       "titulo": "Recambio para cepillo dental - Philips Sonicare For Kids HX6034/90, x4 Cabezales",
       "precio": 10.96,
       "moneda": "EUR",
@@ -1365,19 +1690,6 @@
       "precio_mediamarkt": null,
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_tv-led-27-samsung-the-movingstyle-ue27lsm7faxxxu-qhd-touch-interaction-movable-screen-nq4-ai-gen2-smart-tv-blanco-1606887.html",
       "fecha_visto_primera_vez": "2026-11-26 00:15:03",
-      "seller_id": "mediamarktmalagaplazamayor",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "Móvil - vivo Y31, Glowing Black, 256GB, 6GB RAM, 6.72\" LCD, Qualcomm Snapdragon®",
-      "precio": 242.1,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/318596978808?itmmeta=01M8AJW9GKQP0XPZYBC2N2AGPQ&hash=item4a2ddc1878:g:FEAAAeSwD2Fq4KIc",
-      "imagen_url": "https://i.ebayimg.com/images/g/FEAAAeSwD2Fq4KIc/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_movil-vivo-y31-glowing-black-256gb-6gb-ram-672-lcd-qualcomm-snapdragonr-4-gen-2-6500-mah-1619148.html",
-      "fecha_visto_primera_vez": "2026-11-26 00:14:49",
       "seller_id": "mediamarktmalagaplazamayor",
       "nombre_mostrado": null
     },
@@ -7905,19 +8217,6 @@
       "mediamarkt_url": "https://www.mediamarkt.es/es/product/_camara-instantanea-fujifilm-instax-mini-12-62-46-mm-flash-blanco-arcilla-1549677.html",
       "fecha_visto_primera_vez": "2026-11-15 20:57:33",
       "seller_id": "mediamarktlloret",
-      "nombre_mostrado": null
-    },
-    {
-      "titulo": "expo sin caja Calefactor cerámico - Rowenta Intense Comfort SO9420, 2400W,",
-      "precio": 59.9,
-      "moneda": "EUR",
-      "url": "https://www.ebay.es/itm/800916844824?itmmeta=01M7E7A9763QF0CBQCWW23469Z&hash=itemba7a5d3118:g:rxgAAeSw8NNq-J-y",
-      "imagen_url": "https://i.ebayimg.com/images/g/rxgAAeSw8NNq-J-y/s-l300.webp",
-      "ean": null,
-      "precio_mediamarkt": null,
-      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_calefactor-rowenta-comfort-aqua-2400-w-40-m-3-velocidades-calentamiento-rapido-silencioso-apagado-automatico-resiste-salpicaduras-de-agua-1602932.html",
-      "fecha_visto_primera_vez": "2026-11-14 23:48:25",
-      "seller_id": "mediamarktbadajoz",
       "nombre_mostrado": null
     },
     {
@@ -48969,7 +49268,7 @@
       "imagen_url": "https://i.ebayimg.com/images/g/iNcAAeSwMeVqdMZt/s-l300.webp",
       "ean": null,
       "precio_mediamarkt": null,
-      "mediamarkt_url": null,
+      "mediamarkt_url": "https://www.mediamarkt.es/es/product/_funda-isy-isc-5009-para-samsung-galaxy-a23-5g-tpu-transparente-1559115.html",
       "fecha_visto_primera_vez": "2026-08-17 21:30:03",
       "seller_id": "mediamarktalcorcon",
       "nombre_mostrado": null
@@ -49504,6 +49803,38 @@
           "precio": 17.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/206339465653?itmmeta=01M0WNE3B9RHYGWCP8QWMHVNWM&hash=item300aca61b5:g:pyUAAeSwX7lqKtxn"
+        }
+      ]
+    },
+    {
+      "clave": "tablet - samsung galaxy tab a11+ 11\" wuxga, 6 gb ram, 128 gb, plata",
+      "criterio": "titulo",
+      "titulo": "Tablet - Samsung Galaxy Tab A11+ 11\" WUXGA, 6 GB RAM, 128 GB, Plata",
+      "imagen_url": "https://i.ebayimg.com/images/g/B1UAAeSw8p9qGcrN/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktsanjuanaznalfarache",
+          "precio": 198.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/358614620291?itmmeta=01M1FR9XNB9GSB7F834VW1HNDA&hash=item537f18d883:g:B1UAAeSw8p9qGcrN"
+        },
+        {
+          "tienda": "mediamarktalcala",
+          "precio": 199.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/137967099481?itmmeta=01M8EKFFEKEGNF7ZJ0TSK2MT02&hash=item201f7ade59:g:S5sAAeSwz4FrCVkn"
+        },
+        {
+          "tienda": "mediamarktsabadell",
+          "precio": 249.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/407021422848?itmmeta=01M5SW68QQYF9FAGZ2ENWPX0KZ&hash=item5ec45e0900:g:40wAAeSwbnlqzkRD"
+        },
+        {
+          "tienda": "mediamarktpuertovenecia",
+          "precio": 250.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/920047725595?itmmeta=01M8AKATB7G31C38NSCV66JX3N&hash=itemd6371e2c1b:g:hEQAAeSwJgVq0zN4"
         }
       ]
     },
@@ -50622,32 +50953,6 @@
           "precio": 7.99,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/206299957908?itmmeta=01M0WNE3DDVZNND8BJT03R3R7D&hash=item30086f8a94:g:NKIAAeSwuPNqORgR"
-        }
-      ]
-    },
-    {
-      "clave": "tablet - samsung galaxy tab a11+ 11\" wuxga, 6 gb ram, 128 gb, plata",
-      "criterio": "titulo",
-      "titulo": "Tablet - Samsung Galaxy Tab A11+ 11\" WUXGA, 6 GB RAM, 128 GB, Plata",
-      "imagen_url": "https://i.ebayimg.com/images/g/B1UAAeSw8p9qGcrN/s-l300.webp",
-      "ofertas": [
-        {
-          "tienda": "mediamarktsanjuanaznalfarache",
-          "precio": 198.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/358614620291?itmmeta=01M1FR9XNB9GSB7F834VW1HNDA&hash=item537f18d883:g:B1UAAeSw8p9qGcrN"
-        },
-        {
-          "tienda": "mediamarktsabadell",
-          "precio": 249.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/407021422848?itmmeta=01M5SW68QQYF9FAGZ2ENWPX0KZ&hash=item5ec45e0900:g:40wAAeSwbnlqzkRD"
-        },
-        {
-          "tienda": "mediamarktpuertovenecia",
-          "precio": 250.0,
-          "moneda": "EUR",
-          "url": "https://www.ebay.es/itm/920047725595?itmmeta=01M8AKATB7G31C38NSCV66JX3N&hash=itemd6371e2c1b:g:hEQAAeSwJgVq0zN4"
         }
       ]
     },
@@ -52420,6 +52725,26 @@
           "precio": 37.0,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/188797801081?itmmeta=01M0A7HFHAPHZY82EGYA5Y88SV&hash=item2bf539d279:g:vSkAAeSwTF5qgLAq"
+        }
+      ]
+    },
+    {
+      "clave": "cámara instantánea - fujifilm instax mini 12, 62× 46 mm, flash, lila",
+      "criterio": "titulo",
+      "titulo": "Cámara instantánea - Fujifilm Instax Mini 12, 62× 46 mm, Flash, Lila",
+      "imagen_url": "https://i.ebayimg.com/images/g/hRIAAeSwuY5rCU-v/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktalcala",
+          "precio": 58.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/137967034422?itmmeta=01M8EKFFEJ5BGFFAD78BWGBQ23&hash=item201f79e036:g:hRIAAeSwuY5rCU-v"
+        },
+        {
+          "tienda": "mediamarktcastellon",
+          "precio": 79.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/188761752886?itmmeta=01M0A7HFHAJHQZBEHRQCWQVF4V&hash=item2bf313c536:g:T-UAAeSwk-9qdzZT"
         }
       ]
     },
@@ -54360,6 +54685,26 @@
           "precio": 41.39,
           "moneda": "EUR",
           "url": "https://www.ebay.es/itm/318091362738?itmmeta=01M8AJW9GH1BERP9QX0KHRDA3R&hash=item4a0fb901b2:g:GnEAAeSwZe9q267U"
+        }
+      ]
+    },
+    {
+      "clave": "altavoz inalámbrico - jbl boombox 3, 80 w, bluetooth, autonomía 24 horas, black",
+      "criterio": "titulo",
+      "titulo": "Altavoz inalámbrico - JBL Boombox 3, 80 W, Bluetooth, Autonomía 24 horas, Black",
+      "imagen_url": "https://i.ebayimg.com/images/g/P6gAAeSwA~trCUOI/s-l300.webp",
+      "ofertas": [
+        {
+          "tienda": "mediamarktalcala",
+          "precio": 249.0,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/137966900030?itmmeta=01M8EKFHV0P84JBJXXXNR5510R&hash=item201f77d33e:g:P6gAAeSwA~trCUOI"
+        },
+        {
+          "tienda": "mediamarktgrancasa",
+          "precio": 319.99,
+          "moneda": "EUR",
+          "url": "https://www.ebay.es/itm/407311028976?itmmeta=01M7XTRJBY92GQRD55927M7XG5&hash=item5ed5a112f0:g:WZAAAeSwAI1q-Jx3"
         }
       ]
     },
